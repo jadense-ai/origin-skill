@@ -102,7 +102,10 @@ def main():
     folder=SKILL/"assets/previews"
     folder.mkdir(parents=True,exist_ok=True)
     items=json.loads((SKILL/"assets/recipes/catalog.json").read_text("utf-8"))["recipes"]
-    gallery=["# 自制模板参考图","","20 份参考图根据示例 A 渲染。通过实机验收时另存 Origin 原生预览。","",
+    gallery=["# 自制模板参考图","",
+             "这 20 张参考图使用精简的配方示例 A，便于对照输入列和基本图型。通过实机验收时另存 Origin 原生预览。","",
+             "更复杂的演示成图、可编辑 OPJU 和输入 CSV 收录在项目的 "
+             "[Origin 原生绘图图集](https://github.com/jadense-ai/origin-skill/blob/main/docs/showcase/README.md)。","",
              "![20 种图型](preview-index.png)","","| 图型 | 预览 | 数据与绘图说明 |","|---|---|---|"]
     sheet=Image.new("RGB",(4*375,5*265),"#e4e9ea")
     for pos,info in enumerate(items):
