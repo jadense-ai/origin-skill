@@ -8,13 +8,31 @@
 
 ## 官方图模板
 
-在 catalog 的 `official` 结果中取 `native_template`、`project_paths` 和版本要求。查看对应示例工程和输入说明后再匹配用户的列结构。单层单曲线原生 XY 模板可向 `origin_plot_render_template` 提供模板路径、输入数据和 X、Y 列名。复杂统计、矩阵、多面板或需要配套脚本的模板按其自身入口操作；见到绑定失败时保留具体差异，并继续提供原模板、示例工程和预览。
+在 `catalog show <ID> --source official` 查 `native_template`、`input_roles`、`workflow` 和 `verification`。用 `origin_plot_inspect(template_path=...)` 查看模板图层和现有曲线。`origin_plot_render_template` 可接单条 `x`、`y`，也可每条曲线明确提供 `bindings`。图层与曲线从 1 开始，已有曲线使用检查结果的编号。空模板按每层从 1 连续映射。
+
+```json
+{
+  "template_path": "D:/figures/kinetics.otpu",
+  "data_path": "D:/measurements/实验数据.xlsx",
+  "output_dir": "D:/figures/replacement",
+  "bindings": [
+    {"layer": 1, "plot": 1, "sheet": "实验 A", "columns": {"x": "时间_s", "y": "浓度"}, "units": {"x": "s"}},
+    {"layer": 1, "plot": 2, "sheet": "实验 B", "columns": {"x": "时间_s", "y": "浓度", "y_error": "标准误"}}
+  ],
+  "changes": {"layer": 1, "plot": 2, "line_width": 2, "color": "#2370a2"},
+  "formats": ["png"],
+  "reopen": true
+}
+```
+
+普通 XY 的空 Y 单元格作为缺测保留。对称 Y 误差用 `y_error`。直方图用 `columns={"value":"观测列"}`，热图用 `columns={"row":"行标签","column":"列标签","value":"观测值"}`。已有误差棒须在其主曲线的映射里提供误差列。同层若需按模板生成原生分组系列，提供各组各自的 X/Y 列并设 `options={"group":true}`。
 
 ## 修改与另存
 
 1. 用独立会话 `origin_plot_inspect` 打开已有工程的副本，或在 current 服务查看用户当前图。使用返回的图页短名、图层、曲线编号和会话标识；当前实例无法唯一定位时先确认。
-2. 向 `origin_plot_edit` 提供目标图和变更，例如 `{"layer":1,"plot":2,"line_width":2.5}`。当前窗口的操作传入上一读取结果的 `session_token`。在指定目录交付版本化副本。
-3. 从结构化读回和导出 PNG 双重核验。可用 `origin_plot_reopen` 复核输出工程，用 `origin_plot_save_template` 单独保存当前图模板。一次处理多个配方时按工单隔离目录；共享同一项目文件时串行写入。
+2. 用 `origin_plot_edit` 指定 `graph_name`、`project_path` 和 `output_dir`。换数据再给 `data_path`、`bindings`，可同时给 `changes`。该操作在已有工程的独立副本导入新的工作表，保留其他曲线对原数据列的引用。当前窗口的样式操作传入上一次 `inspect` 的 `session_token`。
+3. 样式修改以同一曲线为目标，例如 `{"layer":1,"plot":2,"line_style":"dash","line_width":2.5}`。比例尺用 `x_scale`、`y_scale`，可选 `linear` 或 `log10`。多面板换数后刻度过密时，在指定图层设置 `x_major_ticks` 或 `y_major_ticks`。配色用十六进制 `color` 或条柱 `fill_color`。热图可设 `palette` 和升序 `color_levels`，符号用 Origin 的正整数 `symbol_kind`。
+4. 从结构化读回和导出 PNG 双重核验。用 `origin_plot_reopen` 复核输出，用 `origin_plot_save_template` 保存图模板。一次处理多个配方时按工单隔离目录；共享同一工程时串行写入。
 
 ## 目标期刊与最终图件
 

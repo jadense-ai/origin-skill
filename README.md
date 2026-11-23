@@ -4,7 +4,7 @@
 
 ## 安装
 
-将 [Windows x64 离线安装包](dist/origin-plot-0.1.0-windows-x64.zip) 下载并解压到本地。在解压目录运行以下命令，把 Skill 和 MCP 注册到实际使用的**项目目录**。需要 Windows x64 和 64 位 Python 3.13。执行绘图另需本机已授权并可正常打开的 Origin，及随 Origin 使用的嵌入式 Python 与 `originpro`。发行包自带 Windows MCP 运行库及锁定的 wheels，安装无需联网。
+将 [Windows x64 离线安装包](dist/origin-plot-0.1.2-windows-x64.zip) 下载并解压到本地。在解压目录运行以下命令，把 Skill 和 MCP 注册到实际使用的**项目目录**。需要 Windows x64 和 64 位 Python 3.13。执行绘图另需本机已授权并可正常打开的 Origin，及随 Origin 使用的嵌入式 Python 与 `originpro`。发行包自带 Windows MCP 运行库及锁定的 wheels，安装无需联网。
 
 ```powershell
 py -3.13 .\install.py --project "D:\研究项目\论文图" --clients all
@@ -26,6 +26,7 @@ py -3.13 .\.origin-plot\launch.py journal show nature
 py -3.13 .\.origin-plot\launch.py journal prompt nature
 py -3.13 .\.origin-plot\launch.py qualify offline
 py -3.13 .\.origin-plot\launch.py qualify live --ids histogram likert xrd-stack
+py -3.13 .\.origin-plot\launch.py qualify workflows
 ```
 
 `qualify live` 默认在项目的 `.origin-plot/native-library` 逐项运行。先试上面三种图型；去掉 `--ids` 可处理 20 套。也可用 `--output` 写入独立目录。每套先画 A/B 两份数据，保存模板，实际尝试以 A 的模板绑定 B，再进行局部改图、重开和读回。失败会保留具体项目和原因。通过自动检查后仍需查看真实 Origin 导出图，核对最终尺寸下的轴、图例和裁切。项目中无 Origin 时，命令生成阻塞记录。

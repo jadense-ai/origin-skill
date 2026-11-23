@@ -1,9 +1,29 @@
+# Python environments and build products
 __pycache__/
 *.py[cod]
+.venv/
+.pytest_cache/
+*.egg-info/
+/build/
+/backend/build/
+/backend/vendor/origin-pro-mcp/build/
+/backend/vendor/origin-pro-mcp/dist/
+
+# Local installation and client configuration
 /.origin-plot/
 /.agents/skills/origin-plot/
 /.claude/skills/origin-plot/
 /.codex/config.toml
 /.mcp.json
 /opencode.json
+/opencode.jsonc
+/.env
 /Origin科研绘图MCP与Skills调研报告.docx
+
+# Keep public release downloads and verification records
+/dist/*
+!/dist/origin-plot-*-windows-x64.zip
+!/dist/origin-plot-*-native-verification.zip
+!/dist/originlab-templates-*-offline.zip
+!/dist/verification.json
+!/dist/验收记录.md

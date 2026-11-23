@@ -6,15 +6,15 @@ import tempfile
 from types import SimpleNamespace
 import unittest
 from pathlib import Path
-from unittest.mock import AsyncMock, Mock, patch
+from unittest.mock import AsyncMock, Mock, call, patch
 
 from openpyxl import Workbook
 from PIL import Image
 
-from origin_plot_backend.data import read_table
+from origin_plot_backend.data import read_bindings, read_table
 from origin_plot_backend.bridge import skill_root
-from origin_plot_backend.embedded import _apply_changes, _bin_info, _bound_data, _template, inspect_graph
-from origin_plot_backend.runtime import Runtime, _compare_readback, _submission_tiff, artifact, formats_list
+from origin_plot_backend.embedded import _apply_changes, _bin_info, _bound_data, _template, data_fingerprint, inspect_graph
+from origin_plot_backend.runtime import Runtime, _compare_graph, _compare_readback, _submission_tiff, artifact, formats_list
 from origin_plot_backend.server import application
 
 
@@ -73,6 +73,47 @@ class BackendChecks(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,"219"):
             _apply_changes([layer], {"bin_width":4})
 
+    def test_bindings_can_select_multiple_sheets_with_missing_y(self):
+        workbook = Workbook()
+        first = workbook.active
+        first.title = "仪器 记录"
+        first.append(["样品编号", "时间_s", "浓度"])
+        first.append(["001", 1, None])
+        first.append(["002", 2, 0.28])
+        second = workbook.create_sheet("复测")
+        second.append(["时间_s", "浓度", "标准误"])
+        second.append([10, 1.24, 0.08])
+        path = self.root / "复测.xlsx"
+        workbook.save(path)
+        workbook.close()
+        first_map = {"layer": 1, "plot": 1, "columns": {"x": "时间_s", "y": "浓度"}}
+        second_map = {"layer": 2, "plot": 1, "sheet": "复测",
+                      "columns": {"x": "时间_s", "y": "浓度", "y_error": "标准误"}}
+        job = read_bindings(path, "仪器 记录", [second_map, first_map])
+        self.assertEqual([b["sheet"] for b in job["bindings"]], ["仪器 记录", "复测"])
+        rows = next(t["records"] for t in job["tables"] if t["sheet"] == "仪器 记录")
+        self.assertEqual(rows[0], {"样品编号": "001", "时间_s": 1, "浓度": None})
+        with self.assertRaisesRegex(ValueError, "missing column"):
+            read_bindings(path, "仪器 记录", [{**first_map, "columns": {"x": "不存在", "y": "浓度"}}])
+        with self.assertRaisesRegex(ValueError, "distinct positive"):
+            read_bindings(path, "仪器 记录", [first_map, first_map])
+
+    def test_reopen_rejects_stale_data_and_failed_style_edits(self):
+        baseline = {"graph": "A", "long_name": "A", "layer_count": 1, "plot_counts": [1], "page": {},
+                    "layers": [{"plots": [{"color": [17, 34, 51], "data_roles": {"y": {"content_sha256": "B"}}}]}],
+                    "automatic_group_layers": [1], "changes_verified": {"color": "#112233"},
+                    "changes_target": {"layer": 1, "plot": 1}}
+        after = json.loads(json.dumps(baseline))
+        _compare_graph(baseline, after)
+        after["layers"][0]["plots"][0]["color"] = [0, 0, 0]
+        with self.assertRaisesRegex(RuntimeError, "changes.color"):
+            _compare_graph(baseline, after)
+        after["layers"][0]["plots"][0]["data_roles"]["y"]["content_sha256"] = "A"
+        with self.assertRaisesRegex(RuntimeError, "content_sha256"):
+            _compare_graph(baseline, after)
+        self.assertEqual(data_fingerprint([1.0, float("nan"), 2.0]), data_fingerprint([1.0, None, 2.0]))
+        self.assertNotEqual(data_fingerprint([1.0, 2.0]), data_fingerprint([1.0, None, 2.0]))
+
     def test_unavailable_or_changed_readback_is_not_verified(self):
         _compare_readback({"value":2.0},{"value":2.000000001})
         with self.assertRaisesRegex(RuntimeError,"changed"):
@@ -107,6 +148,7 @@ class BackendChecks(unittest.TestCase):
 
     def test_official_template_preserves_native_type_and_provenance(self):
         template = self.root / "official.otpu"
+        template.write_bytes(b"mock template")
         job = {"records":[{"x":1,"y":2}], "x":"x", "y":"y", "template_path":str(template)}
         graph_type = 201
         for reported, native, required, error in (
@@ -158,6 +200,44 @@ class BackendChecks(unittest.TestCase):
 
 
 class RuntimeChecks(unittest.IsolatedAsyncioTestCase):
+    async def test_isolated_copy_clears_save_flag_and_releases_before_disconnect(self):
+        bridge = AsyncMock()
+        bridge.mode = "isolated"
+        runtime = Runtime(bridge=bridge)
+        with tempfile.TemporaryDirectory() as directory:
+            source = Path(directory) / "source.opju"
+            source.write_bytes(b"project fixture")
+            try:
+                await runtime._open_copy(source)
+                copy = next(Path(runtime.private.name).iterdir())
+                self.assertEqual(copy.read_bytes(), source.read_bytes())
+            finally:
+                await runtime.close()
+        self.assertEqual(bridge.method_calls, [
+            call.embedded("doctor"),
+            call.call("run_labtalk", script="doc -ss 1; doc -s;", confirm=True),
+            call.call("load_project", file_path=str(copy)),
+            call.call("run_labtalk", script="doc -ss 0;", confirm=True),
+            call.call("run_labtalk", script="doc -ss 1; doc -s;", confirm=True),
+            call.call("new_project"),
+            call.call("run_labtalk", script="doc -ss 0;", confirm=True),
+            call.close(),
+        ])
+        self.assertFalse(Path(runtime.private.name).exists())
+
+    async def test_cleanup_retries_a_windows_sharing_violation(self):
+        class SharingViolation(PermissionError):
+            winerror = 32
+
+        runtime = Runtime(bridge=AsyncMock())
+        cleanup = runtime.private.cleanup
+        try:
+            with patch.object(runtime.private, "cleanup", side_effect=[SharingViolation(), None]) as retry:
+                await runtime.close()
+                self.assertEqual(retry.call_count, 2)
+        finally:
+            cleanup()
+
     async def test_attach_writes_snapshots_without_saveas_or_reopen(self):
         b = AsyncMock()
         b.mode = "attach"

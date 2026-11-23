@@ -106,10 +106,16 @@ def apply_journal_style(op, graph, journal, width_mm=None, font_pt=None, stroke_
                     letter = letter.upper()
                 obj = panel
                 if obj is None:
-                    xlo, xhi = layer.get_float("x.from"), layer.get_float("x.to")
-                    ylo, yhi = layer.get_float("y.from"), layer.get_float("y.to")
-                    obj = layer.add_label(letter, xlo + (xhi-xlo)*0.02, yhi - (yhi-ylo)*0.02)
-                    obj.name = "OriginPlotPanel"
+                    add_label = getattr(layer, "add_label", None)
+                    if add_label is not None:
+                        xlo, xhi = layer.get_float("x.from"), layer.get_float("x.to")
+                        ylo, yhi = layer.get_float("y.from"), layer.get_float("y.to")
+                        obj = add_label(letter, xlo + (xhi-xlo)*0.02, yhi - (yhi-ylo)*0.02)
+                        obj.name = "OriginPlotPanel"
+                    else:
+                        if not layer.obj.LT_execute("label -p 2 2 -n OriginPlotPanel Panel;"):
+                            raise ValueError("Origin could not create the panel label")
+                        obj = layer.label("OriginPlotPanel")
                 styled = r"\b(" + letter + ")" if requested["panel_bold"] else letter
                 obj.text = styled
                 if obj.text != styled:

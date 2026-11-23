@@ -2,6 +2,7 @@
 
 import math
 from collections import Counter
+from itertools import islice
 from statistics import mean, median
 
 from .model import Layer, Plan, RecipeError, distinct, finite, normalize, partition, specification, unique_rows
@@ -212,9 +213,12 @@ def _heatmap(plan, options):
     cs = distinct(r["column"] for r in plan.rows)
     if min(len(rs), len(cs)) < 2:
         raise RecipeError("A heatmap needs at least two rows and two columns")
-    if len(plan.rows) != len(rs) * len(cs):
-        raise RecipeError("Incomplete heatmap grid")
     indexed = {(r["row"], r["column"]): r["value"] for r in plan.rows}
+    missing_count = len(rs) * len(cs) - len(indexed)
+    if missing_count:
+        sample = islice(((r, c) for r in rs for c in cs if (r, c) not in indexed), 5)
+        locations = ", ".join(f"row {r!r}, column {c!r}" for r, c in sample)
+        raise RecipeError(f"Incomplete heatmap grid ({missing_count} missing): {locations}")
     matrix = [[indexed[r, c] for c in cs] for r in rs]
     plan.native.update(special="heatmap", matrix=matrix)
     plan.science.update(rows=rs, columns=cs, matrix=matrix)

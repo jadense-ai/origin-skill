@@ -9,9 +9,10 @@ description: 使用本机 Windows Origin 或 OriginPro，从 CSV、TSV、XLSX �
 
 ## 选择工作路径
 
-- **寻找模板。** 直接用本 Skill 的 `scripts/catalog.py search 关键词` 查中英文名称、学科、数据结构与来源，或用 `list --source official` 浏览官方目录。向用户说明所选模板是上游原生文件、可生成的自制配方，还是已经过实机复核的自制文件。官方模板的版本字段来自其包说明。
+- **寻找模板。** 用 `scripts/catalog.py search 关键词` 或 `list --source official --json` 查看官方版本、输入角色、适用入口及实机验证状态。模板依赖示例工程或专用脚本时，先核对目录要求。
 - **新画图。** 在独立会话调用 `origin_plot_doctor`。读取所选配方的 `assets/recipes/<id>/recipe.json` 和例数据，核对用户数据的列、单位及分组后调用渲染工具。输入为既有汇总值、区间或系数时，沿用用户给出的定义。选择直方图、小提琴或箱线图时先确认有原始观测。
-- **修改已有图。** 磁盘上的 OPJU 默认在独立会话打开并另存副本。只有明确指向“我当前打开的图”时，才用 current 服务。先读取工程、图页、图层、曲线和数据列，按实际标识定位用户指的对象；多个对象都符合时让用户选。修改后读回该属性并导出预览。会话、工程或对象不符时停止写入。
+- **用模板换数据。** 自带配方用 `origin_plot_render` 传 `template_path`。通用 OTPU 用 `origin_plot_inspect(template_path=...)` 了解模板图层，再用 `origin_plot_render_template` 逐曲线映射实际列名。统计分组或面板结构变化时选同类配方并用原生模板重新生成工程。
+- **修改已有图。** 先读取工程、图页、图层、曲线和数据列，按实际标识定位对象。用 `origin_plot_edit` 的 `bindings` 在独立 OPJU 副本替换所选源数据，也可传 `changes` 同时修改样式。只有明确要求修改当前窗口的样式时才用 current 服务和检查令牌。会话、工程或对象不符时停止写入。
 - **按目标期刊交付。** 在本 Skill 的 `scripts` 目录运行 `python -m journals prompt <journal>`，将输出作为本次绘图的期刊指令。根据提示核对稿件阶段、栏宽、多面板和素材类型，最后用实测成图检查。详细入口见 `references/workflow.md`。
 
 ## 完成交付

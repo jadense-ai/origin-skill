@@ -9,7 +9,7 @@
 ```powershell
 py -3.13 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install --require-hashes --find-links backend\dist -r backend\requirements-win-py313.lock
-.\.venv\Scripts\python.exe -m pip install --no-deps backend\dist\origin_plot_backend-0.1.0-py3-none-any.whl
+.\.venv\Scripts\python.exe -m pip install --no-deps backend\dist\origin_plot_backend-0.1.2-py3-none-any.whl
 $env:ORIGIN_PLOT_SKILL_ROOT = (Resolve-Path skill\origin-plot).Path
 .\.venv\Scripts\python.exe -m origin_plot_backend doctor
 .\.venv\Scripts\python.exe -m origin_plot_backend doctor --json '{"live":true}'
@@ -30,16 +30,16 @@ MCP 客户端运行 `python -m origin_plot_backend`。所有工具也接受同�
 | --- | --- | --- |
 | origin_plot_doctor | doctor | 配置状态，可选 Origin 实时探测 |
 | origin_plot_render | render | 配方、CSV/TSV/XLSX、OPJU、光栅/矢量输出和重开回读 |
-| origin_plot_render_template | render-template | 单层、单序列 XY 原生 OTP/OTPU 重绑定 |
+| origin_plot_render_template | render-template | 原生 OTP/OTPU 按图层、曲线和列重绑定，可同时改样式 |
 | origin_plot_inspect | inspect | 页面、各图层、坐标轴、图例、底层数据集、图型 ID、直方图分箱 |
-| origin_plot_edit | edit | 按图、图层、曲线定位的改动以及工程副本 |
+| origin_plot_edit | edit | 对指定图层或曲线改样式、替换数据并另存独立副本 |
 | origin_plot_export | export | PNG/JPG/TIF/BMP、PDF/EPS/EMF 与文件证据 |
 | origin_plot_save_template | save-template | 原生 OTPU 或旧版 OTP |
 | origin_plot_reopen | reopen | 在隔离会话打开工程副本后的图页读回 |
 
-`origin_plot_render` 的 `template_path` 用于 20 种配方从实际模板绑定新数据。箱线图和小提琴图使用 Origin 2021b 起提供的索引分组命令。成图后的源列、绘图类型以及统计图或矩阵的专项验证需在目标 Origin 确认成功。对于独立官方模板，`origin_plot_render_template` 可以用 `ORIGIN_PLOT_OFFICIAL_DIR` 解析相对路径，支持单层单序列 XY 图并核对两列绑定。
+`origin_plot_render` 的 `template_path` 用于 20 种配方从实际模板绑定新数据。箱线图和小提琴图使用 Origin 2021b 起提供的索引分组命令。`origin_plot_render_template` 可以用 `ORIGIN_PLOT_OFFICIAL_DIR` 解析相对路径，沿用单序列的 `x`、`y` 参数，也可提供多条 `bindings`。`origin_plot_edit` 在指定工程副本中使用同一种绑定结构。每条映射给出 `layer`、`plot`、`columns`，并可指定 `sheet`、`units`、`plot_type` 和图型 `options`。支持 XY、XY 加对称 Y 误差、直方观测列及热图长表。已有误差棒的曲线须连同误差列一起替换。
 
-`changes` 可设置 `layer`、`plot`（从 1 计数）、`x_title/y_title`、`x_range/y_range`、`color`、`line_width`、`symbol_size`、`legend_text`、`long_name`、`width_mm/height_mm`。原生直方图（Origin 图型 ID 219）另支持 `bin_begin`、`bin_end`，以及二选一的 `bin_width` 或 `bin_count`。重开验收比较图层、坐标轴、图例、面板标签和数据绑定。对可定位的原生数据列及矩阵，回读还包括内容 SHA-256，能检测同名数据源的内容变化。
+`changes` 可设置 `layer`、`plot`（从 1 计数）、`x_title/y_title`、`x_range/y_range`、`x_scale/y_scale`、`x_title_size/y_title_size`、`color`、`line_width`、`line_style`、`symbol_size`、`symbol_kind`、`fill_color`、`legend_text`、`long_name`、`width_mm/height_mm`。原生直方图支持 `bin_begin`、`bin_end`，以及二选一的 `bin_width` 或 `bin_count`。原生热图支持 `palette` 和 `color_levels`。重开验收比较图层、坐标轴、图例、面板标签和数据绑定，原生数据列及矩阵的内容指纹能检测同名数据源的值变化。
 
 期刊预设使用对应配置中的正式输出格式，并另出 PNG 预览。PLOS One 默认形成单页扁平 LZW TIFF，根据实际原生页面宽度计算输出尺度。出版物检查分别记录已测指标、缺失证据和人工复核项。
 

@@ -11,7 +11,7 @@ import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = "0.1.0"
+VERSION = "0.1.2"
 
 
 def digest(path):
@@ -47,7 +47,7 @@ def build(cache, output, no_download):
                         "--require-hashes","--find-links",str(ROOT/"backend/dist"),"-r",str(lock),"--dest",str(cache)],check=True)
     # Incorporate only wheels named by the runtime's actual lock, including the local upstream wheel.
     requirements = dict(re.findall(r"^([a-zA-Z0-9_.-]+)==([^\s\\]+)",lock.read_text("utf-8"),re.M))
-    backend_wheels = list((ROOT/"backend/dist").glob("origin_plot_backend-*.whl"))
+    backend_wheels = list((ROOT/"backend/dist").glob(f"origin_plot_backend-{VERSION}-*.whl"))
     if len(backend_wheels) != 1:
         raise ValueError("请先构建 backend 的唯一发行 wheel")
     wrapper = backend_wheels[0]

@@ -1,8 +1,9 @@
 """Render inside the caller's existing Origin Python session. No attach, save or exit."""
 
 import math
+import re
 
-from .bindings import check_xy, dataset_name, plot_id, template_file, template_origin
+from .bindings import check_xy, dataset_name, mark_types, plot_id, template_evidence, template_file
 from .model import RecipeError
 from .prepare import prepare
 
@@ -65,21 +66,30 @@ def _check_histogram(op, graph, sheet, plan):
         raise RuntimeError("The saved template did not produce one native histogram")
     plot = plots[0]
     name = dataset_name(op, gl, plot.lt_range(), "y", f"{sheet.lt_range(False)}!col(1)")
-    # GET -nhwc materializes Origin's internal bin table; -nhw reports its name.
-    cmd = (f"range __oprec_histplot={plot.lt_range()};"
-           'string __oprec_binn$="";get __oprec_histplot -nhwc;'
-           "get __oprec_histplot -nhw __oprec_binn;")
-    _execute(gl, cmd)
-    target = str(op.get_lt_str("__oprec_binn") or "").strip()
-    if not target:
-        raise RuntimeError("Origin did not expose the histogram bin worksheet")
-    bins = op.find_sheet("w", target)
-    if bins is None:
-        raise RuntimeError(f"Cannot inspect the native bin table {target!r}")
-    counts = [float(v) for v in bins.to_list(1) if v is not None and str(v).strip() not in {"", "--"}]
+    counts = histogram_counts(op, name, gl, 1)
     if counts != plan.science["bin_counts"]:
         raise RuntimeError("Origin bin counts disagree with the distribution of the replacement observations")
-    return {"pid": 219, "y": name, "bin_worksheet": target, "bin_counts": counts}
+    return {"pid": 219, "y": name, "bin_count_method": "origin-histogram", "bin_counts": counts}
+
+
+def histogram_counts(op, dataset, layer, index):
+    if not re.fullmatch(r"[A-Za-z_][A-Za-z0-9_]*(?:@\d+)?", dataset):
+        raise RuntimeError("Cannot compute counts for the reported histogram dataset name")
+    lo, hi, width = (layer.get_float(f"plot{index}.boxchart.{key}")
+                     for key in ("binBegin", "binEnd", "binSize"))
+    if not all(map(math.isfinite, (lo, hi, width))) or width <= 0 or hi <= lo:
+        raise RuntimeError("Invalid native histogram limits")
+    scratch = op.new_sheet("w", hidden=True)
+    if scratch is None:
+        raise RuntimeError("Origin could not create a temporary histogram worksheet")
+    try:
+        _execute(scratch, f"col(1)=histogram({dataset},{width:.17g},{lo:.17g},{hi:.17g});")
+        counts = scratch.to_list(0)
+        if not counts or any(not math.isfinite(v) or v < 0 or int(v) != v for v in counts):
+            raise RuntimeError("Origin returned incomplete histogram counts")
+        return [int(v) for v in counts]
+    finally:
+        scratch.get_book().destroy()
 
 
 def _indexed_distribution(op, plan, original, template, created, proof):
@@ -224,7 +234,10 @@ def _plot_heatmap(op, plan, created, template, proof):
     if existing:
         if not template or len(existing) != 1 or plot_id(gl, existing[0]) != 105:
             raise RuntimeError("Existing graph plots do not match the heatmap contract")
-        existing[0].change_data(None, z=matrix.obj[0])
+        native_name = str(matrix.obj[0].GetDatasetName())
+        if not re.fullmatch(r"[A-Za-z_][A-Za-z0-9_]*(?:@\d+)?", native_name):
+            raise RuntimeError("Origin did not provide a replacement matrix dataset name")
+        _execute(gl, f"layer -cy {native_name} 1;")
         plot = existing[0]
     else:
         plot = gl.add_mplot(matrix, 0, type=105)
@@ -258,6 +271,16 @@ def _axis_title(layer, label_id, text):
     label.text = text
 
 
+def _keep_legend_on_page(op, layer):
+    _execute(layer, "string __recipe_legend_rect$=legend.pageRect$;")
+    bounds = (op.get_lt_str("__recipe_legend_rect") or "").split()
+    if len(bounds) == 4:
+        left, _, right, _ = map(float, bounds)
+        margin = 0.98 * op.lt_float("page.width")
+        if right > margin and 0 < right - left < margin:
+            _execute(layer, f"legend.left={max(0, left - (right - margin)):.12g};")
+
+
 def _style_layer(op, plan, idx, layer, descriptor, sheets, template, proof):
     layer.activate()
     reuse_marks = bool(template and not plan.native.get("special"))
@@ -267,22 +290,19 @@ def _style_layer(op, plan, idx, layer, descriptor, sheets, template, proof):
     for i, m in enumerate(descriptor.marks):
         kwargs = {} if m["error"] is None else {"colyerr": m["error"]}
         sheet = sheets[m["table"]]
-        allowed = {"line": (200,), "line-symbol": (202,), "reference": (200,), "scatter": (201,),
-                   "template": (215, 216) if plan.recipe_id == "likert" else (203, 213)}[m["kind"]]
+        allowed = mark_types(m["kind"], plan.recipe_id)
         slot = next((p for p in slots if plot_id(layer, p) in allowed), None)
         if slot is None:
             plot = layer.add_plot(sheet, coly=m["y"], colx=m["x"], type=TYPES[m["kind"]], **kwargs)
         else:
             slots.remove(slot)
             data = {"x": m["x"], "y": m["y"]}
-            if m["error"] is not None:
-                data["ed"] = m["error"]
             slot.change_data(sheet, **data)
             plot = slot
         if plot is None:
             raise RuntimeError(f"Origin could not add {m['kind']} on layer {idx + 1}")
         pending.append((plot, m, sheet))
-        if not template:
+        if not template and not plan.native.get("bar_mode"):
             color = m["color_index"] if m["color_index"] is not None else i
             plot.color = COLORS[color % len(COLORS)]
             if m["kind"] in ("scatter", "line-symbol"):
@@ -309,6 +329,7 @@ def _style_layer(op, plan, idx, layer, descriptor, sheets, template, proof):
     _axis_title(layer, ylabel, descriptor.y_title)
     if descriptor.legend and len(descriptor.marks) > 1:
         _execute(layer, "legend -r;")
+        _keep_legend_on_page(op, layer)
     elif layer.label("Legend") is not None:
         layer.label("Legend").remove()
     observed = len(layer.plot_list())
@@ -324,8 +345,10 @@ def _style_layer(op, plan, idx, layer, descriptor, sheets, template, proof):
         if len(errors) != len(error_columns):
             raise RuntimeError("Cannot verify the source of every attached Origin error bar")
         for plot, (sheet, col) in zip(errors, error_columns):
-            bound.append({"pid": 231, "error": dataset_name(op, layer, plot.lt_range(), "y",
-                                                           f"{sheet.lt_range(False)}!col({col + 1})")})
+            name = str(plot.obj.GetDatasetName())
+            if name.casefold() != str(sheet.obj[col].GetDatasetName()).casefold():
+                raise RuntimeError("Origin attached the error bar to the wrong data column")
+            bound.append({"pid": 231, "error": name})
         proof["layers"].append({"layer": idx + 1, "bindings": bound})
     elif template and plan.native.get("special") == "box-raw":
         overlay = [check_xy(op, layer, plot, m, sheet, plan.recipe_id) for plot, m, sheet in pending]
@@ -382,7 +405,8 @@ def build_graph(op, recipe_id, records, *, title=None, columns=None, options=Non
         if len(graph) != len(plan.layers):
             raise RuntimeError(f"Template created {len(graph)} layers; expected {len(plan.layers)}")
         if template:
-            proof["native_template_source"] = template_origin(op, graph, template)
+            loader = "origin-indexed-distribution" if special in {"box-raw", "violin"} else "origin-new-graph"
+            proof.update(template_evidence(op, graph, template, digest, loader))
         counts = [_style_layer(op, plan, i, graph[i], d, sheets, template, proof) for i, d in enumerate(plan.layers)]
         graph.activate()
         if template:
@@ -390,7 +414,9 @@ def build_graph(op, recipe_id, records, *, title=None, columns=None, options=Non
             proof["status"] = "native-bindings-read-back"
         return {"graph": graph, "datasets": [source, *sheets, *extras], "expected": plan.expected,
                 "observed": {"layer_count": len(graph), "plot_counts": counts}, "warnings": plan.warnings,
-                "template_binding": proof}
+                "template_binding": proof,
+                "automatic_group_layers": [i for i, count in enumerate(counts, 1)
+                                           if plan.native.get("bar_mode") and count > 1]}
     except Exception:
         # Never close or reset the caller's project. Only clean up pages allocated here.
         for page in reversed(created):

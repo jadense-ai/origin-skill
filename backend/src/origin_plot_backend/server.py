@@ -35,27 +35,34 @@ def application(runtime: Runtime):
         return await dispatch("render", locals())
 
     @app.tool()
-    async def origin_plot_render_template(template_path: str, data_path: str, output_dir: str, x: str, y: str,
+    async def origin_plot_render_template(template_path: str, data_path: str, output_dir: str,
+                                          x: str | None = None, y: str | None = None,
                                           plot_type: str | None = None, title: str | None = None, sheet: str | None = None,
                                           journal: str | None = None, journal_options: dict | None = None,
-                                          formats: list[str] | None = None, width: int | None = None, reopen: bool = True) -> dict:
-        """Bind numeric X/Y with the original template type. Optionally require line, scatter, line+symbol or column."""
+                                          formats: list[str] | None = None, width: int | None = None, reopen: bool = True,
+                                          bindings: list[dict] | None = None, changes: dict | None = None) -> dict:
+        """Load a native template and bind new data. Specify X/Y or explicit bindings by 1-based layer/plot and columns."""
         return await dispatch("render_template", locals())
 
     @app.tool()
-    async def origin_plot_inspect(graph_name: str = "", project_path: str | None = None) -> dict:
-        """Read native plot, axis and source information. Omit graph_name to inspect the active project's graphs."""
+    async def origin_plot_inspect(graph_name: str = "", project_path: str | None = None,
+                                  template_path: str | None = None) -> dict:
+        """Read native plot, axis and source information from a template, a project copy or the current graph."""
         return await dispatch("inspect", locals())
 
     @app.tool()
     async def origin_plot_edit(graph_name: str, output_dir: str, changes: dict | None = None,
                                project_path: str | None = None, journal: str | None = None,
                                journal_options: dict | None = None, formats: list[str] | None = None,
-                               width: int | None = None, session_token: str | None = None, reopen: bool | None = None) -> dict:
-        """Edit one named graph and save a new OPJU. changes accepts 1-based layer/plot, x_title, y_title,
-        x_range, y_range, color (#RRGGBB), line_width, symbol_size, legend_text, long_name,
-        width_mm, height_mm, bin_width, bin_count, bin_begin or bin_end.
-        Attach-mode edits of the live GUI require the session_token returned by inspect."""
+                               width: int | None = None, session_token: str | None = None, reopen: bool | None = None,
+                               bindings: list[dict] | None = None, data_path: str | None = None,
+                               sheet: str | None = None) -> dict:
+        """Edit one named graph and save a new OPJU. Use 1-based layer/plot targets in changes.
+        Axis keys include x_title, y_title, x_range, y_range, x_scale, y_scale, x_title_size, y_title_size,
+        x_major_ticks and y_major_ticks.
+        Other keys include color, fill_color, line_width, line_style, symbol_kind, symbol_size, legend_text,
+        long_name, width_mm, height_mm, bin_width, bin_count, bin_begin, bin_end, palette and color_levels.
+        Data bindings require data_path and an isolated project copy. Attach-mode style edits require the inspection token."""
         return await dispatch("edit", locals())
 
     @app.tool()

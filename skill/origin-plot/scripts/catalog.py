@@ -1,5 +1,6 @@
 """Search the bundled Origin catalog without Origin, networking, or external packages."""
 import argparse
+from decimal import Decimal, InvalidOperation
 import hashlib
 import json
 import os
@@ -7,6 +8,15 @@ import sys
 from pathlib import Path
 
 SKILL = Path(__file__).resolve().parents[1]
+ORIGIN_2024 = Decimal("10.10")
+OFFICIAL_WORKFLOWS = {
+    "765": ("origin_plot_render_template", "每条折线的 X、Y，可复用 X 列"),
+    "774": ("origin_plot_render_template", "散点 X、Y"),
+    "752": ("origin_plot_render_template", "横轴 X、柱或条的 Y"),
+    "802": ("origin_plot_render_template", "每个组的 X、Y，可先将长表按组转为多列，启用 options.group"),
+    "754": ("origin_plot_render (box-raw)", "group 分组、value 原始观测"),
+    "973": ("origin_plot_render_template", "每个面板独立映射 X、Y，可复用 Y 列"),
+}
 
 
 def official_root():
@@ -22,8 +32,42 @@ def official_root():
     raise FileNotFoundError("官方资源包尚未安装，找不到 resources/official/catalog.json")
 
 
+def generated_root():
+    if os.getenv("ORIGIN_PLOT_GENERATED"):
+        return Path(os.environ["ORIGIN_PLOT_GENERATED"])
+    for parent in SKILL.parents:
+        local = parent / ".origin-plot"
+        if (local / "state.json").is_file():
+            return local / "native-library"
+    return None
+
+
+def official_compatibility(item, native, generated):
+    key = str(item["id"])
+    route, roles = OFFICIAL_WORKFLOWS.get(key, ("检查示例工程和模板结构", item["description"].strip()))
+    scripts = [name for name in item["companion_paths"] if Path(name).suffix.lower() in {".ogs", ".txt", ".py", ".c"}]
+    try:
+        too_new = Decimal(item["origin_version"]) > ORIGIN_2024
+    except (InvalidOperation, TypeError):
+        too_new = False
+    status = "version_blocked" if too_new else "not_verified"
+    if not too_new and scripts and key not in OFFICIAL_WORKFLOWS:
+        status, route = "requires_template_workflow", "打开示例 OPJU 并检查随附脚本或使用说明"
+    if not too_new and generated and key in OFFICIAL_WORKFLOWS:
+        proof = generated / "workflows" / "official" / key / "verification.json"
+        if proof.is_file():
+            result = json.loads(proof.read_text("utf-8"))
+            if result.get("status") == "verified" and native.is_file():
+                with native.open("rb") as file:
+                    if hashlib.file_digest(file, "sha256").hexdigest() == result["official_template"]["sha256"]:
+                        status = "verified_OriginPro_2024"
+    return {"input_roles": roles or "上游目录未标注输入角色，需检查示例工程",
+            "workflow": route, "verification": status, "companion_scripts": scripts}
+
+
 def records(source="all"):
     result = []
+    generated = generated_root()
     if source in {"all", "official"}:
         root = official_root()
         for item in json.loads((root / "catalog.json").read_text("utf-8-sig"))["templates"]:
@@ -31,15 +75,9 @@ def records(source="all"):
             if not native.is_relative_to(root.resolve()):
                 raise ValueError("模板路径越出资源目录")
             result.append({**item, "source": "official", "id": str(item["id"]),
-                           "native_template": str(native), "has_native_file": native.is_file()})
+                           "native_template": str(native), "has_native_file": native.is_file(),
+                           **official_compatibility(item, native, generated)})
     if source in {"all", "original"}:
-        generated=os.getenv("ORIGIN_PLOT_GENERATED")
-        if not generated:
-            for parent in SKILL.parents:
-                local=parent/".origin-plot"
-                if (local/"state.json").is_file():
-                    generated=str(local/"native-library")
-                    break
         for path in sorted((SKILL / "assets" / "recipes").glob("*/recipe.json")):
             item = json.loads(path.read_text("utf-8-sig"))
             preview=SKILL/"assets/previews"/(path.parent.name+".png")

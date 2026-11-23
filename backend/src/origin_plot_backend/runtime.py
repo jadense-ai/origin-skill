@@ -4,6 +4,7 @@ from contextlib import contextmanager
 import hashlib
 import importlib
 import json
+import logging
 import math
 import os
 from pathlib import Path
@@ -14,11 +15,12 @@ import uuid
 import secrets
 
 from .bridge import Bridge, skill_root
-from .data import read_table
-from .embedded import XY_TEMPLATE_TYPES
+from .data import read_bindings, read_table
+from .embedded import XY_TEMPLATE_TYPES, _hex_color
 
 RASTER = {"png", "jpg", "tif", "bmp"}
 VECTOR = {"pdf", "eps", "emf"}
+LOGGER = logging.getLogger(__name__)
 
 
 def artifact(path):
@@ -134,16 +136,76 @@ def _compare_readback(before, after, path="graph"):
     elif before == after:
         return
     raise RuntimeError(f"Origin property changed after reopening: {path}, {before!r} -> {after!r}")
+
+
+def _compare_graph(before, after):
+    for field in ("graph", "long_name", "layer_count", "plot_counts", "page"):
+        _compare_readback(before[field], after[field], field)
+    grouped = set(before.get("automatic_group_layers", []))
+    for index, (old, new) in enumerate(zip(before["layers"], after["layers"], strict=True), 1):
+        if index in grouped:
+            # Origin resolves the increment lists for newly grouped plots on load.
+            # Verify the data/topology and check any explicit style edits separately.
+            calculated = {"color", "fill_color", "line_style", "symbol_kind"}
+            old = {**old, "plots": [{k: v for k, v in p.items() if k not in calculated} for p in old["plots"]]}
+        _compare_readback(old, new, f"layers[{index - 1}]")
+
+    changes = before.get("changes_verified")
+    if not changes:
+        return
+    target = before["changes_target"]
+    layer = after["layers"][target["layer"] - 1]
+    for key, expected in changes.items():
+        if key in after["page"]:
+            actual = after["page"][key]
+        elif key == "long_name":
+            actual = after["long_name"]
+        elif key == "legend_text":
+            actual = layer[key]
+        elif key[:2] in ("x_", "y_"):
+            axis = layer["axes"][key[0]]
+            actual = [axis["from"], axis["to"]] if key.endswith("_range") else axis[key[2:]]
+        else:
+            plot = layer["plots"][target["plot"] - 1]
+            actual = plot.get(key)
+            if key == "color":
+                actual = _hex_color(actual)
+        _compare_readback(expected, actual, f"changes.{key}")
+
+
 class Runtime:
     def __init__(self, mode="isolated", target_pid=None, bridge=None):
         self.bridge = bridge if bridge is not None else Bridge(mode, target_pid)
         self.lock = asyncio.Lock()
         self.private = tempfile.TemporaryDirectory(prefix="origin-plot-projects-")
+        self._private_project = False
         self.inspected = {}
 
     async def close(self):
-        await self.bridge.close()
-        self.private.cleanup()
+        try:
+            if self._private_project:
+                try:
+                    async with asyncio.timeout(5):
+                        await self._new_project()
+                except Exception as exc:
+                    LOGGER.warning("Could not release the isolated Origin project before disconnecting: %s", exc)
+        finally:
+            try:
+                await self.bridge.close()
+            finally:
+                await self._cleanup_private()
+
+    async def _cleanup_private(self):
+        for delay in (0, 0.1, 0.4, 1.5, 3):
+            if delay:
+                await asyncio.sleep(delay)
+            try:
+                self.private.cleanup()
+                return
+            except PermissionError as exc:
+                if getattr(exc, "winerror", None) not in {32, 33}:
+                    raise
+        LOGGER.warning("Origin still holds temporary project files in %s", self.private.name)
 
     async def doctor(self, live=False):
         health = self.bridge.diagnostics()
@@ -158,6 +220,19 @@ class Runtime:
     def _isolate(self):
         if self.bridge.mode != "isolated":
             raise ValueError("This operation creates or loads a project and requires an isolated session.")
+
+    async def _replace_isolated_project(self, operation, **arguments):
+        self._isolate()
+        # Recalculation can mark a saved graph as modified between two COM calls.
+        await self.bridge.call("run_labtalk", script="doc -ss 1; doc -s;", confirm=True)
+        try:
+            return await self.bridge.call(operation, **arguments)
+        finally:
+            await self.bridge.call("run_labtalk", script="doc -ss 0;", confirm=True)
+
+    async def _new_project(self):
+        await self._replace_isolated_project("new_project")
+        self._private_project = False
 
     def _attach_write(self, token, graph_name):
         if self.bridge.mode == "attach":
@@ -177,9 +252,15 @@ class Runtime:
         copy = Path(self.private.name) / (uuid.uuid4().hex + source.suffix)
         shutil.copy2(source, copy)
         await self.bridge.embedded("doctor")
-        await self.bridge.call("load_project", file_path=str(copy))
+        self._private_project = True
+        await self._replace_isolated_project("load_project", file_path=str(copy))
 
-    async def inspect(self, graph_name="", project_path=None):
+    async def inspect(self, graph_name="", project_path=None, template_path=None):
+        if template_path is not None:
+            self._isolate()
+            if project_path or graph_name:
+                raise ValueError("Inspect a template separately from a project or named graph.")
+            return await self.bridge.embedded("inspect-template", template_path=str(self._template_path(template_path)))
         await self._open_copy(project_path)
         data = await self.bridge.embedded("inspect", graph_name=graph_name)
         token = secrets.token_hex(16)
@@ -217,17 +298,24 @@ class Runtime:
         else:
             await self.bridge.call("save_project", file_path=str(project))
         project_evidence = artifact(project)
-        outputs = await self._exports(run, graph_name, formats, width, journal, graph)
         check = {"status": "not_requested"}
         if reopen:
             self._isolate()
             await self._open_copy(project)
-            read = await self.bridge.embedded("inspect", graph_name=graph_name)
+            read = await self.bridge.embedded("inspect", graph_name=graph_name, verify_histograms=True)
             if not read["layers"]:
                 raise RuntimeError("Reopened OPJU has no native graph layers.")
-            for field in ("graph", "long_name", "layer_count", "plot_counts", "page", "layers"):
-                _compare_readback(graph[field], read[field], field)
+            _compare_graph(graph, read)
+            binding = graph.get("data_binding") or graph.get("template_binding") or {}
+            for mapped in binding.get("bindings", ()):
+                if isinstance(mapped, dict) and "bin_counts" in mapped:
+                    counts = read["layers"][mapped["layer"] - 1]["plots"][mapped["native_plot"] - 1]["histogram_counts"]
+                    _compare_readback(mapped["bin_counts"], counts, "histogram_counts")
+            if graph.get("recipe_id") == "histogram":
+                _compare_readback(graph["expected"]["science"]["bin_counts"],
+                                  read["layers"][0]["plots"][0]["histogram_counts"], "histogram_counts")
             check = {"status": "verified", "readback":read}
+        outputs = await self._exports(run, graph_name, formats, width, journal, check.get("readback", graph))
         evidence = {"status":"rendered", "run_dir":str(run), "project":project_evidence, "exports":outputs,
                     "inspection":graph, "reopen":check, "journal_check":_journal_validate(journal, graph, outputs)}
         (run / "evidence.json").write_text(json.dumps(evidence, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -251,7 +339,7 @@ class Runtime:
                 raise ValueError("Recipe template reuse requires an OTP/OTPU file.")
         with output_run(output_dir) as run:
             await self.bridge.embedded("doctor")
-            await self.bridge.call("new_project")
+            await self._new_project()
             graph = await self.bridge.embedded("render", recipe_id=recipe_id, records=rows, columns=columns,
                                               options=options, title=title, journal=journal,
                                               journal_options=journal_options, template_path=str(template) if template else None)
@@ -259,33 +347,52 @@ class Runtime:
                 graph["template_source"] = artifact(template)
             return await self._finish(run, graph, formats, width, journal, reopen)
 
-    async def render_template(self, template_path, data_path, output_dir, x, y, plot_type=None, title=None,
-                              sheet=None, journal=None, journal_options=None, formats=None, width=None, reopen=True):
-        self._isolate()
+    def _template_path(self, template_path):
         template = Path(template_path).expanduser()
         if not template.is_absolute() and os.getenv("ORIGIN_PLOT_OFFICIAL_DIR"):
             template = Path(os.environ["ORIGIN_PLOT_OFFICIAL_DIR"]) / template
         template = template.resolve(strict=True)
         if template.suffix.lower() not in {".otp",".otpu"}:
             raise ValueError("Template binding requires an OTP/OTPU file. Inspect an OPJU as a project.")
-        if (plot_type not in (None, "auto") and plot_type not in XY_TEMPLATE_TYPES) or not x or not y or x == y:
-            raise ValueError("Choose distinct X/Y columns and a supported single-layer XY template plot type.")
-        rows = read_table(data_path, sheet)
+        return template
+
+    async def render_template(self, template_path, data_path, output_dir, x=None, y=None, plot_type=None, title=None,
+                              sheet=None, journal=None, journal_options=None, formats=None, width=None, reopen=True,
+                              bindings=None, changes=None):
+        self._isolate()
+        template = self._template_path(template_path)
+        job = {}
+        if bindings is None:
+            if (plot_type not in (None, "auto") and plot_type not in XY_TEMPLATE_TYPES) or not x or not y or x == y:
+                raise ValueError("Choose distinct X/Y columns and a supported single-layer XY template plot type.")
+            job.update(records=read_table(data_path, sheet), x=x, y=y, plot_type=plot_type)
+        else:
+            if x is not None or y is not None or plot_type is not None:
+                raise ValueError("Specify either bindings or legacy X/Y arguments.")
+            job["binding_job"] = read_bindings(data_path, sheet, bindings)
         formats_list(formats)
         with output_run(output_dir) as run:
             await self.bridge.embedded("doctor")
-            await self.bridge.call("new_project")
-            graph = await self.bridge.embedded("template", template_path=str(template), records=rows, x=x, y=y,
-                                              title=title, plot_type=plot_type, journal=journal,
-                                              journal_options=journal_options)
+            await self._new_project()
+            graph = await self.bridge.embedded("template", template_path=str(template), title=title,
+                                              journal=journal, journal_options=journal_options, changes=changes, **job)
             graph["template_source"] = artifact(template)
             return await self._finish(run, graph, formats, width, journal, reopen)
 
     async def edit(self, graph_name, output_dir, changes=None, project_path=None, journal=None,
-                   journal_options=None, formats=None, width=None, session_token=None, reopen=None):
+                   journal_options=None, formats=None, width=None, session_token=None, reopen=None,
+                   bindings=None, data_path=None, sheet=None):
+        binding_job = None
+        if bindings is not None:
+            self._isolate()
+            if not project_path:
+                raise ValueError("Data replacement requires the path of an existing OPJ/OPJU.")
+            binding_job = read_bindings(data_path, sheet, bindings)
+        elif data_path is not None or sheet is not None:
+            raise ValueError("Provide bindings to select the plots and data columns to replace.")
         expected_state = self._attach_write(session_token, graph_name)
-        if not graph_name or (not changes and not journal):
-            raise ValueError("An explicit graph name and an edit or journal profile are required.")
+        if not graph_name or (not changes and not journal and binding_job is None):
+            raise ValueError("Specify a graph name and changes, a journal profile, or data bindings.")
         if reopen is None:
             reopen = self.bridge.mode == "isolated"
         if reopen:
@@ -300,7 +407,8 @@ class Runtime:
                 artifact(before)
             try:
                 graph = await self.bridge.embedded("edit", graph_name=graph_name, changes=changes,
-                                                  journal=journal, journal_options=journal_options, expected_state=expected_state)
+                                                  journal=journal, journal_options=journal_options,
+                                                  expected_state=expected_state, binding_job=binding_job)
                 return await self._finish(run, graph, formats, width, journal, reopen)
             except Exception as exc:
                 if before:

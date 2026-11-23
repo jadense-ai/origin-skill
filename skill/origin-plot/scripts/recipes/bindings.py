@@ -16,14 +16,26 @@ def template_file(path):
     return resolved, sha256(resolved.read_bytes()).hexdigest()
 
 
-def template_origin(op, graph, supplied):
+def template_origin(op, graph, supplied, *, allow_missing=False):
     graph.activate()
     if not op.lt_exec('string __oprec_template_source$=page.info.system.source.template$;'):
+        if allow_missing:
+            return None
         raise RuntimeError("Origin did not identify the source template of the new graph page")
     reported = str(op.get_lt_str("__oprec_template_source") or "").strip()
+    if not reported and allow_missing:
+        return None
     if not reported or os.path.normcase(os.path.normpath(reported)) != os.path.normcase(str(supplied)):
         raise RuntimeError(f"New graph reports template {reported!r}, expected {str(supplied)!r}")
     return reported
+
+
+def template_evidence(op, graph, path, digest, loader):
+    reported = template_origin(op, graph, path, allow_missing=True)
+    if sha256(path.read_bytes()).hexdigest() != digest:
+        raise RuntimeError("The template file changed while Origin was loading it")
+    return {"path": str(path), "sha256": digest, "native_template_source": reported,
+            "template_source_method": "origin-page-metadata" if reported else loader}
 
 
 def plot_id(layer, plot):
@@ -50,13 +62,16 @@ def dataset_name(op, layer, graph_range, role, expected_range):
     return actual
 
 
-def check_xy(op, layer, plot, mark, sheet, recipe_id):
-    expected_pids = {
+def mark_types(kind, recipe_id):
+    return {
         "line": (200,), "reference": (200,), "line-symbol": (202,), "scatter": (201,),
-        "template": ((215, 216) if recipe_id == "likert" else (203, 213)),
-    }
+        "template": ((203, 213, 215, 216) if recipe_id == "likert" else (203, 213)),
+    }[kind]
+
+
+def check_xy(op, layer, plot, mark, sheet, recipe_id):
     pid = plot_id(layer, plot)
-    if pid not in expected_pids[mark["kind"]]:
+    if pid not in mark_types(mark["kind"], recipe_id):
         raise RuntimeError(f"Unexpected native plot type {pid} for {mark['kind']}")
     rg = plot.lt_range()
     result = {"plot_range": rg, "pid": pid}
