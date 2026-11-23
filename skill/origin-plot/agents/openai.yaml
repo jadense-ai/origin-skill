@@ -1,0 +1,4 @@
+interface:
+  display_name: "Origin 科研绘图"
+  short_description: "使用本机 Origin 绘制和编辑多学科科研图，按期刊要求导出并核验"
+  default_prompt: "用 $origin-plot 根据我的实验数据绘制可编辑的 Origin 图，并导出投稿预览。"

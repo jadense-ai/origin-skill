@@ -1,0 +1,114 @@
+{
+  "id": "nature",
+  "title": "Nature",
+  "stage": "终稿主图（印刷主文图）",
+  "checked": "2026-11-23",
+  "sources": [
+    {
+      "id": "final",
+      "title": "Nature ‧ Final submission",
+      "url": "https://www.nature.com/nature/for-authors/final-submission",
+      "section": "Digital figures / Figure lettering",
+      "fields": [
+        "stroke_pt",
+        "panel_label",
+        "panel_font_pt",
+        "panel_bold",
+        "panel_italic"
+      ]
+    },
+    {
+      "id": "panels",
+      "title": "Nature research figure guide ‧ Building and exporting figure panels",
+      "url": "https://research-figure-guide.nature.com/figures/building-and-exporting-figure-panels/",
+      "section": "Figure sizing, Fonts, Main figure accepted formats",
+      "fields": [
+        "width_mm",
+        "height_mm",
+        "font_family",
+        "font_pt",
+        "editable_text",
+        "fonts_embedded",
+        "output_format"
+      ]
+    },
+    {
+      "id": "specs",
+      "title": "Nature research figure guide ‧ Preparing figures",
+      "url": "https://research-figure-guide.nature.com/figures/preparing-figures-our-specifications/",
+      "section": "Graphs, Colour space, Image resolution",
+      "fields": [
+        "dpi",
+        "color_mode",
+        "axis_units"
+      ]
+    }
+  ],
+  "defaults": {
+    "width_mm": 89,
+    "font_family": "Arial",
+    "font_pt": 7,
+    "stroke_pt": 0.6,
+    "panel_font_pt": 8,
+    "panel_bold": true,
+    "output_format": "PDF",
+    "dpi": 300
+  },
+  "rules": {
+    "width_targets_mm": [
+      89,
+      183
+    ],
+    "intermediate_range_mm": [120, 136],
+    "width_policy": "typesetting_targets",
+    "height_max_mm": 170,
+    "fonts": [
+      "Arial",
+      "Helvetica"
+    ],
+    "font_policy": "preferred",
+    "font_range_pt": [
+      5,
+      7
+    ],
+    "stroke_range_pt": [
+      0.25,
+      1
+    ],
+    "panel_case": "lower",
+    "panel_font_pt": 8,
+    "panel_bold": true,
+    "panel_italic": false,
+    "formats": [
+      "AI",
+      "EPS",
+      "PDF",
+      "SVG",
+      "PSD",
+      "PS",
+      "XLS",
+      "XLSX"
+    ],
+    "formats_rejected": [
+      "PNG"
+    ],
+    "format_policy": "editorial",
+    "editable_vector_text": true,
+    "embedded_vector_fonts": true,
+    "raster_dpi": {
+      "default": [
+        300,
+        null
+      ]
+    },
+    "color_modes": [
+      "RGB"
+    ],
+    "color_policy": "preferred"
+  },
+  "notes": [
+    "字体大小均以最终成图尺寸计。多面板序号遵循终稿主图的单独规定。",
+    "主图以矢量分层文件交付，照片可嵌入主图。终稿说明接受部分摄影 TIFF 或高分辨率 JPEG，制图指南的主图格式表则排除二者，使用独立照片文件时向编辑核实。Extended Data 另有格式规定。",
+    "轴标清楚标注单位，检查刻度、色盲可辨性和实际裁切。"
+  ]
+}

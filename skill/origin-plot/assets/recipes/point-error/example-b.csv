@@ -1,0 +1,7 @@
+series,x,estimate,error
+Control,1,2,0.2
+Control,2,2.4,0.4
+Control,3,3.1,0.3
+Treated,1,2.2,0.3
+Treated,2,3,0.3
+Treated,3,3.8,0.45

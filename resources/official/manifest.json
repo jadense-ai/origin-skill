@@ -1,0 +1,4252 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/originlab/Templates",
+  "commit": "a3287931e1a58366f2eca63551ab0d3fd34c60f9",
+  "upstream_tree_url": "https://api.github.com/repos/originlab/Templates/git/trees/a3287931e1a58366f2eca63551ab0d3fd34c60f9?recursive=1",
+  "inventory_sha256": "6e0ab48578ab4981463a649c9b40de56462c81f9f376bc2cd1bba5f3fced3de8",
+  "file_count": 707,
+  "files": [
+    {
+      "path": "upstream/Graph Templates/3D/3D Bar in 2 Planes/3DBar2Plane.opju",
+      "bytes": 157861,
+      "git_blob": "a56014fa6be2b568fef3616ded0c89441f6c7d40",
+      "sha256": "94333c21a941b6ab04ec8b867f4d02cb87ab61ee60d25841492afcc0e2b7a7c4"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Bar in 2 Planes/3DBar2Plane.otpu",
+      "bytes": 131491,
+      "git_blob": "166a0f3669062ffbedfa6796be705a05e8f5cccb",
+      "sha256": "492f3a56f782f14feab659778c94fa23fdce4494b4745977be5fad81dec2fbc5"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Bar in 2 Planes/3DBar2Plane.png",
+      "bytes": 17584,
+      "git_blob": "33a0537d67548a0d5b416382561a64c3b6147687",
+      "sha256": "2b10519bbec49eeefd2f640717fd398a89dc13139ab9f6498524fa6e10fd41f2"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Bar in 2 Planes/3DBar2Plane_Dark.png",
+      "bytes": 57196,
+      "git_blob": "f4dea399f99c395deec75cbce2649ebdd1786d15",
+      "sha256": "1792bf81d1b4dfe6b35c03c243493cb21097e835ebcc90cbbeaf7ad8121b0d87"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Bar in 2 Planes/3DBar2Plane_icon.png",
+      "bytes": 3585,
+      "git_blob": "8302846bfd0711c7625a79c5f66f9582cbdd46e7",
+      "sha256": "6d056b4e66a5be13c1fb8824fdda2529d7eb6a1e9e27ed3ef92ab27c22fa37fc"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Bar in 2 Planes/3DBar2Plane_icon_Dark.png",
+      "bytes": 6105,
+      "git_blob": "08d90fdd9040c77a5b5e067c8dc30dcb02ff07a0",
+      "sha256": "ae4b1038c8b1051b8c364476f7bc5988e8f2ffd2f526bb588d619956a1dea3c9"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Bar in 2 Planes/package.ini",
+      "bytes": 1140,
+      "git_blob": "d95dd69ee1399e8db6bea49f9b5f53c854b4f871",
+      "sha256": "743f7283807a72784ac4809af414f40ff2ea5ffe6683e695a9873bd28b17ae3d"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Bars with Connected Line/3DConLine.opju",
+      "bytes": 60691,
+      "git_blob": "67406f5fa775dd42386433e582e828524796ea7f",
+      "sha256": "46ae53f4154bcd3d20a941b99a81d787082da57bd9192e409fcf27086dca73ca"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Bars with Connected Line/3DConLine.otpu",
+      "bytes": 121736,
+      "git_blob": "285fa7c9c5e8678027a14e85376dcfc8d857e733",
+      "sha256": "ac4a49c5fa5efbb75eb72f1bde34f5ba7844899954552541a07f0f705a044da4"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Bars with Connected Line/3DConLine.png",
+      "bytes": 24031,
+      "git_blob": "34d14b5c1f16f4ea040ffce06be56934bc835c8e",
+      "sha256": "9632914e4ba0975fc37a26ba03380e664e2b72b96fd35c3bde1d4c9fb54836cc"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Bars with Connected Line/3DConLine_Dark.png",
+      "bytes": 49399,
+      "git_blob": "e32c1494fe935a5379393171e13340ecdeda3e31",
+      "sha256": "7de7cd2edecb1a0fd04f775b53a2bef46fdf87311cdf9cb599ece76043f45ffa"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Bars with Connected Line/3DConLine_icon.png",
+      "bytes": 3327,
+      "git_blob": "8c18b067ce9a2f92b0bee0efcd9d93489e3bc552",
+      "sha256": "f69113ec98c518e3d437e8e5beccc0c816714fc75644b148d1fce43195723a70"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Bars with Connected Line/3DConLine_icon_dark.png",
+      "bytes": 4385,
+      "git_blob": "6039a8cee1eb4f8fbacd31d631b20f31d6a13241",
+      "sha256": "c5e73702b36e7ddc7f1de3b9074a99babd43956da4b06a8c910a7620aea2e8e2"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Bars with Connected Line/package.ini",
+      "bytes": 1102,
+      "git_blob": "97dcdf25fef8c0dba4129369ecd856cc1870f71c",
+      "sha256": "04382c117e2315dbc58966351a140860c979c82e9d9a2992e4a04071fa24af81"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Cylinder/3DCylinder.opju",
+      "bytes": 63166,
+      "git_blob": "cdc28b7a664821609200dda087ddf9e97830f121",
+      "sha256": "4ad226f59a266b239007b4d271a857260646e21e4e7a295508b014ba599796b8"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Cylinder/3DCylinder.otpu",
+      "bytes": 151369,
+      "git_blob": "44595f44b8559f85b945485b482301e0653dec72",
+      "sha256": "a9225e2d41bd660504002e2c6684ac736435bc83001078989eaad64d025e703b"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Cylinder/3DCylinder.png",
+      "bytes": 24716,
+      "git_blob": "de3ae5310ad895ddc932353d85b3bd084c021ca6",
+      "sha256": "e3f13939e30ba2050cbc6ee51c984bc153a4ac1162935c7e72faa29e632a6579"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Cylinder/3DCylinder_Dark.png",
+      "bytes": 50951,
+      "git_blob": "feef60ff399db5784ad27d0d3ea88d48d8edc431",
+      "sha256": "d758148667c253b232d659b41c825323bc9ad9a3887f5573a8e5e22f0411652d"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Cylinder/3DCylinder_icon.png",
+      "bytes": 3631,
+      "git_blob": "96f0312aa4215eebf333053b40b2608c7b22cb65",
+      "sha256": "4203a57be088aca44231922844bbbaba56e0e296bef0fa13d2d51efd9e2b079a"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Cylinder/3DCylinder_icon_Dark.png",
+      "bytes": 4989,
+      "git_blob": "38140ad10f8ab3ed6787ef883e6f82e87ae9f0dd",
+      "sha256": "879ed782791b9ae5cc3bea2c7b9a3db3d35b57f176143b5bfc6203afa5e0577e"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Cylinder/package.ini",
+      "bytes": 1072,
+      "git_blob": "09c06888d18285ff2fcca135e4084d4c27889c62",
+      "sha256": "749a57aa1c35438851ab2cf217c1a93d254121f9b8acacde32a1c42b989ddbf3"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Horizontal Floating Bar/GL3DFLOATBAR.otpu",
+      "bytes": 51640,
+      "git_blob": "c784f5ddfb240f0bf0f3f4560ad2317a1779c467",
+      "sha256": "eabbbc675b9db80bb48dc15c0955a1b5fd24b9977bc0ae47e8a5ec93cca31809"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Horizontal Floating Bar/GL3DFloatBar.opju",
+      "bytes": 69096,
+      "git_blob": "2182aa5bdfffa0e7a872edd88c8c2adbec515dc8",
+      "sha256": "d3ac7762884c08cbf02162e42ebc5cf34cb1d13868eaaa8832b673b6ef4f3a09"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Horizontal Floating Bar/GL3DFloatbar.png",
+      "bytes": 5988,
+      "git_blob": "a18adf6579aeba9c50a56889d74b8d982a878a40",
+      "sha256": "6aeb3239fccf51668b4f66dee8a78c082eea47acbf14b31b1f61a28b5cdae1d5"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Horizontal Floating Bar/GL3DFloatbar_dark.png",
+      "bytes": 24426,
+      "git_blob": "98f017a4ee4c52aa74d1f4180a376dea496cd6c8",
+      "sha256": "cf5dd052416d3d15a8d657f3b837d56f91151c24de635c823bbb27ffad222c89"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Horizontal Floating Bar/GL3DFloatbar_icon.png",
+      "bytes": 1728,
+      "git_blob": "9e16b8e4234cd6c170d4355f8362519cfd024604",
+      "sha256": "701170b1ac1c0acaa11fe7c315f2e33809d9a7eed5a41a6347a899d5cab9007b"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Horizontal Floating Bar/GL3DFloatbar_icon_dark.png",
+      "bytes": 3464,
+      "git_blob": "95e9f3fedb8f2823e061c7bb61750b4c2b46b23b",
+      "sha256": "f89887d371673cdb1bfd40fdf6f30e9ae914e7b6eceacf7dcfcaf3ad6491ef87"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Horizontal Floating Bar/Script.txt",
+      "bytes": 83,
+      "git_blob": "3c944ceb65078c5708ba07e1b6e6b830acf8e0f9",
+      "sha256": "031a4626c892772fb3b6eacb669addfc2006be391bb56175bea628ac340555f0"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Horizontal Floating Bar/package.ini",
+      "bytes": 1140,
+      "git_blob": "6e5b01d0fe70536b5a56eae8887da485181cc2a9",
+      "sha256": "f979e585e6d09f87ec7239724b4d5d68de44af915eabe57dab448ad4ebc1ddb6"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Stacked Line&Symbol/Script.txt",
+      "bytes": 883,
+      "git_blob": "e423fc9a30bd128c95bb2299d0b296d72c2aab79",
+      "sha256": "c1c442c9922fa37c4594c478d121482b3747c265bd2bf71b3c926b3e35820da8"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Stacked Line&Symbol/glStackedLineSymb.opju",
+      "bytes": 79222,
+      "git_blob": "3dfdbf3a5b490f1b5d94256d5a52e51de30a51e0",
+      "sha256": "29f4ea5b6ce563aa1809784c21012669a0b13a62b12337b2dce7f99fe0e50261"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Stacked Line&Symbol/glStackedLineSymb.otpu",
+      "bytes": 112350,
+      "git_blob": "06e65fdd795276a142c7866f95ecd987d3d37482",
+      "sha256": "fa22bdf8804edd50d3a9d6019f28c70e7eb03d4e56760139ecfd851e145ae3f0"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Stacked Line&Symbol/glStackedLineSymb.png",
+      "bytes": 37594,
+      "git_blob": "da6109d52c38cfe279e65cdd12c8dc1f388fd77d",
+      "sha256": "1ed16d8d3a139639ea0c3ef99d1ff0b9f6c400e8e298d744b0e661ba4f72cfe9"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Stacked Line&Symbol/glStackedLineSymb_Icon.png",
+      "bytes": 3853,
+      "git_blob": "d72cce49b16808dc652da5452e07958ff7a3d18e",
+      "sha256": "27379b834fced1fdfd3b927b81b8b440a4eac8892d8d6563133a418ea2045380"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Stacked Line&Symbol/glStackedLineSymb_Icon_dark.png",
+      "bytes": 3690,
+      "git_blob": "a4c9618da220cb499ec202a12768363cd49e84d9",
+      "sha256": "67474cadc6db9d842082f296dacfb41a1a644f3bb45cf70770b8070534a23f5f"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Stacked Line&Symbol/glStackedLineSymb_dark.png",
+      "bytes": 37843,
+      "git_blob": "5e96b2e15a0e65715c11b131683e8c27427fefff",
+      "sha256": "107e61267993b98f99968152ccc9fd3965fabb238d68bc97b162d2a3677b6ad7"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Stacked Line&Symbol/package.ini",
+      "bytes": 1664,
+      "git_blob": "7962c05e9efccea6a7bb133fa75a1450940ef248",
+      "sha256": "956e2ae88142b1f1f835ddfd261084dbfeedd4893555e21b4ff9208f4f9a855b"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Surface Map/3DMAP.otpu",
+      "bytes": 88407,
+      "git_blob": "359ab70a2045eef8ff7af839583e9bc627c21814",
+      "sha256": "f501e27902faee51aed0a36483429265228cb568d0ab9db3a7061d1b26d3962e"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Surface Map/3DMap.opju",
+      "bytes": 616725,
+      "git_blob": "1ad3e1f39f51892c403879a5b3a2624d4e3bc8d5",
+      "sha256": "5c1c974093b95a2ccd50ecae898ecf80cc2aa873da368d47b6bcac9bfb937b49"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Surface Map/3DMap.png",
+      "bytes": 84746,
+      "git_blob": "3a09a8741e846735cb00cb52f5afe4fc213b6d2e",
+      "sha256": "3e9062d63dc91c597b970f158a10008689697f76bcf7f97b0bef2e3eb0e9d1aa"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Surface Map/3DMap_icon.png",
+      "bytes": 3297,
+      "git_blob": "3f0a7e9d584b752b2ef33c6cfdb25888e135ebad",
+      "sha256": "155c16d6d188d3f7e589636644b3ef7548c92fbb8a30d6c9911cabcc365b0c7b"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Surface Map/Scripts.txt",
+      "bytes": 331,
+      "git_blob": "200e79fb82d77d8c9e1ceed15896522a2c3ca47f",
+      "sha256": "22aa68a7535b202a1fe2138156ff1d0d6cba21a66fafcbce87e60ae85169cb9c"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D Surface Map/package.ini",
+      "bytes": 1562,
+      "git_blob": "61437a23db04e41c23f132a5f87de2677b3dc7b4",
+      "sha256": "bbba10c93b221d16869dbceeb54f61186577673faf631715eb028ff7d91bcdda"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D XRD Watefall in B&W/3DXRDBW.opju",
+      "bytes": 80626,
+      "git_blob": "5eaef6d6222b740c95d79e9761d95c3c127d860f",
+      "sha256": "9e7a13def75fb9a5f91e81da749aa8a0ede86da856477b7da5d7b7119b074f0f"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D XRD Watefall in B&W/3DXRDBW.otpu",
+      "bytes": 84603,
+      "git_blob": "868bdd74a48aec7f0ed4d722c8203603d0ce8962",
+      "sha256": "45630199100e362f1f28735654876e702efde48f4c6bafa977cb1dfcc6e3a807"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D XRD Watefall in B&W/3DXRDBW.png",
+      "bytes": 11143,
+      "git_blob": "3a80bd8e41184f389dbf01b8369c2f97fc938924",
+      "sha256": "7272c6a0f75bac5cd981a06a167d9aaeaabd726c29faaaba2d770347c1fdd7f9"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D XRD Watefall in B&W/3DXRDBW_Dark.png",
+      "bytes": 29466,
+      "git_blob": "8082962bd9422498b628a36a92a4bcf93e143c45",
+      "sha256": "21f54e0e63eef67d017758fd01b4b86dccd3c4f0d018a14ef9ccd1626d2e8b55"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D XRD Watefall in B&W/3DXRDBW_icon.png",
+      "bytes": 1922,
+      "git_blob": "b7cd4994d1355aacae354902eba111d4fb04d4e3",
+      "sha256": "3e15b2b2d1c8ad52bd0d6b3b25bfa488b99d54671f61a22a6f2fb8faf9d292d2"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D XRD Watefall in B&W/3DXRDBW_icon_Dark.png",
+      "bytes": 3455,
+      "git_blob": "24f2f7f8f7a928603761fe916f26c6dc9d1c9b77",
+      "sha256": "971aa1efad0bed28f95f52f6de5b0bd8f397b53ce93dbb69b9e8f30e97188e16"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D XRD Watefall in B&W/package.ini",
+      "bytes": 1720,
+      "git_blob": "d6fb8f4b4fc3a373e6fd4735e619ee90760ac31b",
+      "sha256": "dc494f0c0ef628659957be20f7a73afeb72c22323536a94e1db95bbd750eacc2"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D XRD Waterfall/3DXRD.opju",
+      "bytes": 157015,
+      "git_blob": "7cbd4a8b6ffc4c20520e3cbadfc618eceac15167",
+      "sha256": "80246a3d402a4dc5a1dd49c132164ceace01a1bb4686288d5e10738ef45ccda6"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D XRD Waterfall/3DXRD.otpu",
+      "bytes": 118424,
+      "git_blob": "7c32ce7d84a97a4e966196ee76fcfa25810341ef",
+      "sha256": "476515fe462354cc4cdc0e83eb0fdca902e1a8f8c29b00d6cc93920c44e385c4"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D XRD Waterfall/3DXRD.png",
+      "bytes": 19222,
+      "git_blob": "36773bcc756e0d46b8cf54eda6a0d38ace0a5658",
+      "sha256": "e18374b36022672949b5beeab921c4a6c09516c1f32682329a6b3f8d96dc5597"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D XRD Waterfall/3DXRD_Dark.png",
+      "bytes": 71144,
+      "git_blob": "adc9b11534c6844442ece507814b457e170ce08f",
+      "sha256": "a0dbf09dc0967fbf5d241346d5dcf89602125092b81f94d86597e113a59cacc3"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D XRD Waterfall/3DXRD_icon.png",
+      "bytes": 3092,
+      "git_blob": "a8215392572eea79b9257f6ef68edc22989b7a44",
+      "sha256": "3785e8b866e424966c8a892fb88eda189fa86e209920c8488b05c666ea6c1643"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D XRD Waterfall/3DXRD_icon_dark.png",
+      "bytes": 5231,
+      "git_blob": "10a8a467cd1cb00ef8928ae259671aa962f5ef19",
+      "sha256": "6dcb34387dd31853d3425791ddcc605d126097e5ca0db96ecfbb0c29c21c1017"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/3D XRD Waterfall/package.ini",
+      "bytes": 1732,
+      "git_blob": "ba4656d6d199a3a133b58ea38f09a49842e07e64",
+      "sha256": "096782f05b7f5fde81a5352e485812dd5ec130bc3fdb3cd8543e3048b296a2f5"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Colormap Filled Waterfall/package.ini",
+      "bytes": 1202,
+      "git_blob": "cefa29acdf51031be6ef4092ac424069b16fe902",
+      "sha256": "c9bc4589bbacbd1120062c2c400fd4ea6ba91b027a4090b654840001c559f3e8"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Colormap Filled Waterfall/waterfallcolorfill.opju",
+      "bytes": 98136,
+      "git_blob": "7f6ea281d0acfe4dc45aa19a1e9404392d4ae46c",
+      "sha256": "294d846e2f460ae6cc101699bf84fd5d4f304d99cad083cdebcfec075de03adf"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Colormap Filled Waterfall/waterfallcolorfill.otpu",
+      "bytes": 105499,
+      "git_blob": "06b0876ad72485f9a6b631cac89db5703aafb653",
+      "sha256": "c8249dd1d0703f7e6ffa1e6dba4a8c2660935e4bbdc22a993f1656a92e553e7c"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Colormap Filled Waterfall/waterfallcolorfill.png",
+      "bytes": 19099,
+      "git_blob": "e65ecd6090de9cc588f6b93c89e587c349421322",
+      "sha256": "408fce8343dfd7dfed2d50026ec41d28d2a2ddb8e4063cb4fd7c15eb520e20bd"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Colormap Filled Waterfall/waterfallcolorfill_Dark.png",
+      "bytes": 9247,
+      "git_blob": "fa0243741ef1124ec62b45be2205eee8aaba7ea0",
+      "sha256": "56b027b5bdf6b234528412efeb46162177ca58a2312cfb1b2ddf1039f802f962"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Colormap Filled Waterfall/waterfallcolorfill_icon.png",
+      "bytes": 1707,
+      "git_blob": "f66276ed99e4a854c483e16c6f42ba911c12460e",
+      "sha256": "a744a51e8c23decc411d236e97f3304fda74bf5d7d619f68e4c828aa280a59f3"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Colormap Filled Waterfall/waterfallcolorfill_icon_Dark.png",
+      "bytes": 4218,
+      "git_blob": "262c3adc2220649aa5a46144bda1175b07f82011",
+      "sha256": "47ad1e66cda0ce10657f193a2e4a6d789ae04994a45580d6f526f4a85a11b84d"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Double-Y Waterfall/2YsWaterfall3D.opju",
+      "bytes": 239325,
+      "git_blob": "85267ba0341a3a43656007f11ce8c3f16afcf51d",
+      "sha256": "30484b6f073964a510ae943950162e15743a2c5e15782935f9fd68be346ffacb"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Double-Y Waterfall/2YsWaterfall3D.otpu",
+      "bytes": 81127,
+      "git_blob": "e3c27239678eae75da38ddfebced45fde1582f86",
+      "sha256": "7c04357e5ff315f199570ac024ecec63e6ee79437939290adccfee80e2af6fca"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Double-Y Waterfall/2YsWaterfall3D.png",
+      "bytes": 12326,
+      "git_blob": "492ea49ea999477143d04571ab41d30d161f3592",
+      "sha256": "8aa8ca4454573a3455e33d42ded1c80ebb7058293aca55b1e8de753ead81e26a"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Double-Y Waterfall/2YsWaterfall3D_Icon.png",
+      "bytes": 2546,
+      "git_blob": "6d21ea03ccbd7fe40fe52625cf20ff6e2226c539",
+      "sha256": "607ec93b2c02f5dd81f4eb29e578ddb54e125af2547ab15caf961b06e7ac2220"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Double-Y Waterfall/2YsWaterfall3D_Icon_dark.png",
+      "bytes": 4782,
+      "git_blob": "5666486e572abddf5fb6bb599aaacfeb9df69c00",
+      "sha256": "33de10bbc12e38ec8c8cbb56d6ff6ececf2d995bf525c3c732e4dd063603e15c"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Double-Y Waterfall/2YsWaterfall3D_dark.png",
+      "bytes": 29847,
+      "git_blob": "ea6869d30c8acd9392b6d7c20124f0f4839173c3",
+      "sha256": "13114581b79ce4fb4c2582b6eff4f8f13532ec4829db2bfaa78b45e3822e6360"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Double-Y Waterfall/Script.txt",
+      "bytes": 684,
+      "git_blob": "72adf45270411b67545b70f7434fb3d57d9c2dc6",
+      "sha256": "4c2d013668aff2e7987bc10fc88e3f0c186c673c964177d12a441b82d9575636"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Double-Y Waterfall/package.ini",
+      "bytes": 1640,
+      "git_blob": "0e48cc4db03574179549e49c6e910cda54fac8ed",
+      "sha256": "4d003dd0eef096cca81f6181a5fbd8eadf6328f2453e45b307da285960c6ff56"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Double-Z 3D Bars/2ZsXYZBars.opju",
+      "bytes": 89555,
+      "git_blob": "882b912582918bb0f7685afdaad73b9f5b967eb7",
+      "sha256": "3cb6ab80847e1c6c2f8d907392df8320230c84bf35afd9f749a3da671f3ed26f"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Double-Z 3D Bars/2ZsXYZBars.otpu",
+      "bytes": 72584,
+      "git_blob": "a5d3ae11877524fc381bc1240a8a4b0db845e6be",
+      "sha256": "e83c2fe1331fd6e420c859df11e89ac582a23e1e1bd51287a840c58d5bdd9cae"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Double-Z 3D Bars/2ZsXYZBars.png",
+      "bytes": 10837,
+      "git_blob": "47bf074c866d9ad690f50c1f00f849dd34a1e70c",
+      "sha256": "12a360eaa34192be453fd0051d78dcee034aa9b7fe63d260176bd320f667552d"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Double-Z 3D Bars/2ZsXYZBars_dark.png",
+      "bytes": 35774,
+      "git_blob": "bb4864d599a3920f929cdf4222f24c3a6b96d881",
+      "sha256": "bb48a862844cbded7ee524952fa874466ea4fed7ad2f01083b2caa38f8248384"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Double-Z 3D Bars/2ZsXYZBars_icon.png",
+      "bytes": 2881,
+      "git_blob": "7c5db32aa091ded6e094d826d80a247021430a26",
+      "sha256": "c476a9dcc030b8023e10efc5b901edd1da12351dfc4dbccb4cff327676b3ecd9"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Double-Z 3D Bars/2ZsXYZBars_icon_dark.png",
+      "bytes": 4262,
+      "git_blob": "82af3216e4ef408633277b138affab437830c109",
+      "sha256": "3856905c36a46b43fc7de88a6ca120c59e92e27f897d7e2546718589b75db331"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Double-Z 3D Bars/Script.txt",
+      "bytes": 684,
+      "git_blob": "3c6bd32692a9683c59e5516972c960c1fb0c2be4",
+      "sha256": "d4f6e58eb9de83cac06f59cfe4f391d02ebd631ac7c96bf0a252538f24c1ff2c"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Double-Z 3D Bars/package.ini",
+      "bytes": 1722,
+      "git_blob": "75c11dff103ba61a6e5de37fe35f704f9a2a8956",
+      "sha256": "32297a2f33b9520b4e4055d0b8ada4b32ec65ecc591248d92d2da01393349a0f"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Gradient Filled 3D Colormap Bars/3Dgradbars.opju",
+      "bytes": 66476,
+      "git_blob": "8b2548bc29232a6a6acc7713e8c357a11a3a066b",
+      "sha256": "c965cec34c5395bf03d2742033b7215f2000ee4c770a1d19c2fb28ec8a609fd2"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Gradient Filled 3D Colormap Bars/3Dgradbars.png",
+      "bytes": 51161,
+      "git_blob": "ec135f4813184edbb138f64d6e886df9146fec17",
+      "sha256": "f57b2511db8e2b6026395e66b0c19b1b7a4bb4915c6e3dbce9e39ba4ba17515a"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Gradient Filled 3D Colormap Bars/3Dgradbars_Dark.png",
+      "bytes": 55490,
+      "git_blob": "b919fb70695c80e191e1561acc589b7dbd6afe24",
+      "sha256": "e2918aaf383be0d294c6c10992202c4da5aeb01f14235ebefc14aaca197f8ad6"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Gradient Filled 3D Colormap Bars/3Dgradbars_icon.png",
+      "bytes": 5989,
+      "git_blob": "b8f967579062b15140fa3e959d8b7ba6a2de91c4",
+      "sha256": "b75cf65f865ecf5709b2f17c4b549c871b4c90e92068bd000a71672da3797a28"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Gradient Filled 3D Colormap Bars/3Dgradbars_icon_Dark.png",
+      "bytes": 6104,
+      "git_blob": "da4b43725dd1df56e8f82e9998e959b4a8895f09",
+      "sha256": "50bbc6b15ae925a6f2d93e7891d5a2999911e3ed1e21dcebcdd2e87b230d0812"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Gradient Filled 3D Colormap Bars/3dgradbars.otpu",
+      "bytes": 137694,
+      "git_blob": "edf91628ff7bedbd60f8d8c697a983ece97ce4d6",
+      "sha256": "7103a500f440ebecdc285fcf788f2cbce470ec0993c91aa31ef69dafa2b637c3"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Gradient Filled 3D Colormap Bars/Script_3dgradbars.txt",
+      "bytes": 261,
+      "git_blob": "e335cbfe106a57929fae53778d954dba12dd32c8",
+      "sha256": "2699940109296cbed1eeae24dbf22b7f07c3854b85936e151d408da09b6d0da2"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Gradient Filled 3D Colormap Bars/package.ini",
+      "bytes": 1374,
+      "git_blob": "db8920eea7467f362c730ecbd47cf8bec16c9bc9",
+      "sha256": "d397f9bbb7b2923a6995f25c60066fd50918466aa8213d80f81e32949924efea"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Grouped 3D Stacked Bars/g3DStackedBar.opju",
+      "bytes": 83951,
+      "git_blob": "53401b4f8d4f11dd9ef6ba3110a3f5fc958d12a8",
+      "sha256": "98aaf7dcfa0695af1ae82cd37219721d39ee827817d69d472d09a0371ab13e0b"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Grouped 3D Stacked Bars/g3DStackedBar.otpu",
+      "bytes": 76258,
+      "git_blob": "920c11b51c3ee0987272bb3f15bc327f1877e134",
+      "sha256": "96d1129140311fb965feded67fe70cb41b2cfc2c2504f708024faa8d7e0364ef"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Grouped 3D Stacked Bars/g3DStackedBar.png",
+      "bytes": 13678,
+      "git_blob": "f19b8106faab0d8aa17d95509687a007af55ff68",
+      "sha256": "0953b2c774da17c931059c6c41bd2e77a74a85daf25d80db30ae82df3724b2b1"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Grouped 3D Stacked Bars/g3DStackedBar_dark.png",
+      "bytes": 35996,
+      "git_blob": "3555fa097c7b15ef7b5f1c43918e802680db0b72",
+      "sha256": "9a039ac6ae051a07e134117c52aafb3bb2e95648b86c35c76ccdbc723ada5583"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Grouped 3D Stacked Bars/g3DStackedBar_icon.png",
+      "bytes": 3196,
+      "git_blob": "1d5d03da450b2777af305b7248906e5097272ba1",
+      "sha256": "94705fd95d7e7965b67909540c8c65d93690abb10dcc29e53746de18010fa46b"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Grouped 3D Stacked Bars/g3DStackedBar_icon_dark.png",
+      "bytes": 4634,
+      "git_blob": "345d3bde341f6db70d0e43af8324525313156fe7",
+      "sha256": "92e9c09d7f5165841be83823abeff9a66ac3df78dd6ce6443a0cd4efa462fa9c"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Grouped 3D Stacked Bars/package.ini",
+      "bytes": 1562,
+      "git_blob": "e6831ce497323293e119d23cfaa766ea8cb1d070",
+      "sha256": "575e4155c7d64116d4d5a3c42726ba1787b6debca4940d0fe3984d09a10aee1e"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Raised Relief Map/RaisedReliefMap.opju",
+      "bytes": 206764,
+      "git_blob": "90d754f8d57c14ccb26353b51fee6e54f0b64363",
+      "sha256": "a7e89b861db3cd5b19ace5390f03ef300132b96a855feb648a37c87cdd764c2b"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Raised Relief Map/RaisedReliefMap.otpu",
+      "bytes": 150345,
+      "git_blob": "c8c43a8f85dd357fadc1569e20fdb2fa2105d0c0",
+      "sha256": "a988a5da1a9a5f4bc822eb5572d08dbe64372ad9e4379ef368c0e2d64c775fe5"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Raised Relief Map/RaisedReliefMap.png",
+      "bytes": 128820,
+      "git_blob": "541dd393cba6bcb93dbce0edac46177bd1fb56a1",
+      "sha256": "fc37e804e2ffe73b7c093e739ffb8a91cd2773c873f06369292edfe3f0fb862f"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Raised Relief Map/RaisedReliefMap_icon.png",
+      "bytes": 7504,
+      "git_blob": "06c7b00a55de7b42c6fdbb39f8ce63856e37b9ca",
+      "sha256": "ab11e453fa684dd0c4d1718aae6f214277f1107a738447413d8a11c921dba63f"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Raised Relief Map/Script.txt",
+      "bytes": 195,
+      "git_blob": "705ae2e67a613f8e4a45fd02396e3cad32545feb",
+      "sha256": "75c5cf2cacfe0c2d890cae5e24760b8d77fb77297060c9bcebf4d2caf2a9aad5"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Raised Relief Map/package.ini",
+      "bytes": 704,
+      "git_blob": "8b9de68de92a439aaef68c2ad9ad2bf0f6a37f26",
+      "sha256": "9d91d99c952147509a8881f6fd6015f52296227aace47ea770e7a3b87fdf52a9"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Waterfall with Inset/Script.txt",
+      "bytes": 603,
+      "git_blob": "5160ae07c909e2437d715c32974e8fc060a7e65c",
+      "sha256": "97425dcce062304b73460df23e8fc33b111d3b192b3a6d9ce526711c0b19e2b8"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Waterfall with Inset/package.ini",
+      "bytes": 1600,
+      "git_blob": "3884bbaa508388fe4e22adc877dd6ade3d50850c",
+      "sha256": "acf95c98870797b10836cd73777bf3e718ddc6872ccf5c08add251010eab8e3d"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Waterfall with Inset/waterfallinset.opju",
+      "bytes": 362052,
+      "git_blob": "e69ab52afced2c2c0056f69f03eb3416e40f7f3a",
+      "sha256": "dbc1e0872475d051572870f0e4098f0da8b1729e385186d5c89a1afc8508657b"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Waterfall with Inset/waterfallinset.otpu",
+      "bytes": 54028,
+      "git_blob": "1badba595174f4eca128b87d374782789959b6e9",
+      "sha256": "ec9925832d3ddfe52eae9ac46376aed40b0986ceec3d3fedf47d821e018147e9"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Waterfall with Inset/waterfallinset.png",
+      "bytes": 9013,
+      "git_blob": "964520ca3ab0eb780034596d77a340b0a31d7b6e",
+      "sha256": "b115c88d656fc28a4292ade0d8ce5e7f99097422706eb766c18f4aa77045396f"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Waterfall with Inset/waterfallinset_Icon.png",
+      "bytes": 1814,
+      "git_blob": "c30d686a38da619d4d6819b7706c0448b2bc0f4b",
+      "sha256": "28be7c97060c13572e029daa83fcf5f152932f59a19aae4f1b4d2da3ba7b103c"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Waterfall with Inset/waterfallinset_dark.png",
+      "bytes": 8899,
+      "git_blob": "dbe0950bc752bdc8958c1401989fb813e71c2002",
+      "sha256": "191b9f23682007a309d7f28e6ba063001f58af52de55401b57badd57ff63f0e9"
+    },
+    {
+      "path": "upstream/Graph Templates/3D/Waterfall with Inset/waterfallinset_icon_Dark.png",
+      "bytes": 1822,
+      "git_blob": "856664f7f776e9117abfeefdc5ce89a5277f8e7d",
+      "sha256": "d500cc904c0beda27a1a9ae1f4871a57bf37f9d28068f417032cfa4505316c23"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/100% Stacked Bar Map/PStackedBarMap.opju",
+      "bytes": 59580,
+      "git_blob": "d1d31f4c1e43b69f2282244e0ca3565defdb5bcd",
+      "sha256": "0f08b0d624499ff5f7e7ac4fcef2e7e6ebfedc3fe06fe2b01050e9deec2e9368"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/100% Stacked Bar Map/PStackedBarMap.otpu",
+      "bytes": 61049,
+      "git_blob": "4b7a09587c4262b9e517c72d8e68e3a62d6f43c4",
+      "sha256": "c07cd615c098bba30ace2b57e6387285a24477a2624bd41970ed8a8c9ab0d698"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/100% Stacked Bar Map/PStackedBarMap.png",
+      "bytes": 16218,
+      "git_blob": "b876fb64c537d510a85eae61bff1304bb6c956e4",
+      "sha256": "4f53cb493418513763f3e115ca393e14a453a2d18b07daf10254b7d0a8532ee1"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/100% Stacked Bar Map/PStackedBarMap_dark.png",
+      "bytes": 15738,
+      "git_blob": "5e8316f65fb3ccdd0459ae90d7c6e12e78e5cbfd",
+      "sha256": "32ec35cf970832e22d8a499266e01d5dd5e73bde1805a8de0b0f88b7d70ad744"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/100% Stacked Bar Map/PStackedBarMap_icon.png",
+      "bytes": 3293,
+      "git_blob": "ede418ddf9be99f9b16c5326b07df66756c08650",
+      "sha256": "4fa3d5aec3c798375bc9f31e50c5af5a7eb038ddebd63357ba9003adca02ca80"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/100% Stacked Bar Map/PStackedBarMap_icon_dark.png",
+      "bytes": 3253,
+      "git_blob": "15d95d0cf94049386d42f3c1a9680bf0dbe6a097",
+      "sha256": "4fac98a58f3f1e913698d69ad060f7c551c59476c29093e81fbd79fb649c1366"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/100% Stacked Bar Map/package.ini",
+      "bytes": 1456,
+      "git_blob": "dc83cbd8b2097d84d459d914a237a628458e011a",
+      "sha256": "9bccd8cacf6746bf137550861bba77fa53d9297f1b1841a3edd821578bccdd1f"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Bar Style with Lighter Fill/BarStyle.opju",
+      "bytes": 54942,
+      "git_blob": "209968aff979970e1710329f7f0ce03e86b46c16",
+      "sha256": "3ee774998cdc8997d45613c4fc82987102acae4348bd195b761b4fa873fcecbd"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Bar Style with Lighter Fill/BarStyle.otpu",
+      "bytes": 44529,
+      "git_blob": "83f1a5493a78f071e2752a7738faee5a19af4f77",
+      "sha256": "efe35b4eb440e2d96ad10e22590d3f1484533fe9aec7a12d85f40fe2b16b102a"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Bar Style with Lighter Fill/BarStyle.png",
+      "bytes": 9049,
+      "git_blob": "1caaf868fc1a650a91972557d6306cfa57236201",
+      "sha256": "f7fa2c1ee4d7e4f929e24e82516a25283fd1919cb21ca1d08426bc9a7693ee0f"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Bar Style with Lighter Fill/BarStyle_Dark.png",
+      "bytes": 8690,
+      "git_blob": "3fdd09b6a62f0d4ca3f3ad1405acdbfcf7abe11c",
+      "sha256": "71729e5a03818c6069d2c346b355a62e96bbc3f5432172ca3130d8d1089f74c1"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Bar Style with Lighter Fill/BarStyle_icon.png",
+      "bytes": 598,
+      "git_blob": "111d07ce608b75c52f675b363e622beb9a9c3478",
+      "sha256": "cf27a97f12a962618574dde519b9ef5e557792b5ce54876d4bed3d78e1c1130f"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Bar Style with Lighter Fill/BarStyle_icon_Dark.png",
+      "bytes": 378,
+      "git_blob": "66ae5776ca164405a7863bb422ad4fba3aa3e938",
+      "sha256": "01d6fcc988505cd4383e57af96f66ef234f1b278d2a3cc19fd8f4892a940510c"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Bar Style with Lighter Fill/package.ini",
+      "bytes": 1502,
+      "git_blob": "f7e3c7d06193a5a431e06ad0da8c0c34137dcaaa",
+      "sha256": "2d402cc5788b488fa44a542576151f5d90965935897663e4b6d0ee757729fc87"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Bar with Connected Line/ColumnLine.opju",
+      "bytes": 49973,
+      "git_blob": "090b3db093372f29f20c9db5872b5ccecd9e0edf",
+      "sha256": "23eec57be4b2a4913e1fcad49b0288ebff877fbc9b1867f77680ff7c52fe0b12"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Bar with Connected Line/ColumnLine.otpu",
+      "bytes": 49399,
+      "git_blob": "5482e2e83294a3f4acf35e4e4c4ae756cd393791",
+      "sha256": "3e7b04615612f360f5595fb60b512e5d1c37dcdff62b102368e4ee187a96c1b0"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Bar with Connected Line/ColumnLine.png",
+      "bytes": 12516,
+      "git_blob": "d8c84e92d85435e61576fa4c6719d9050ed03405",
+      "sha256": "bd15b41b6c9e9b6d12a8aa9e862d8fbb421b98f660a53d38b4e299af5f9aa5fc"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Bar with Connected Line/columnline_dark.png",
+      "bytes": 13373,
+      "git_blob": "c476aef8afdc94683e659c063ed8ccefac0d60a5",
+      "sha256": "16b3a1a02b5f0f77a7d91ffda265cb9e929c0a8f28425841da6537042fa9acd7"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Bar with Connected Line/columnline_icon.png",
+      "bytes": 1412,
+      "git_blob": "17b521278db9792c6333d808c9e6c55623f5ae47",
+      "sha256": "ccdd2335044eae0163dc3b092a7e67bda1eb8698c90d7f7c9465260ca6309005"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Bar with Connected Line/columnline_icon_dark.png",
+      "bytes": 1477,
+      "git_blob": "0384a7e0a9e3243d828dd4b05bcd0863895d8bae",
+      "sha256": "fe02897df1b6d385d7de9c9a7e2223bb2a23c7c90b0b3ee30de714527da65c8c"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Bar with Connected Line/package.ini",
+      "bytes": 1276,
+      "git_blob": "f8a1436caa551ef3c9fd4f0896e5289d0e595364",
+      "sha256": "79c9be79c23546cf44f524292616376e5a85186006dd40549e5f8f045cc455c2"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Bar with Stick/BarStick.opju",
+      "bytes": 88084,
+      "git_blob": "eff281423c6e887e00ace8ad301aea2a3a735306",
+      "sha256": "7b71f53a53c62a493da9ca0ec960d61cc04adbba8cb557209fafbbb398d2bb34"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Bar with Stick/BarStick.otpu",
+      "bytes": 27881,
+      "git_blob": "170f22e86f5e47e4c182eebe6e6bd9de90aa82ea",
+      "sha256": "0dbd4c4638d86e9b3061a5be372934e34e740ad56b60b65f9cf5cb342f730682"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Bar with Stick/BarStick.png",
+      "bytes": 1310,
+      "git_blob": "4fadc2edbf25d826efe0267d7471afb04a62d5d7",
+      "sha256": "bb7d487d3768bf8df1c1822f620817f36ec137d58131ad6c67afb0dc5a3c1a29"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Bar with Stick/BarStick_dark.png",
+      "bytes": 5650,
+      "git_blob": "8ca25b4e94e3747f1ef2624e5ccf575d51302fb2",
+      "sha256": "69ad9ad6bb44434003977e2defa04bb27c4a8803ca1d28550b3d49c64327895f"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Bar with Stick/BarStick_icon.png",
+      "bytes": 569,
+      "git_blob": "4495d0393243a167731361bca078d471d827c724",
+      "sha256": "706f487fdf7f32a09b3a406b371d4bacbc14b55619042a8d82a1c77e4f37f8d1"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Bar with Stick/BarStick_icon_dark.png",
+      "bytes": 394,
+      "git_blob": "5fe1f015c8169d4ca9f780d3405067f29d59e6a3",
+      "sha256": "ce623402c33997260480e0b8df4f660f7e9276e4d52039fa33091fa14bfb0020"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Bar with Stick/package.ini",
+      "bytes": 1034,
+      "git_blob": "194e3da7d0689aeee4f97f3d65f8cfcfd723187c",
+      "sha256": "8ea4b0630097fea2009342b02488bd4164a2a6744a731e872ad41b98768a7076"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Before-After Bar Chart/BeAfBar.opju",
+      "bytes": 111647,
+      "git_blob": "1c841997482de6cc51a232d68c087219d9241e5e",
+      "sha256": "1f3e6cdc853e4d3402203ff8baa9249426a6fd27b9f4d715de55eabeb7ad7721"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Before-After Bar Chart/BeAfBar.otpu",
+      "bytes": 72385,
+      "git_blob": "b0f99f9c6581c230cc0e8398af73aa881f8ca632",
+      "sha256": "d64835051739f0af59fee2ce7f584e48c54df27065a5011c24aca8194f3725a5"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Before-After Bar Chart/BeAfBar.png",
+      "bytes": 3560,
+      "git_blob": "48db64c7145e9acc22a440da2033a9db82ef916f",
+      "sha256": "7a3ead3ab7900b5858eb4defa8df0ce6faab54c0197f206bfa768c4feef1f2e6"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Before-After Bar Chart/BeAfBar_dark.png",
+      "bytes": 4592,
+      "git_blob": "669e426668ef227c808c32d8f6d391a422036574",
+      "sha256": "ad90b2a6af6dba0dc6a362d4b7e535a7d7bbafaa0b91f4a72b87c00fbc9e9d95"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Before-After Bar Chart/BeAfBar_icon.png",
+      "bytes": 1580,
+      "git_blob": "034fd89961af991f933213213d8e935f679195e4",
+      "sha256": "2ae34f1207fa1809e3b09b1d5adefef642b1a4ddedb37c16ec984880744107b4"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Before-After Bar Chart/BeAfBar_icon_dark.png",
+      "bytes": 897,
+      "git_blob": "3d7a4de247de28355ad9f8b696c4c735493d9f55",
+      "sha256": "51d33232cc3874cf31df926bf5c8a256decc13c5bd9b59d268ec651658dc9b44"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Before-After Bar Chart/Script_BeAfBar.txt",
+      "bytes": 1401,
+      "git_blob": "e9d870958f4d2b197405800066354020a48495b4",
+      "sha256": "882827ee2dcd4c125ed487a77435147facce7fbf32a675eae508ca8526bb1897"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Before-After Bar Chart/package.ini",
+      "bytes": 1008,
+      "git_blob": "cb90e28152b7d2b4e4f24b750174da3c5159f8f3",
+      "sha256": "002ad2f4aab277ac970804f506af23fd10254e270ab52d4f9c1ab1cae83fce5b"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Gradient Filled Colormap Bars/Script_gradbars.txt",
+      "bytes": 173,
+      "git_blob": "6b41c8fabf8626db70d6c3457a915ca06f3a9013",
+      "sha256": "ea2c440234b510009a995a70f9479811fa54153e5a915e00ca101e5888be157d"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Gradient Filled Colormap Bars/gradbars.opju",
+      "bytes": 44477,
+      "git_blob": "8ae64a3929e4fc521a1e7c15ccd5718a2f4e7636",
+      "sha256": "ba40563ff78f442b255a9936b88fb3cd6cc6496625d4ab5f1028c8568e19477b"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Gradient Filled Colormap Bars/gradbars.otpu",
+      "bytes": 71475,
+      "git_blob": "ab60e10c22cf43aea6c3eb0dea5ecb239b562078",
+      "sha256": "837ef896b13d8f64bed56864b505371adca5ba5f58e3a2cf5a92c17f44540eba"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Gradient Filled Colormap Bars/gradbars.png",
+      "bytes": 3861,
+      "git_blob": "54b2f30d9e1faa6f1002a9f7fcf9d23c06f3d4e9",
+      "sha256": "6d16a6f099ed580dade78c796a0fb652cec08605b759a6485bf29ef156b79b5b"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Gradient Filled Colormap Bars/gradbars_dark.png",
+      "bytes": 4047,
+      "git_blob": "1ca098d08c0e921940a7a9cc732f434773d1dde7",
+      "sha256": "1fc65033087571219cd047de3f806c3c58ad8c8b674866745c43e2c390c843d0"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Gradient Filled Colormap Bars/gradbars_icon.png",
+      "bytes": 550,
+      "git_blob": "9e9963e6689b84874c87def5211f91bd38a50ecf",
+      "sha256": "818418d99ce8aabf59c28363ab61157a796646ab18122b18792c285e8274cfe2"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Gradient Filled Colormap Bars/gradbars_icon_dark.png",
+      "bytes": 569,
+      "git_blob": "6c3fcd6b065689a5b90aaa7dc38c6853b42daa2e",
+      "sha256": "94349df667ab8b5ef4183fed88f8badc674df5a2bfed381dabd00df0b854b290"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Gradient Filled Colormap Bars/package.ini",
+      "bytes": 1418,
+      "git_blob": "c437691134ef86512ab31fdec286ba8c7e02f4ce",
+      "sha256": "d90e4240f9ae4f44f0bd8d035bc3aee17c5bc088dcc51e8430326cf8a97200f8"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Pie Chart from Categorical Data/PieCat.opju",
+      "bytes": 47456,
+      "git_blob": "4caadd124d444575cd81a49a7cd11006d83b26a8",
+      "sha256": "c030b32c9f75eeac0d2a1d203772bc3e8187fee6f1f803029cc66a31ec91dad9"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Pie Chart from Categorical Data/PieCat.otpu",
+      "bytes": 22606,
+      "git_blob": "24364a9940a8b7e0e8cab574cc8b83d88868edc5",
+      "sha256": "025750396ee25d1fd9f2d318a31205c6a3857eef7950b527d1da823626c5fbd3"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Pie Chart from Categorical Data/PieCat.png",
+      "bytes": 9484,
+      "git_blob": "74edc7fd678c8555a1e8b0bcdf8dd798ecc3aad4",
+      "sha256": "209ee219008421075fbc710d549c26fe342160c4293589ecf061642c6268a0aa"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Pie Chart from Categorical Data/PieCat_icon.png",
+      "bytes": 2071,
+      "git_blob": "b3d403bb770787c22a99927c8d0e799120c3e3e5",
+      "sha256": "47af94835bae1e856b1c06c4af55028301f8cc3009ab77fa6822bcebf3075d5b"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Pie Chart from Categorical Data/Script_PieCat.txt",
+      "bytes": 669,
+      "git_blob": "5402130f15dc5bf3e1e6744938b40f2918425c41",
+      "sha256": "a811493bbb9e30d5bb04862851406d9343de8b60e22ad7e77ac1f712486ff27b"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Pie Chart from Categorical Data/package.ini",
+      "bytes": 1432,
+      "git_blob": "7ce03aaa59831856c8c567de26ecdecf92f302d7",
+      "sha256": "03f40052836d69b0c42ed7caffa384225b3577c348f32cfa4d733ec68c0807bc"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Positive Negative Bars/PosNegBar.opju",
+      "bytes": 38678,
+      "git_blob": "05d6e28cc3330a62e76a0b4e89cfc6ca1d1c45c8",
+      "sha256": "44120b03f64b5bc48e413276beeb121856128f8156a284ce781c7ef8fce43309"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Positive Negative Bars/PosNegBar.otpu",
+      "bytes": 43059,
+      "git_blob": "c5258675f4eb0297fe254d4ff0da4f52072408c7",
+      "sha256": "da0408e014743aba1f2bc8a845069799d99f3eafd15f0f572b8673fb380c47ea"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Positive Negative Bars/PosNegBar.png",
+      "bytes": 8732,
+      "git_blob": "a5067431a797ba3a149f56eee262e9390ed86c59",
+      "sha256": "46cbd85fde8f437d24d71ee46ec619adadb8dda45f8c87137464d3c115e3b0c9"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Positive Negative Bars/PosNegBar_dark.png",
+      "bytes": 8546,
+      "git_blob": "a3966ac0a1b09da4e4574378bc995ab1a67c7336",
+      "sha256": "c273196274eea080836b1305db10900603c7962b8d81a944d0cdd1caa2434cd3"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Positive Negative Bars/PosNegBar_icon.png",
+      "bytes": 733,
+      "git_blob": "79c4ed275f1e31ca7fcf25784514eca38a2ae0f0",
+      "sha256": "ad7faed7236a0819ef172154a5767e7096f1a8479104178f7b1f7e516a0ee623"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Positive Negative Bars/PosNegBar_icon_dark.png",
+      "bytes": 701,
+      "git_blob": "4fda5fc717d7ab7c7b4a14c618ab08d7061fa738",
+      "sha256": "2605097e346e41617376f3da7e2c325a404890bc08b03d469d35e6102fe42b52"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Positive Negative Bars/package.ini",
+      "bytes": 1260,
+      "git_blob": "e6a255bf8630cb995f31d57e91e4fed5d06153ad",
+      "sha256": "a12ba533b85093a170bc95bd401b8351dbd6afd3f6f268c8d8f998200a4f66e9"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Side-by-side Stacked Columns/gStackedCol.opju",
+      "bytes": 53374,
+      "git_blob": "faaf474094003758c791f0cb5fe675e8755ecc34",
+      "sha256": "34a4e6368660f79ece855f7cc567b6632dd7d15b9220815b985927fc73c286e0"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Side-by-side Stacked Columns/gStackedCol.otpu",
+      "bytes": 46604,
+      "git_blob": "0c1cd24cfb6d536616ef08752de3f2bc9dd81625",
+      "sha256": "d5dfeb66e86dfcbaacdb55740adec7a1d9096fbba15532b4fc3352da869e02f8"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Side-by-side Stacked Columns/gStackedCol.png",
+      "bytes": 11801,
+      "git_blob": "fcd698677e6588c8427f895c09473e68d7be2ae3",
+      "sha256": "a911b81e9e2478fde95ba6d110c8617bb709b5d33607470fa8d169bb7cbbbb8e"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Side-by-side Stacked Columns/gStackedCol_Dark.png",
+      "bytes": 11626,
+      "git_blob": "b90da0bb9117516182b80d45aaf6684b845b0d68",
+      "sha256": "0b303002de6edfcf068c7de4e0192e3217cdc31239428264e23c3e9f540bb8d4"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Side-by-side Stacked Columns/gStackedCol_icon.png",
+      "bytes": 715,
+      "git_blob": "46b79630c931a9edeade129c57e1fdcc49d689e0",
+      "sha256": "d96b65be5c8d8924fb2dde010a7fb198c11fcf8d10e8381a758a6e94e7975a68"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Side-by-side Stacked Columns/gStackedCol_icon_Dark.png",
+      "bytes": 487,
+      "git_blob": "6efd9f7bcd0637e8174d4e6c6884df98e3175489",
+      "sha256": "12776fbb2c5c9537b9b53187d7dd1cae11505f0ad3dc2815659b631c57167ed4"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Side-by-side Stacked Columns/package.ini",
+      "bytes": 1750,
+      "git_blob": "7e9986e7b43a24b140051bc7579a403df01c4bd6",
+      "sha256": "e40e57cb720166cb275e06a0c1f1cfd1be23c1f8d885d0d2edc44bdba7ea6c1a"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Stacked Area by Y Offset/OffsetStackArea.opju",
+      "bytes": 488373,
+      "git_blob": "7f346f6a59805ff34e9b72f839f54b8f182206b6",
+      "sha256": "a432fac9ca56cddac88781c5851092ba208a7c69ba2326b45a58dfa7299dd638"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Stacked Area by Y Offset/OffsetStackArea.otpu",
+      "bytes": 42718,
+      "git_blob": "4292638dca2e42ad3de3a1eb1349decaf976c88b",
+      "sha256": "8f026e026f6df9a80ddbcc3b0e7243bbeeb776ee8d368bf6665133fec3e1a971"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Stacked Area by Y Offset/OffsetStackArea.png",
+      "bytes": 11012,
+      "git_blob": "e034b48cbd0229d1e7cc969b579cd400de6f3a0b",
+      "sha256": "3da434aa08e3e277fa8ee8cea63ee6a851a75fb5c3eaed89d8d8c8163344d658"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Stacked Area by Y Offset/OffsetStackArea_dark.png",
+      "bytes": 10976,
+      "git_blob": "a997bce9c83cde8df6638f9e787a89cfd1dd7f52",
+      "sha256": "fa52d8c289a7c7b8fe8d0d690b442694c004db2e24f0ad517c3745d8bdee2243"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Stacked Area by Y Offset/OffsetStackArea_icon.png",
+      "bytes": 2656,
+      "git_blob": "3718d9f0f995d49d4d2e24c0790a2b1c640901a6",
+      "sha256": "d63e525bea8ae401f78973fed19495d7ba83594715f70d76843ea251e28053d0"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Stacked Area by Y Offset/OffsetStackArea_icon_dark.png",
+      "bytes": 1918,
+      "git_blob": "5054fa1c2dfb9324b3caac929cc9b1177d28d43a",
+      "sha256": "5a4990a274fb8f92c0ec4898ff24c2efa4382a350600b744f96297789e4e2a8b"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Stacked Area by Y Offset/package.ini",
+      "bytes": 1366,
+      "git_blob": "71707af2bb002fe85223c37bccf9dd821e142928",
+      "sha256": "2cce8571659923321fcbedc1412a2eb3a508b6378b62e36ff630dfc5afe78495"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Stacked Bar Map/Script.txt",
+      "bytes": 249,
+      "git_blob": "32f288c0a601b6ba4e2a525a69f95537282a960b",
+      "sha256": "5d614110e38e765e682c16214feed0cb0c35180a5e1ac656d2dff3ccf4fcbd2f"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Stacked Bar Map/StackedBarMap.opju",
+      "bytes": 49387,
+      "git_blob": "444e4699d09d303283c880fffa12ade95c839a9f",
+      "sha256": "61bbcd9b9771792e28491da29c17b5db47f7af81c485f201e1a918293148594e"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Stacked Bar Map/StackedBarMap.otpu",
+      "bytes": 55071,
+      "git_blob": "64b63653929f16f37b62ee3710ba638d27e43a1a",
+      "sha256": "55497f0656b658932ec5e92f0cbb995246877fb7c1502fb7d74f4d9afb1ba0c5"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Stacked Bar Map/StackedBarMap.png",
+      "bytes": 15835,
+      "git_blob": "475cd2a87e41d71ceb04cc09e5967c478ff63595",
+      "sha256": "f2e8f684490839bb692794630ac0649bec38aed4720d71efb5fb7f9b5b7830aa"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Stacked Bar Map/StackedBarMap_Icon.png",
+      "bytes": 3080,
+      "git_blob": "04d0caa11e3ea0af987fde2e36235a928f4f674c",
+      "sha256": "419b2cd733ce5edf46a7f20fa9a17e0f6bfe16c36be112e081a6950ae671623a"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Stacked Bar Map/StackedBarMap_dark.png",
+      "bytes": 13048,
+      "git_blob": "bfd1230766680e03969afdb54c8ba3e8e47c5e93",
+      "sha256": "daf0c6decf8ab2fbab8214c245ddd249cb0ac4eac54f1c4d09a285847bdaabd3"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Stacked Bar Map/StackedBarMap_icon_dark.png",
+      "bytes": 2012,
+      "git_blob": "49f9f4f9b477f74e3745e0feddc1afc2ff2b803b",
+      "sha256": "e88879fd8df17e613a629df5a85a5246b091c2550956946806409994749b8eaf"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Stacked Bar Map/package.ini",
+      "bytes": 1342,
+      "git_blob": "15b8de33b11a52b149a7b1ef9ca01db7cd25068f",
+      "sha256": "21da308ac1ef82cc079fdd58af41eeb30cd7ce0c32762df46b4e1a2ef55e097f"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Stacked Columns with Multiple Panels/Script.txt",
+      "bytes": 1345,
+      "git_blob": "944af6949e527b23bbbebaca9719b2d0981d37f8",
+      "sha256": "be4d08fde434ccfeab7f718d5b6a98230e6e22ce1e925d0babc3f4674969c163"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Stacked Columns with Multiple Panels/StackedColMultiP.opju",
+      "bytes": 96126,
+      "git_blob": "b4e2890e19284892fae3e7753d07032ac21145cf",
+      "sha256": "42e9acc83b4a68d458ff11921973a3d8f77b7328e4953c4696c1bbe86ee5a435"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Stacked Columns with Multiple Panels/StackedColMultiP.otpu",
+      "bytes": 34318,
+      "git_blob": "0f327e1883ca00a882bf7a6f5855f49d225f8261",
+      "sha256": "b8abd77efb5cc1809d65a93a01b737db4482e24ea3856b76e639cc7f2a27f7bc"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Stacked Columns with Multiple Panels/StackedColMultiP.png",
+      "bytes": 2249,
+      "git_blob": "8a603fe785f0c677fbc44cd67f86e71925b07cd7",
+      "sha256": "142c4205f0c6c7f327d4f005c4c6b8e4536322395641dcc680e185afa2d70ecb"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Stacked Columns with Multiple Panels/StackedColMultiP_dark.png",
+      "bytes": 6921,
+      "git_blob": "43db12645481ff9c519ba2cf6559a708a7a46f2e",
+      "sha256": "80b36d77a645a5416888d57d124e27365c81acca460fe586897270877c86322c"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Stacked Columns with Multiple Panels/StackedColMultiP_icon.png",
+      "bytes": 629,
+      "git_blob": "9ae6c28f35ae289534a129b89f2967883a459c33",
+      "sha256": "0efc22556762ded281a1f198a2ebe0456b1524d31447cbadf712cb7b73e9c194"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Stacked Columns with Multiple Panels/StackedColMultiP_icon_dark.png",
+      "bytes": 557,
+      "git_blob": "01a15b5e33a90531906d832bc4b0a6b49a2c1b23",
+      "sha256": "4df73134186e1dd037badb3c4fb2f2d3316191097878faa90a044d897fa086aa"
+    },
+    {
+      "path": "upstream/Graph Templates/Bar, Pie, Area/Stacked Columns with Multiple Panels/package.ini",
+      "bytes": 1856,
+      "git_blob": "11d6179823cc17661ea10052af7e2fd648910c14",
+      "sha256": "b8c217348a194baa0910c39aff397237c767d288b070d8ca7f6a21dd40d3954b"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Arrow Plot/arrow.opju",
+      "bytes": 53562,
+      "git_blob": "07f3b9a3054e970c89b220ebd032c28b191ae849",
+      "sha256": "5743760a69946083caedb4805845be91324d245ea6613c702140746b887f2636"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Arrow Plot/arrow.otpu",
+      "bytes": 19679,
+      "git_blob": "cdd011d051967459e0a4db7ed19e1e02d3239c63",
+      "sha256": "9d84d8179506a0da7c32c174b94c2b4d00774b5c84832503082f025db30557f0"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Arrow Plot/arrow.png",
+      "bytes": 4130,
+      "git_blob": "c4a15861def3939b9a26c73097950683a25eb901",
+      "sha256": "4b6b9bbf0cd01ea94d51f7df5803c43789a59846b18423c2c1981830d0f044ad"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Arrow Plot/arrow_dark.png",
+      "bytes": 4288,
+      "git_blob": "6022fe8f3a10f223878491223d0269290baf3811",
+      "sha256": "9431526f2b79a5764a4b970b8b4e1240cf70e471c6cc86be13fa8059776b0e5b"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Arrow Plot/arrow_icon.png",
+      "bytes": 1107,
+      "git_blob": "8d3a97a25ffeb44edd749a9204ff7c8946372d9e",
+      "sha256": "4766914fc721d7b5ef35b29f5f26c0f2701e6dcbde1b5e2d0c1e74296951951c"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Arrow Plot/arrow_icon_dark.png",
+      "bytes": 742,
+      "git_blob": "c3340acc6193847a8007b6737a2c51f6fe12e013",
+      "sha256": "781aa4901f02b6e31aea38d4dad3262cad88133e4a433b8d4a1cbbde7be03c9e"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Arrow Plot/package.ini",
+      "bytes": 1076,
+      "git_blob": "e9bfa411bb719455c227327fd8bb3991c065b433",
+      "sha256": "5188a92b42266fcf8308a6a147120ec10fb8d41939c110ea3c2a95364b7e925a"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Color Mapped Line/ColormapLine.opju",
+      "bytes": 84024,
+      "git_blob": "5c9d98f46df6180cc40e9384d5ec34843cd0ea2f",
+      "sha256": "5c3433e76affcab75b39798f1109f71abe41caa3213b087ce4f9afdc21f092e8"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Color Mapped Line/ColormapLine.otpu",
+      "bytes": 37454,
+      "git_blob": "eca522ec36c4003b82d009f432cdbca2712327d4",
+      "sha256": "94d310b474d9eb152f271ce39b786121bbef0ea399750475b4a5d3b417ba3b2b"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Color Mapped Line/ColormapLine.png",
+      "bytes": 8770,
+      "git_blob": "e7d94f1314ff8376b5afcfd3167172e50052a571",
+      "sha256": "1cc80fde58a1abecc2d96443ba3f828318e3d3f465d30e79a7f9ea4d3d6248bc"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Color Mapped Line/ColormapLine_Icon.png",
+      "bytes": 1332,
+      "git_blob": "6a8aa2966cb1771052effc189d20a5f507a75730",
+      "sha256": "e0850caa6bb0d42ad2386fb5e7fe87c87d4104ed8bd3647b0100750c1378c0ad"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Color Mapped Line/ColormapLine_Icon_dark.png",
+      "bytes": 1152,
+      "git_blob": "ef228261c59edffc657dd20a19364307856228a2",
+      "sha256": "2931290d5eab863b2c977d9114bdb1abb424d3807b2169ce1ea8c08c6f99ca77"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Color Mapped Line/ColormapLine_dark.png",
+      "bytes": 9837,
+      "git_blob": "e71b5562f3ce300bbd00f9dace198f7cc1f68545",
+      "sha256": "2e6eacdfed3d0e74e785ee2c910ae85ae50cc363261c29d2ac98c92e9f8da7ab"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Color Mapped Line/Script.txt",
+      "bytes": 255,
+      "git_blob": "a4d98b90d7a05e92a56e693254e668da8eb3e93f",
+      "sha256": "03bda2a0f3a1f83f8913e0a4edb8bf0b24964ac594bfe87633e9531c1889b260"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Color Mapped Line/package.ini",
+      "bytes": 1164,
+      "git_blob": "0e69912d5f112ed37ba444b1cd08ed1c31cbc4a2",
+      "sha256": "01f2e1022cc6dab37f4ab442087f71135590fc4a972449b302d45e132be6c9cb"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Error Rectangle/ErrorRectangle.opju",
+      "bytes": 194231,
+      "git_blob": "0a43831c1c433984f7037db3528079893b18da42",
+      "sha256": "d365e3adce291593eca4d41b06a0c7d622ba3e287cdc759e301ec2d10c0701f8"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Error Rectangle/ErrorRectangle.otpu",
+      "bytes": 15688,
+      "git_blob": "5b9bea992fc3059be625d65ef17077dd79b13110",
+      "sha256": "687b0bd93a62e1941809241d21def93160f418bbe79a8b4642e7c2faca2b1449"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Error Rectangle/ErrorRectangle.png",
+      "bytes": 3721,
+      "git_blob": "17e9b45dd1700a951b39e45003f8078da4156193",
+      "sha256": "1f87dce6764cfa9ca37cd09b976a96f14f28dee677615fce0f79047aa8d04b5a"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Error Rectangle/ErrorRectangle_dark.png",
+      "bytes": 3540,
+      "git_blob": "c49f2cbf7a9617bd4b653fc697e4d0578d5c5cae",
+      "sha256": "0f655254b79b60f1b7bd28bf6de4ef35752c52f366b213368a95d4c8bd7c314b"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Error Rectangle/ErrorRectangle_icon.png",
+      "bytes": 1306,
+      "git_blob": "a2a76371d7b5472c68b57711f0745d77f65dccfd",
+      "sha256": "b98108161b09e32c5274498df42e3501bcf8e6468fa133d5781798661be51738"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Error Rectangle/ErrorRectangle_icon_dark.png",
+      "bytes": 526,
+      "git_blob": "fd4692da2ed6108e29f0e29653e63d421a7117cd",
+      "sha256": "1d3fa206da5fec06f098d688553234ac6ea6a2cf0184fcdab34b9b113e8815d4"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Error Rectangle/package.ini",
+      "bytes": 1314,
+      "git_blob": "71706ad98942e694c2f20f017fb15308c3da3416",
+      "sha256": "c33875c3dd2ca442e1aacb2a9d4d2b5604a7b36902cf8c1ece59d8adea4aebdc"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Line with Grid Lines/Line1.opju",
+      "bytes": 51979,
+      "git_blob": "c0bd3fda7e821fb88a132f15a7af43932c86e998",
+      "sha256": "75b5fd292cfa9982d49d551a2f4ec3c78ff6823d6c85794c56ca0d56c792d382"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Line with Grid Lines/Line1.otpu",
+      "bytes": 53422,
+      "git_blob": "6c814c9da00dd0ab809c8bf76394c1c8c97680d4",
+      "sha256": "b404b0e698da66cca7065c115ec58c473f54ea15c9b9a93c6971f3de2a91d86a"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Line with Grid Lines/Line1.png",
+      "bytes": 12214,
+      "git_blob": "725fc321848a40322e6c8063aac9a595fd5968be",
+      "sha256": "a8c581cdaa96a74f4a42341925f4dcacc9f734a400c39579ad6e1189dfbf7dbd"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Line with Grid Lines/Line1_dark.png",
+      "bytes": 12105,
+      "git_blob": "3d93f186a6573af2198bbbeb11ba058a87189591",
+      "sha256": "27fa50fce5c0affc9d931f2c11f3ea213b93cca11943834b4d74f966c0d30731"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Line with Grid Lines/Line1_icon.png",
+      "bytes": 2244,
+      "git_blob": "7ec085155d7d1bcb955e1592fdc7222af08a6f05",
+      "sha256": "eff7ac4e9516551c8dd7c8bb1078d392511d248121e3fbd4b0745e45e8900969"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Line with Grid Lines/Line1_icon_dark.png",
+      "bytes": 1724,
+      "git_blob": "b9f4075b1dd489351d1c690721c1409f47d7ea0e",
+      "sha256": "d9d6e0fff4c935d1679e78c5ba6339cd0ad0bf66b95f524abe291caf81ef7318"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Line with Grid Lines/package.ini",
+      "bytes": 1170,
+      "git_blob": "0aaa0d045bb1c9d09dd9057dba04f02c8e8c334d",
+      "sha256": "d4a8e2f9ae1c2fc29fa620bec627d6e7233f7874566729c800034b789c40fe9d"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Log-log Plot/LogLog.opju",
+      "bytes": 84781,
+      "git_blob": "b512aa6c7825621b7672742de404395f5f07ca28",
+      "sha256": "6c3e2a66ced94f71a09b262f869d84674d6806048be33199d4fb8d485fdf3f76"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Log-log Plot/LogLog.otpu",
+      "bytes": 88122,
+      "git_blob": "fc8988e1997809e729781a1d89363c0918a3fce8",
+      "sha256": "cfe05f8502526ef4325b8e75576497db76d34ccf01ebac30a0d5a1b23ba8e7d0"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Log-log Plot/LogLog.png",
+      "bytes": 16292,
+      "git_blob": "cbae995079a9fb5ff5395d0cacfcbfce85219d78",
+      "sha256": "d32615453182485e939fa032b62ce68c2dbe19415f88b8ce4cc2f202463e205c"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Log-log Plot/LogLog_dark.png",
+      "bytes": 16416,
+      "git_blob": "70b92f5fbae2e4a8ac7e36b270fc08aa592b569b",
+      "sha256": "c564c57adf412eedcaf4a8f1333122f37c9badda281b3f963fa3073629371a7d"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Log-log Plot/LogLog_icon.png",
+      "bytes": 1529,
+      "git_blob": "cc4eff6675ba5029d5eec26eb8028bc5dd8ed24f",
+      "sha256": "1b8ba4da36a2fea05536393da4ba58079ed286a85a00987762d5a030b80cd51d"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Log-log Plot/LogLog_icon_dark.png",
+      "bytes": 1266,
+      "git_blob": "cd18effc6429a9a6036909a4f4e832de18977b76",
+      "sha256": "457d4dc08b7aff89f8511d51e0652f157610e16ad620c9ada146e15f46a27e65"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Log-log Plot/package.ini",
+      "bytes": 1066,
+      "git_blob": "7642c5cd5e1f81935173bf4e1f41b4286aca228b",
+      "sha256": "fd01b30f996224d0b6f4fcf219a355c76558edf2c617110e74009dea5d3f02ac"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Matrix Bubble/MatrixBubble.opju",
+      "bytes": 71433,
+      "git_blob": "db2c7117e47232ee584f2348d2fcf7c7d9eb6b66",
+      "sha256": "7f114ad9ec97410b282f4a1559fe46c2fdb36d524b3bb9b91cd87ad0420fe5c4"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Matrix Bubble/MatrixBubble.otpu",
+      "bytes": 74971,
+      "git_blob": "123730d46c5e96dde17b5b9b8a73b0ba60db4dd9",
+      "sha256": "e2bee769f4ebe482898e8a7067eebd28065fbd41913aa5c3f2fcadb7ed747b41"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Matrix Bubble/MatrixBubble.png",
+      "bytes": 18509,
+      "git_blob": "e208eefc12b13d0dfd361b25801423e983f48766",
+      "sha256": "c87054a1decc3faec963c8772a3e0b570a454ee27d503a68274d8b1559377e48"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Matrix Bubble/MatrixBubble_dark.png",
+      "bytes": 18614,
+      "git_blob": "585bd27eaa249d233591d39231b16620cce9e5cb",
+      "sha256": "a8786124f92ef072e111cefa90da820dd5368f7d8b9e2244477ebc97ac5c43d8"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Matrix Bubble/MatrixBubble_icon.png",
+      "bytes": 1937,
+      "git_blob": "231f79ab227fcd1c36d24b4354ed8d2564c0214f",
+      "sha256": "20d366207f8957bde8d9cf3a46a472678172191cef508118142bfe0eeec2ecbc"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Matrix Bubble/MatrixBubble_icon_dark.png",
+      "bytes": 1920,
+      "git_blob": "9e42b011883f9f34a3208f63c6399cea9989d031",
+      "sha256": "851fad94c5c819320d9286e32ecbc3820a0c697e63a4433e10d471da00ddf372"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Matrix Bubble/Script.txt",
+      "bytes": 263,
+      "git_blob": "687cc1d2f34ae490daeaf8357a15c97dd6311cec",
+      "sha256": "443bb246332963cc9242047e411105b3019e8d7fe6450029e1cdc0e5747eb0d2"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Matrix Bubble/package.ini",
+      "bytes": 1898,
+      "git_blob": "238edc500adb963243526f72169badb2e44fcca2",
+      "sha256": "e4dc556d2c4f50b67353ed3c3152212b5c796ce7faf9c7ac70ce3501f0446580"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Mean Line on Graph/MeanRef.opju",
+      "bytes": 85812,
+      "git_blob": "d771469ff56d3f69da1af500e977f3acd06bed0a",
+      "sha256": "58ab3a7f9bde67fedc6ab64ee6b4aea474691875924f3a698189067fc3ec80ad"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Mean Line on Graph/MeanRef.otpu",
+      "bytes": 75340,
+      "git_blob": "766f0fd5133813da40b6ff52c7eae9eb3e3ebe5b",
+      "sha256": "355c24bff7ba14b0abe91216b16797a4a326f69f5409a75f0721ff355383065e"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Mean Line on Graph/MeanRef.png",
+      "bytes": 20282,
+      "git_blob": "14a8a5bc6a4a6e935bb0dc91c4d3eeee31366d31",
+      "sha256": "2380931d45032c718441d21a268b2148f68559ef6aaab9dd587d6feb20b4e6f8"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Mean Line on Graph/MeanRef_dark.png",
+      "bytes": 20179,
+      "git_blob": "af1da156f798ab20e8c4d27e512264fb83997a17",
+      "sha256": "c74ec5db6e57c990b0ac65fd6a28943ee45341bd65b273319a8722993d94892a"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Mean Line on Graph/MeanRef_icon.png",
+      "bytes": 2759,
+      "git_blob": "be774b5c8d55daf7457d3b17e400a48b4a53b890",
+      "sha256": "bb747e1d9bb2f04a096eccc0d0b34e4c374f1d504bb7726c7e766a8e2de6aaab"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Mean Line on Graph/MeanRef_icon_dark.png",
+      "bytes": 2737,
+      "git_blob": "c25eb41b092be203b6e0e4eb7b9f638e0534f568",
+      "sha256": "b9053f3a4df6b99fc6bf65886f9aa4d1e22cf9034d2c205eaa6de1fd871c56b4"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Mean Line on Graph/package.ini",
+      "bytes": 1016,
+      "git_blob": "8100bcc874da8849549ec650fa5cd7421ecc31a6",
+      "sha256": "252152d8acf35ce4d691c4fe479786cb8118f5a596b5ccfdd6a580901ac577bc"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Multiple Plots from XXXY Data/XXXYPlots.opju",
+      "bytes": 72830,
+      "git_blob": "12358175259a9e554d3cea17236538db6e6fbeb7",
+      "sha256": "a36ab92963bd234a3212e490b3a85a596d360c8dfe3d656b6a831bf79bc1b00e"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Multiple Plots from XXXY Data/XXXYPlots.otpu",
+      "bytes": 35754,
+      "git_blob": "2daf216be67518b73f20855ae301cb82da28fde7",
+      "sha256": "38cd5724cc9e5f295f6afcf90e6d53dbb65f3db1acfa6c6b3a8b1cd9e4d7758f"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Multiple Plots from XXXY Data/XXXYPlots.png",
+      "bytes": 7184,
+      "git_blob": "47889564843d1694af45fac786c30ab4df398fd7",
+      "sha256": "ac09d200a41440e5d801f3af63ce5da3ca6b09197ad47cee93906b6bb2403320"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Multiple Plots from XXXY Data/XXXYPlots.txt",
+      "bytes": 362,
+      "git_blob": "d31e9ae651e9d0009a76004720efefcac05f442b",
+      "sha256": "1876111f372549996774c1115fbdf25c0955000b6b923576a540a91c14640103"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Multiple Plots from XXXY Data/XXXYPlots_dark.png",
+      "bytes": 7214,
+      "git_blob": "b02845bb3d2418bd98c55f841ef7ae080369d40c",
+      "sha256": "3ab5e10adb6e965a13e9b58addbf6f69acb0ae688553d2b5354b05d8a5c34998"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Multiple Plots from XXXY Data/XXXYPlots_icon.png",
+      "bytes": 1726,
+      "git_blob": "3fc994ef3d0223cd8f2af740dcea56be74f7ef22",
+      "sha256": "ab434aaa3ee679852b9b8cf882adbb6b2270a6d218728e3af6ddcf47025ac3f3"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Multiple Plots from XXXY Data/XXXYPlots_icon_dark.png",
+      "bytes": 1861,
+      "git_blob": "b5eafa03e185bfe82cebe912d780f7b195c008ba",
+      "sha256": "0b15d639da9568980a06bac0d1c888d189ce9429adc6008df469f9a10efcab23"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Multiple Plots from XXXY Data/package.ini",
+      "bytes": 1166,
+      "git_blob": "ffecf973db4681d5edb3c0eae66c23acb896eead",
+      "sha256": "23a77b347bdb6f30cd1b196cbf2910dadbe84312cd981f16be7dd8b7eca4e1cb"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Scatter with Smoothed Lines/ScaSmoLines.opju",
+      "bytes": 51596,
+      "git_blob": "4e8dc522e714bb8c57c8b0b94a4748d53bbad7ad",
+      "sha256": "777fed37b169c041f6dff7707020fd37dea93282ab5198147d03752a43ae9a08"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Scatter with Smoothed Lines/ScaSmoLines.otpu",
+      "bytes": 53932,
+      "git_blob": "db867198252c132ae296a92c4b8b23398943743a",
+      "sha256": "ffe962ec1ebb67fce93e014df5aa969bbb9861fe2192dc2c91f5c1b7aa357a23"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Scatter with Smoothed Lines/ScaSmoLines.png",
+      "bytes": 13488,
+      "git_blob": "4277b1dca4db361d872c16204818c4a9391531ad",
+      "sha256": "e8af077128b1a228c7d359cccb870798188e346e171cc69206cdcbae5664ab07"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Scatter with Smoothed Lines/ScaSmoLines_dark.png",
+      "bytes": 13534,
+      "git_blob": "7c380a50722e29483e93bed95f8823aa002f624a",
+      "sha256": "6de38a117b099cbb2bdee1e7d7bc1fc81e5d0281b9f8beb685b16c9b0dd5bbda"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Scatter with Smoothed Lines/ScaSmoLines_icon.png",
+      "bytes": 2790,
+      "git_blob": "b7318c65a4061d133e04130126b75cecfcf12e53",
+      "sha256": "65e49ab6018d8ec4ac2f376e6fb87b2696ebe455ed8d1b4d6449f7d6cbe0248e"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Scatter with Smoothed Lines/ScaSmoLines_icon_dark.png",
+      "bytes": 2134,
+      "git_blob": "f5832527897e7307917773e44089208a3a99a9de",
+      "sha256": "83a694397b33dad8ed8c5fb07bb8ec0ae83f8badfd0753806219f8598c2b9d37"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Scatter with Smoothed Lines/package.ini",
+      "bytes": 1166,
+      "git_blob": "4d713a5e434c1ac819a4c9af9f2f58c95524b5f1",
+      "sha256": "0994c63bda9dd7ee975447518220334076c3bade888f685f62fcb6a84ad24699"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Sparkline Chart/Script.txt",
+      "bytes": 266,
+      "git_blob": "45662cfcacfc9f397ded8e58fc7ff54a8a3e8003",
+      "sha256": "26dd19a1023c0008e40cfa65c46ed17965557d4cc088cd9b98691160121c13cc"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Sparkline Chart/Sparkline_dark.png",
+      "bytes": 7607,
+      "git_blob": "e06c501eb9646236085a4a2f6bc0b350a03507ea",
+      "sha256": "882161fe8a528ddd5f803dd8ed2ec26b3f1e11558d2edbfc5113bcd4d78de5b4"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Sparkline Chart/Sparkline_icon_dark.png",
+      "bytes": 1486,
+      "git_blob": "fdfde307fa0c5a6d8cca6dbe35aaa99202b771a6",
+      "sha256": "cfbb92d7b41ea48bdb7d0ed5e44a66f99a1d7550aea09ab08faafd38cbced72b"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Sparkline Chart/package.ini",
+      "bytes": 1118,
+      "git_blob": "fdcc911295322b815ee98e1b8cceb5bb9f8e184f",
+      "sha256": "552ff09b898065fd23f185774fec3b81a9b70c93c19a4fb1ea9d51a76c2c4adb"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Sparkline Chart/sparkline.opju",
+      "bytes": 48502,
+      "git_blob": "725ef70a2b6b9beebf4226e2c0a3a592f184363e",
+      "sha256": "41432c22d40c4a58424b7dace4f0a332eb68512269fdea980f3c970d78c2d25a"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Sparkline Chart/sparkline.otpu",
+      "bytes": 35437,
+      "git_blob": "47dbf9baf990d5a5ac5b6286c3d74e7143560b38",
+      "sha256": "74bf36162ef9f81be201b4c4f0356b90540b919cc39cf2962e67189ffba51474"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Sparkline Chart/sparkline.png",
+      "bytes": 7426,
+      "git_blob": "d06d7f34dccb24608577b26b6f25f3da869818f0",
+      "sha256": "cca9a139d56a2c936168992bc9a6d7bb95740d08df79d9e7462610d152c7fc11"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/Sparkline Chart/sparkline_icon.png",
+      "bytes": 1935,
+      "git_blob": "fef2e0dbd530a4ffa8a8f131e744cbb558bc3692",
+      "sha256": "b8552f05c1580268e850083fced1b5985857390c9b96cb76dcfe587e1692c18c"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/X Offset Scatter/XOffsetSym.opju",
+      "bytes": 50366,
+      "git_blob": "d44e32b9d3873605bb8556cfde44f66a4b41c748",
+      "sha256": "2a65507070ffcc8be8c001110c82970410de285ed8ce9c819b919cc30ed131e5"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/X Offset Scatter/XOffsetSym.otpu",
+      "bytes": 34237,
+      "git_blob": "2f8d07350ea054c0648ca6374f2d156010c8c530",
+      "sha256": "9d8fbfde159927d1ee08cffcbda5699187a596b640c0386bd872d14eb1249a34"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/X Offset Scatter/XOffsetSym.png",
+      "bytes": 2440,
+      "git_blob": "1903b1a99f1e59d96b9fa3358521dd38c39f1513",
+      "sha256": "7b72ff171828c024737d9a49c01e39ff9f35df010b4855027330198064a555aa"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/X Offset Scatter/XOffsetSym_Icon.png",
+      "bytes": 906,
+      "git_blob": "5e5dca96d07c7306b31906341c2d386ca55aad0f",
+      "sha256": "636f848fc5c2f01a86fc91f14d8724685fad908ca9e07697c452714af989fa7b"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/X Offset Scatter/XOffsetSym_dark.png",
+      "bytes": 5090,
+      "git_blob": "be4ac71b1ce8bf955a6ec1e1c8ea5da8e728e7ad",
+      "sha256": "24d03cb3371ce5e9269c9560318781d446e926a2d486cb84d00f736645cdbc40"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/X Offset Scatter/XOffsetSym_icon_dark.png",
+      "bytes": 638,
+      "git_blob": "7d0669e445bbd886b01d0b65d1cfd4c70093fd80",
+      "sha256": "6cec5c1c2411950605461b1875b7e0661c15e6040ae5d2af00007734ec0266f8"
+    },
+    {
+      "path": "upstream/Graph Templates/Basic 2D/X Offset Scatter/package.ini",
+      "bytes": 1470,
+      "git_blob": "ef961e3b5c0864f8941a1a19c223b26683899903",
+      "sha256": "4125cb577317db3df1f6698530a9f89582a0696e23323e88849500824a2d476b"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Colormap Sunburst/Script.txt",
+      "bytes": 49,
+      "git_blob": "b4bd917c82b989c73b7e3e73b56fd6925a0e3978",
+      "sha256": "d1349e23051946d9266e828be2a0828fb88a4615f88bb6b17b8db71821d6c621"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Colormap Sunburst/cSunburst.otpu",
+      "bytes": 107039,
+      "git_blob": "d1a3d4158cfc27097e24f23abb4b294b899f316a",
+      "sha256": "20cf57cfd8b96ae9b8ca80d5579e1e6b02d1ddc2e7bfff187115f9716354baf3"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Colormap Sunburst/csunburst.opju",
+      "bytes": 143275,
+      "git_blob": "a4859d16ebfa72bafc54f60e5b6abe7f846f1d47",
+      "sha256": "26a47f2143d560059baf4ec32c5f4d7bef82a7e270c9da2af0880e0987ebc966"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Colormap Sunburst/csunburst.png",
+      "bytes": 28447,
+      "git_blob": "2b34ba370e50553f8d33caf4daa5fb59b85a1ec5",
+      "sha256": "91310bbbb191c8fdcca6bc37ec2ae16363088bb3e26c39f576cdce47898e0c40"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Colormap Sunburst/csunburst_icon.png",
+      "bytes": 3691,
+      "git_blob": "397d2c67b4d00820421097dfd1c4d5791bbfffba",
+      "sha256": "0bb455ca9755114041e9ce56c6bf3a133b68205e56c5e3614386fc8542aa0cb5"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Colormap Sunburst/package.ini",
+      "bytes": 2012,
+      "git_blob": "a55c040c43e8572a517120a89f6a6d292116a1ab",
+      "sha256": "63e1989662585fb60128405721e7d1e023fd6b01afed3dbd3e8bb7e5dd306ad0"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Gradient Sunburst Chart/Script.txt",
+      "bytes": 418,
+      "git_blob": "752ef168eeac5c48b3510e317a986fad0d24da89",
+      "sha256": "136ddcdf0aa69db64c2fc7ce0b60cc00f23aad725909bbf27c2db7be15223714"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Gradient Sunburst Chart/gradSunburst.opju",
+      "bytes": 76672,
+      "git_blob": "8041d049e76e4f5561cfc3d8f6f58c614f359a6b",
+      "sha256": "b461a69598e3b2f9a700233f86032b583d49336add903741453b665396c9caab"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Gradient Sunburst Chart/gradSunburst.otpu",
+      "bytes": 47238,
+      "git_blob": "aa78674ac33024f5fcae5facce64ac5fab685d83",
+      "sha256": "6405e4b7bc5b49ce3a8fc5a8a4bfafa01927c92052f0d765157fb078c975d4de"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Gradient Sunburst Chart/gradSunburst.png",
+      "bytes": 16111,
+      "git_blob": "3596564341d9ffc32090125e48305f7857770bd0",
+      "sha256": "c0692cb1c2acad4cdbe0c5d9adcee29d1d2cd25e122bd7db89111002e25776c8"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Gradient Sunburst Chart/gradSunburst_icon.png",
+      "bytes": 3501,
+      "git_blob": "7f8bf452ce42ebb56820d221272243a141977290",
+      "sha256": "fe4b02de8cb93dbcb8d876d67c4aadda670060c9c48240c2e0f8aefedecbfc81"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Gradient Sunburst Chart/package.ini",
+      "bytes": 2080,
+      "git_blob": "b41e32ee393f9b21007512a97ffc8d1beaacf225",
+      "sha256": "489c46fc43608ed0d27230c8d10bc12f3cd7bb8226f01a004498a0066ee0ac23"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Grouped Circular Bars/Script.txt",
+      "bytes": 310,
+      "git_blob": "aa6b03bbdf783fe47236cfa2c80e8271e8884f44",
+      "sha256": "219034986002876879bcdc7077e27d9c1127ef988d4b6870a00ed676fef36e35"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Grouped Circular Bars/gcirbar.opju",
+      "bytes": 68365,
+      "git_blob": "4a99badb7305199d639701d956cec446d71fe990",
+      "sha256": "97a52dfa9e4a2b276d663462a9521b5a9dec79528268fb1dea8da937400619b6"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Grouped Circular Bars/gcirbar.otpu",
+      "bytes": 64558,
+      "git_blob": "58eed3a4ba696d00c83cac4cf565e4abc0a3587d",
+      "sha256": "c4651a0f1a6c69142556b2cc3076faef838de9c261d90e30b31feeb2e445255f"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Grouped Circular Bars/gcirbar.png",
+      "bytes": 15000,
+      "git_blob": "1edcde5b7f2acdb47503decfb2b6b29eadcac8c8",
+      "sha256": "950cacf7667cf71c4bf3e73542c4904a0c793d1fb434d1efefdd527c60a03b2f"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Grouped Circular Bars/gcirbar_dark.png",
+      "bytes": 15025,
+      "git_blob": "8337496d91ad437f1ccfeab4e6d50c6801dde564",
+      "sha256": "64bd012b85477980caa8cdfeb0352bac60853949a2a5df9b4eeabd778a0f28a4"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Grouped Circular Bars/gcirbar_icon.png",
+      "bytes": 2267,
+      "git_blob": "18aa87b3f8d7f87efdf702e50ded931a469be509",
+      "sha256": "2fb4fa0aa481fa3498b7580944025c65e38cedc292d3c96f1212a7ee1454efb7"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Grouped Circular Bars/gcirbar_icon_dark.png",
+      "bytes": 2263,
+      "git_blob": "b08cb90535e2451960ad8db85c68cf23638fb5ce",
+      "sha256": "ec1c376fad296e999756a4cfa9e40d46ca9736e0c0b9b0a14e26ee5e2ba7ef94"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Grouped Circular Bars/package.ini",
+      "bytes": 1442,
+      "git_blob": "04b8aa8b53ec3a1c8483f189845479593656a76c",
+      "sha256": "0c6370fe612c2a0a53741fd6b4aa14a3609b7afcc0666496745104f31d9a2028"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Grouped Line Plots/gLine.opju",
+      "bytes": 59780,
+      "git_blob": "23daa20551b2abd5a528b2e1f7057b452ab3b4e1",
+      "sha256": "7df1a6d13a15a7ec7cfac8863a2c06b07b320ef540c785b2085f81e535eaf04d"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Grouped Line Plots/gLine.otpu",
+      "bytes": 26825,
+      "git_blob": "584a75fd771120e501368dd2b45dd623f0d4edea",
+      "sha256": "eeec4a5cacf0b787f57e20e50d443bf2ad7dc1fb91c9a1b953655635f6ad7251"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Grouped Line Plots/gLine.png",
+      "bytes": 6778,
+      "git_blob": "aa07f8933c8f4532f6b401b020fc44626a69045d",
+      "sha256": "26e441fd7adc26bbd97f7a9ba86a4e1b44c871b2c365dfba14cf24027476cae2"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Grouped Line Plots/gLine_dark.png",
+      "bytes": 6741,
+      "git_blob": "77e64717f344d9ad32c93d40164839e3b64a62f1",
+      "sha256": "713b15eeade2c7d24af1c75caee8bce02a22397a09475c136170c1efe47e7fc7"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Grouped Line Plots/gLine_icon.png",
+      "bytes": 941,
+      "git_blob": "30fd714b89ddf6a16790aa143c06dd71c2bb0b6a",
+      "sha256": "c46f0a065d9c5d3e7c4d5f7e6f33d6a5205e20ab050c82f0b7a1a342e0924540"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Grouped Line Plots/gLine_icon_dark.png",
+      "bytes": 946,
+      "git_blob": "a8754a8697eb158b31d7f4fb0bbb388e778a82cd",
+      "sha256": "f4b2189dced9d80be4911207596dfa370576ebd2c4e98606a5a71f8d97aac5d7"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Grouped Line Plots/package.ini",
+      "bytes": 1504,
+      "git_blob": "c64f9554fe6fbc172368a3f32b08df29f6318dde",
+      "sha256": "ba3f088fb40ba1e1a2699e867845e22a36966a420ee1e90631c4d62768bc2e86"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Grouped Line and Symbol/gLineSymbol.opju",
+      "bytes": 59437,
+      "git_blob": "9bab06bc7ecaacd6e21084f63efa95e20665ae62",
+      "sha256": "385a5b03f396ec01a3baf9b6912550581a387b46570b3f6273c1db6dbe5a834d"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Grouped Line and Symbol/gLineSymbol.otpu",
+      "bytes": 29286,
+      "git_blob": "e8fef378a9c36c3c41dea11821d406f6c7839044",
+      "sha256": "c9874577c0812ba860deaf6e4bad0e1c01369cf21ddbb68799451f5d112460d4"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Grouped Line and Symbol/gLineSymbol.png",
+      "bytes": 7628,
+      "git_blob": "20573253de2a23803cfca620f7de14c2c935322c",
+      "sha256": "e2f2713933ca975c6bf5308db322f16800746f966513180ecd22adf37734a8aa"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Grouped Line and Symbol/gLineSymbol_dark.png",
+      "bytes": 7591,
+      "git_blob": "cf3207c2f6fa69139f5ac3c880c232d9563a818e",
+      "sha256": "5f33f1468ca834f9e1ed707cd68441e0b28a651b29ce305be246a0f0790f9e69"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Grouped Line and Symbol/gLineSymbol_icon.png",
+      "bytes": 1369,
+      "git_blob": "a91a34b31444e5e425bdc72b74883350d3915aa8",
+      "sha256": "1cf4d46f4ec3cf72df88cb40f069bc190ec6c664ddbd6398f04bd2227289ab53"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Grouped Line and Symbol/gLineSymbol_icon_dark.png",
+      "bytes": 1440,
+      "git_blob": "f4ae0b04589bd89da297404066612ec80388e678",
+      "sha256": "1235d73d56cd1fd1d0651286bb16ef52d67e55b7ce4a25144ebdede21b93c023"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Grouped Line and Symbol/package.ini",
+      "bytes": 1676,
+      "git_blob": "a56f34839a4485b4ed64a25eac0b29e323200393",
+      "sha256": "fdc17e861b93effaa95876ab844bd4ab1537ff4f328c7e1edeede24c749731ae"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Grouped Pyramid Plot/Script.txt",
+      "bytes": 481,
+      "git_blob": "72e2e404ad909f91fa3294b5f91ba2da3e609dcf",
+      "sha256": "623dfdaf75a9f12b8725af3dc680857a9568fc6420380d258ae106d45da7b100"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Grouped Pyramid Plot/gpyramid.opju",
+      "bytes": 115634,
+      "git_blob": "a09b597ec4e9937dee9073f9a9cc6a6f3eae6e74",
+      "sha256": "de865c1cd7e76dcfb3edf024a1580e56baf0e53c879f3c68d13e2f0ec32a257f"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Grouped Pyramid Plot/gpyramid.otpu",
+      "bytes": 33911,
+      "git_blob": "56e67101e004a90b4fb3ed8f983b9911d1e9631f",
+      "sha256": "270188859a9069d6b0674ee4da594e8de8f4ae0e4017d9b939e210857cdf3980"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Grouped Pyramid Plot/gpyramid.png",
+      "bytes": 3723,
+      "git_blob": "70c25ab1dcaa1497eaad5e4cda6be47630ba0378",
+      "sha256": "291b1e646e106d5df4133b5e4b18a277e3aea9604cf6925ab0ccad7dd7d3dc1a"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Grouped Pyramid Plot/gpyramid_Icon.png",
+      "bytes": 811,
+      "git_blob": "6fc663d226228387de8d7e1c6bb3edb396fb3d61",
+      "sha256": "43193fd2aa979381f00bcb6acfb75cd399de6ca63bd4068e6d0c96dff730dde5"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Grouped Pyramid Plot/gpyramid_Icon_dark.png",
+      "bytes": 617,
+      "git_blob": "8e899699bf302578bdd3908e5b418e9fdf69b317",
+      "sha256": "1c330a173bb378b6c963793535740a27eaa85c4f82d50b330084256b7ac4d39c"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Grouped Pyramid Plot/gpyramid_dark.png",
+      "bytes": 2612,
+      "git_blob": "799cacda2d2a9f74edde0bcf7de9d94de248a4ad",
+      "sha256": "c104f005b81c4d4789c4f16dd0f9bfd311272cef20f75d1c00295c03b51280b2"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Grouped Pyramid Plot/package.ini",
+      "bytes": 1474,
+      "git_blob": "ac2316dd110210d96e5b5e0b99f23d474a97a26c",
+      "sha256": "12ee9ff9f9521e9ea2b573e6200ecb308693e55f0e9a3cd363068b934be4daaa"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Grouped Stacked Lines/gStackedLines.opju",
+      "bytes": 96296,
+      "git_blob": "fc4a5527807000d2d1b7df1e8bc0d0aa9761f9c0",
+      "sha256": "44d7430fc8430b4b6b840a3ced6a9f6b9d293032c7416d8ca6067014e51e194f"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Grouped Stacked Lines/gStackedLines.otpu",
+      "bytes": 74016,
+      "git_blob": "04481ee150ec25051fed3330d36969d8ad8818c8",
+      "sha256": "54439508781c07f76c0a0fb67c267404c1e08ddce6da725067558365debd4604"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Grouped Stacked Lines/gStackedLines.png",
+      "bytes": 17131,
+      "git_blob": "d10efed7f46fe5ab587fe692e42db5e8d9b39c6c",
+      "sha256": "90d1eb246dfd3b262c0d44d01978ea5907e7b5a79e6e201c6c096a9f48309a87"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Grouped Stacked Lines/gStackedLines_dark.png",
+      "bytes": 16584,
+      "git_blob": "cf4d80fe399d282c6c81c9dbff3518b77cac9429",
+      "sha256": "10c4904dcc1bf28f07c897441f38ccccd4a13d70fa3c5cf6901b443bb75c3158"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Grouped Stacked Lines/gStackedLines_icon.png",
+      "bytes": 2169,
+      "git_blob": "b4db017fc973d78840aedd1611b01ffe83a154b2",
+      "sha256": "3aadfc4bae7bc2a6b756bd7450f209da3613ed019099cceb962990eb12c8c0ba"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Grouped Stacked Lines/gStackedLines_icon_dark.png",
+      "bytes": 2147,
+      "git_blob": "55b57ddb342237ea0afd47f9c56df1369089943e",
+      "sha256": "944365ceeb102d6fee0709b05be4925638fda8931a5b1347037decae73bc8e7a"
+    },
+    {
+      "path": "upstream/Graph Templates/Categorical/Grouped Stacked Lines/package.ini",
+      "bytes": 1518,
+      "git_blob": "f9376cb09130c3edbe7c287a74e65e24960b7dc0",
+      "sha256": "7e947fb727d32dbf06999ed88fcf94b6d576553b0b16e41118d149caaf038073"
+    },
+    {
+      "path": "upstream/Graph Templates/Contour, Heatmap/Climate/Climate.opju",
+      "bytes": 657225,
+      "git_blob": "1e0cdcdb6d5df140689a08ed74ca66716eb173e9",
+      "sha256": "f63eddaf35ca0623cc72a8fc4f8aedb05e0852dc1c50f9211aed4c5fa9728b4a"
+    },
+    {
+      "path": "upstream/Graph Templates/Contour, Heatmap/Climate/Climate.otpu",
+      "bytes": 153625,
+      "git_blob": "26e82a4f777ec736b947d22a9bb0ef8c5f2da0cb",
+      "sha256": "a40fb66357267106757e0116c9ed63bc767f60210d1de3ddc07c1b4f9d442471"
+    },
+    {
+      "path": "upstream/Graph Templates/Contour, Heatmap/Climate/Climate.png",
+      "bytes": 30376,
+      "git_blob": "274fe7af210c40d2f4cc24d80601c96704ff3be3",
+      "sha256": "b050614e3e9469fdfc29c22d23478e9f733c960f2f979295fcf5fd75e8e3176a"
+    },
+    {
+      "path": "upstream/Graph Templates/Contour, Heatmap/Climate/Climate_icon.png",
+      "bytes": 1958,
+      "git_blob": "5a8a951491bbc743ce9b9c3b58fa0621c1d44496",
+      "sha256": "48a1e632d81cc6c36c422ab6a6ed955571bcd828947a1dce78b50871ca527b5c"
+    },
+    {
+      "path": "upstream/Graph Templates/Contour, Heatmap/Climate/package.ini",
+      "bytes": 1576,
+      "git_blob": "f9056cf95f70572ee1a73cec9b196d4ad16649f6",
+      "sha256": "71058ca039375d3cee48e10266c0a359254243feda6c74f9ca62afc95b60531c"
+    },
+    {
+      "path": "upstream/Graph Templates/Contour, Heatmap/Contour without Contour Lines/TriContourNoLine.opju",
+      "bytes": 179368,
+      "git_blob": "60862625447401d9badab445afba37b1da8ab6f4",
+      "sha256": "99448735686f0b11db688419214b6f8dc1b729fb6a9ab0b2e1ba340cfc8ab223"
+    },
+    {
+      "path": "upstream/Graph Templates/Contour, Heatmap/Contour without Contour Lines/TriContourNoLine.otpu",
+      "bytes": 50014,
+      "git_blob": "457f7c6965418cc751258df34aaf5841ef0deedf",
+      "sha256": "df03f71119bb521feb545ac12d4280aca542332025f2034325f86ecadc4fa5d7"
+    },
+    {
+      "path": "upstream/Graph Templates/Contour, Heatmap/Contour without Contour Lines/TriContourNoLine.png",
+      "bytes": 21924,
+      "git_blob": "075c54349bec6e53637b36343a8db4e1238b3dfa",
+      "sha256": "c839b37fd4f31d4a4aa2c77ceadfb511bc6522a833c8c2b8bc5e12f6805f5785"
+    },
+    {
+      "path": "upstream/Graph Templates/Contour, Heatmap/Contour without Contour Lines/TriContourNoLine_icon.png",
+      "bytes": 2241,
+      "git_blob": "d31f9dfedd24205ae3e320d6d82ddca5b7931da1",
+      "sha256": "3f7951fe131b827a9425634f15a6178dd4e60a62fba658e5a26b1055317ff8e0"
+    },
+    {
+      "path": "upstream/Graph Templates/Contour, Heatmap/Contour without Contour Lines/package.ini",
+      "bytes": 1048,
+      "git_blob": "bc07553c5ea5190409bc6065cdaf431863905bc8",
+      "sha256": "1f5866c7f85c24c96d87b785b2d6a74033b799329370ab78e629ab6347ee78a0"
+    },
+    {
+      "path": "upstream/Graph Templates/Contour, Heatmap/Heatmap with Group/HeatmapGroup.opju",
+      "bytes": 96773,
+      "git_blob": "5e4266b652baff8f3036002294a9c8c71432d4f1",
+      "sha256": "996ad9893f6f366d01617129f62d67c2dd4fe569e524607dcc7ea38c2e2ae6b1"
+    },
+    {
+      "path": "upstream/Graph Templates/Contour, Heatmap/Heatmap with Group/HeatmapGroup.otpu",
+      "bytes": 39620,
+      "git_blob": "d999bea3ed9f5f3d92af5f970eafaa5de0dfbb94",
+      "sha256": "fa0608eda17ce5bccbf44de4c2c5380eb7dd073ca8756691884c52500da12501"
+    },
+    {
+      "path": "upstream/Graph Templates/Contour, Heatmap/Heatmap with Group/HeatmapGroup_Preview.opju",
+      "bytes": 190020,
+      "git_blob": "82232263c5623c5fe66f7136ba5be22dee47a232",
+      "sha256": "0b95daf05efe29824cab10b1bf29219e0f4c97f09c267711641128ee83a96b1c"
+    },
+    {
+      "path": "upstream/Graph Templates/Contour, Heatmap/Heatmap with Group/heatmapgroup.png",
+      "bytes": 6583,
+      "git_blob": "d5f86ef421cc06894477a048d3c19713765ebe08",
+      "sha256": "28b9a9352c4c1dfb08661866c22c1194fc4f410035caacfa8d14243837eab7a6"
+    },
+    {
+      "path": "upstream/Graph Templates/Contour, Heatmap/Heatmap with Group/heatmapgroup_dark.png",
+      "bytes": 1517,
+      "git_blob": "37243ea06af951cfd7240d255177692095983c29",
+      "sha256": "77a5ce485260b227fbc63221353f7ef432ba829fde0a9f7aac2605e51e204e80"
+    },
+    {
+      "path": "upstream/Graph Templates/Contour, Heatmap/Heatmap with Group/heatmapgroup_icon.png",
+      "bytes": 678,
+      "git_blob": "5d0d0b061d53df5b6f7ecc5f462c93d4d0b461b6",
+      "sha256": "7feeae659c1cc80a430326a865750bcb72009151f895d6dc14580bb96d2c3b96"
+    },
+    {
+      "path": "upstream/Graph Templates/Contour, Heatmap/Heatmap with Group/heatmapgroup_icon_dark.png",
+      "bytes": 680,
+      "git_blob": "4d2377311908de126a89e2e4b51f7f235e9f9fe1",
+      "sha256": "c1b4579035e99ed2dc03d2e6b4b277ba3df4de4d3ad3d83afcfa81bf0f137659"
+    },
+    {
+      "path": "upstream/Graph Templates/Contour, Heatmap/Heatmap with Group/package.ini",
+      "bytes": 2298,
+      "git_blob": "1c1a9fd77932edc85c81a13396d95aa305605eb8",
+      "sha256": "b4021e4c74333d3658d57da51d643370a81b84b2bf8987b344d5e22577868d92"
+    },
+    {
+      "path": "upstream/Graph Templates/Contour, Heatmap/Heatmap with Group/script.txt",
+      "bytes": 908,
+      "git_blob": "3c1aa578fa782676146dd99563a9d5e4e8953136",
+      "sha256": "c614ac750ed68e0db21ab52ec2d77c900a154323c7a06f3df74d37394230f77c"
+    },
+    {
+      "path": "upstream/Graph Templates/Contour, Heatmap/Heatmap with Significant Mark/HeatmapLabel.opju",
+      "bytes": 56909,
+      "git_blob": "f4c422ab8839e7fe017d70a4084071c5a348d39c",
+      "sha256": "ef3fa4e6a6444b10eddefea18f63fac4350512006915101bae95787952d160df"
+    },
+    {
+      "path": "upstream/Graph Templates/Contour, Heatmap/Heatmap with Significant Mark/HeatmapLabel.otpu",
+      "bytes": 33184,
+      "git_blob": "f0708630b02a1704413e3fe10b9712fcd502d9c5",
+      "sha256": "c78082c500cafdb15e2c9102dedb267f02e3b95678afff29c7a75028027406a4"
+    },
+    {
+      "path": "upstream/Graph Templates/Contour, Heatmap/Heatmap with Significant Mark/HeatmapLabel.png",
+      "bytes": 3989,
+      "git_blob": "f87f7fe317a8edd2b7ad3bb82ec8b68d04d3b7e4",
+      "sha256": "08ef99d0f8e68091f1d6ed4a8dd4e30989930aa8db7555f4f9bb0de6c352c293"
+    },
+    {
+      "path": "upstream/Graph Templates/Contour, Heatmap/Heatmap with Significant Mark/HeatmapLabel_icon.png",
+      "bytes": 1190,
+      "git_blob": "5f2230fd83650d53ad96c7fce638009e17f7eda2",
+      "sha256": "1f56d74fb8dfa53dd2973e39e961eb7480dceaaf857a4339155db1471b862e0c"
+    },
+    {
+      "path": "upstream/Graph Templates/Contour, Heatmap/Heatmap with Significant Mark/package.ini",
+      "bytes": 2118,
+      "git_blob": "2b1504b5a2d78f8bd2787dff3924fb09692e57b7",
+      "sha256": "2f049acb3660500b58008409d475d05036580ac5efa795ad855f4c7ce23456a8"
+    },
+    {
+      "path": "upstream/Graph Templates/Contour, Heatmap/Polar Heatmap/PolarHeatmap.opju",
+      "bytes": 113933,
+      "git_blob": "b46cfc5a0352b9a36202582981d5ddb3e96c17ee",
+      "sha256": "80a3e86b640f71dc5a259accc8cd84d2efe279f2150cf6f53d2f4db6c28dd522"
+    },
+    {
+      "path": "upstream/Graph Templates/Contour, Heatmap/Polar Heatmap/PolarHeatmap.otpu",
+      "bytes": 48065,
+      "git_blob": "c3299fe4969732b3bdd5d6262c9985fb131c8d51",
+      "sha256": "69fb830c3721ff21233bb12351056bac7a25dace07580476e636de102f2f7919"
+    },
+    {
+      "path": "upstream/Graph Templates/Contour, Heatmap/Polar Heatmap/PolarHeatmap.png",
+      "bytes": 18484,
+      "git_blob": "596f0af49ca37e5086a974cd945844ed7520b9cb",
+      "sha256": "a4117646692b4cad96e1ce4a8f9cbf33cbba06ff613fd23f24cf31d2ff4172ec"
+    },
+    {
+      "path": "upstream/Graph Templates/Contour, Heatmap/Polar Heatmap/PolarHeatmap_Icon.png",
+      "bytes": 3560,
+      "git_blob": "01a171a6fc5ca806de1728d3651f63d5308519f0",
+      "sha256": "d9ac185ff4405295ce568e5e0708a8b00c8d8a947247eb6c92a851f74a2f9878"
+    },
+    {
+      "path": "upstream/Graph Templates/Contour, Heatmap/Polar Heatmap/Script.txt",
+      "bytes": 1306,
+      "git_blob": "5aa218f797bef5dd78894b73084c6aa7fced73b1",
+      "sha256": "1abfaf42eb9fe5359e81931c80ed1eab23419b22e2e147b01de61a01fb43add9"
+    },
+    {
+      "path": "upstream/Graph Templates/Contour, Heatmap/Polar Heatmap/package.ini",
+      "bytes": 1648,
+      "git_blob": "c54a013577c2729ba7660bc0963f629be36b7ac4",
+      "sha256": "ab57ed4812974a9bb946393bb8a5e89bffabd5eebf85f0ce06b6d47b3f9d2c0d"
+    },
+    {
+      "path": "upstream/Graph Templates/Contour, Heatmap/Triangle Heatmap/package.ini",
+      "bytes": 1356,
+      "git_blob": "34f07b2f16faa6f3e5e5b4f6c6bc9db1f79f6717",
+      "sha256": "0c26f5744f869d08c4b7e10cdf2f12646426c52cd902caa1dacf4d2fbce088ca"
+    },
+    {
+      "path": "upstream/Graph Templates/Contour, Heatmap/Triangle Heatmap/triHeatmap.opju",
+      "bytes": 56755,
+      "git_blob": "11cf33a0f753b75716bfe96ffb9317b30fe32b05",
+      "sha256": "3a7a8599471f6235910ff4d5c065179e4214872c7435c6cc890baf7585076d8a"
+    },
+    {
+      "path": "upstream/Graph Templates/Contour, Heatmap/Triangle Heatmap/triHeatmap.otpu",
+      "bytes": 26040,
+      "git_blob": "bd9942bde12080525b9b16b98ab3e7e9c041a720",
+      "sha256": "124acbecb6654e9ef4945ba633e779a1100dd52e0283a4f244c951628c784085"
+    },
+    {
+      "path": "upstream/Graph Templates/Contour, Heatmap/Triangle Heatmap/triHeatmap.png",
+      "bytes": 7908,
+      "git_blob": "f07b9a2cfe542b9ec824b1ee9281c43f0d60f860",
+      "sha256": "811f2ac116d0dfc6ee7ea4f46177e2c1d18efb6107a50cdfe210bc60a9d117fe"
+    },
+    {
+      "path": "upstream/Graph Templates/Contour, Heatmap/Triangle Heatmap/triHeatmap_icon.png",
+      "bytes": 543,
+      "git_blob": "c5e197546eeabdaf62615d4741411b5e9149941d",
+      "sha256": "b0a49aeed2c43925bd321f0b3c4743a923cffe3f9818990bdbdf7a43ec87bfdf"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/2Ys StackedColumn-Line/2Ys_StackColLine.opju",
+      "bytes": 102281,
+      "git_blob": "a7351393ffda745d17091a048303f396d8e08a67",
+      "sha256": "1844f23bf1178b97b051f5e05168c4d1f5b708859af881de7a90c5bbe5cc53a8"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/2Ys StackedColumn-Line/2Ys_StackColLine.otpu",
+      "bytes": 82524,
+      "git_blob": "df4cc190a4a9b57dbc65fe60bbd8d4be7eba3424",
+      "sha256": "20cfd23cfadbb2f42c78430315e5b027a7aa037444478ac1e3141050fc4c2f62"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/2Ys StackedColumn-Line/2Ys_StackColLine.png",
+      "bytes": 6720,
+      "git_blob": "2847372a48ac5b6f1f7454310b8652cdfab057e1",
+      "sha256": "ab8473695e2003569eb4353d65c745f2d40167cda3b90495464304c30fefecfa"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/2Ys StackedColumn-Line/2Ys_StackColLine_Icon_dark.png",
+      "bytes": 1590,
+      "git_blob": "66ca67480162b8d18113d775d08165c43d97e7e9",
+      "sha256": "ce4e279feb32d02abac8ee13978ad729671b90bda994a0e26e39204e779a8f6e"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/2Ys StackedColumn-Line/2Ys_StackColLine_dark.png",
+      "bytes": 10810,
+      "git_blob": "b96369b9000d0f09826eab59061e2163a704c681",
+      "sha256": "17174644ab2e27be87b4aa02dd6bc6bc59cb478ab38e50d40df241a1f7deaa96"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/2Ys StackedColumn-Line/2Ys_StackColLine_icon.png",
+      "bytes": 1891,
+      "git_blob": "ec0526c55587fcc89b5d5b2abc3e7776f15ad051",
+      "sha256": "cafebc4bd839e6b078c7f372146c02b4a706995ab979c072e503375550df7052"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/2Ys StackedColumn-Line/Script.txt",
+      "bytes": 308,
+      "git_blob": "8055cab2fcfe8719a294f0eccd7d6da5f33dc202",
+      "sha256": "9f72163fc830ec80428383cfe3780dd137aff4568f40e835a90e8ecfc906c92f"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/2Ys StackedColumn-Line/package.ini",
+      "bytes": 2090,
+      "git_blob": "e7c73ce16546bf2ee6f4c1390f9f01b751ccf23e",
+      "sha256": "079bfc382b78983a10fe953532a22714f6b337b908dcd92ae909402799a44531"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Bridge Charts in Multiple Panels/Script_gBridge.txt",
+      "bytes": 1618,
+      "git_blob": "a737a33453cc25686313045fef13484e32a917e6",
+      "sha256": "3531afbbcc2741ca842d556c5eefe27c5f4c3d87c512d49782756ad17c490687"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Bridge Charts in Multiple Panels/multiBridge.opju",
+      "bytes": 78692,
+      "git_blob": "74fd45fb474c062bd5eca82753d1f7d4dc9d412b",
+      "sha256": "4b3f5618599d5679c38b2d74f3857b891e9ca83b95c76049e13b373658b934f8"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Bridge Charts in Multiple Panels/multiBridge.otpu",
+      "bytes": 25445,
+      "git_blob": "5692a68aa73a72847f5ceaccab8207c380cb3954",
+      "sha256": "e06271d449cafb1e8d6b726387f98da21ecc679975f72a76d65b2bcbeb6bdb7d"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Bridge Charts in Multiple Panels/multibridge.png",
+      "bytes": 1881,
+      "git_blob": "458564f6e1ba9f50d9fd53d991a794bfca6e332b",
+      "sha256": "40bbbfbe5ec0864b1890b6466e03cead0dc9c4c1bd9db8414142a7b1264b13be"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Bridge Charts in Multiple Panels/multibridge_dark.png",
+      "bytes": 2632,
+      "git_blob": "818b0f0c01bf950821ef8b2651d930929276818f",
+      "sha256": "4b3a2e575a00c2d4c1eb055a28662bde9da5586479f885dc710d6246cfe02008"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Bridge Charts in Multiple Panels/multibridge_icon.png",
+      "bytes": 1209,
+      "git_blob": "897bc0c200ed7a9850fdb61aabd3ab66a0423c09",
+      "sha256": "266a77de693c56520308c9217be398afb614efbe71c2b12af5a1f8b139f32592"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Bridge Charts in Multiple Panels/multibridge_icon_dark.png",
+      "bytes": 363,
+      "git_blob": "0a25f8eda3e12118e6756774c774b64a29899862",
+      "sha256": "a9d69bb5dcb4352f2d2e010e715c6aadf4b7b603685843c85a723fce9b08dfb8"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Bridge Charts in Multiple Panels/package.ini",
+      "bytes": 1678,
+      "git_blob": "fa3b165d2369d8014f0d049289970e0856ffdb87",
+      "sha256": "8ae0098bd84b12d3848f5c27f462bea47235b2ec95e2289452c36c2fe40409e1"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Double Y Before-After Plot/BeAf2Ys.opju",
+      "bytes": 55347,
+      "git_blob": "31c512c789b779d38f867c9d0ee0a7c779d67d02",
+      "sha256": "685e9b774338b141c5100e81e18eb3207fa1c389a9b1e1f423b6fff8320e2162"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Double Y Before-After Plot/BeAf2Ys.otpu",
+      "bytes": 38177,
+      "git_blob": "c3152e94f85d03e59dbce39ce05df259d67f04d6",
+      "sha256": "0f1d854a503db2064b2643d668a1d80e789ed300e2f9ee3dbf0c73762541ec1f"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Double Y Before-After Plot/BeAf2Ys.png",
+      "bytes": 4337,
+      "git_blob": "e8fdf925fb5c05a5fc1ac970e750a01da9232760",
+      "sha256": "9efa91bcbcf0e074f5652cad7bd369514c9872fbbb015f669a8d094c5a0ff15e"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Double Y Before-After Plot/BeAf2Ys_dark.png",
+      "bytes": 7398,
+      "git_blob": "c7ab499840f1d6c4fe9fee277b4681bb40e8ef61",
+      "sha256": "e12e30ef096449e7f01d43e4120da20b228c748387ff5532832a0dd05ea2e618"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Double Y Before-After Plot/BeAf2Ys_icon.png",
+      "bytes": 1609,
+      "git_blob": "6424b73ace5b866d240db04d4d7a1642e50b02a9",
+      "sha256": "5bb5895ca3764ee7166b67caf466db423f73d1c120468b5f9330204285b96719"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Double Y Before-After Plot/BeAf2Ys_icon_dark.png",
+      "bytes": 1147,
+      "git_blob": "d61e9b21e9badb3107cc3ec49167051bf62cc135",
+      "sha256": "c28e1a9e7d13b8b3c9d45ffc16ae9aef40b941c36cd1afb90ef4cfbebaeb4d6c"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Double Y Before-After Plot/Script_BeAf2Ys.txt",
+      "bytes": 290,
+      "git_blob": "ec122775be27a2acf0b86bf8dd4edf4094c911dc",
+      "sha256": "2a06c2c5a8e8a656a1665fd5f0cee4d4c2dc8b5c60f113e50af674c3b160261e"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Double Y Before-After Plot/package.ini",
+      "bytes": 1176,
+      "git_blob": "a223d650cb1b4e3a1cb5056efcbf881ba04e3994",
+      "sha256": "bc9d1fa248e818b9f7024573da81e513ad8b4caf5f9a2e237ac449b064a16660"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Double Y Stackd Columns/2Ys_StackedCol.opju",
+      "bytes": 78937,
+      "git_blob": "67ef0a377188d5e3fc92cafe43d16766f0737d48",
+      "sha256": "d5c2d755780d59c1a31a8c4c2a3689f996ed33cb8f5742baa629c45f64751541"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Double Y Stackd Columns/2Ys_StackedCol.otpu",
+      "bytes": 32209,
+      "git_blob": "fe61003b07d25064eb3f80c78550d772560b045d",
+      "sha256": "b95f210c73a29a8cc36272da2b85c23f78c6273c8fc7ae52eee70f91c522c6a4"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Double Y Stackd Columns/2Ys_StackedCol.png",
+      "bytes": 1360,
+      "git_blob": "35b254fbb3ed7ecc3bb9eb8812cdfca98db298d0",
+      "sha256": "0e38b825ddf971cf008d82f3f7484e00f17c0ef4da924e1286ddbdc22e5fba0b"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Double Y Stackd Columns/2Ys_StackedCol_dark.png",
+      "bytes": 5558,
+      "git_blob": "da33b182167fdebda2d7b5762478ef86b14a4835",
+      "sha256": "78b196fbc58d0b0dcb7403d589cf1e8963f3fb6575d407170ebb8398dfaba55d"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Double Y Stackd Columns/2Ys_StackedCol_icon.png",
+      "bytes": 631,
+      "git_blob": "343bb087e1be3d6995069b8736f7779577a945d2",
+      "sha256": "79d95314f4b4786f5bbcca5cd6b09e34f96a6bd442b7a7cf36703d11153caeae"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Double Y Stackd Columns/2Ys_StackedCol_icon_dark.png",
+      "bytes": 482,
+      "git_blob": "af8530dc38abdbdf6fcfb9152777ff0e432477eb",
+      "sha256": "5a601ffbc5b26ee861abb2a32f4bd6eeee0d67ecb1cfc2dc52ed079a9a841d4c"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Double Y Stackd Columns/Scripts.txt",
+      "bytes": 694,
+      "git_blob": "fed64257a6bebf10f15205e59519c6b9a1d52267",
+      "sha256": "8fb43c8bb41e8f31ae7e0751521b7d974c1ff54dfa1e5eeb66718416fc0d6ea9"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Double Y Stackd Columns/package.ini",
+      "bytes": 1850,
+      "git_blob": "dbf88b8adf10285e6bdbabcc445cca2a83030610",
+      "sha256": "15d89b6315afa65de7b6c6af12dfd64c3799718745301bc2a6f47e2daf91479a"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Multiple Panels with XXXY Data/Script.txt",
+      "bytes": 152,
+      "git_blob": "ad4a613d285ce3503cd30e8345b4b49e93d63050",
+      "sha256": "abaf3633a19328e2f4192a063c1da92ba7ad78a6e4e5218982a29c041a51d9f4"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Multiple Panels with XXXY Data/XXXYPlanels.opju",
+      "bytes": 57273,
+      "git_blob": "c28666ad28f5ebf04b4f618b2565ff23948f31bd",
+      "sha256": "1e4f6b0e840e1bdba6820194661d89f3163ea5ddcb3ea4aa7dec4767eb0580af"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Multiple Panels with XXXY Data/XXXYPlanels.otpu",
+      "bytes": 38257,
+      "git_blob": "8965de777ab19b4c83ce30e4221358632051b15a",
+      "sha256": "3d452cf2cc7a705cacac7e28f3343f7353704035cf7359929b02f96b9a8e0ba3"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Multiple Panels with XXXY Data/XXXYPlanels.png",
+      "bytes": 6501,
+      "git_blob": "7fbcf839c7fdefc143e436d920f89f2e24cdde88",
+      "sha256": "a7c34389e8b57fb777b2cb8a59183ff68ed002712e6efc920d0a44cbb368628c"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Multiple Panels with XXXY Data/XXXYPlanels_dark.png",
+      "bytes": 6464,
+      "git_blob": "3a8bfc930ddd776f2c774fcb1be46dd6b6dc4f28",
+      "sha256": "282239642e02ac9aeeab801bf4abc1493106956db62dba27dd7cf79e5baaf13c"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Multiple Panels with XXXY Data/XXXYPlanels_icon.png",
+      "bytes": 1828,
+      "git_blob": "8e9be7c49a8280bdaef691f0590c15746e073d2d",
+      "sha256": "af248cc356183f14d0fd73929aa27d0df449057818b61563f7897caf17aa5957"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Multiple Panels with XXXY Data/XXXYPlanels_icon_dark.png",
+      "bytes": 1802,
+      "git_blob": "b5d19f8c37344c7db7e3781c10be1c226c35eae0",
+      "sha256": "4a0cbd734705b6ddbc46bde8138f3391f67754ddcae71de76e16ed5d6636c886"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Multiple Panels with XXXY Data/package.ini",
+      "bytes": 1434,
+      "git_blob": "5b5d65d04f3c6ffe2ffa65e8cf9cc867eb22fd34",
+      "sha256": "d40b36d4edf6228dc0a31d7d04a253202b44050dff8bd838407a26d9ef522a84"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Time Series Explorer/Script.txt",
+      "bytes": 463,
+      "git_blob": "2237f11f42a65a3cf56307e47390ef77a09bf443",
+      "sha256": "1711addcc01fcea57f76cc3c80ebb44163f8e93964592c3e574debbd8b323af1"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Time Series Explorer/TimeSeriesExplorer.c",
+      "bytes": 32332,
+      "git_blob": "de9e25c68fc4ad02c9668da7d1c6474a398c697f",
+      "sha256": "d622d8ad9781276d3605ea53b0489c2ecd3d2529223895a4c463254e5600e6c5"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Time Series Explorer/TimeSeriesExplorer.opju",
+      "bytes": 80588,
+      "git_blob": "16d39455085449214af7c445f32742bb8bc820bc",
+      "sha256": "1bfe5ffb87b8d3f5dd8c97fa3d1db887eb1444c21a8bf70c18794bff4f5357df"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Time Series Explorer/TimeSeriesExplorer.otpu",
+      "bytes": 50523,
+      "git_blob": "2540cf3fe5d4f9ff84510edeceff9d972629293f",
+      "sha256": "567cfe837b09b71d0f1e75fde76a507dd379f221928c178532493286d5fcda3f"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Time Series Explorer/TimeSeriesExplorer.png",
+      "bytes": 5903,
+      "git_blob": "5e01fd880d9711c7d8ccfbebb6580a2984fa9ff8",
+      "sha256": "e07d5e463f4248d10f7993e078da35b9ba540d141655ea61fd848c0807fc1c9f"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Time Series Explorer/TimeSeriesExplorer_dark.png",
+      "bytes": 12234,
+      "git_blob": "19690b3a661e206cf560e9f0549bdb664ba94d51",
+      "sha256": "dd36bd0b9c5c3860ffb0df19003386f832fbdf22655a92ade49bdfe4f88acd26"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Time Series Explorer/TimeSeriesExplorer_icon.png",
+      "bytes": 1832,
+      "git_blob": "100e6a4dd079e64b3b66660acbefecde082f3ee3",
+      "sha256": "80472dd247a3586f8945a87f8c6be1b7f9d7f45c7f8976d2c3f523f607d701e9"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Time Series Explorer/TimeSeriesExplorer_icon_dark.png",
+      "bytes": 2154,
+      "git_blob": "18cc435e6340b12c14929df782377ecbcf79ed98",
+      "sha256": "e71695c320e532b2053cbe485fb5ba1c6c9660907cd2fdd523ff7aa2294d2426"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Time Series Explorer/package.ini",
+      "bytes": 2342,
+      "git_blob": "1e3f144b40128cf594a8ed40ace612ed4f103e78",
+      "sha256": "df3fc081704f527479756164f9badc7fa837a7c3908e8b0f0ee976f1f1fa39ad"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Tripartite Plot/Tripartite.opju",
+      "bytes": 292044,
+      "git_blob": "53c1dec443d4ade654941eac39084ffb8cf39ac2",
+      "sha256": "e35c2bebbe937068e8902d56baaf2e4f19655a01a95654fc98bc08a7d02e2878"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Tripartite Plot/Tripartite.otpu",
+      "bytes": 155638,
+      "git_blob": "103489d7991a37d4fde9566244543417e4392b7f",
+      "sha256": "20b15ee6123a882d89a79af0196136b28aa2328b83d5afc4dd99e8eb06c81761"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Tripartite Plot/Tripartite.png",
+      "bytes": 34030,
+      "git_blob": "c910dcfe80a7b1535b67d55fcfe79d569f0f0b22",
+      "sha256": "cb72b88127a22950b2553deaabe5967d32e544ce3050897fbf46e0f8cb85131f"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Tripartite Plot/TripartiteDlg.dll",
+      "bytes": 19968,
+      "git_blob": "da254fe2f6dd0fafe8e60c8dda4904daa9826ea4",
+      "sha256": "d0f628c9861d77816eaf2897adf195203497f2350ca77b3db1deccf74a77fda7"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Tripartite Plot/TripartiteDlg.h",
+      "bytes": 1395,
+      "git_blob": "9d04ce8c67398daacb8902d254e19ca4ea070e28",
+      "sha256": "bc5015c0da80488cbec7ebbe303baeee67f371766c3863108ba833ec7dc1369e"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Tripartite Plot/TripartiteGridUnitsDlg.c",
+      "bytes": 31727,
+      "git_blob": "7e6e38c312a456ce0678eff70686db923917acfe",
+      "sha256": "ea6ed9fc3714605187b97dd493bb9517be6789508278bc102141d4a25bc76504"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Tripartite Plot/Tripartite_dark.png",
+      "bytes": 34106,
+      "git_blob": "9d2f25a1cdfd45af845db24c281c8f3e123ad0c7",
+      "sha256": "951b9bb61c81346e210ce8ebb83350f8920e38ca43cefe38e88033e6728331f1"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Tripartite Plot/Tripartite_icon.png",
+      "bytes": 3338,
+      "git_blob": "88472e787ee76bf5fe69b00976811ea2a9ca4340",
+      "sha256": "73ab7cda44f05c20cd05fda9a5b7bada834e28770211d43b6953c570ede82638"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Tripartite Plot/Tripartite_icon_dark.png",
+      "bytes": 3289,
+      "git_blob": "b6d697e6b4823fbe7bb9b72aae974bd040183450",
+      "sha256": "234181a1f9b55ba2734b8190815f1ac5e202f59ad7ac1f950b8b561e6d3fb494"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Tripartite Plot/package.ini",
+      "bytes": 3094,
+      "git_blob": "ccbfd871dc40ebd135d38295a0c22199b5ab7881",
+      "sha256": "0affc3e4583e6c878bb72d1019ac1a28f2134cdad871a91792dcf6636e776c35"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Y-Shared Double-X Plot/Script.txt",
+      "bytes": 399,
+      "git_blob": "72ef461e16933704a1ade45fb97820043c440aba",
+      "sha256": "94810e5030370522208c97dc3ef37b83ca87e005730f30c572805a7edf5716c8"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Y-Shared Double-X Plot/YSharedDoubleX.opju",
+      "bytes": 48367,
+      "git_blob": "5c25b4b54b765c8e7928e9266d0b064e01d20de0",
+      "sha256": "abd659b6606fd4b687ce8ed2712e9877953bce2d69b32a507bc68793a71a0653"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Y-Shared Double-X Plot/YSharedDoubleX.otpu",
+      "bytes": 24537,
+      "git_blob": "3b1eeb065115ef193494aa12fa15d353e0af3eda",
+      "sha256": "d99a5c4ec7345ee299b14789c944501c56db422fd79bb7dc9ede397e90be9b9b"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Y-Shared Double-X Plot/YSharedDoubleX.png",
+      "bytes": 5894,
+      "git_blob": "f74da52e635496592ac7ad33eeab7b01fd628a81",
+      "sha256": "acb72eeda6d63860c245281cb014d8788dfc104ba575cda760a527b1bc218b2d"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Y-Shared Double-X Plot/YSharedDoubleX_dark.png",
+      "bytes": 6851,
+      "git_blob": "81e3b9d13972353cdd8259b9bd9b1b872a4a627d",
+      "sha256": "1a9e4d019cc8b8440027706194b77b5c95888c15e44dd228f845ab7870137d13"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Y-Shared Double-X Plot/YSharedDoubleX_icon.png",
+      "bytes": 1001,
+      "git_blob": "588fbde2e4d88120a93dc309d5c18d8328d010ce",
+      "sha256": "35dc6831c0f6ddbb7988d8bbbbb85879690bd4de2295caef10e054e8bb98d201"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Y-Shared Double-X Plot/YSharedDoubleX_icon_dark.png",
+      "bytes": 1101,
+      "git_blob": "cda6033a5747d6b8761d5859a871c69cd27dc39d",
+      "sha256": "1fca160786b23c881750348783c799a59e6b197fb2cc7c6fb3a923dbd231eff9"
+    },
+    {
+      "path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Y-Shared Double-X Plot/package.ini",
+      "bytes": 1556,
+      "git_blob": "560f889129eaee941e86c8ce40d49af1dede3f23",
+      "sha256": "4f20aa3f327bbac4a3872f1aec52c3a5379253191ff08b8eeffddbe00b1eb644"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Circular Radar Chart/CircularRadar.opju",
+      "bytes": 64523,
+      "git_blob": "38aeaea4a1646735d95aeef72ccfd0d1fa4f1f05",
+      "sha256": "2a69f795cc9e9f86e03d28fe2717b355139a60edef6b31732e247db3218df370"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Circular Radar Chart/CircularRadar.otpu",
+      "bytes": 46562,
+      "git_blob": "fe026d5c404addfa104fab8a05aa9239ad1e1e19",
+      "sha256": "db066b4360f5e683d38521c0c6525a1b72dbd1fb1042ff6e769ad4246d271195"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Circular Radar Chart/CircularRadar.png",
+      "bytes": 9218,
+      "git_blob": "952dbfabfca7fbb577a9363c256c8b69a8990745",
+      "sha256": "ba3d55d177429f632383c90f24179d034af294c4ae190e4e7a5da1ab0a152e86"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Circular Radar Chart/CircularRadar_dark.png",
+      "bytes": 10046,
+      "git_blob": "88eadd1efe508fcfd52ff52ca67fc0500a612099",
+      "sha256": "094db36b7f14503b0c01ecfc4661f78c4bd9563ee870a418ff19ec1164e5b5b4"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Circular Radar Chart/CircularRadar_icon.png",
+      "bytes": 1817,
+      "git_blob": "b4335281e6f1faf7e8bfd6c8203e6c518b860479",
+      "sha256": "d94a81ad6cc9fd691af3b12deb94b6b2a1349467ba7f3eb4e713598a5baec4cd"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Circular Radar Chart/CircularRadar_icon_dark.png",
+      "bytes": 1877,
+      "git_blob": "e0ba86f61d652df257989ce7211dbc3f802bef77",
+      "sha256": "fbf7c7c58e090a756946857e33453b8274611e7fa3af3b465762569e5b5bb29c"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Circular Radar Chart/Script.txt",
+      "bytes": 320,
+      "git_blob": "33701edd976a9462b3d64af7ad030a468d608a48",
+      "sha256": "7afe5001c82c6d72cfaa8d4876142b53ca4a3a57a39f650b182a7c67b691e359"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Circular Radar Chart/package.ini",
+      "bytes": 1156,
+      "git_blob": "ca0c5fc37b55e8dabbc0bf95b79a52d26e4827bb",
+      "sha256": "f50141f2c255b928e59abd6edb70698a24d9b6620d178153c5cf1d98943ca9d6"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Delaunay Triangulation/Delaunay Triangulation.opju",
+      "bytes": 64655,
+      "git_blob": "d79bf5099a7feef57fe727694ae017313b9476f0",
+      "sha256": "7f7b7495167f94742e977fca63514c7f1233000cdfefcd2d06866719e8e961e0"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Delaunay Triangulation/Delaunay Triangulation.otpu",
+      "bytes": 67985,
+      "git_blob": "b3086e3b38311e6d6a2526cb98b4604edf83da96",
+      "sha256": "84244fd90738beb06b81edf34fdb110605cc5ba8c5702898f2586845635759bb"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Delaunay Triangulation/Delaunay Triangulation.png",
+      "bytes": 18590,
+      "git_blob": "7924f9f30cc99469c9471e7977df463a0eac1af9",
+      "sha256": "5d0667b694556f184f16c4246b2450f8ca176542913a069b17518b857e1ee802"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Delaunay Triangulation/Delaunay Triangulation_dark.png",
+      "bytes": 19992,
+      "git_blob": "72377927c6eb607b10298a10dda98bfd0f719edd",
+      "sha256": "86c50fb8ced256e1a5a4881741ba83c18efb1409cb7fe9e2a84812ffe5c94d7b"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Delaunay Triangulation/Delaunay Triangulation_icon.png",
+      "bytes": 2025,
+      "git_blob": "3a4d708aa7ec77d993af0f04ab2b5d5cbf3ff7ea",
+      "sha256": "8a352f531da54035010318498e2509af8a1c5592c199f0e56a33b86ec1da5ab8"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Delaunay Triangulation/Delaunay Triangulation_icon_dark.png",
+      "bytes": 2222,
+      "git_blob": "7cde86fec530248669998b4ec38a0fb482a89c21",
+      "sha256": "9a156f805979a8b478cae501c9f07e45a226ffaf3b540645a7cc966cf983eebb"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Delaunay Triangulation/package.ini",
+      "bytes": 918,
+      "git_blob": "dbfe4bb9e27a98649612cee2a4113f0ccc6d3e30",
+      "sha256": "f58b5c0387464a3685dfdbc9497561726f76365a3fee856c0bc1edc9c166a7db"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Ellipse/ellipse.opju",
+      "bytes": 50602,
+      "git_blob": "df2cbf415e2750b1a4ee2209485f96feefdca647",
+      "sha256": "152a83bea7b90a26749fddd20fb2ae39d76795c09f3ecbdc8918332e466cd5f0"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Ellipse/ellipse.otpu",
+      "bytes": 37336,
+      "git_blob": "c5448eb15f99b2ad87d264fe15dd577504e51b37",
+      "sha256": "fb0ca5747cfc258f3a9765828c1b5eff2fdca3328a444bb8806a4b213362bded"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Ellipse/ellipse.png",
+      "bytes": 9051,
+      "git_blob": "f7c86291842d9997cdb76e08c0e29f3e7a11f2a3",
+      "sha256": "004c8f86d0c8108056ffb3912bdab45d8196ee81c518ea3e4077ce45eab0d4af"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Ellipse/ellipse_dark.png",
+      "bytes": 8911,
+      "git_blob": "0eb8ae10f081c8a511ba4e9e133dceb6708e6780",
+      "sha256": "063d537b58f80d3e04b34a6eb4366b10e59cd5dc8091cd570841126272076b6e"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Ellipse/ellipse_icon.png",
+      "bytes": 1354,
+      "git_blob": "a30fad5aa98486a05bc5da2b863fd4fee8317e03",
+      "sha256": "ba6c8118b7f5940f27757ad250132c22802b1af567a84c4af04330e2d3250ad0"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Ellipse/ellipse_icon_dark.png",
+      "bytes": 1353,
+      "git_blob": "f8b69ed6440accaae1197aa2c69fbea1cbf8a59a",
+      "sha256": "e74fbb4043a505d85600d1da356c83d3b70d9ab83dd8b4871b9b7b6dc32efcd3"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Ellipse/package.ini",
+      "bytes": 1036,
+      "git_blob": "3cbc741bae063e743c369826be149aca15e053a6",
+      "sha256": "229402030216ea4b4e05d03f5277fb557b1ca2b9ba86bce1d0873c5334bb6e24"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Energy Diagram/EnergyDiagram.opju",
+      "bytes": 57224,
+      "git_blob": "599cf26794c317ae3a8ab78fc968a52004d5f2ea",
+      "sha256": "28710d9d5525c7065878857b58ca021860e8d427ce32b18bf9bc9e8e39bc710c"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Energy Diagram/EnergyDiagram.otpu",
+      "bytes": 21931,
+      "git_blob": "1344041603447ed7e11491e1cd654ddf03943989",
+      "sha256": "96754e2b8ffc9c26c37cdfcc55fc37da731f1cd417ebe8425ac8665e08fcd75c"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Energy Diagram/EnergyDiagram.png",
+      "bytes": 2280,
+      "git_blob": "92b745289340d8fd8bf7de74dbc8a3611c5709c0",
+      "sha256": "c5a30c04d1aad1bb005c978cec4484bc752a2c581e0e455ab8b8dc7d059415a9"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Energy Diagram/EnergyDiagram_dark.png",
+      "bytes": 2471,
+      "git_blob": "22c72e15b9587bea2fab6450642256f106ec4748",
+      "sha256": "a1096f1a1942a2ffffd7d78436dad6313166617df60e9fd3b70152dead87e66d"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Energy Diagram/EnergyDiagram_icon.png",
+      "bytes": 535,
+      "git_blob": "e288775161dd879afd2b44c14e1c2b6c660947d6",
+      "sha256": "fd829090e1a3dd4464c5e6f9fe6ce8ef3c230382f3fea71ab1d15d6530d69678"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Energy Diagram/EnergyDiagram_icon_dark.png",
+      "bytes": 571,
+      "git_blob": "f74845f743146f85b30dd953c97bce310fdfe945",
+      "sha256": "52d68cc8901639ef42a8ae4a3d280637581f88659165aa50e646f69927b1ae60"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Energy Diagram/Script.txt",
+      "bytes": 574,
+      "git_blob": "4915d280505ebf12e85b6297604018cf98eb4383",
+      "sha256": "b5e6d8628704aa436a9c98a87b0b9016a09fae90a8e439060de70b0c341b6b54"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Energy Diagram/package.ini",
+      "bytes": 1456,
+      "git_blob": "724fe904796081fa1ac2571eed01b0991fa5f2c6",
+      "sha256": "a53035ff7550b624b8c0d6a01ee213b0283d1e7b4d335b5324bf56bfee4c6c5f"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Gantt Chart/Gantt.opju",
+      "bytes": 66018,
+      "git_blob": "fe4d1ef343a7e1bac25a5d44db2a84f51cb99bf5",
+      "sha256": "8a541c6f40bb567f655ce52a6a838fd8a6f6755d437155578489ee82680210e7"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Gantt Chart/Gantt.otpu",
+      "bytes": 29787,
+      "git_blob": "9a2ec7dba4e248d84ae0fec3fe7c0e5ec948d75c",
+      "sha256": "369cd0ec5c7715f43ab73bd13bc02974fbe108d690b3671f3cc5d9e862933056"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Gantt Chart/Gantt.png",
+      "bytes": 4385,
+      "git_blob": "56f4e94333f59fd04c708e6521db7b43393310e2",
+      "sha256": "ae4d79825acfd93bdcfa62a6225051e89a62e6f8fa03f672d6f7e2c70dff33a6"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Gantt Chart/Gantt_dark.png",
+      "bytes": 4244,
+      "git_blob": "078585f82606d796c9041ecc02740ec793e73a29",
+      "sha256": "8729fd59586c588eceae8fb644d15070b5531a9567ed008e37c05ffffc62eb2e"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Gantt Chart/Gantt_icon.png",
+      "bytes": 772,
+      "git_blob": "59f961d0053f462998b8e11d39143e18388e4e3d",
+      "sha256": "71526e914c5127f4e7ffec8167b8bc8dc2ba35e6d28820626060047cac62c14b"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Gantt Chart/Gantt_icon_dark.png",
+      "bytes": 745,
+      "git_blob": "b650c62780f642b56b789e69b13a36c68abacf4b",
+      "sha256": "3403e97f18cc01accf1fd9558751879c5b46323f51071d9a43aadd0bc6730537"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Gantt Chart/Script.txt",
+      "bytes": 761,
+      "git_blob": "c7a589c9866241598d77f56a5322a9e89473838d",
+      "sha256": "8b364839dbe64693b6503ee57531b979c2188d50df8a182c91550f7f0276fa82"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Gantt Chart/package.ini",
+      "bytes": 1772,
+      "git_blob": "0581069c18886261c3e93169f901ee1c52b9ce06",
+      "sha256": "150b0f63ef617faa527eadb9fefdf42f78def0a6d7cbab91dfaacebf98f3bb23"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Periodic Table/PeriodicTable.opju",
+      "bytes": 115808,
+      "git_blob": "c869aeff629d1b2b24614b1d567b250c9890e7ee",
+      "sha256": "1273c9fdda12d0789f4bde1a0de4e494e1e29c4d2fa3776ba5be5ce5f8689926"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Periodic Table/PeriodicTable.otpu",
+      "bytes": 54983,
+      "git_blob": "86ad77b60628813b4fc55ff1dd3c0e67682c4693",
+      "sha256": "3977de767f5215eff6158b23923148b64d25ac0a16d8cbb2addf8c9be27749b3"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Periodic Table/PeriodicTable.png",
+      "bytes": 3704,
+      "git_blob": "6609e5cd7a3b4b834afcd57eb6042b9ac23e39a9",
+      "sha256": "d463f7ba69b2ffed88c4086bfd36fdbdf0191c78f06146bfd75f1580d0f4e920"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Periodic Table/PeriodicTable_dark.png",
+      "bytes": 4776,
+      "git_blob": "ede511308bb54752ae2c10a1812c1304c7a6a3d3",
+      "sha256": "f2c664bb81b16b425a35fc5941723cd8035cc78f90529e3c75f28602dbc706c2"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Periodic Table/PeriodicTable_icon.png",
+      "bytes": 1248,
+      "git_blob": "b056152de6406e7499bf0928632842323d8d49df",
+      "sha256": "28c3ff7d0b4df717f4398f35a08990a8a1024474581bc89de34c0634f16d6d23"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Periodic Table/PeriodicTable_icon_dark.png",
+      "bytes": 1277,
+      "git_blob": "b97f02e0b7a7be38d7ab2b9fdc7718168571980d",
+      "sha256": "8a62f3f635e025e83ee91490645eb50f60030ef049f2db338006703077c3c924"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Periodic Table/Script.txt",
+      "bytes": 746,
+      "git_blob": "58405f9f54121c3bee9545d34f29aacbd890fdf1",
+      "sha256": "e82181ee12af148b455da98f2b74776fa0fa8bb37a528b050e409ef2c6d7b4c7"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Periodic Table/package.ini",
+      "bytes": 1362,
+      "git_blob": "ba8188995fc41a65b68b240e2fbb1b62b84b009b",
+      "sha256": "a52116e2b3a9c553f0f59e4478354f38c28db3fc7d0b3fcd25ffd3e5ef9507a9"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Polar Colormapped Line/pColormapLine.opju",
+      "bytes": 82726,
+      "git_blob": "565f9ad126c7a82afd897a8cead455a257935bda",
+      "sha256": "d69ff6d2a47a8f8634ffcbbea62c2f555ffcef6bb620a7a9eca34c43096cdc63"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Polar Colormapped Line/package.ini",
+      "bytes": 1118,
+      "git_blob": "fb386dd4caa5121f7c14bfca7de3ad6e384b02a0",
+      "sha256": "79a82b37d0873008cc42cb8eec04c578bc74afb6cc9b4cccdca39bc55d6dcc22"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Polar Colormapped Line/pcolormapline.otpu",
+      "bytes": 76108,
+      "git_blob": "4b71d14549bf566e1b30a5ad6f064b837a09994b",
+      "sha256": "2b45503b8eef234518a8e5a48df21ca4425e043b8923346959b22adcdc6d5358"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Polar Colormapped Line/pcolormapline.png",
+      "bytes": 21876,
+      "git_blob": "06835ac5878293acae214d44f3cddfa658c6d9a0",
+      "sha256": "ea7446c0381f15896386e86f5bf094847914a9265e39f90144cd216db4d4f3f0"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Polar Colormapped Line/pcolormapline_dark.png",
+      "bytes": 22280,
+      "git_blob": "28504682fab79ca0aa1df3b890ec1ca2da9c89bd",
+      "sha256": "9108082c6b8b1015f65a662a592399f8a91abebf4ec62d0e382c320f60c84562"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Polar Colormapped Line/pcolormapline_icon.png",
+      "bytes": 2985,
+      "git_blob": "cb386a9ae9071b13e8c9e7c05a34e3b70abcf865",
+      "sha256": "44f32b1556dbb3c4e9ac66f89e071b2c229b2a4638bb8eddc8379a223996afbd"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Polar Colormapped Line/pcolormapline_icon_dark.png",
+      "bytes": 3064,
+      "git_blob": "3a9601d44c2793d2e8cb600dbb11c3fe5155d055",
+      "sha256": "4165d435f2df4db6d7b7a3a23ad198f53c51831a19eacbe3acc8c83ca89c8063"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Radial Bubble/RadialBub.opju",
+      "bytes": 79629,
+      "git_blob": "e63a82bbd755ece83345e6d9192255acd9b4128f",
+      "sha256": "60a0ca112f959010fe15ec1a52b6b6493047e89b2e084558007e184ffd165e41"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Radial Bubble/RadialBub.otpu",
+      "bytes": 57286,
+      "git_blob": "f7002305346ed2bdc35c9fddc2f9c91868458220",
+      "sha256": "289ffe5df1fb1d12f0a3332c4c7f7a9ff5805a8075a7df52d28f869c92ae7679"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Radial Bubble/RadialBub.png",
+      "bytes": 8296,
+      "git_blob": "da05804dbc1c31676a9c472e6d3abc07e908339d",
+      "sha256": "eb48fb01eec184428861cb5bcb8d692e6b1bd380d1da64d4f11a1b1f7d4fb3e1"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Radial Bubble/RadialBub_dark.png",
+      "bytes": 15163,
+      "git_blob": "ebb9ce48a685092301ac1bc090cc4c02f54fab58",
+      "sha256": "0f335c1ddefcccc1005d17ce911670ea0e332eb524dbc288b64aacbf2f0f30be"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Radial Bubble/RadialBub_icon.png",
+      "bytes": 2160,
+      "git_blob": "7e9dcfd59518817ed97c75d05565b4f2071710e0",
+      "sha256": "a28ae4863663aa0f9b0ca60ce7faea43b332cb71eea3ac294cb210d6b2935a0c"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Radial Bubble/RadialBub_icon_dark.png",
+      "bytes": 2703,
+      "git_blob": "dffc134d207fd46b68d5320d9857d4a69782a685",
+      "sha256": "ef12331f430b6f702f705fc8f39a07f07b0b6d7cb52973b5cd83c0d7b71b7343"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Radial Bubble/Script_RadialBub.txt",
+      "bytes": 915,
+      "git_blob": "110d215fac32180145263a571cd07618fad04a0c",
+      "sha256": "b739f67db7c1637cbb11c914ecf3af76a5dadfa1c815722b945b384bc804b585"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Radial Bubble/package.ini",
+      "bytes": 1988,
+      "git_blob": "09e631c9a43d84f28c3b6e3cefdfd00c4c5fe7eb",
+      "sha256": "ccc5b480cc39261be362e418e494da1ae0be5e46a48293682787a1d4f0fc5f6d"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Schoeller Diagrams/Schoeller.opju",
+      "bytes": 212189,
+      "git_blob": "6366896a6ab842b55c29649abb053ed3e3507a62",
+      "sha256": "bec07269389a37b9bffbf204a9ff24d804c2add3b64e140ec9781aeb997b616e"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Schoeller Diagrams/Schoeller.otpu",
+      "bytes": 96456,
+      "git_blob": "87cb443b5b85e416c60254b90f4267645253be4c",
+      "sha256": "130645beb3598fc00bc5104e8171499a16921da05dcbc0cf29cc4e3537e7f179"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Schoeller Diagrams/Schoeller.png",
+      "bytes": 22580,
+      "git_blob": "26a13135af3ef8f4c7f308475e4ddfb9a148f945",
+      "sha256": "6d6d71811ebe767f399c3f6d353d52f048021784405e6632d16ddcbf75e10dce"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Schoeller Diagrams/Schoeller_dark.png",
+      "bytes": 22383,
+      "git_blob": "59a152b07c45a8034d61484bc5b9e7efde1ac2c4",
+      "sha256": "edbf03df04171823fbbdbee64964a0115c9f454bf339a5804e01dbf41bd66f19"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Schoeller Diagrams/Schoeller_icon.png",
+      "bytes": 3484,
+      "git_blob": "6097becafdd2798b7da8d208491a72ee3787ccd4",
+      "sha256": "2096d1a2ee3ad91017f841517d9d8ea0b52623589e892742578961b8b5082d6f"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Schoeller Diagrams/Schoeller_icon_dark.png",
+      "bytes": 3382,
+      "git_blob": "992122132f1abeab90f207a6e87920e12467d986",
+      "sha256": "8c96d9e1f0998cef7869d12ac2d4e9fa385f7606a52559501d03f7076d77959a"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Schoeller Diagrams/Script.txt",
+      "bytes": 186,
+      "git_blob": "8682f0e01e381a3e71b7d91e1a88e5c95a4f11f4",
+      "sha256": "7a9027d686038e361df3b376845e32a509ef5307601b3ae369ac8e3edfb92b1e"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Schoeller Diagrams/package.ini",
+      "bytes": 2086,
+      "git_blob": "cd96b6a5b504140a6038d4dc273265a6ad527fb6",
+      "sha256": "c56cd762a595b261714b03e3a9ae9455cd78aaaba562ba25dd86e49fac693e42"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Speedometer Chart/Script.txt",
+      "bytes": 605,
+      "git_blob": "316cd7f3ca44e12b2308ed7209fced682dec0d82",
+      "sha256": "0385233f16a2cae7cbde0994d9ab7df1d3ad90d5b9b66e600a3163f53a532588"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Speedometer Chart/Speedometer.opju",
+      "bytes": 55259,
+      "git_blob": "47a22e9a875f651e85c66cd57c8c8aaf0e9d975b",
+      "sha256": "1ee42a6b9a90910e4f3af338fc8f6f5c19916fc1c4923dddac7b8bb388dee11a"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Speedometer Chart/package.ini",
+      "bytes": 1592,
+      "git_blob": "8ccc6e25d2dc10819635b4b066daef0e65bd610f",
+      "sha256": "769f0f9e4a49e28e58b839a80976a44b4995c95f68ad6741defeb148f10a6091"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Speedometer Chart/speedometer.otpu",
+      "bytes": 64819,
+      "git_blob": "c4e41b359341c329e0e3de4be2b6d360be3af11c",
+      "sha256": "c611e331c25deda3bc9177fb212aeefe4e68cf829ceadc98783aea86c22be669"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Speedometer Chart/speedometer.png",
+      "bytes": 14691,
+      "git_blob": "2905f538371bef4e05d41095d9bdd8849bc49506",
+      "sha256": "b9843e698f3e28159505f7fc2653768ec2701be85bf25ce8c1ebef55d2ac5137"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Speedometer Chart/speedometer_dark.png",
+      "bytes": 14927,
+      "git_blob": "7cad3f6434eb1a8808e9805eaa2d4fc7b1debd48",
+      "sha256": "9b5b5a98fd2482232ecc581641eee386a3fb0af5eddd42df4478f73336aded8b"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Speedometer Chart/speedometer_icon.png",
+      "bytes": 1957,
+      "git_blob": "fda01c8fb70a3a34efbab068c59796a601a8dda4",
+      "sha256": "e2ffb0f773f3140a018d65af36028bc053322b446005e1b10d2bbaef9d3595ba"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Speedometer Chart/speedometer_icon_dark.png",
+      "bytes": 2117,
+      "git_blob": "0354b927d198e502d1165cef0f7dc715cc11a11f",
+      "sha256": "3d3ad79d9efa7de160ed8cc5da339321026eea4b73ce3acdc981aefe3b8894c4"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Ternary Density Dots/Script_TerDensity.txt",
+      "bytes": 452,
+      "git_blob": "0bb2d6abb797bf33164c567e842be61428c43404",
+      "sha256": "4345c9ba6736b6d4d215f731d8a7a06e4fe3517710181ff6861d3ed1858c739f"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Ternary Density Dots/TerDensity.opju",
+      "bytes": 112919,
+      "git_blob": "7e595a38144917f0d6bd1e5dc2826ea739db8590",
+      "sha256": "07ec165d9f520b4ac6e653f0a07c7b3e4e45ec006cc88bc676db03f29bb16d11"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Ternary Density Dots/TerDensity.otpu",
+      "bytes": 75553,
+      "git_blob": "c312265b9b2c1ea7bbfa4c1594724911c90e0a3b",
+      "sha256": "1ddd6ff56987a992a2815891a248d5132c109cccdda6654c3cb019bb36e30623"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Ternary Density Dots/TerDensity.png",
+      "bytes": 10348,
+      "git_blob": "dc20786459fb55d1851179caf45b87d1c10fcedf",
+      "sha256": "bf8d245b5ff1a161d37e8403865c9737adb6b6c86339447114f3b4e6d5e57994"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Ternary Density Dots/TerDensity_dark.png",
+      "bytes": 26153,
+      "git_blob": "91e49ff9b367042e0a2156993e0001a9e7cc408e",
+      "sha256": "572bbe9d8d170071ef79f6cb95ca02b48136b4c2373853bed9ce01414c1b8089"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Ternary Density Dots/TerDensity_icon.png",
+      "bytes": 1991,
+      "git_blob": "5762acdb7169dd4bd4e8cd84725d2e0dfd755888",
+      "sha256": "aef04327ca6306c35d1d755a61e70c561f87596471888d89817e1ef1ca6d9008"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Ternary Density Dots/TerDensity_icon_dark.png",
+      "bytes": 2359,
+      "git_blob": "12b825de58f4fe6c0aedd0807b57e8398f3077ef",
+      "sha256": "b7e8e1e0418953629c3bd4edc146b836454209cde85741ad3f2af3a9e4b09958"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Ternary Density Dots/package.ini",
+      "bytes": 1184,
+      "git_blob": "9657d0f09823d58fbd4abe84d89f31b4c3be0973",
+      "sha256": "028b66e95e4ae36aab132ec970ef111778818261a1dbbe6da014acc28d664265"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Ternary Phase Diagram/Ternary0at1node.opju",
+      "bytes": 64160,
+      "git_blob": "df1555f5d279c4a5e517793e034ea7015bef0294",
+      "sha256": "53ab921fc85617b294fe016b4fe5aa595769fd5aa797a4d3ed90a887481ac20f"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Ternary Phase Diagram/Ternary0at1node.otpu",
+      "bytes": 55228,
+      "git_blob": "41e9fa6c67982586bde401ff26b655f0aedd80a2",
+      "sha256": "ee73d651658421287e7b63d2353e4fc822ef8b1aaf222532efe0085471810a0b"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Ternary Phase Diagram/Ternary0at1node.png",
+      "bytes": 12799,
+      "git_blob": "7c167d562b3ebd2ce2a483f3d1c77de60bb06ebe",
+      "sha256": "3c61db512bb634029280374df854a3dd25db061b66959b4f4b0115a64b6c55d3"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Ternary Phase Diagram/Ternary0at1node_dark.png",
+      "bytes": 13148,
+      "git_blob": "8ff39690f97e1acd8378a9a6b97734c384923c69",
+      "sha256": "913c4dbd551ab8a8e206efc282afb5d011a40d5c33710878d529e0a2de470350"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Ternary Phase Diagram/Ternary0at1node_icon.png",
+      "bytes": 880,
+      "git_blob": "c859dd1213a9d83a3c9b1acbc4f39d920d8e6f1c",
+      "sha256": "adb070681cbffa4b87b0d3a9c6d27be5fc05e3255f916d55960de3278fafd3aa"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Ternary Phase Diagram/Ternary0at1node_icon_dark.png",
+      "bytes": 1010,
+      "git_blob": "dff468a1fb9169f98c97c0bccd927d8d6d9400fd",
+      "sha256": "4fec8d22d22b71fa26b794b83a7e1f13f479bfbfb7727f0ebb89da6b0e4468d2"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Ternary Phase Diagram/package.ini",
+      "bytes": 2150,
+      "git_blob": "1d7ada92f215e26c987ba01cb6455fa178ac866b",
+      "sha256": "4719ff6fb79a6174aac75dc401204362564d208af11678f493bfc3b22bcd2c87"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Wafer Map/Script.txt",
+      "bytes": 563,
+      "git_blob": "ffe3e5d5716dc9ee3cd37b26bfa60dcb45b0b6cb",
+      "sha256": "d821b1008055260e6c779811809c760fd069e8b8a029b0a242534bf0502108bd"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Wafer Map/WaferMap.opju",
+      "bytes": 101221,
+      "git_blob": "bae745bd4c62679c6cbb9166ad2441777c3ae1a9",
+      "sha256": "c48489800a5ff205e14e81e2803375a959d9f69bf8a13cd6109cf6b943e01f37"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Wafer Map/WaferMap.otpu",
+      "bytes": 50433,
+      "git_blob": "61cc64dfd12e703946fe541af2daf58da41ca92f",
+      "sha256": "3358fa002bfc97d117a8fc5a05c6fa02be9ca1a1bb5a48abb553ef3448d9dd57"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Wafer Map/package.ini",
+      "bytes": 888,
+      "git_blob": "9914170d875d4ceca64a02c9554d45063f3847a3",
+      "sha256": "e9bf8a25d0a59efd60145a4a8c23e1e079b4717b1ed9657a99f511d214fffdcf"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Wafer Map/wafermap.png",
+      "bytes": 8210,
+      "git_blob": "08b00dbf3f68efdf197403c887e9f531b5370782",
+      "sha256": "6d0babbd730a4db66351e78810d00a8d116a4352394009aa81bb11a0c1ef0be9"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Wafer Map/wafermap_dark.png",
+      "bytes": 8268,
+      "git_blob": "6ee2bd7de77a27d067523bea7d1777057cc00f74",
+      "sha256": "06b21d524bf580ada144bee41fa77197be17022e7284e8b15720c2a5df6450db"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Wafer Map/wafermap_icon.png",
+      "bytes": 1737,
+      "git_blob": "da47b904ef452983497f68c0bc377067c3445475",
+      "sha256": "c8048a6b843a7af58c0773bc788a7e2376603f2c8abbf8802392278c1f9d488c"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Wafer Map/wafermap_icon_dark.png",
+      "bytes": 1566,
+      "git_blob": "13747310329bec1a008095354041d9c9701a3656",
+      "sha256": "d112b060f177de85c3796821ccb0879bc0d4f8f31c3e8507f02994f841dfd01f"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Wind Vectors Stick Diagram/Script.txt",
+      "bytes": 2126,
+      "git_blob": "24ac85193d559e0037b5fcf9be9603c1c3ba719a",
+      "sha256": "f67f02b8ca088ead5ad2d58b8cf5bcc19ec00c8a190c0891c0d9ba21b3dc2bb1"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Wind Vectors Stick Diagram/WindVectorStick.opju",
+      "bytes": 152653,
+      "git_blob": "ec7475937166342692b197a042a880541c4c5f72",
+      "sha256": "f84ce5de07caf60d2689b6b3ea793fc2425bd9f326a331d2aa8f48796ebdebdb"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Wind Vectors Stick Diagram/WindVectorStick.otpu",
+      "bytes": 35291,
+      "git_blob": "80b57451380c5eadc769a7ca3f16b2906978ce4a",
+      "sha256": "b5b08571da9cdef7f760c91045f59039b99c08f3ea861589b107ece3fa85c52a"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Wind Vectors Stick Diagram/WindVectorStick.png",
+      "bytes": 6860,
+      "git_blob": "10b026042db8c690d8d456a00e5877d5effd41ef",
+      "sha256": "4e0fc3e6e13fba25f87fea71793e76e35bbe9a0bd63da4515fcb4cb4aa521270"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Wind Vectors Stick Diagram/WindVectorStick_dark.png",
+      "bytes": 7574,
+      "git_blob": "85d7a2e8af449a1674162b8d9bd5b8272227f1cd",
+      "sha256": "0b97b35c299b9beede11f2994315b937813257322182caf8ded78615e85bd01b"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Wind Vectors Stick Diagram/WindVectorStick_icon.png",
+      "bytes": 1354,
+      "git_blob": "d789d6bfae3f77bde4440f8740adbb1333596a93",
+      "sha256": "3ce487e06e5f905baa16fccb8d4733df067b06ece1b3b074fbd705e06028319c"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Wind Vectors Stick Diagram/WindVectorStick_icon_dark.png",
+      "bytes": 1435,
+      "git_blob": "aa18672430ed8570f849f1f9ebb9982e92ab9e92",
+      "sha256": "f2eba94b40d73fa54a6533534264da722803ab5af97b3a623dcaa4f72ecfd365"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/Wind Vectors Stick Diagram/package.ini",
+      "bytes": 1770,
+      "git_blob": "786873b678e8bb68dd8f57cb8a202583b9f27b7b",
+      "sha256": "0b99c06725a97c4eb0d6b86ea3112d6288efdc7fba89f6c34dd1618c6e0339ef"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/XPS Area/Script.txt",
+      "bytes": 652,
+      "git_blob": "80307be48c01f91d94068daa12d4ac8d1dbafa16",
+      "sha256": "30a10d273249515f664f9f8f0fc64751cf6d34434f949bbee6dfbff9275c111f"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/XPS Area/XPSArea.opju",
+      "bytes": 164023,
+      "git_blob": "e54e9c02cb2573a5d7076b62ee25be6757576580",
+      "sha256": "5728ebcfff5ecfda2de0d6a3e399d44dd2fd599b410fda8e9cb4e0aa302a8101"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/XPS Area/XPSArea.otpu",
+      "bytes": 77726,
+      "git_blob": "26088aedfa28fee6cc2df5692ec828798da08aa1",
+      "sha256": "7446765274a923181336e9bfeaa1323f1cdf48ef221459da940bcb09b2df1789"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/XPS Area/package.ini",
+      "bytes": 1812,
+      "git_blob": "22afd0e5df893c15ecf07e17735f8f0ff352eec8",
+      "sha256": "84790b337caa86669583340dce0305fea4347e4ad3eac6f925c73ca6e54293cc"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/XPS Area/xpsarea.png",
+      "bytes": 15800,
+      "git_blob": "4e865ac92a68fde18b0461174796a3ea68fa2a85",
+      "sha256": "0929d023960d58614754721adbbcf7cdabcbbd5e9010ac11a1e84e29bf34edf0"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/XPS Area/xpsarea_dark.png",
+      "bytes": 14268,
+      "git_blob": "ce07f3c3c1d81277fb5927bbc094b6be617495e6",
+      "sha256": "49462c0109ed62de5eaa927236ae73a78fde1d5eb9f92decc1e586ca8d4643ec"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/XPS Area/xpsarea_icon.png",
+      "bytes": 2046,
+      "git_blob": "7f6755f1cc1e392fd7bf54d7e044aaacd1cfc360",
+      "sha256": "f6436927f387348f9e64e872b8296838fd80a21b208a5c34e167329613afb52c"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/XPS Area/xpsarea_icon_dark.png",
+      "bytes": 1951,
+      "git_blob": "88b1ed53c508d1577db246cdde7cc28c9606ac93",
+      "sha256": "99e533f39678c938f9a6e8cfed3d5ae473c845de089ef1029f71fd1b0aaca804"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/XPS Line/Script.txt",
+      "bytes": 597,
+      "git_blob": "64073adca3d50b9b226df63b0d5685c86bfefd10",
+      "sha256": "681f949aa70ff314e8008fc00ea0ba1fd4c74d78ce6474e13b95b779c70e6f0f"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/XPS Line/XPSLine.opju",
+      "bytes": 146297,
+      "git_blob": "fe1349e28694056ffa190e833643cc70d318b92c",
+      "sha256": "6282aab8230fca662bed5359bceb6005e9a68dda030496c10640d3faf0418917"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/XPS Line/package.ini",
+      "bytes": 1812,
+      "git_blob": "6425340850177ad03664a22ab4ec9014bb9c1cc2",
+      "sha256": "9bf875cb4039b4dc4c6dd66053a59b1e09c9c759f7c4d9df02359ddf5a770f9a"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/XPS Line/xpsline.otpu",
+      "bytes": 72789,
+      "git_blob": "c9a843996edf448834562337b79ebed5e33f4526",
+      "sha256": "8c44e65119833c65c30ad75f29622d2963a6c84122b11443b05e0f8695fa2ad6"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/XPS Line/xpsline.png",
+      "bytes": 12567,
+      "git_blob": "2e92ff31816c65a7803f3369570edc314aae4932",
+      "sha256": "64aa689d522776a5927179b55baf88191d6d862bdb38cc91af729488e4ebd1d5"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/XPS Line/xpsline_dark.png",
+      "bytes": 13001,
+      "git_blob": "8300774c6ae5dfb6f7a3f5277f83259d1b1744f0",
+      "sha256": "2151c4a05be406c6d86b2e82c26f88534f11817d1c7e7dea22876bd1b3102f51"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/XPS Line/xpsline_icon.png",
+      "bytes": 1896,
+      "git_blob": "90ec442cb107e5ad4d51aae394d9e8bc20882a87",
+      "sha256": "7db71c74a4d71fb7492115395cf7ee9afce47150ec07e9f9bd0eac2068b508e1"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/XPS Line/xpsline_icon_dark.png",
+      "bytes": 1982,
+      "git_blob": "504f033e9c46abdda63bbd0d20e9228b81bd0a32",
+      "sha256": "d65e3dfab5aba86279c5c23abbca5984e0519c6aa40cc090c26e380c0e707dab"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/XRD with PDF/Script.txt",
+      "bytes": 592,
+      "git_blob": "a33cbd1d8d86241a5a7cb08ece142a03c533928e",
+      "sha256": "13966776160389e1c09c05ccd692952342ce9536a9a2d4265cb3f08c5e1dd057"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/XRD with PDF/package.ini",
+      "bytes": 1856,
+      "git_blob": "9bf305b66bcba84d980788ac4bfc7a903c0ac60d",
+      "sha256": "95a1b4d839f357ea8d79d3f7e81e5a26801761204b3c0e9a703a47aa4f61c1f8"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/XRD with PDF/xrdpdf.opju",
+      "bytes": 232173,
+      "git_blob": "4fa115ccf5144b1580f74ace35a78b791a121fad",
+      "sha256": "08d9f8e8223beb0289783fcb1f9f8cc4403014b924f41657cf73a703657fc8a2"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/XRD with PDF/xrdpdf.otpu",
+      "bytes": 57970,
+      "git_blob": "707ac3d2162d5b7e740fe4e5f632e8dfa1380fad",
+      "sha256": "ff1db794cab6fc72e2bc7b298a803861239e468a6d3843df78f51137abfed3ab"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/XRD with PDF/xrdpdf.png",
+      "bytes": 9140,
+      "git_blob": "d8ed07117f6497be29eea317e5609008005f0a76",
+      "sha256": "b0e71eb3cc58fdfa7ac54bf7f5503412424432017badc3538d6396dcf111de27"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/XRD with PDF/xrdpdf_dark.png",
+      "bytes": 9024,
+      "git_blob": "5b0351bc800f6c8244f273371e3d3706cad34bc2",
+      "sha256": "434a86d0408636430ded4e5d8d59d0394911db1f55f7c7b30770fc490e682dab"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/XRD with PDF/xrdpdf_icon.png",
+      "bytes": 1914,
+      "git_blob": "f726d379475d236087710654672dc6bcff24fb5b",
+      "sha256": "8a1c2d71591fe10ce88a687074407d6fdeb4d71bbc3c0252d937c091ae8539ac"
+    },
+    {
+      "path": "upstream/Graph Templates/Specialized/XRD with PDF/xrdpdf_icon_dark.png",
+      "bytes": 1896,
+      "git_blob": "eeb742093f5739e49ba7493509a14a325e099d73",
+      "sha256": "830b986e77a5d556e3e3aec8e1a3e1aae4b14772fa7dc6211543f9ec36958b0e"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/3D Histogram/3DHistogram.opju",
+      "bytes": 109834,
+      "git_blob": "2e921d786704480bb4a8205d8d8eb4a771252c41",
+      "sha256": "a45f2941ed4202a6662fb2c6ff872fb70a0d61880a9819e36b477c75a23bf0b2"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/3D Histogram/3DHistogram.otpu",
+      "bytes": 77050,
+      "git_blob": "e3bc346da6843fbf868dc72c6142fda6172720c6",
+      "sha256": "6c5b1e7a7bea325e63f94367920087762c0de64de0fc8d4341d61fcd598331e1"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/3D Histogram/3DHistogram_dark.png",
+      "bytes": 23593,
+      "git_blob": "1996f356027568a999855fd165928af3cecadf8a",
+      "sha256": "fa4e96a68bb9f6cd2e4f6deab40d7af2a626d8ca2d17f5382d797afea5573b82"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/3D Histogram/3DHistogram_icon.png",
+      "bytes": 2619,
+      "git_blob": "a18cf7019c2c451dab98509ce933bf9f0405e5c9",
+      "sha256": "203da1541426edc2c50a910eac5c658771a8cfd6caee29d19471b21c045544a8"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/3D Histogram/3DHistogram_icon_dark.png",
+      "bytes": 2701,
+      "git_blob": "e08be12582e957b53605e8866471aed4e07d9c02",
+      "sha256": "abdbe373384d3ff71a38d3631da4bfc14cdc68058efdc5d43d650124b9aee3b8"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/3D Histogram/3dhistogram.png",
+      "bytes": 22747,
+      "git_blob": "8b5319daab60424d7c84cdf954d006be618f23ee",
+      "sha256": "0c203b027286886bd33b313a5d2dd4718f886b0134a8e32a76b96148bb673854"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/3D Histogram/Script.txt",
+      "bytes": 104,
+      "git_blob": "dd1b3bfd1f0242519c5831baf2051092f0f9899a",
+      "sha256": "0806c8a150dc115ce4f353a60b71c9ae8c31127c16791124a485877df07db382"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/3D Histogram/package.ini",
+      "bytes": 866,
+      "git_blob": "74fe95dcff24acda5f5d6cfdb2517a1419904923",
+      "sha256": "03f4ed521d2eb1606de3cbb2e6ff5791015fb36769a2295beed852563bc6b36e"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Box Chart with Histogram/BoxHist.opju",
+      "bytes": 54608,
+      "git_blob": "7fba17658f111111f279008f1b5c576ad6ea7525",
+      "sha256": "6835f412078695fe7c62d17f184586f9966c1824bbef3d32536426e2e0ae58e1"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Box Chart with Histogram/BoxHist.otpu",
+      "bytes": 32005,
+      "git_blob": "a8567058e11ef7a4d5f07ef09fd47eb7dcbf9261",
+      "sha256": "aa116db247d0c45d59e40adc625cfcdf79bcb482015bdd9c3baf96e4f417c785"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Box Chart with Histogram/BoxHist.png",
+      "bytes": 2759,
+      "git_blob": "e24f635f733607c7230b608126484f8a248b41d3",
+      "sha256": "bf797081e793993e83d06d6e939fe3bb0ef41e6f55f5ca43bd4e7b4d16d80efa"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Box Chart with Histogram/BoxHist_dark.png",
+      "bytes": 2846,
+      "git_blob": "7f5637f5f88f818a9045d0d7a7c643bff5d50b9d",
+      "sha256": "b09fe074a9dc54506113113733399e1a9c6969750584f889a307a0d137368e46"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Box Chart with Histogram/BoxHist_icon.png",
+      "bytes": 444,
+      "git_blob": "fd48bde68fd8df161b8bd4d5a8fb635b8f7f9740",
+      "sha256": "9fd31e59bb684987acd1653f07689c771bd6e08a16eb1c411ce503334479bad2"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Box Chart with Histogram/BoxHist_icon_dark.png",
+      "bytes": 454,
+      "git_blob": "745c0bff6e5934d9ffe8a6da95e10a3f9aed14c2",
+      "sha256": "316a7354d6823bb5eff819eab2caacbb7c5eb62d2ae32e7fe8c77166a6423990"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Box Chart with Histogram/ScriptNotes.txt",
+      "bytes": 105,
+      "git_blob": "8c41dc694dcaab5282f0a19efb28e128f51f9dde",
+      "sha256": "6a1ae55b867328563742028ad79d9a18656a3c9c70300e97be208e2e2479cda2"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Box Chart with Histogram/package.ini",
+      "bytes": 1190,
+      "git_blob": "2f87830cf7dc4b638beb5e2f915c065c9cf99026",
+      "sha256": "ccd1aa75efac3bb09fb2d4c03f826c935edc34a98b3b9e8455a5f8431e2757f3"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Box Style with Lighter Fill/BoxStyle.opju",
+      "bytes": 74558,
+      "git_blob": "7da489e85ca9edcd4fd1b8a77b474f3546fc2899",
+      "sha256": "43458fe897424453dd382c558bf0d49577e6dc6527590d9099b777ec4815944c"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Box Style with Lighter Fill/BoxStyle.otpu",
+      "bytes": 19824,
+      "git_blob": "41f289c566df4b93f2fd02dd816b009bab0ff710",
+      "sha256": "b02468ba4186fd41b46065dd6cae758bf192d1a20e3ab5fded333c8eeb27d4c8"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Box Style with Lighter Fill/BoxStyle.png",
+      "bytes": 3626,
+      "git_blob": "3e750c33b5ef1dbd2617c558bd88d16917f4ec9d",
+      "sha256": "07493f708c23d2bc9b398b8381a0c8393d5fc5c62362450f4238e43fcea559d2"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Box Style with Lighter Fill/BoxStyle_dark.png",
+      "bytes": 3350,
+      "git_blob": "92bbcb228ddff64fba33f01a6c0d51424c977b37",
+      "sha256": "40d565eda4cc4d83abd212a0ac966dd4917ba600ac8d8ef6ca179e7489173153"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Box Style with Lighter Fill/BoxStyle_icon.png",
+      "bytes": 479,
+      "git_blob": "ec3cf3837245359fc56ed59db6803e4112e81ab7",
+      "sha256": "0ab542c46da7e7d7d3e979e8128585b2b225cd8b21e101f96d94c5ce4210c36f"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Box Style with Lighter Fill/BoxStyle_icon_dark.png",
+      "bytes": 501,
+      "git_blob": "741e6008cc3c0756b949adf166df7b2a900b9430",
+      "sha256": "2a72f3c94b7dcd69742bb678d6c34f3279094d06bc8e64726b7e4ad7ab3ffc04"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Box Style with Lighter Fill/package.ini",
+      "bytes": 1516,
+      "git_blob": "db96cccb5d0c8ffe4fe84e5689545a9b3e75fdf8",
+      "sha256": "2309e3e790c675c8a55bad006b51673cae1107b10edbc15db45d7b974535a530"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Box Width by Sample Size/BoxNWidth.opju",
+      "bytes": 82229,
+      "git_blob": "e14219981efb9e5c390facf1074f161c53c2776d",
+      "sha256": "c59e9cc05065bc58acad18b84765d3a0d8327a16e26716edc7af27c2218f49a3"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Box Width by Sample Size/BoxNWidth.otpu",
+      "bytes": 32816,
+      "git_blob": "bc87307b22ca3470a5c87db583d65310c9be467b",
+      "sha256": "7971962dd3abe4d7e5cb7c867e1d73574d241737e3ac66f2bef2cad105d46178"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Box Width by Sample Size/BoxNWidth.png",
+      "bytes": 3962,
+      "git_blob": "93568e60c868d35951c4d4fddc105f40369beafe",
+      "sha256": "9c74e01405d520f44c49c0267c7a5ed6be3765a67d3e5685cc50107968b14da7"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Box Width by Sample Size/BoxNWidth_dark.png",
+      "bytes": 4037,
+      "git_blob": "a9b89a608b6b86d1e426550039c9255fe152ba15",
+      "sha256": "1d0770fba75d73907db330fccf31c3a0d2084ed87d1c790bf5bf900152fdee48"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Box Width by Sample Size/BoxNWidth_icon.png",
+      "bytes": 767,
+      "git_blob": "fbacdecf0cbe275dfed348610358f0ec9f07cb99",
+      "sha256": "03185d6d08c94c600767a046b8ed888edda43269a510d84ffa27fdd4de737261"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Box Width by Sample Size/BoxNWidth_icon_dark.png",
+      "bytes": 812,
+      "git_blob": "6d14f33801c1529e682c67eae55d7aeacd60b7d3",
+      "sha256": "d9ed8202deac9fe5cf93e8028bc722db3f0df17022ba74de017c966107b1e4d9"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Box Width by Sample Size/Script.txt",
+      "bytes": 811,
+      "git_blob": "eaa95855b61a254cc4e93122bc36c89aa73380bf",
+      "sha256": "ff5558c0461bbccfd4f38c5ecff5bd762707756b7b225ae1f85f005816278ca4"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Box Width by Sample Size/package.ini",
+      "bytes": 2170,
+      "git_blob": "9b91740e18cbd5f312b772bc752361c65c8d181c",
+      "sha256": "aede222c2460d950c57db385a29e1ca7da67dcd1aa697ed2d8c23fba9d84da78"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Box with Mean Connected/MeanConnBox.opju",
+      "bytes": 75977,
+      "git_blob": "a79ffb0e6e0a0010ff72472c7c3b70fbf3b9a728",
+      "sha256": "4af68bc15b3e3faa24eb8da6c4aaa323388ade7ff9f74c8a6196126a5aa3e139"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Box with Mean Connected/MeanConnBox.otpu",
+      "bytes": 42376,
+      "git_blob": "ada042c8a84639426be13ad33777bc53270153a4",
+      "sha256": "e6f384f385661f93791cc5c8a5eda8c440c5808fe8c4255fdd5c47caa243883e"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Box with Mean Connected/MeanConnBox.png",
+      "bytes": 5451,
+      "git_blob": "72f9912d32d1192acee0bc9f0c8c4e941536cd4e",
+      "sha256": "20e7520536aee0aa64590392c69c6650ce10374f189ab9985360cef41ca7acb2"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Box with Mean Connected/MeanConnBox_dark.png",
+      "bytes": 5606,
+      "git_blob": "4aafea1b6c3a0a27ebf44438b5a5416a537753cb",
+      "sha256": "5dad33c947f20b3d336b7c6df9111b1f66c759dc267fb7d9f9ca3d001a874600"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Box with Mean Connected/MeanConnBox_icon.png",
+      "bytes": 927,
+      "git_blob": "1c65bae4f2098608d824200504ea89511d9ad9dc",
+      "sha256": "a4abd34eec0160891bcde406dfbb30acfb607a34f8c31629a5cdb1c169536519"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Box with Mean Connected/MeanConnBox_icon_dark.png",
+      "bytes": 880,
+      "git_blob": "960f5b29b8d958424b849df80c2ca879869a55d4",
+      "sha256": "9c4c698fd5bc36a82bd38a74bc1de57b13615e25ff17fea78130ea88dc94068a"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Box with Mean Connected/package.ini",
+      "bytes": 1220,
+      "git_blob": "80b5439cd1b176b12db2d7f4057876f8ad489e66",
+      "sha256": "351965ce4885f23bb897d20bcb72f52769bc52978185d15e27f01e667f3fb0e9"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Cluster Plot wth Confidence Ellipse/Script.txt",
+      "bytes": 180,
+      "git_blob": "5b304f16d694a0b77f66536ffb326479585cf4ff",
+      "sha256": "cc0bf939e5a544c8a851d816435ca0ba0f2e3881ebdbc60c331eebb8d0bd4e66"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Cluster Plot wth Confidence Ellipse/clusterellipse.opju",
+      "bytes": 60929,
+      "git_blob": "024ddb6ae8e0317dace8c74589e45c3728e2ce6d",
+      "sha256": "f9be31a9e330c4cb76b1ecdf5a718afeaaa35adbbbe6190bc42f1fd411927049"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Cluster Plot wth Confidence Ellipse/clusterellipse.otpu",
+      "bytes": 64475,
+      "git_blob": "6b555c85d788ada669440bb97076a6e2b8902459",
+      "sha256": "81cff727aa98e189370ead6cd086de11da6ab0bd2bc68057f81cee271b86feb4"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Cluster Plot wth Confidence Ellipse/clusterellipse.png",
+      "bytes": 22185,
+      "git_blob": "d4c11df9e74c8eee89526e550b0408b206c9d7d8",
+      "sha256": "3e77daf195465c95a5ac4418f4de7337af70cf35244b6444ead4e764ea1e9046"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Cluster Plot wth Confidence Ellipse/clusterellipse_dark.png",
+      "bytes": 21640,
+      "git_blob": "d42b86ba22965701d9ad541a001b392cd6f4933b",
+      "sha256": "3535bf378a081819d4e7eb510a513143e2299417239f2fe5b705bd679912cc5e"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Cluster Plot wth Confidence Ellipse/clusterellipse_icon.png",
+      "bytes": 3742,
+      "git_blob": "e5fbe2bd2b3f484d3c78e426e262a4bdecf7dec5",
+      "sha256": "0130a1afbc21587d4b4306f39f93493ee9aef72665e1db71681399f670bf60d1"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Cluster Plot wth Confidence Ellipse/clusterellipse_icon_dark.png",
+      "bytes": 3701,
+      "git_blob": "62deeaf8b70d6d78451c464fbd59a60be2690b67",
+      "sha256": "e88112417499042457efa0f3353f36cc6c03b59e65903ce3671b02184fa4f64f"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Cluster Plot wth Confidence Ellipse/package.ini",
+      "bytes": 1740,
+      "git_blob": "ded653b1a950cbfb58d5c3b5969ee4d8894fd455",
+      "sha256": "174c63f7ffc3838d405d8c7613b94a3b764125f71275076066255bf53e26b112"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Clustered Scatter Plot/Script.txt",
+      "bytes": 180,
+      "git_blob": "5b304f16d694a0b77f66536ffb326479585cf4ff",
+      "sha256": "cc0bf939e5a544c8a851d816435ca0ba0f2e3881ebdbc60c331eebb8d0bd4e66"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Clustered Scatter Plot/clusterscatters.opju",
+      "bytes": 73196,
+      "git_blob": "a2cae774984575a2d209f8ff2f345b20c28237b2",
+      "sha256": "349d2c05a190b2314c9af840129c9e9d32ef24e86f1eb7f57753322e429a6255"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Clustered Scatter Plot/clusterscatters.otpu",
+      "bytes": 53653,
+      "git_blob": "844262d4e47711282fcb9538178f97d0f0207a48",
+      "sha256": "401dc6224326fe2dfa9b72df4ed5248ab9d95fd9fdcaf5bd714d94354dfd7bb9"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Clustered Scatter Plot/clusterscatters.png",
+      "bytes": 15702,
+      "git_blob": "264870bce1d560cc2e0bfa2b1375b20df5a4bfaf",
+      "sha256": "f0e03954e5dcf69050ed9df55a9f5d5952272e7c936f3acadcee5cf1b0b2fe89"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Clustered Scatter Plot/clusterscatters_dark.png",
+      "bytes": 11787,
+      "git_blob": "09f3f505d06ffe165be6c4179be40a1a2bb899b8",
+      "sha256": "eb2c63b0d2b3909ad0d2097c621f8744be737707dace8153a694fd738f548586"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Clustered Scatter Plot/clusterscatters_icon.png",
+      "bytes": 2966,
+      "git_blob": "87e7a4488e39cd47e90820356511c757f43c1e6d",
+      "sha256": "32b98caa5f1cc66735c40a3b457f02aa6605be06bad1e282d1b981d312778d0d"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Clustered Scatter Plot/clusterscatters_icon_dark.png",
+      "bytes": 2066,
+      "git_blob": "1c48d01c186a663b9b2dc799af2fecaf2abdd579",
+      "sha256": "fad52db61d3af48b4a3d8a7eda07bb0e1eafd51704e60d4ec2fbb5ac589f22c5"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Clustered Scatter Plot/package.ini",
+      "bytes": 1380,
+      "git_blob": "4b0cfebc1955a43dce0a78aa69beb2a007294ce3",
+      "sha256": "e8bdc6d2eab52a5b62d0af674b688db19a5be61bade99997f2eead8b250c3c74"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Corner Difference Histogram/CornerHist.opju",
+      "bytes": 89449,
+      "git_blob": "a63a6b4dd6f0a5f466c633c2ac302f753f6daca5",
+      "sha256": "8efda2307dd54697e9b0d4602f9eb6150c5df13c261b64bd1cf3d8c92984e62a"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Corner Difference Histogram/CornerHist.otpu",
+      "bytes": 47352,
+      "git_blob": "de7eeecac37393a6594e3728607769e673956641",
+      "sha256": "8d06154d697dc06f1e5a16a2800093f023905d7ab62f5ce78e2aaded6bca0272"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Corner Difference Histogram/CornerHist.png",
+      "bytes": 7292,
+      "git_blob": "519e218b19def4c104241c0df0a90a49e46cb99c",
+      "sha256": "4af1142fd2a27337c9100b46727f31e098abf4bf8cf5c31500dd90b13add4528"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Corner Difference Histogram/CornerHist_dark.png",
+      "bytes": 7420,
+      "git_blob": "a514f7bef2005f77af707e970b7eadc54ee4e2db",
+      "sha256": "9ac41e095b090d749c80b51d6b38a174a3a1d38d3bffe97aac29e85d277f0754"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Corner Difference Histogram/CornerHist_icon.png",
+      "bytes": 1721,
+      "git_blob": "a7f43bb305cd5298dc3da31c9ae866152a22cf37",
+      "sha256": "7d4a4877a1165a1e5f502fcdb8b813635a7c83fc3c9a847230b3fe07f9f71311"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Corner Difference Histogram/CornerHist_icon_dark.png",
+      "bytes": 1731,
+      "git_blob": "f8736299aa417ff690fbcd3b860dfd1cba28b2e2",
+      "sha256": "c1ec1f3402fb28b0ada754ecf932b63559f87efbe9d0b8f4e36ca57758343e59"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Corner Difference Histogram/Script.txt",
+      "bytes": 81,
+      "git_blob": "3a9cc7f5e98a1e6985f844b01ecdfadc9ab72d66",
+      "sha256": "36b9f5574ce5f2ba2207b1d4bf89d779794dcd6d965f593a7be3dd782a8a4845"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Corner Difference Histogram/package.ini",
+      "bytes": 1564,
+      "git_blob": "8b1d6ca191af9f86baa8cfb8bca4568852e68008",
+      "sha256": "c0e6ada6ba7c5f8936b9efbbeb02a2db56925a29dda4670e4e4159c563373c23"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Correlation Chord Diagram/CorrChord.opju",
+      "bytes": 164072,
+      "git_blob": "88ab635dd2b47311fe69dc891e6e71d82622aaa9",
+      "sha256": "b280e3f7bab44415746ae8c546a387bc0f0e314e60acea5709dfef2f93fd642d"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Correlation Chord Diagram/CorrChord.otpu",
+      "bytes": 64682,
+      "git_blob": "341575e7745647df135505ab7b30a0e60e18456a",
+      "sha256": "5808cfe1afbbcba7beb51c4852dd605561e63299bdf28d95346a60d980397304"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Correlation Chord Diagram/CorrChord.png",
+      "bytes": 17909,
+      "git_blob": "bca77569e32ddcb5132fc25b60f5516f280cc8f3",
+      "sha256": "2ef1d6f380e90d8303f6fb34cf6af66b196940c78db9bfb155eccbca41ae7d42"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Correlation Chord Diagram/CorrChord_dark.png",
+      "bytes": 18130,
+      "git_blob": "3061a76136f9cafbe3f6dd5cf38e4e67e23b2403",
+      "sha256": "c8c76dea3d729c2431e0981268a05d2e29624600b978d695cb14e1d6508680cf"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Correlation Chord Diagram/CorrChord_icon.png",
+      "bytes": 2952,
+      "git_blob": "54f299928cef0749981137b9057f19156b57e410",
+      "sha256": "921ed2e5156af480ca891c51bca605cdc903f7fb3cd8aafdf473a968d95672e0"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Correlation Chord Diagram/CorrChord_icon_dark.png",
+      "bytes": 2987,
+      "git_blob": "9cb4a63114949d1ed430bab4893f656be903e043",
+      "sha256": "be8ec614b0628b60a6acb4e460f858b448dce1513356f8b845f8b1980648b762"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Correlation Chord Diagram/Script_CorrChord.txt",
+      "bytes": 772,
+      "git_blob": "297e066d68cb47f32dd1e64fcf66c7ce0c317c21",
+      "sha256": "8baca32e88be5623d8959ab79884a1e9a25074682e0a401d961bbc993dfa7236"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Correlation Chord Diagram/package.ini",
+      "bytes": 1374,
+      "git_blob": "aeb4fdf4b112571c8e345eee0ef854e7a0b58765",
+      "sha256": "1a2b7e4b554ce3d865dbdad466d46673a36c5436d9c3c4e8f4c8c3b81f1714f3"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Correlation Network Plot/CorrelationNetwork.opju",
+      "bytes": 179186,
+      "git_blob": "a6c98e3d8d30697feddfcf8390ca42bed17febe5",
+      "sha256": "e455b564797675d57bc3684e96e1ddec5ea2c9d4a0adfa0cbc8b9c1c8c07069d"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Correlation Network Plot/CorrelationNetwork.otpu",
+      "bytes": 84899,
+      "git_blob": "078cc107fca57ab7ed3ed748bc7ffaff3b7c3f86",
+      "sha256": "56b56704da77be29754d6eb60507efc65e00db0dcdd9cc78c59039bd4f4bfab8"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Correlation Network Plot/CorrelationNetwork.png",
+      "bytes": 30017,
+      "git_blob": "8e37d55fc7dfaf8ab3941e28f3a1c02e7afe5482",
+      "sha256": "eeac29c371658ba013e634a32ca9cc3b10fc5de79fde42fdc1c9b4244ed39e72"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Correlation Network Plot/CorrelationNetwork_dark.png",
+      "bytes": 29694,
+      "git_blob": "7f307026abe3aad8cc783b489c07aa37da2954f2",
+      "sha256": "2917175f53b0e5d301b4eeb603bb083372b864e42e6eea72ec0290628d071b2b"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Correlation Network Plot/CorrelationNetwork_icon.png",
+      "bytes": 3917,
+      "git_blob": "5d8ec65fb79f07467b92a63ee3ff7ba3a41daee6",
+      "sha256": "9f12d20043edb0b3fe54415aff3d06914a08f61113b458a875948ce1d0d29064"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Correlation Network Plot/CorrelationNetwork_icon_dark.png",
+      "bytes": 3906,
+      "git_blob": "e6869a552d46bc29f3bfa032f7b6bd28218bec50",
+      "sha256": "4e4564e3d761833a9832455adae29af6349962a5ac9510b023413382831889a3"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Correlation Network Plot/Script.txt",
+      "bytes": 142,
+      "git_blob": "288f494563bdc1d4570c5aeeaa148b503f59efc9",
+      "sha256": "17ab42edd8350c9f1643b12bb1ff452d3c15c19db6ab82832c907b2c22ced50c"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Correlation Network Plot/package.ini",
+      "bytes": 2304,
+      "git_blob": "4fde9302951ea80bc7a0ea0df0bd0726f5bef433",
+      "sha256": "974237e836007320c65d035b1e8d732b3c00c085a31db15ebf920c95dbe3d0fe"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Distribution + Box + Data/DistBoxData.opju",
+      "bytes": 107935,
+      "git_blob": "829a892514c0e9216118990a904c44bd6193169a",
+      "sha256": "40e4b4e5843e2408631930d9f5803b934074db385f8d2300ca682206fa45b047"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Distribution + Box + Data/DistBoxData.otpu",
+      "bytes": 58745,
+      "git_blob": "8089d66ef7a2df66fcf7f0bf1ffb6bde39e2c7fe",
+      "sha256": "7bfe6d4d58995c274f342b80104b46dcc843ebf44a75a6ebbc4abdd7d5e43e33"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Distribution + Box + Data/DistBoxData.png",
+      "bytes": 8487,
+      "git_blob": "ca16c93a5a4c409ab577cbd14cf4350a25d1a42b",
+      "sha256": "d9c86406ed66e0cf48105dd34ec2bd3e1e0bccbc64f492763371b3a3563a3753"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Distribution + Box + Data/DistBoxData_Icon.png",
+      "bytes": 1609,
+      "git_blob": "530dd979e86c525d33164db99ccc3f4922fd878e",
+      "sha256": "4bc67e6902d35c0037e0ecf67686ed563d70d2bede8518288056179eef03c3dd"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Distribution + Box + Data/DistBoxData_Icon_dark.png",
+      "bytes": 1221,
+      "git_blob": "67848d30f30901a307d0e4fa4b82c0205c8f802c",
+      "sha256": "ee1a7c2b826d3bc80542a9a0181b7f18c05c88eb4faf069dfed64b20cd1c0385"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Distribution + Box + Data/DistBoxData_dark.png",
+      "bytes": 6775,
+      "git_blob": "dddfefb13e5658eeb8cc835861143595c65135c5",
+      "sha256": "7050565eccc37ccc76567b8ae7f4c71cb86e9c4003fd001fdc668accfb241d58"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Distribution + Box + Data/Script.txt",
+      "bytes": 562,
+      "git_blob": "14752b225b5f0c9faabb50dbe9287d6e2228477d",
+      "sha256": "5c290b9ad14f96bcf99c2e64e27b00531585887429431bc7b30e7809defd2449"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Distribution + Box + Data/package.ini",
+      "bytes": 1032,
+      "git_blob": "a81c52ccc6a927e329a1a0131566b16c53d85ca5",
+      "sha256": "0b1ece86c33c57d0c777d82d3d531394b695d0f87acbdf955cbfe6be90165ac9"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Distribution Area/DistributionArea.opju",
+      "bytes": 64931,
+      "git_blob": "d8fd65814d401f36967f5186c52363f3a687f60e",
+      "sha256": "af898467386ca80e3bccd1478d97f286d878e6369d0da53f420a0c1edd55e662"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Distribution Area/DistributionArea.otpu",
+      "bytes": 54271,
+      "git_blob": "9f36abdab6ccd24987d2a1ba8b878e1b8d43c43b",
+      "sha256": "e6e8586df4899961cfdcdf492b935b6dc2bed92ec3761eb638e82be401288181"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Distribution Area/DistributionArea.png",
+      "bytes": 13166,
+      "git_blob": "3c06c152ed44a5c673491b177b7b60cc4f0a7038",
+      "sha256": "953543a281f45b409d6a9e4a93bb1d64bf114d79b6ac02324fb1acfe393c6cf4"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Distribution Area/DistributionArea_dark.png",
+      "bytes": 13383,
+      "git_blob": "8ab84d27cd714032b96a6d33a1f75532ce2258b9",
+      "sha256": "472c9451e98ab14fe0e3b83957084a233216a5b520a7630bde60fb5b2df5d1f3"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Distribution Area/DistributionArea_icon.png",
+      "bytes": 2765,
+      "git_blob": "e34cfd7692321bc8d586086d2e9f981250e964a0",
+      "sha256": "c11e675bef0e95e20cf054ced332d5ea64775464a40ad4319f94a9d6a12f5353"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Distribution Area/DistributionArea_icon_dark.png",
+      "bytes": 2765,
+      "git_blob": "4f746a2eeddd0d707187ba77de2b19d35f6958a9",
+      "sha256": "d26d27c425957be22faa4854fd15da9e5808db484654f5c2de526510abfd0616"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Distribution Area/package.ini",
+      "bytes": 1308,
+      "git_blob": "fb637efea4a563f58132417c42d96c0911e2eac0",
+      "sha256": "851aeadc504148dcc7f3cfde2eeb011e3f57eb1eeaf6900fa23b76a082b100eb"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Histogram with Range X Tick Labels/RngLabelsHisto.opju",
+      "bytes": 75068,
+      "git_blob": "443c0d6220125b58191778b6acb42beb46d4bda7",
+      "sha256": "44c737ab712ce645b825adcf7e3e5b06e5ab4a1eed44f16f9a9ce07f578f20a9"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Histogram with Range X Tick Labels/RngLabelsHisto.otpu",
+      "bytes": 28375,
+      "git_blob": "6319ca74417fe1905179595c5b227633ea237a29",
+      "sha256": "2423a6665559b45fd92158d38bca3b9d619e5e8a243226b355753d8e116f4289"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Histogram with Range X Tick Labels/RngLabelsHisto.png",
+      "bytes": 2151,
+      "git_blob": "db16f00397389c17adaac79837672213daed21af",
+      "sha256": "c47abb0d9952c8ba9225ae7622fe0bd914860b721f0600213f7e6ed23a655d81"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Histogram with Range X Tick Labels/RngLabelsHisto_dark.png",
+      "bytes": 2416,
+      "git_blob": "0c7c15cb8afcde9db88eaf64be9bfb99f03c563b",
+      "sha256": "1b5378b3e8bf834f2bb828a4560d4ec9472a14c6a2a6d79aa92a41bddfc0692d"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Histogram with Range X Tick Labels/RngLabelsHisto_icon.png",
+      "bytes": 767,
+      "git_blob": "0693defb5f5eb35111affe2f291c97f5bcfd506c",
+      "sha256": "85ba2ba5f8a422b860b2553663b782e0b68aa320d9cdf463bc260ded893ad3d0"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Histogram with Range X Tick Labels/RngLabelsHisto_icon_dark.png",
+      "bytes": 809,
+      "git_blob": "4361b3e703532f75ce5c367f23d7ced3684a578e",
+      "sha256": "b99a55a08e951d627bd2df19d7280868faee72c361ca7ed3fd72f7afc7cf7c79"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Histogram with Range X Tick Labels/Script.txt",
+      "bytes": 627,
+      "git_blob": "aa3eff6a7fb4eb492c852001cec95911559453f4",
+      "sha256": "19760ffe3fcc0a4282e3666639dcc1fda74c44d18c10a8209d5e6451632ea5ce"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Histogram with Range X Tick Labels/package.ini",
+      "bytes": 1862,
+      "git_blob": "f13cdca5215af8e11191278165b824324962f3be",
+      "sha256": "d9066098d86385b063f34120a1aeee19a4a2ece3d80559112855e371835dcb48"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Horizontal Box/HorBox.opju",
+      "bytes": 68231,
+      "git_blob": "d937851476f4db0140741902ef1500a5426d8810",
+      "sha256": "b0d88217421da91d5d85cec8c88838deb0355c339518b1b2ecea91582d757ff6"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Horizontal Box/HorBox.otpu",
+      "bytes": 36752,
+      "git_blob": "1db98d6b679859b4cdf6b0367a29ec660daeb6c8",
+      "sha256": "f6ac088032f129d39b4d905949dd9781953fe6ac3bcea37d9035b8a725922358"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Horizontal Box/HorBox.png",
+      "bytes": 7035,
+      "git_blob": "6913d3fb48f03744bed30578b7c979b4ec69b49f",
+      "sha256": "76b664629de37f4776720b1a6d745c307183bc2adc8578a1d1724f009b027fbf"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Horizontal Box/HorBox_dark.png",
+      "bytes": 6715,
+      "git_blob": "8fe85711b13cc8280bce33d483b2f48f3d5251a0",
+      "sha256": "1dfde5c70f4931a6dde018bf253394ad1cb8115f69189aeeb8e6cb3556733473"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Horizontal Box/HorBox_icon.png",
+      "bytes": 424,
+      "git_blob": "000e98d4fc34bdf1a60cc4600a07f48c831d0fa8",
+      "sha256": "d57739b802891ac66c763f6f1922b8c720400f735786ebbab52638f315d3fb2e"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Horizontal Box/HorBox_icon_dark.png",
+      "bytes": 419,
+      "git_blob": "18cc75cc9e04b243cf1aca5a1a539bfb5ffa8b7e",
+      "sha256": "57ccd183aeecae48cf99c1004509c73850ffcb4899fc4ae9240899349810d969"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Horizontal Box/package.ini",
+      "bytes": 1166,
+      "git_blob": "c485aaba3bd3c1909e4d58c024b9e40b4bfa9011",
+      "sha256": "83ae81043f544e133fa5757012d7aa31e343c16603b8d42cf21b45f7493625f2"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/I-Shape Box/IShape.opju",
+      "bytes": 54677,
+      "git_blob": "8f43b3cf200a58debd1337d5149fcc45b2671890",
+      "sha256": "bed66a1d97d075dce4aec2f0c4c561ccf5929c56aa53c2b525bdd342560002a3"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/I-Shape Box/IShape.otpu",
+      "bytes": 74413,
+      "git_blob": "78282083a279c9cb73225de678c3c24f5e1d07fd",
+      "sha256": "b6956ce648d789091b48ed6ec18fbb6da57ab9ed2fa1ff8c0c7050162c5153fe"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/I-Shape Box/IShape.png",
+      "bytes": 27629,
+      "git_blob": "b5028e372f1f0b2c343a4bc3f77433f15ca5fdb3",
+      "sha256": "f1c55aa814ca6446e354f234f079b6a41498a2c0b5ba42f17e0b3fe8adbe0406"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/I-Shape Box/IShape_dark.png",
+      "bytes": 27938,
+      "git_blob": "1c8ba4ca9d7ae7bbc22499bb840510a4676559e7",
+      "sha256": "bea66afaf9eac09eff5a7a76b75afd5ee6fa54855c86d9878882fd3de82ab3dd"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/I-Shape Box/IShape_icon.png",
+      "bytes": 1977,
+      "git_blob": "4b152f1ddc809dcf2d8588e061c933bc160dcc4b",
+      "sha256": "3510d831ab58f571544912245032f7468c49eca5830a9e12534459376e7ac081"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/I-Shape Box/IShape_icon_dark.png",
+      "bytes": 1986,
+      "git_blob": "bd52a6e1190348c682cf84ab584f21319e88db1a",
+      "sha256": "9eb6e7c7ef4b56dce35e65d4f88d1cc5413b1dfea1e26fdb492439b39cc8384f"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/I-Shape Box/package.ini",
+      "bytes": 990,
+      "git_blob": "fbd25987112a88828c6d1a2cd02d8c9367bfe342",
+      "sha256": "52b4420ecdf2fbeb2b2100bdbb6dbbf4f6812685130ab92eb2a2d90440cc9ef8"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Notched Box Plot/Notch.opju",
+      "bytes": 53216,
+      "git_blob": "b5f28f2de7c158f588727990342103d23d0e48ea",
+      "sha256": "7a725c8b5a73128889aba58692a50820831def6a8a26815c7192cff8b43ea0ae"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Notched Box Plot/Notch.otpu",
+      "bytes": 23826,
+      "git_blob": "c561cc548ef138aa9e04859df53e4717b65b2904",
+      "sha256": "48d3053f425d8358e3c0c71bb338e47ced2dd1d4acb170444586b675a80b63ea"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Notched Box Plot/Notch.png",
+      "bytes": 4707,
+      "git_blob": "d929f87047c2dd3ae6d79de7240669309ac414c8",
+      "sha256": "84eefcfd2e58ffc71048eeb0caca5e793718a1fe60c9afeaeeabcf9403e5ae5a"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Notched Box Plot/Notch_dark.png",
+      "bytes": 5101,
+      "git_blob": "e030cb080712f375bcbd6cf9b9dfd977a5f76ebf",
+      "sha256": "9db2032daa4a0c3bc750eeff3bfb6c5adbad3a037cd638857d9979cf96c29e84"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Notched Box Plot/Notch_icon.png",
+      "bytes": 1086,
+      "git_blob": "5ad9fa8e9323086adfa04b91315225d3f7f716f7",
+      "sha256": "045bb1e86f65d8d188663862b321c4a83f7884ae852f31f17ddff9838e2fe865"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Notched Box Plot/Notch_icon_dark.png",
+      "bytes": 1006,
+      "git_blob": "30c9ff2e3e0b5cf9432041fc68e147cded7edbc5",
+      "sha256": "e0b9edb57d1f57dc38fb36480a80d33af63f8c7090711a90d00a4cf7c49c439a"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Notched Box Plot/package.ini",
+      "bytes": 1046,
+      "git_blob": "e29b071823e30ec6f90ef4e240eaeead92b29d52",
+      "sha256": "8713ba39d2e8dfa526b0b3e9f2a2740f15aab8c489c64cbb1d7732df733413f1"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Raincloud Plot/Script.txt",
+      "bytes": 106,
+      "git_blob": "6bd86bd3167423df390b227794e2792610df0aae",
+      "sha256": "4e05e024f52f7e00fdf90fd21bc830cb0253d64e83933ad8856a3af088a20d94"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Raincloud Plot/package.ini",
+      "bytes": 1840,
+      "git_blob": "5e5f979397285ee4ee992c72dbb4e1175ef8c55e",
+      "sha256": "3f757372c30f904edf6ee5e27a6e634f614b50a73fa29394f11a6d9a6054dcc7"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Raincloud Plot/raincloud.opju",
+      "bytes": 65142,
+      "git_blob": "7f8772898b68f75e64094b35cb89d55bb351265e",
+      "sha256": "f729a87b90bc4b142736235d234ddc594874da46ca8f83c79c43fc6e46d106e2"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Raincloud Plot/raincloud.otpu",
+      "bytes": 71276,
+      "git_blob": "eb3c03030619ce2d2a7139cb79006d3af6779e57",
+      "sha256": "660b7c23d8801f375cf51c45cf4dfb8284bf68e06c83d4a2f4d5ea65d203aa4d"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Raincloud Plot/raincloud.png",
+      "bytes": 13121,
+      "git_blob": "26ce200bd7eab1e0409baf687bdcf58aa364a7bc",
+      "sha256": "d5e0b0a465191ef6f05d2caea6838d509af79b06dc043b7930a19c6c01fe6199"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Raincloud Plot/raincloud_dark.png",
+      "bytes": 12768,
+      "git_blob": "f6d15caad28247e7fae26ba413b9fcf53ca5e9ed",
+      "sha256": "abffebcfc9593270413e0723ff9862cc9355f71fc9138e7452736c1789d8839d"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Raincloud Plot/raincloud_icon.png",
+      "bytes": 1543,
+      "git_blob": "b2df20ad78b7240f32d0ced527491fb6429a28b2",
+      "sha256": "5a57cb1b8704a5ab76fd7a4d8c24f585131e9ba2685d5a5c333786142b199a2d"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Raincloud Plot/raincloud_icon_dark.png",
+      "bytes": 1568,
+      "git_blob": "5992afabbd63ca7e5d3b115113d99e0e5605d35b",
+      "sha256": "401e7fd7f4c369d39faa60bc3d00afdab51675b522bc5845dbdef668b6dc849f"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Split Violin with Separate Interval/Script_ViolinSplitConf.txt",
+      "bytes": 649,
+      "git_blob": "8fe12e18bd1ce0f330eba27f5492976be5ff5558",
+      "sha256": "d3dfbb14d7eb6177f4ba121b26c361ef49180f5ff04c71f5ce68d0d474e0f881"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Split Violin with Separate Interval/ViolinSplitConf.opju",
+      "bytes": 78463,
+      "git_blob": "7c5b182775537bacddc6206ca7583d37477b99ea",
+      "sha256": "62b3df793bd1ae29fc6cb378b68662925a1832733b67f887c32439fe8974efb1"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Split Violin with Separate Interval/ViolinSplitConf.otpu",
+      "bytes": 45134,
+      "git_blob": "8f3280ff7bc5d566e9cae20cfb9f18eda7f79edc",
+      "sha256": "1bc9d8fc233c188e68482044c612ea8fed1ef076c9f3fa834781e60c230650b8"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Split Violin with Separate Interval/ViolinSplitConf.png",
+      "bytes": 9395,
+      "git_blob": "63c9634a1c1d2c9e5a478a2fea8725d44fa1b1f3",
+      "sha256": "bb77e808b9e774dead1420b0189367c96385561ea9ddc425a19f8dc2605b30d2"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Split Violin with Separate Interval/ViolinSplitConf_dark.png",
+      "bytes": 9266,
+      "git_blob": "dfca77911eda39e5667e6465ac8de9a34381ca78",
+      "sha256": "b9decbe1b8e9e8821c694c5eac983859eb83a6d6894ea8287f86495b80b4ee62"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Split Violin with Separate Interval/ViolinSplitConf_icon.png",
+      "bytes": 1523,
+      "git_blob": "916e88e6ae7a93dd0b8fbf9b28229ec8afd56bd9",
+      "sha256": "179018cfff213a9e85a7ddae3a5e952eb2681fd06c16bd2302ab557fcf2a003d"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Split Violin with Separate Interval/ViolinSplitConf_icon_dark.png",
+      "bytes": 1554,
+      "git_blob": "d401452ccad9b97fa49adf9eeb4af250da239cc1",
+      "sha256": "a637b56d23fab78cb8ac8ac697f2c4c3ca6a636679f3e6f7b304245b9184510a"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Split Violin with Separate Interval/package.ini",
+      "bytes": 1528,
+      "git_blob": "52ad7ed60bda3bd8cee8cec03e196e0c813ab95f",
+      "sha256": "33d9371748fb643f92c7917717b3bf0a7460bdca0ab87e6e05833c6c338bcb8e"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Variable Bin Width Histogram/Scripts.txt",
+      "bytes": 628,
+      "git_blob": "e6a11b18cce7515f138232d48da153f258a64d28",
+      "sha256": "4e9487ea5bee1612503f7566068ad28922824da27f3a5a032f1fe862d8f86686"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Variable Bin Width Histogram/VarHist.opju",
+      "bytes": 72914,
+      "git_blob": "40be729e747bf1fb9c570a0c0315c62129735a55",
+      "sha256": "3b7f99d59aba1ec8a9888b593b34cf0eb6dfbeffb1f8c43ba0138e21e14cf327"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Variable Bin Width Histogram/package.ini",
+      "bytes": 1498,
+      "git_blob": "facb05633bdc49e7c545e0e942173bcdf59cedc1",
+      "sha256": "42c2657f6d3a22bb28169b3b76a8abb7353dfd0b0245a808a4959a8a41d38030"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Variable Bin Width Histogram/varhist.otpu",
+      "bytes": 30105,
+      "git_blob": "caa6b804d30d0cc8f9434a2e62bc4a0c34aee21b",
+      "sha256": "5842d99a0fa3894eeb919333942204b6ff5e02cd004c23b1f2e65ac4491df201"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Variable Bin Width Histogram/varhist.png",
+      "bytes": 2296,
+      "git_blob": "0f141d292904a6670edbb66e5ce1aaeee6311822",
+      "sha256": "c73088d1222653be284fa8177862a9389bb042b3768f5987e8c2a98b730d27ba"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Variable Bin Width Histogram/varhist_dark.png",
+      "bytes": 2942,
+      "git_blob": "229cdeb2a17e9cbcda1dfca35986ffea30caa69e",
+      "sha256": "aae8e5062763c9d701609b464d8aac4af018c824dd330e51d6930edc248d5d70"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Variable Bin Width Histogram/varhist_icon.png",
+      "bytes": 497,
+      "git_blob": "eef74593d20a6a8878a985202fd05da39e36692b",
+      "sha256": "26131b7d12c00ec3ffe2614c1c2fba986afba92ecfb86433bc9c8323300aa65e"
+    },
+    {
+      "path": "upstream/Graph Templates/Statistical/Variable Bin Width Histogram/varhist_icon_dark.png",
+      "bytes": 455,
+      "git_blob": "51894b3056637ca7efbac17c89ea6453f18482cb",
+      "sha256": "77c2ca8a40fdc70a0af4d9209aa92dbe6461502d81f0a1a10f396a163876b83e"
+    },
+    {
+      "path": "upstream/LICENSE",
+      "bytes": 1071,
+      "git_blob": "3c33157438c9ed65ffb9107fb87d990c4489f753",
+      "sha256": "8b2295b40a21db2d0d40f7a3be87bb66e5a74a951a52de8ea94f0d58ac08e95f"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "xrd-stack",
+  "name": "XRD 堆叠",
+  "domain": "材料化学",
+  "fields": [
+    {
+      "role": "sample",
+      "type": "text",
+      "label": "样品"
+    },
+    {
+      "role": "two_theta",
+      "type": "number",
+      "label": "衍射角 2θ"
+    },
+    {
+      "role": "intensity",
+      "type": "number",
+      "label": "原始强度"
+    }
+  ],
+  "axes": [
+    "2θ (°)",
+    "强度 + 显示偏移 (a.u.)"
+  ],
+  "method": "按样品叠加纵向偏移，保留原始/偏移后的强度列，输出使用的偏移。",
+  "notes": "不做物相鉴定、背景扣除或强度归一化。可指定 offset。",
+  "examples": [
+    {
+      "id": "a",
+      "file": "example-a.csv",
+      "title": "合成陶瓷衍射谱",
+      "expected": {
+        "layer_count": 1,
+        "min_plots": [
+          2
+        ],
+        "source_row_count": 54,
+        "science": {
+          "offsets": {
+            "Phase A": 0.0,
+            "Phase B": 99.00000000000001
+          }
+        }
+      },
+      "expected_status": "离线科学预期；实际图层、数据绑定及导出待 Origin 实测"
+    },
+    {
+      "id": "b",
+      "file": "example-b.csv",
+      "title": "合成薄膜衍射谱",
+      "expected": {
+        "layer_count": 1,
+        "min_plots": [
+          3
+        ],
+        "source_row_count": 84,
+        "science": {
+          "offsets": {
+            "Film 1": 0.0,
+            "Film 2": 66.0,
+            "Film 3": 132.0
+          }
+        }
+      },
+      "expected_status": "离线科学预期；实际图层、数据绑定及导出待 Origin 实测"
+    }
+  ],
+  "source": "原创配方；两例均为合成教学数据。",
+  "template_reuse": {
+    "mode": "native-otpu",
+    "host_verification": "pending",
+    "requires": "已授权的 Windows Origin 和可运行的 originpro"
+  }
+}

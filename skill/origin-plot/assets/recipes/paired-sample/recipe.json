@@ -1,0 +1,79 @@
+{
+  "id": "paired-sample",
+  "name": "配对样本",
+  "domain": "生物",
+  "fields": [
+    {
+      "role": "subject",
+      "type": "text",
+      "label": "配对 ID"
+    },
+    {
+      "role": "before",
+      "type": "number",
+      "label": "条件 A"
+    },
+    {
+      "role": "after",
+      "type": "number",
+      "label": "条件 B"
+    }
+  ],
+  "axes": [
+    "条件",
+    "观测值"
+  ],
+  "method": "每个受试对象一条连接其两个观测的原生折线加符号，保留配对标识。",
+  "notes": "不把独立样本错误配对，不自动显著性检验。",
+  "examples": [
+    {
+      "id": "a",
+      "file": "example-a.csv",
+      "title": "训练前后反应时间",
+      "expected": {
+        "layer_count": 1,
+        "min_plots": [
+          5
+        ],
+        "source_row_count": 5,
+        "science": {
+          "paired_differences": {
+            "P01": -55.0,
+            "P02": -12.0,
+            "P03": -58.0,
+            "P04": 8.0,
+            "P05": -46.0
+          }
+        }
+      },
+      "expected_status": "离线科学预期；实际图层、数据绑定及导出待 Origin 实测"
+    },
+    {
+      "id": "b",
+      "file": "example-b.csv",
+      "title": "同一试片处理前后",
+      "expected": {
+        "layer_count": 1,
+        "min_plots": [
+          4
+        ],
+        "source_row_count": 4,
+        "science": {
+          "paired_differences": {
+            "S1": 1.1999999999999993,
+            "S2": 1.5,
+            "S3": -0.7000000000000011,
+            "S4": 1.6000000000000014
+          }
+        }
+      },
+      "expected_status": "离线科学预期；实际图层、数据绑定及导出待 Origin 实测"
+    }
+  ],
+  "source": "原创配方；两例均为合成教学数据。",
+  "template_reuse": {
+    "mode": "native-otpu",
+    "host_verification": "pending",
+    "requires": "已授权的 Windows Origin 和可运行的 originpro"
+  }
+}

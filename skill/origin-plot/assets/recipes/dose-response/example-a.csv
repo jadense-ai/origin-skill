@@ -1,0 +1,21 @@
+series,dose,response
+Line A,0,98.0
+Line A,0,102.0
+Line A,1,87.29
+Line A,1,91.29
+Line A,3,71.53
+Line A,3,75.53
+Line A,10,43.45
+Line A,10,47.45
+Line A,30,19.74
+Line A,30,23.74
+Line B,0,98.0
+Line B,0,102.0
+Line B,1,90.59
+Line B,1,94.59
+Line B,3,78.65
+Line B,3,82.65
+Line B,10,53.56
+Line B,10,57.56
+Line B,30,27.41
+Line B,30,31.41

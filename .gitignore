@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+/.origin-plot/
+/.agents/skills/origin-plot/
+/.claude/skills/origin-plot/
+/.codex/config.toml
+/.mcp.json
+/opencode.json
+/Origin科研绘图MCP与Skills调研报告.docx

@@ -1,0 +1,108 @@
+{
+  "id": "percent-stack",
+  "name": "百分比堆叠柱",
+  "domain": "通用",
+  "fields": [
+    {
+      "role": "category",
+      "type": "text",
+      "label": "类别"
+    },
+    {
+      "role": "series",
+      "type": "text",
+      "label": "系列",
+      "default": "Series 1"
+    },
+    {
+      "role": "value",
+      "type": "number",
+      "label": "非负成分",
+      "minimum": 0
+    }
+  ],
+  "axes": [
+    "类别",
+    "百分比 (%)"
+  ],
+  "method": "每个类别内按该行成分合计归一到 100%。",
+  "notes": "类别总量须大于零；所有系列均需显式给值。",
+  "examples": [
+    {
+      "id": "a",
+      "file": "example-a.csv",
+      "title": "三类样本的成分配比",
+      "expected": {
+        "layer_count": 1,
+        "min_plots": [
+          3
+        ],
+        "source_row_count": 9,
+        "science": {
+          "totals": {
+            "A": 100.0,
+            "B": 100.0,
+            "C": 100.0
+          },
+          "percentages": {
+            "Mineral": [
+              50.0,
+              30.0,
+              45.0
+            ],
+            "Water": [
+              30.0,
+              50.0,
+              25.0
+            ],
+            "Organic": [
+              20.0,
+              20.0,
+              30.0
+            ]
+          }
+        }
+      },
+      "expected_status": "离线科学预期；实际图层、数据绑定及导出待 Origin 实测"
+    },
+    {
+      "id": "b",
+      "file": "example-b.csv",
+      "title": "不同站点的使用方式",
+      "expected": {
+        "layer_count": 1,
+        "min_plots": [
+          3
+        ],
+        "source_row_count": 6,
+        "science": {
+          "totals": {
+            "Center": 100.0,
+            "Suburb": 100.0
+          },
+          "percentages": {
+            "Walk": [
+              32.0,
+              14.0
+            ],
+            "Cycle": [
+              18.0,
+              16.0
+            ],
+            "Transit": [
+              50.0,
+              70.0
+            ]
+          }
+        }
+      },
+      "expected_status": "离线科学预期；实际图层、数据绑定及导出待 Origin 实测"
+    }
+  ],
+  "source": "原创配方；两例均为合成教学数据。",
+  "template_reuse": {
+    "mode": "native-otpu",
+    "host_verification": "pending",
+    "requires": "已授权的 Windows Origin 和可运行的 originpro"
+  }
+}

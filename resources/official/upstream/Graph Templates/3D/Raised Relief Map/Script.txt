@@ -1,0 +1,12 @@
+strTemplate$=<[<
+
+if (exist(%H)!=5)
+{
+		type -b "Please activate a matrix book to create the graph";
+		return 0;
+}
+
+worksheet -p 103  __TEMPLATE;
+>]>;
+
+page.info.system.plotting.LT$=strTemplate$;

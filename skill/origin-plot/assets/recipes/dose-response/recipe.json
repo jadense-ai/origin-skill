@@ -1,0 +1,138 @@
+{
+  "id": "dose-response",
+  "name": "剂量反应",
+  "domain": "生物",
+  "fields": [
+    {
+      "role": "series",
+      "type": "text",
+      "label": "系列",
+      "default": "Series 1"
+    },
+    {
+      "role": "dose",
+      "type": "number",
+      "label": "剂量",
+      "minimum": 0
+    },
+    {
+      "role": "response",
+      "type": "number",
+      "label": "实测响应"
+    }
+  ],
+  "axes": [
+    "剂量",
+    "实测响应"
+  ],
+  "method": "绘制各剂量的实测点和组内剂量均值线；不外推 EC50，不静默拟合。",
+  "notes": "保留每次重复；零剂量对照允许。",
+  "examples": [
+    {
+      "id": "a",
+      "file": "example-a.csv",
+      "title": "两细胞系的剂量观测",
+      "expected": {
+        "layer_count": 1,
+        "min_plots": [
+          4
+        ],
+        "source_row_count": 20,
+        "science": {
+          "means": {
+            "Line A": [
+              [
+                0.0,
+                100.0
+              ],
+              [
+                1.0,
+                89.29
+              ],
+              [
+                3.0,
+                73.53
+              ],
+              [
+                10.0,
+                45.45
+              ],
+              [
+                30.0,
+                21.74
+              ]
+            ],
+            "Line B": [
+              [
+                0.0,
+                100.0
+              ],
+              [
+                1.0,
+                92.59
+              ],
+              [
+                3.0,
+                80.65
+              ],
+              [
+                10.0,
+                55.56
+              ],
+              [
+                30.0,
+                29.41
+              ]
+            ]
+          }
+        }
+      },
+      "expected_status": "离线科学预期；实际图层、数据绑定及导出待 Origin 实测"
+    },
+    {
+      "id": "b",
+      "file": "example-b.csv",
+      "title": "受体活性",
+      "expected": {
+        "layer_count": 1,
+        "min_plots": [
+          2
+        ],
+        "source_row_count": 10,
+        "science": {
+          "means": {
+            "Receptor": [
+              [
+                0.0,
+                2.5
+              ],
+              [
+                0.3,
+                8.0
+              ],
+              [
+                1.0,
+                18.5
+              ],
+              [
+                3.0,
+                44.0
+              ],
+              [
+                10.0,
+                76.5
+              ]
+            ]
+          }
+        }
+      },
+      "expected_status": "离线科学预期；实际图层、数据绑定及导出待 Origin 实测"
+    }
+  ],
+  "source": "原创配方；两例均为合成教学数据。",
+  "template_reuse": {
+    "mode": "native-otpu",
+    "host_verification": "pending",
+    "requires": "已授权的 Windows Origin 和可运行的 originpro"
+  }
+}

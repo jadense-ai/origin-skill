@@ -1,0 +1,65 @@
+{
+  "id": "grouped-column",
+  "name": "分组柱",
+  "domain": "通用",
+  "fields": [
+    {
+      "role": "category",
+      "type": "text",
+      "label": "类别"
+    },
+    {
+      "role": "series",
+      "type": "text",
+      "label": "系列",
+      "default": "Series 1"
+    },
+    {
+      "role": "value",
+      "type": "number",
+      "label": "观测值"
+    }
+  ],
+  "axes": [
+    "类别",
+    "数值"
+  ],
+  "method": "每种类别、系列仅有一个数值，并排显示各系列。",
+  "notes": "缺少交叉组合时报错，不将缺测当零。",
+  "examples": [
+    {
+      "id": "a",
+      "file": "example-a.csv",
+      "title": "两种工艺的产率",
+      "expected": {
+        "layer_count": 1,
+        "min_plots": [
+          2
+        ],
+        "source_row_count": 6,
+        "science": {}
+      },
+      "expected_status": "离线科学预期；实际图层、数据绑定及导出待 Origin 实测"
+    },
+    {
+      "id": "b",
+      "file": "example-b.csv",
+      "title": "三座场馆的季度客流",
+      "expected": {
+        "layer_count": 1,
+        "min_plots": [
+          3
+        ],
+        "source_row_count": 9,
+        "science": {}
+      },
+      "expected_status": "离线科学预期；实际图层、数据绑定及导出待 Origin 实测"
+    }
+  ],
+  "source": "原创配方；两例均为合成教学数据。",
+  "template_reuse": {
+    "mode": "native-otpu",
+    "host_verification": "pending",
+    "requires": "已授权的 Windows Origin 和可运行的 originpro"
+  }
+}

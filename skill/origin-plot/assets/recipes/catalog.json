@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "recipes": [
+    {
+      "id": "multi-line",
+      "name": "多系列折线",
+      "domain": "通用",
+      "file": "multi-line/recipe.json",
+      "fields": [
+        "series",
+        "x",
+        "y"
+      ]
+    },
+    {
+      "id": "scatter",
+      "name": "散点",
+      "domain": "通用",
+      "file": "scatter/recipe.json",
+      "fields": [
+        "series",
+        "x",
+        "y"
+      ]
+    },
+    {
+      "id": "grouped-column",
+      "name": "分组柱",
+      "domain": "通用",
+      "file": "grouped-column/recipe.json",
+      "fields": [
+        "category",
+        "series",
+        "value"
+      ]
+    },
+    {
+      "id": "percent-stack",
+      "name": "百分比堆叠柱",
+      "domain": "通用",
+      "file": "percent-stack/recipe.json",
+      "fields": [
+        "category",
+        "series",
+        "value"
+      ]
+    },
+    {
+      "id": "point-error",
+      "name": "点估计与误差线",
+      "domain": "通用",
+      "file": "point-error/recipe.json",
+      "fields": [
+        "series",
+        "x",
+        "estimate",
+        "error"
+      ]
+    },
+    {
+      "id": "histogram",
+      "name": "直方图",
+      "domain": "通用",
+      "file": "histogram/recipe.json",
+      "fields": [
+        "value"
+      ]
+    },
+    {
+      "id": "box-raw",
+      "name": "箱线叠原始点",
+      "domain": "通用",
+      "file": "box-raw/recipe.json",
+      "fields": [
+        "group",
+        "value"
+      ]
+    },
+    {
+      "id": "violin",
+      "name": "小提琴图",
+      "domain": "通用",
+      "file": "violin/recipe.json",
+      "fields": [
+        "group",
+        "value"
+      ]
+    },
+    {
+      "id": "ecdf",
+      "name": "经验累积分布",
+      "domain": "通用",
+      "file": "ecdf/recipe.json",
+      "fields": [
+        "group",
+        "value"
+      ]
+    },
+    {
+      "id": "heatmap",
+      "name": "热图",
+      "domain": "通用",
+      "file": "heatmap/recipe.json",
+      "fields": [
+        "row",
+        "column",
+        "value"
+      ]
+    },
+    {
+      "id": "dual-y",
+      "name": "双 Y 轴",
+      "domain": "通用",
+      "file": "dual-y/recipe.json",
+      "fields": [
+        "x",
+        "left",
+        "right"
+      ]
+    },
+    {
+      "id": "multi-panel",
+      "name": "双面板图",
+      "domain": "通用",
+      "file": "multi-panel/recipe.json",
+      "fields": [
+        "panel",
+        "series",
+        "x",
+        "y"
+      ]
+    },
+    {
+      "id": "corpus-frequency",
+      "name": "语料词频历时",
+      "domain": "文科",
+      "file": "corpus-frequency/recipe.json",
+      "fields": [
+        "term",
+        "period",
+        "count",
+        "tokens"
+      ]
+    },
+    {
+      "id": "likert",
+      "name": "李克特发散堆叠",
+      "domain": "文科",
+      "file": "likert/recipe.json",
+      "fields": [
+        "item",
+        "rating",
+        "count"
+      ]
+    },
+    {
+      "id": "coefficient-interval",
+      "name": "回归系数区间",
+      "domain": "经管",
+      "file": "coefficient-interval/recipe.json",
+      "fields": [
+        "term",
+        "estimate",
+        "lower",
+        "upper"
+      ]
+    },
+    {
+      "id": "event-study",
+      "name": "事件研究动态效应",
+      "domain": "经管",
+      "file": "event-study/recipe.json",
+      "fields": [
+        "period",
+        "estimate",
+        "lower",
+        "upper"
+      ]
+    },
+    {
+      "id": "dose-response",
+      "name": "剂量反应",
+      "domain": "生物",
+      "file": "dose-response/recipe.json",
+      "fields": [
+        "series",
+        "dose",
+        "response"
+      ]
+    },
+    {
+      "id": "paired-sample",
+      "name": "配对样本",
+      "domain": "生物",
+      "file": "paired-sample/recipe.json",
+      "fields": [
+        "subject",
+        "before",
+        "after"
+      ]
+    },
+    {
+      "id": "xrd-stack",
+      "name": "XRD 堆叠",
+      "domain": "材料化学",
+      "file": "xrd-stack/recipe.json",
+      "fields": [
+        "sample",
+        "two_theta",
+        "intensity"
+      ]
+    },
+    {
+      "id": "eis-nyquist",
+      "name": "EIS Nyquist",
+      "domain": "材料化学",
+      "file": "eis-nyquist/recipe.json",
+      "fields": [
+        "sample",
+        "frequency",
+        "z_real",
+        "z_imag"
+      ]
+    }
+  ]
+}

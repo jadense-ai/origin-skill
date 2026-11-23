@@ -1,0 +1,2768 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/originlab/Templates",
+  "commit": "a3287931e1a58366f2eca63551ab0d3fd34c60f9",
+  "license": "MIT",
+  "license_path": "upstream/LICENSE",
+  "template_count": 95,
+  "templates": [
+    {
+      "id": "746",
+      "name": "3D Bar in 2 Planes",
+      "name_zh": "双平面的 3D 条状图",
+      "category": "3D",
+      "category_zh": "三维图",
+      "package_category": "3D",
+      "description_zh": "将 XYY 或 XYZ 数据绘制为不同平面中的条状图，也称为3d瀑布图。",
+      "description": "Plot XYY or XYZ data as bars in different planes, also called 3d waterfall plot.",
+      "package_version": "1.0",
+      "origin_version": "9.85",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/3D/3D Bar in 2 Planes/3DBar2Plane.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/3D/3D Bar in 2 Planes/3DBar2Plane.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/3D/3D Bar in 2 Planes/3DBar2Plane.png",
+        "upstream/Graph Templates/3D/3D Bar in 2 Planes/3DBar2Plane_Dark.png",
+        "upstream/Graph Templates/3D/3D Bar in 2 Planes/3DBar2Plane_icon.png",
+        "upstream/Graph Templates/3D/3D Bar in 2 Planes/3DBar2Plane_icon_Dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/3D/3D Bar in 2 Planes/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/3D/3D%20Bar%20in%202%20Planes",
+      "sha256": "492f3a56f782f14feab659778c94fa23fdce4494b4745977be5fad81dec2fbc5"
+    },
+    {
+      "id": "747",
+      "name": "3D Bars with Connect Line",
+      "name_zh": "带连接线的 3D 条状图",
+      "category": "3D",
+      "category_zh": "三维图",
+      "package_category": "3D",
+      "description_zh": "绘制带有连接线的 3D XYY 条状图。\n至少需要一组 Y 列数据。",
+      "description": "Plot 3D XYY Bars with connecting lines.\nAt least one Y column is required.",
+      "package_version": "1.0",
+      "origin_version": "9.8",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/3D/3D Bars with Connected Line/3DConLine.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/3D/3D Bars with Connected Line/3DConLine.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/3D/3D Bars with Connected Line/3DConLine.png",
+        "upstream/Graph Templates/3D/3D Bars with Connected Line/3DConLine_Dark.png",
+        "upstream/Graph Templates/3D/3D Bars with Connected Line/3DConLine_icon.png",
+        "upstream/Graph Templates/3D/3D Bars with Connected Line/3DConLine_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/3D/3D Bars with Connected Line/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/3D/3D%20Bars%20with%20Connected%20Line",
+      "sha256": "ac4a49c5fa5efbb75eb72f1bde34f5ba7844899954552541a07f0f705a044da4"
+    },
+    {
+      "id": "748",
+      "name": "3D Cylinder",
+      "name_zh": "3D 圆柱体图",
+      "category": "3D",
+      "category_zh": "三维图",
+      "package_category": "3D",
+      "description_zh": "使用 XYY 数据绘制 3D 圆柱体图。\n至少需要一组 Y 列数据。",
+      "description": "plot 3D Cylinder from XYY data.\nAt least one Y column is required.",
+      "package_version": "1.1",
+      "origin_version": "9.80",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/3D/3D Cylinder/3DCylinder.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/3D/3D Cylinder/3DCylinder.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/3D/3D Cylinder/3DCylinder.png",
+        "upstream/Graph Templates/3D/3D Cylinder/3DCylinder_Dark.png",
+        "upstream/Graph Templates/3D/3D Cylinder/3DCylinder_icon.png",
+        "upstream/Graph Templates/3D/3D Cylinder/3DCylinder_icon_Dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/3D/3D Cylinder/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/3D/3D%20Cylinder",
+      "sha256": "a9225e2d41bd660504002e2c6684ac736435bc83001078989eaad64d025e703b"
+    },
+    {
+      "id": "1022",
+      "name": "3D Horizontal Floating Bar",
+      "name_zh": "3D水平浮动条状图",
+      "category": "3D",
+      "category_zh": "三维图",
+      "package_category": "3D",
+      "description_zh": "选择 XYZZ 列以创建 3D 水平浮动条状图",
+      "description": "Select XYZZ columns to create 3D horizontal floating bars",
+      "package_version": "1.0",
+      "origin_version": "10.15",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/3D/3D Horizontal Floating Bar/GL3DFLOATBAR.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/3D/3D Horizontal Floating Bar/GL3DFloatBar.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/3D/3D Horizontal Floating Bar/GL3DFloatbar.png",
+        "upstream/Graph Templates/3D/3D Horizontal Floating Bar/GL3DFloatbar_dark.png",
+        "upstream/Graph Templates/3D/3D Horizontal Floating Bar/GL3DFloatbar_icon.png",
+        "upstream/Graph Templates/3D/3D Horizontal Floating Bar/GL3DFloatbar_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/3D/3D Horizontal Floating Bar/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/3D/3D Horizontal Floating Bar/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/3D/3D%20Horizontal%20Floating%20Bar",
+      "sha256": "eabbbc675b9db80bb48dc15c0955a1b5fd24b9977bc0ae47e8a5ec93cca31809"
+    },
+    {
+      "id": "967",
+      "name": "3D Stacked Line&Symbol",
+      "name_zh": "3D堆叠点线图",
+      "category": "3D",
+      "category_zh": "三维图",
+      "package_category": "3D",
+      "description_zh": "在堆叠的 3D 平面上绘制点线图。至少需要一个 Y 列。将定义线条位置的 Z 值放在注释标签行中。",
+      "description": "Plot line and symbol plots on stacked 3D planes. At least one Y columns are required. Put the Z values, which define the position of the lines, in Comments label row",
+      "package_version": "1.0",
+      "origin_version": "10.05",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/3D/3D Stacked Line&Symbol/glStackedLineSymb.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/3D/3D Stacked Line&Symbol/glStackedLineSymb.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/3D/3D Stacked Line&Symbol/glStackedLineSymb.png",
+        "upstream/Graph Templates/3D/3D Stacked Line&Symbol/glStackedLineSymb_dark.png",
+        "upstream/Graph Templates/3D/3D Stacked Line&Symbol/glStackedLineSymb_Icon.png",
+        "upstream/Graph Templates/3D/3D Stacked Line&Symbol/glStackedLineSymb_Icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/3D/3D Stacked Line&Symbol/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/3D/3D Stacked Line&Symbol/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/3D/3D%20Stacked%20Line%26Symbol",
+      "sha256": "fa22bdf8804edd50d3a9d6019f28c70e7eb03d4e56760139ecfd851e145ae3f0"
+    },
+    {
+      "id": "895",
+      "name": "3D Surface Map",
+      "name_zh": "3D曲面地图",
+      "category": "3D",
+      "category_zh": "三维图",
+      "package_category": "3D",
+      "description_zh": "为数字高程模型（DEM）或二维图像创建 3D 曲面图。\n需要矩阵窗口中的 DEM 数据或图像窗口中的 2D 图像。",
+      "description": "Create surface for DEM or 2D image in 3D view\nDEM data in matrix or 2D image in image window are required.",
+      "package_version": "2.0",
+      "origin_version": "10.20",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/3D/3D Surface Map/3DMAP.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/3D/3D Surface Map/3DMap.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/3D/3D Surface Map/3DMap.png",
+        "upstream/Graph Templates/3D/3D Surface Map/3DMap_icon.png"
+      ],
+      "package_ini": "upstream/Graph Templates/3D/3D Surface Map/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/3D/3D Surface Map/Scripts.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/3D/3D%20Surface%20Map",
+      "sha256": "f501e27902faee51aed0a36483429265228cb568d0ab9db3a7061d1b26d3962e"
+    },
+    {
+      "id": "750",
+      "name": "3D XRD Waterfall in B&W",
+      "name_zh": "3D XRD 黑白瀑布图",
+      "category": "3D",
+      "category_zh": "三维图",
+      "package_category": "3D",
+      "description_zh": "使用 XRD 数据绘制黑白的 3D 瀑布图。\n支持 (xy) 和 X(Y) 列设置。 Z 值请放入名为 “Z” 的用户自定义的标签行中。",
+      "description": "Plot a 3D waterfall in black&white color for XRD data.\n(XY) and X(Y) column designations are supported. Z values put to a user-defined column label row “Z”.",
+      "package_version": "1.1",
+      "origin_version": "9.80",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/3D/3D XRD Watefall in B&W/3DXRDBW.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/3D/3D XRD Watefall in B&W/3DXRDBW.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/3D/3D XRD Watefall in B&W/3DXRDBW.png",
+        "upstream/Graph Templates/3D/3D XRD Watefall in B&W/3DXRDBW_Dark.png",
+        "upstream/Graph Templates/3D/3D XRD Watefall in B&W/3DXRDBW_icon.png",
+        "upstream/Graph Templates/3D/3D XRD Watefall in B&W/3DXRDBW_icon_Dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/3D/3D XRD Watefall in B&W/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/3D/3D%20XRD%20Watefall%20in%20B%26W",
+      "sha256": "45630199100e362f1f28735654876e702efde48f4c6bafa977cb1dfcc6e3a807"
+    },
+    {
+      "id": "749",
+      "name": "3D XRD Waterfall",
+      "name_zh": "3D XRD 瀑布图",
+      "category": "3D",
+      "category_zh": "三维图",
+      "package_category": "3D",
+      "description_zh": "使用 XRD 数据绘制使用 Z 值进行颜色映射的 3D 瀑布图。\n支持 (xy) 和 X(Y) 列设置。Z 值请放入名为 “Z” 的用户自定义的标签行中。",
+      "description": "Plot a 3D waterfall with Z color-mapping for XRD data.\n(xy) and X(Y) column designations are supported. Z values put to a user-defined column label row “Z”.",
+      "package_version": "1.1",
+      "origin_version": "9.80",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/3D/3D XRD Waterfall/3DXRD.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/3D/3D XRD Waterfall/3DXRD.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/3D/3D XRD Waterfall/3DXRD.png",
+        "upstream/Graph Templates/3D/3D XRD Waterfall/3DXRD_Dark.png",
+        "upstream/Graph Templates/3D/3D XRD Waterfall/3DXRD_icon.png",
+        "upstream/Graph Templates/3D/3D XRD Waterfall/3DXRD_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/3D/3D XRD Waterfall/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/3D/3D%20XRD%20Waterfall",
+      "sha256": "476515fe462354cc4cdc0e83eb0fdca902e1a8f8c29b00d6cc93920c44e385c4"
+    },
+    {
+      "id": "779",
+      "name": "Colormap Filled Waterfall",
+      "name_zh": "填充颜色映射瀑布图",
+      "category": "3D",
+      "category_zh": "三维图",
+      "package_category": "3D",
+      "description_zh": "选择至少 2 个 Y 列以绘制瀑布图，并将填充颜色映射到 Y 值。",
+      "description": "Select at least 2 Y columns to plot waterfall plots with fill color mapping to Y value.",
+      "package_version": "1.0",
+      "origin_version": "9.80",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/3D/Colormap Filled Waterfall/waterfallcolorfill.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/3D/Colormap Filled Waterfall/waterfallcolorfill.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/3D/Colormap Filled Waterfall/waterfallcolorfill.png",
+        "upstream/Graph Templates/3D/Colormap Filled Waterfall/waterfallcolorfill_Dark.png",
+        "upstream/Graph Templates/3D/Colormap Filled Waterfall/waterfallcolorfill_icon.png",
+        "upstream/Graph Templates/3D/Colormap Filled Waterfall/waterfallcolorfill_icon_Dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/3D/Colormap Filled Waterfall/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/3D/Colormap%20Filled%20Waterfall",
+      "sha256": "c8249dd1d0703f7e6ffa1e6dba4a8c2660935e4bbdc22a993f1656a92e553e7c"
+    },
+    {
+      "id": "974",
+      "name": "Double-Y Waterfall",
+      "name_zh": "双Y轴瀑布图",
+      "category": "3D",
+      "category_zh": "三维图",
+      "package_category": "3D",
+      "description_zh": "选择至少两个 Y 列以创建具有两个不同 Y 轴的瀑布图。关于左/右轴的分配信息放在注释标签行",
+      "description": "Select at least two Y columns to create waterfall with two different Y axis. Left/right axis assignment info put in the Comment label row",
+      "package_version": "1.1",
+      "origin_version": "10.05",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/3D/Double-Y Waterfall/2YsWaterfall3D.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/3D/Double-Y Waterfall/2YsWaterfall3D.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/3D/Double-Y Waterfall/2YsWaterfall3D.png",
+        "upstream/Graph Templates/3D/Double-Y Waterfall/2YsWaterfall3D_dark.png",
+        "upstream/Graph Templates/3D/Double-Y Waterfall/2YsWaterfall3D_Icon.png",
+        "upstream/Graph Templates/3D/Double-Y Waterfall/2YsWaterfall3D_Icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/3D/Double-Y Waterfall/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/3D/Double-Y Waterfall/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/3D/Double-Y%20Waterfall",
+      "sha256": "7c04357e5ff315f199570ac024ecec63e6ee79437939290adccfee80e2af6fca"
+    },
+    {
+      "id": "975",
+      "name": "Double-Z 3D Bars",
+      "name_zh": "双Z轴3D条状图",
+      "category": "3D",
+      "category_zh": "三维图",
+      "package_category": "3D",
+      "description_zh": "选择至少两个 Z 列以创建具有两个不同 Z 轴的 XYZ 3D 并排堆积条状图。数据画到左/右轴的信息放在注释标签行",
+      "description": "Select at least two Z columns to create XYZ 3D side-by-side stacked bars with two different Z axis. Left/right axis assignment info. put in the Comment label row",
+      "package_version": "1.1",
+      "origin_version": "10.05",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/3D/Double-Z 3D Bars/2ZsXYZBars.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/3D/Double-Z 3D Bars/2ZsXYZBars.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/3D/Double-Z 3D Bars/2ZsXYZBars.png",
+        "upstream/Graph Templates/3D/Double-Z 3D Bars/2ZsXYZBars_dark.png",
+        "upstream/Graph Templates/3D/Double-Z 3D Bars/2ZsXYZBars_icon.png",
+        "upstream/Graph Templates/3D/Double-Z 3D Bars/2ZsXYZBars_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/3D/Double-Z 3D Bars/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/3D/Double-Z 3D Bars/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/3D/Double-Z%203D%20Bars",
+      "sha256": "e83c2fe1331fd6e420c859df11e89ac582a23e1e1bd51287a840c58d5bdd9cae"
+    },
+    {
+      "id": "925",
+      "name": "Gradient Filled 3D Colormap Bars",
+      "name_zh": "渐变填充的3D颜色映射条状图",
+      "category": "3D",
+      "category_zh": "三维图",
+      "package_category": "3D",
+      "description_zh": "绘制带有渐变填充的3D颜色映射条形图。\n需要XYZ 列",
+      "description": "Plot 3D  bars with gradient filled colormap.\nXYZ columns are required",
+      "package_version": "1.1",
+      "origin_version": "10.00",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/3D/Gradient Filled 3D Colormap Bars/3dgradbars.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/3D/Gradient Filled 3D Colormap Bars/3Dgradbars.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/3D/Gradient Filled 3D Colormap Bars/3Dgradbars.png",
+        "upstream/Graph Templates/3D/Gradient Filled 3D Colormap Bars/3Dgradbars_Dark.png",
+        "upstream/Graph Templates/3D/Gradient Filled 3D Colormap Bars/3Dgradbars_icon.png",
+        "upstream/Graph Templates/3D/Gradient Filled 3D Colormap Bars/3Dgradbars_icon_Dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/3D/Gradient Filled 3D Colormap Bars/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/3D/Gradient Filled 3D Colormap Bars/Script_3dgradbars.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/3D/Gradient%20Filled%203D%20Colormap%20Bars",
+      "sha256": "7103a500f440ebecdc285fcf788f2cbce470ec0993c91aa31ef69dafa2b637c3"
+    },
+    {
+      "id": "968",
+      "name": "Grouped 3D Stacked Bars",
+      "name_zh": "分组3D堆积条状图",
+      "category": "3D",
+      "category_zh": "三维图",
+      "package_category": "3D",
+      "description_zh": "将分组数据绘制为并排的 3D 堆积条状图。 XYZZZZ 列是必需的。分组信息放在注释标签行。",
+      "description": "Plot grouped data as side-by-side 3D stacked bars. XYZZZZ columns are required. Group info puts in Comment label row",
+      "package_version": "1.0",
+      "origin_version": "10.05",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/3D/Grouped 3D Stacked Bars/g3DStackedBar.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/3D/Grouped 3D Stacked Bars/g3DStackedBar.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/3D/Grouped 3D Stacked Bars/g3DStackedBar.png",
+        "upstream/Graph Templates/3D/Grouped 3D Stacked Bars/g3DStackedBar_dark.png",
+        "upstream/Graph Templates/3D/Grouped 3D Stacked Bars/g3DStackedBar_icon.png",
+        "upstream/Graph Templates/3D/Grouped 3D Stacked Bars/g3DStackedBar_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/3D/Grouped 3D Stacked Bars/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/3D/Grouped%203D%20Stacked%20Bars",
+      "sha256": "96d1129140311fb965feded67fe70cb41b2cfc2c2504f708024faa8d7e0364ef"
+    },
+    {
+      "id": "939",
+      "name": "Raised Relief Map",
+      "name_zh": "立体地形图",
+      "category": "3D",
+      "category_zh": "三维图",
+      "package_category": "3D",
+      "description_zh": "创建立体地形图",
+      "description": "Create Raised Relief Map",
+      "package_version": "1.0",
+      "origin_version": "10.00",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/3D/Raised Relief Map/RaisedReliefMap.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/3D/Raised Relief Map/RaisedReliefMap.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/3D/Raised Relief Map/RaisedReliefMap.png",
+        "upstream/Graph Templates/3D/Raised Relief Map/RaisedReliefMap_icon.png"
+      ],
+      "package_ini": "upstream/Graph Templates/3D/Raised Relief Map/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/3D/Raised Relief Map/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/3D/Raised%20Relief%20Map",
+      "sha256": "a988a5da1a9a5f4bc822eb5572d08dbe64372ad9e4379ef368c0e2d64c775fe5"
+    },
+    {
+      "id": "874",
+      "name": "Waterfall with Inset",
+      "name_zh": "带插图的瀑布图",
+      "category": "3D",
+      "category_zh": "三维图",
+      "package_category": "3D",
+      "description_zh": "创建带有插图的瀑布图。\n插图是由每条瀑布曲线最大值所绘制的图。XYYYY 列是必需的。",
+      "description": "Create a waterfall graph with inset plot. \nInset graph line connects maximum of each curve in waterfall. XYYYY columns are required.",
+      "package_version": "1.1",
+      "origin_version": "9.80",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/3D/Waterfall with Inset/waterfallinset.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/3D/Waterfall with Inset/waterfallinset.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/3D/Waterfall with Inset/waterfallinset.png",
+        "upstream/Graph Templates/3D/Waterfall with Inset/waterfallinset_dark.png",
+        "upstream/Graph Templates/3D/Waterfall with Inset/waterfallinset_Icon.png",
+        "upstream/Graph Templates/3D/Waterfall with Inset/waterfallinset_icon_Dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/3D/Waterfall with Inset/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/3D/Waterfall with Inset/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/3D/Waterfall%20with%20Inset",
+      "sha256": "ec9925832d3ddfe52eae9ac46376aed40b0986ceec3d3fedf47d821e018147e9"
+    },
+    {
+      "id": "971",
+      "name": "100% Stacked Bar Map",
+      "name_zh": "百分比堆积条形地图",
+      "category": "Bar, Pie, Area",
+      "category_zh": "柱形、饼图与面积图",
+      "package_category": "Bar, Pie, Area",
+      "description_zh": "选择 X，再加上至少 3 个 Y 列以创建百分比堆积条形地图，XY 坐标确定每个百分比堆积条的位置。",
+      "description": "Select X, plus at least 3 Y columns to create 100% Stacked Bar Map, XY coordinates determine location of each 100% stacked bar",
+      "package_version": "1.0",
+      "origin_version": "10.05",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Bar, Pie, Area/100% Stacked Bar Map/PStackedBarMap.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Bar, Pie, Area/100% Stacked Bar Map/PStackedBarMap.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Bar, Pie, Area/100% Stacked Bar Map/PStackedBarMap.png",
+        "upstream/Graph Templates/Bar, Pie, Area/100% Stacked Bar Map/PStackedBarMap_dark.png",
+        "upstream/Graph Templates/Bar, Pie, Area/100% Stacked Bar Map/PStackedBarMap_icon.png",
+        "upstream/Graph Templates/Bar, Pie, Area/100% Stacked Bar Map/PStackedBarMap_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Bar, Pie, Area/100% Stacked Bar Map/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Bar%2C%20Pie%2C%20Area/100%25%20Stacked%20Bar%20Map",
+      "sha256": "c07cd615c098bba30ace2b57e6387285a24477a2624bd41970ed8a8c9ab0d698"
+    },
+    {
+      "id": "752",
+      "name": "Bar Style with Lighter Fill",
+      "name_zh": "较浅填充色的条形图",
+      "category": "Bar, Pie, Area",
+      "category_zh": "柱形、饼图与面积图",
+      "package_category": "Bar, Pie, Area",
+      "description_zh": "选择至少一个 Y 列来创建条形图。\n此图形将使用相同的颜色方案作为边框颜色和填充颜色。填充颜色比边框颜色浅。",
+      "description": "Select at least one Y column to create bar plot.\nThis graph will use same color scheme for border and fill. Fill is lighter than border.",
+      "package_version": "1.0",
+      "origin_version": "9.8",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Bar, Pie, Area/Bar Style with Lighter Fill/BarStyle.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Bar, Pie, Area/Bar Style with Lighter Fill/BarStyle.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Bar, Pie, Area/Bar Style with Lighter Fill/BarStyle.png",
+        "upstream/Graph Templates/Bar, Pie, Area/Bar Style with Lighter Fill/BarStyle_Dark.png",
+        "upstream/Graph Templates/Bar, Pie, Area/Bar Style with Lighter Fill/BarStyle_icon.png",
+        "upstream/Graph Templates/Bar, Pie, Area/Bar Style with Lighter Fill/BarStyle_icon_Dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Bar, Pie, Area/Bar Style with Lighter Fill/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Bar%2C%20Pie%2C%20Area/Bar%20Style%20with%20Lighter%20Fill",
+      "sha256": "efe35b4eb440e2d96ad10e22590d3f1484533fe9aec7a12d85f40fe2b16b102a"
+    },
+    {
+      "id": "798",
+      "name": "Bar with Connected Lines",
+      "name_zh": "带有连接线的条形图",
+      "category": "Bar, Pie, Area",
+      "category_zh": "柱形、饼图与面积图",
+      "package_category": "Bar, Pie, Area",
+      "description_zh": "绘制带连接线的 2D 条形图。\n支持 X(Y) 和 X(YYerr) 列设置。",
+      "description": "Plot 2d bars with connected lines. \nX(Y) and X(YYerr) column designations are supported.",
+      "package_version": "1.1",
+      "origin_version": "9.80",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Bar, Pie, Area/Bar with Connected Line/ColumnLine.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Bar, Pie, Area/Bar with Connected Line/ColumnLine.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Bar, Pie, Area/Bar with Connected Line/ColumnLine.png",
+        "upstream/Graph Templates/Bar, Pie, Area/Bar with Connected Line/columnline_dark.png",
+        "upstream/Graph Templates/Bar, Pie, Area/Bar with Connected Line/columnline_icon.png",
+        "upstream/Graph Templates/Bar, Pie, Area/Bar with Connected Line/columnline_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Bar, Pie, Area/Bar with Connected Line/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Bar%2C%20Pie%2C%20Area/Bar%20with%20Connected%20Line",
+      "sha256": "3e7b04615612f360f5595fb60b512e5d1c37dcdff62b102368e4ee187a96c1b0"
+    },
+    {
+      "id": "969",
+      "name": "Bar with Stick",
+      "name_zh": "带棒的条形图",
+      "category": "Bar, Pie, Area",
+      "category_zh": "柱形、饼图与面积图",
+      "package_category": "Bar, Pie, Area",
+      "description_zh": "选择至少一列以创建条形图且在每个数据点处显示棒状。",
+      "description": "Select at least one column to create bar plot with stick at all data points",
+      "package_version": "1.0",
+      "origin_version": "10.05",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Bar, Pie, Area/Bar with Stick/BarStick.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Bar, Pie, Area/Bar with Stick/BarStick.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Bar, Pie, Area/Bar with Stick/BarStick.png",
+        "upstream/Graph Templates/Bar, Pie, Area/Bar with Stick/BarStick_dark.png",
+        "upstream/Graph Templates/Bar, Pie, Area/Bar with Stick/BarStick_icon.png",
+        "upstream/Graph Templates/Bar, Pie, Area/Bar with Stick/BarStick_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Bar, Pie, Area/Bar with Stick/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Bar%2C%20Pie%2C%20Area/Bar%20with%20Stick",
+      "sha256": "0dbd4c4638d86e9b3061a5be372934e34e740ad56b60b65f9cf5cb342f730682"
+    },
+    {
+      "id": "918",
+      "name": "Before-After Bar Chart",
+      "name_zh": "前后条形图",
+      "category": "Bar, Pie, Area",
+      "category_zh": "柱形、饼图与面积图",
+      "package_category": "Bar, Pie, Area",
+      "description_zh": "选择 XYY列来创建前后对比条形图",
+      "description": "Select XYY columns to create before-after bar chat",
+      "package_version": "1.0",
+      "origin_version": "10.00",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Bar, Pie, Area/Before-After Bar Chart/BeAfBar.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Bar, Pie, Area/Before-After Bar Chart/BeAfBar.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Bar, Pie, Area/Before-After Bar Chart/BeAfBar.png",
+        "upstream/Graph Templates/Bar, Pie, Area/Before-After Bar Chart/BeAfBar_dark.png",
+        "upstream/Graph Templates/Bar, Pie, Area/Before-After Bar Chart/BeAfBar_icon.png",
+        "upstream/Graph Templates/Bar, Pie, Area/Before-After Bar Chart/BeAfBar_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Bar, Pie, Area/Before-After Bar Chart/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Bar, Pie, Area/Before-After Bar Chart/Script_BeAfBar.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Bar%2C%20Pie%2C%20Area/Before-After%20Bar%20Chart",
+      "sha256": "d64835051739f0af59fee2ce7f584e48c54df27065a5011c24aca8194f3725a5"
+    },
+    {
+      "id": "917",
+      "name": "Gradient Filled Colormap Bars",
+      "name_zh": "渐变填充的颜色映射条状图",
+      "category": "Bar, Pie, Area",
+      "category_zh": "柱形、饼图与面积图",
+      "package_category": "Bar, Pie, Area",
+      "description_zh": "绘制带有渐变填充颜色映射的2D条形图,支持X(Y) 和 X(YYerr) 列",
+      "description": "Plot 2D bars with gradient filled colormap, X(Y) and X(YYerr) column designations are supported",
+      "package_version": "1.0",
+      "origin_version": "10.00",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Bar, Pie, Area/Gradient Filled Colormap Bars/gradbars.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Bar, Pie, Area/Gradient Filled Colormap Bars/gradbars.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Bar, Pie, Area/Gradient Filled Colormap Bars/gradbars.png",
+        "upstream/Graph Templates/Bar, Pie, Area/Gradient Filled Colormap Bars/gradbars_dark.png",
+        "upstream/Graph Templates/Bar, Pie, Area/Gradient Filled Colormap Bars/gradbars_icon.png",
+        "upstream/Graph Templates/Bar, Pie, Area/Gradient Filled Colormap Bars/gradbars_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Bar, Pie, Area/Gradient Filled Colormap Bars/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Bar, Pie, Area/Gradient Filled Colormap Bars/Script_gradbars.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Bar%2C%20Pie%2C%20Area/Gradient%20Filled%20Colormap%20Bars",
+      "sha256": "837ef896b13d8f64bed56864b505371adca5ba5f58e3a2cf5a92c17f44540eba"
+    },
+    {
+      "id": "916",
+      "name": "Pie Chart from Categorical Data",
+      "name_zh": "来自类别数据的饼图",
+      "category": "Bar, Pie, Area",
+      "category_zh": "柱形、饼图与面积图",
+      "package_category": "Bar, Pie, Area",
+      "description_zh": "从类别数据创建饼图。\n选择包含类别数据的列来创建图。",
+      "description": "Create pie chart from categorical data. \nSelect one column with categorical data to create the graph.",
+      "package_version": "1.1",
+      "origin_version": "10.00",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Bar, Pie, Area/Pie Chart from Categorical Data/PieCat.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Bar, Pie, Area/Pie Chart from Categorical Data/PieCat.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Bar, Pie, Area/Pie Chart from Categorical Data/PieCat.png",
+        "upstream/Graph Templates/Bar, Pie, Area/Pie Chart from Categorical Data/PieCat_icon.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Bar, Pie, Area/Pie Chart from Categorical Data/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Bar, Pie, Area/Pie Chart from Categorical Data/Script_PieCat.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Bar%2C%20Pie%2C%20Area/Pie%20Chart%20from%20Categorical%20Data",
+      "sha256": "025750396ee25d1fd9f2d318a31205c6a3857eef7950b527d1da823626c5fbd3"
+    },
+    {
+      "id": "772",
+      "name": "Positive Negative Bars",
+      "name_zh": "正负值条形图",
+      "category": "Bar, Pie, Area",
+      "category_zh": "柱形、饼图与面积图",
+      "package_category": "Bar, Pie, Area",
+      "description_zh": "对于气候数据，人们称此类图形为“Anomaly 图”。 选择要进行绘制的 XY 数据。",
+      "description": "For climate data, people call it Anomaly Plot.",
+      "package_version": "1.0",
+      "origin_version": "9.85",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Bar, Pie, Area/Positive Negative Bars/PosNegBar.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Bar, Pie, Area/Positive Negative Bars/PosNegBar.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Bar, Pie, Area/Positive Negative Bars/PosNegBar.png",
+        "upstream/Graph Templates/Bar, Pie, Area/Positive Negative Bars/PosNegBar_dark.png",
+        "upstream/Graph Templates/Bar, Pie, Area/Positive Negative Bars/PosNegBar_icon.png",
+        "upstream/Graph Templates/Bar, Pie, Area/Positive Negative Bars/PosNegBar_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Bar, Pie, Area/Positive Negative Bars/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Bar%2C%20Pie%2C%20Area/Positive%20Negative%20Bars",
+      "sha256": "da0408e014743aba1f2bc8a845069799d99f3eafd15f0f572b8673fb380c47ea"
+    },
+    {
+      "id": "809",
+      "name": "Side-by-side Stacked Columns",
+      "name_zh": "并排堆积条形图",
+      "category": "Bar, Pie, Area",
+      "category_zh": "柱形、饼图与面积图",
+      "package_category": "Bar, Pie, Area",
+      "description_zh": "绘制分组数据为并排的条形图。\n至少需要 XYY 列数据。支持多个分组。分组信息请放在 “注释” 标签行中。",
+      "description": "Plot grouped data as side-by-side columns.\nAt least XYY columns are required. More groups are supported. Group info puts in Comment label row.",
+      "package_version": "1.1",
+      "origin_version": "9.80",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Bar, Pie, Area/Side-by-side Stacked Columns/gStackedCol.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Bar, Pie, Area/Side-by-side Stacked Columns/gStackedCol.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Bar, Pie, Area/Side-by-side Stacked Columns/gStackedCol.png",
+        "upstream/Graph Templates/Bar, Pie, Area/Side-by-side Stacked Columns/gStackedCol_Dark.png",
+        "upstream/Graph Templates/Bar, Pie, Area/Side-by-side Stacked Columns/gStackedCol_icon.png",
+        "upstream/Graph Templates/Bar, Pie, Area/Side-by-side Stacked Columns/gStackedCol_icon_Dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Bar, Pie, Area/Side-by-side Stacked Columns/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Bar%2C%20Pie%2C%20Area/Side-by-side%20Stacked%20Columns",
+      "sha256": "d5dfeb66e86dfcbaacdb55740adec7a1d9096fbba15532b4fc3352da869e02f8"
+    },
+    {
+      "id": "771",
+      "name": "Stacked Area by Y Offset",
+      "name_zh": "Y 偏移堆积面积图",
+      "category": "Bar, Pie, Area",
+      "category_zh": "柱形、饼图与面积图",
+      "package_category": "Bar, Pie, Area",
+      "description_zh": "绘制一个 Y 偏移堆积线图然后使用调色板填充线之间的区域。\n至少需要一组 Y 列数据。",
+      "description": "Plot a Y-stacked line plot and fill area between lines with color pallet.\nAt least one Y column is required.",
+      "package_version": "1.0",
+      "origin_version": "9.80",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Bar, Pie, Area/Stacked Area by Y Offset/OffsetStackArea.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Bar, Pie, Area/Stacked Area by Y Offset/OffsetStackArea.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Bar, Pie, Area/Stacked Area by Y Offset/OffsetStackArea.png",
+        "upstream/Graph Templates/Bar, Pie, Area/Stacked Area by Y Offset/OffsetStackArea_dark.png",
+        "upstream/Graph Templates/Bar, Pie, Area/Stacked Area by Y Offset/OffsetStackArea_icon.png",
+        "upstream/Graph Templates/Bar, Pie, Area/Stacked Area by Y Offset/OffsetStackArea_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Bar, Pie, Area/Stacked Area by Y Offset/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Bar%2C%20Pie%2C%20Area/Stacked%20Area%20by%20Y%20Offset",
+      "sha256": "8f026e026f6df9a80ddbcc3b0e7243bbeeb776ee8d368bf6665133fec3e1a971"
+    },
+    {
+      "id": "970",
+      "name": "Stacked Bar Map",
+      "name_zh": "堆积条形地图",
+      "category": "Bar, Pie, Area",
+      "category_zh": "柱形、饼图与面积图",
+      "package_category": "Bar, Pie, Area",
+      "description_zh": "选择 X，再加上至少 3 个 Y 列以创建堆积条形地图，XY 坐标确定每个堆积条的位置。",
+      "description": "Select X, plus at least 3 Y columns to create Stacked Bar Map, XY coordinates determine location of each stacked bar.",
+      "package_version": "1.0",
+      "origin_version": "10.05",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Bar, Pie, Area/Stacked Bar Map/StackedBarMap.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Bar, Pie, Area/Stacked Bar Map/StackedBarMap.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Bar, Pie, Area/Stacked Bar Map/StackedBarMap.png",
+        "upstream/Graph Templates/Bar, Pie, Area/Stacked Bar Map/StackedBarMap_dark.png",
+        "upstream/Graph Templates/Bar, Pie, Area/Stacked Bar Map/StackedBarMap_Icon.png",
+        "upstream/Graph Templates/Bar, Pie, Area/Stacked Bar Map/StackedBarMap_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Bar, Pie, Area/Stacked Bar Map/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Bar, Pie, Area/Stacked Bar Map/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Bar%2C%20Pie%2C%20Area/Stacked%20Bar%20Map",
+      "sha256": "55497f0656b658932ec5e92f0cbb995246877fb7c1502fb7d74f4d9afb1ba0c5"
+    },
+    {
+      "id": "1027",
+      "name": "Stacked Columns with Multiple Panels",
+      "name_zh": "多面板堆积柱状图",
+      "category": "Bar, Pie, Area",
+      "category_zh": "柱形、饼图与面积图",
+      "package_category": "Bar, Pie, Area",
+      "description_zh": "将分组数据绘制为具有多个面板的堆积柱状图。\n按 X|Y|分组|颜色（可选）的顺序选择 3 或 4 列来创建绘图。第 3 列是用于定义面板的分组信息。",
+      "description": "Plot grouped data as stacked columns with multiple panels.\nSelect 3 or 4 columns in X|Y|Group|Color(optional) order to create plot. 3rd column is group info to define the panels.",
+      "package_version": "1.0",
+      "origin_version": "10.20",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Bar, Pie, Area/Stacked Columns with Multiple Panels/StackedColMultiP.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Bar, Pie, Area/Stacked Columns with Multiple Panels/StackedColMultiP.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Bar, Pie, Area/Stacked Columns with Multiple Panels/StackedColMultiP.png",
+        "upstream/Graph Templates/Bar, Pie, Area/Stacked Columns with Multiple Panels/StackedColMultiP_dark.png",
+        "upstream/Graph Templates/Bar, Pie, Area/Stacked Columns with Multiple Panels/StackedColMultiP_icon.png",
+        "upstream/Graph Templates/Bar, Pie, Area/Stacked Columns with Multiple Panels/StackedColMultiP_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Bar, Pie, Area/Stacked Columns with Multiple Panels/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Bar, Pie, Area/Stacked Columns with Multiple Panels/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Bar%2C%20Pie%2C%20Area/Stacked%20Columns%20with%20Multiple%20Panels",
+      "sha256": "b8abd77efb5cc1809d65a93a01b737db4482e24ea3856b76e639cc7f2a27f7bc"
+    },
+    {
+      "id": "751",
+      "name": "Arrow Plot",
+      "name_zh": "箭头图",
+      "category": "Basic 2D",
+      "category_zh": "基础二维图",
+      "package_category": "Basic 2D",
+      "description_zh": "箭头图显示了数据更改的数量和方向。\n请选择进行绘制用的 XYY 数据。",
+      "description": "Arrow plot shows the amount and direction of data changes.\nSelect XYY data to plot.",
+      "package_version": "1.0",
+      "origin_version": "9.85",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Basic 2D/Arrow Plot/arrow.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Basic 2D/Arrow Plot/arrow.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Basic 2D/Arrow Plot/arrow.png",
+        "upstream/Graph Templates/Basic 2D/Arrow Plot/arrow_dark.png",
+        "upstream/Graph Templates/Basic 2D/Arrow Plot/arrow_icon.png",
+        "upstream/Graph Templates/Basic 2D/Arrow Plot/arrow_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Basic 2D/Arrow Plot/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Basic%202D/Arrow%20Plot",
+      "sha256": "9d84d8179506a0da7c32c174b94c2b4d00774b5c84832503082f025db30557f0"
+    },
+    {
+      "id": "964",
+      "name": "Color Mapped Line",
+      "name_zh": "颜色映射线图",
+      "category": "Basic 2D",
+      "category_zh": "基础二维图",
+      "package_category": "Basic 2D",
+      "description_zh": "选择 XYY 列以绘制颜色映射线图。第二个 Y 代表颜色映射信息。",
+      "description": "Select XYY columns to plot the color mapped line. The 2nd Y represents colormap info.",
+      "package_version": "1.0",
+      "origin_version": "10.05",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Basic 2D/Color Mapped Line/ColormapLine.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Basic 2D/Color Mapped Line/ColormapLine.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Basic 2D/Color Mapped Line/ColormapLine.png",
+        "upstream/Graph Templates/Basic 2D/Color Mapped Line/ColormapLine_dark.png",
+        "upstream/Graph Templates/Basic 2D/Color Mapped Line/ColormapLine_Icon.png",
+        "upstream/Graph Templates/Basic 2D/Color Mapped Line/ColormapLine_Icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Basic 2D/Color Mapped Line/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Basic 2D/Color Mapped Line/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Basic%202D/Color%20Mapped%20Line",
+      "sha256": "94d310b474d9eb152f271ce39b786121bbef0ea399750475b4a5d3b417ba3b2b"
+    },
+    {
+      "id": "759",
+      "name": "Error Rectangle",
+      "name_zh": "矩形误差棒图",
+      "category": "Basic 2D",
+      "category_zh": "基础二维图",
+      "package_category": "Basic 2D",
+      "description_zh": "绘制带有 X 误差和 Y 误差信息的矩形图。\n数据格式应为 XYYY 列, 第二个 Y 列为 X 误差数据， 第三个 Y 列为 Y 误差数据。",
+      "description": "Plot rectangle plot with X error and Y error info.\nData should be XYYY, 2nd Y is X error, 3rd Y is Y error.",
+      "package_version": "1.0",
+      "origin_version": "9.85",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Basic 2D/Error Rectangle/ErrorRectangle.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Basic 2D/Error Rectangle/ErrorRectangle.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Basic 2D/Error Rectangle/ErrorRectangle.png",
+        "upstream/Graph Templates/Basic 2D/Error Rectangle/ErrorRectangle_dark.png",
+        "upstream/Graph Templates/Basic 2D/Error Rectangle/ErrorRectangle_icon.png",
+        "upstream/Graph Templates/Basic 2D/Error Rectangle/ErrorRectangle_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Basic 2D/Error Rectangle/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Basic%202D/Error%20Rectangle",
+      "sha256": "687b0bd93a62e1941809241d21def93160f418bbe79a8b4642e7c2faca2b1449"
+    },
+    {
+      "id": "765",
+      "name": "Line with Grid Lines",
+      "name_zh": "带网格线的折线图",
+      "category": "Basic 2D",
+      "category_zh": "基础二维图",
+      "package_category": "Basic 2D",
+      "description_zh": "带有网格线和较小边距的折线图。\n请选择 XY 或 XYY 或多个 XY 进行绘制。",
+      "description": "Line Plot with grid lines and smaller margin.\nSelect XY or XYY or multiple XY to plot.",
+      "package_version": "1.0",
+      "origin_version": "9.8",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Basic 2D/Line with Grid Lines/Line1.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Basic 2D/Line with Grid Lines/Line1.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Basic 2D/Line with Grid Lines/Line1.png",
+        "upstream/Graph Templates/Basic 2D/Line with Grid Lines/Line1_dark.png",
+        "upstream/Graph Templates/Basic 2D/Line with Grid Lines/Line1_icon.png",
+        "upstream/Graph Templates/Basic 2D/Line with Grid Lines/Line1_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Basic 2D/Line with Grid Lines/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Basic%202D/Line%20with%20Grid%20Lines",
+      "sha256": "b404b0e698da66cca7065c115ec58c473f54ea15c9b9a93c6971f3de2a91d86a"
+    },
+    {
+      "id": "766",
+      "name": "Log-log Plot",
+      "name_zh": "对数轴图",
+      "category": "Basic 2D",
+      "category_zh": "基础二维图",
+      "package_category": "Basic 2D",
+      "description_zh": "轴刻度类型为对数的折线图。\n至少需要一组 Y 列数据。",
+      "description": "Plot line graph with Log-Log axis scale.\nAt least one Y column is required.",
+      "package_version": "1.0",
+      "origin_version": "9.80",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Basic 2D/Log-log Plot/LogLog.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Basic 2D/Log-log Plot/LogLog.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Basic 2D/Log-log Plot/LogLog.png",
+        "upstream/Graph Templates/Basic 2D/Log-log Plot/LogLog_dark.png",
+        "upstream/Graph Templates/Basic 2D/Log-log Plot/LogLog_icon.png",
+        "upstream/Graph Templates/Basic 2D/Log-log Plot/LogLog_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Basic 2D/Log-log Plot/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Basic%202D/Log-log%20Plot",
+      "sha256": "cfe05f8502526ef4325b8e75576497db76d34ccf01ebac30a0d5a1b23ba8e7d0"
+    },
+    {
+      "id": "767",
+      "name": "Matrix Bubble",
+      "name_zh": "气泡矩阵图",
+      "category": "Basic 2D",
+      "category_zh": "基础二维图",
+      "package_category": "Basic 2D",
+      "description_zh": "气泡矩阵图是通过散点的大小和颜色表示不同的数据。\n必须使用虚拟矩阵绘图：工作表中的第一列作为 X 值，长名称作为 Y 值，其余数据为 Z 值的数据。并且按 Z 值设置气泡的大小和颜色。",
+      "description": "Matrix bubble represents data by scatter size and color.\nVirtual Matrix is required: a worksheet with X values in the first column, Y values in Long Name, and rest of data cells are Z values deciding the bubble size and color.",
+      "package_version": "1.0",
+      "origin_version": "9.85",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Basic 2D/Matrix Bubble/MatrixBubble.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Basic 2D/Matrix Bubble/MatrixBubble.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Basic 2D/Matrix Bubble/MatrixBubble.png",
+        "upstream/Graph Templates/Basic 2D/Matrix Bubble/MatrixBubble_dark.png",
+        "upstream/Graph Templates/Basic 2D/Matrix Bubble/MatrixBubble_icon.png",
+        "upstream/Graph Templates/Basic 2D/Matrix Bubble/MatrixBubble_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Basic 2D/Matrix Bubble/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Basic 2D/Matrix Bubble/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Basic%202D/Matrix%20Bubble",
+      "sha256": "e2bee769f4ebe482898e8a7067eebd28065fbd41913aa5c3f2fcadb7ed747b41"
+    },
+    {
+      "id": "769",
+      "name": "Mean Line on Graph",
+      "name_zh": "均值线图",
+      "category": "Basic 2D",
+      "category_zh": "基础二维图",
+      "package_category": "Basic 2D",
+      "description_zh": "以均值为参考线的折线图。\n至少需要一组 Y 列数据。",
+      "description": "Line plot with Mean as reference line.\nAt least one Y column is required.",
+      "package_version": "1.0",
+      "origin_version": "9.8",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Basic 2D/Mean Line on Graph/MeanRef.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Basic 2D/Mean Line on Graph/MeanRef.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Basic 2D/Mean Line on Graph/MeanRef.png",
+        "upstream/Graph Templates/Basic 2D/Mean Line on Graph/MeanRef_dark.png",
+        "upstream/Graph Templates/Basic 2D/Mean Line on Graph/MeanRef_icon.png",
+        "upstream/Graph Templates/Basic 2D/Mean Line on Graph/MeanRef_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Basic 2D/Mean Line on Graph/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Basic%202D/Mean%20Line%20on%20Graph",
+      "sha256": "355c24bff7ba14b0abe91216b16797a4a326f69f5409a75f0721ff355383065e"
+    },
+    {
+      "id": "966",
+      "name": "Plots from multiple-X-one-Y Data",
+      "name_zh": "多个X单个Y绘图",
+      "category": "Basic 2D",
+      "category_zh": "基础二维图",
+      "package_category": "Basic 2D",
+      "description_zh": "选择 XXXXY 或 YXXXX 列以创建点线图。",
+      "description": "Select XXXXY or YXXXX columns to create a line+symbol graph",
+      "package_version": "1.0",
+      "origin_version": "10.05",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Basic 2D/Multiple Plots from XXXY Data/XXXYPlots.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Basic 2D/Multiple Plots from XXXY Data/XXXYPlots.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Basic 2D/Multiple Plots from XXXY Data/XXXYPlots.png",
+        "upstream/Graph Templates/Basic 2D/Multiple Plots from XXXY Data/XXXYPlots_dark.png",
+        "upstream/Graph Templates/Basic 2D/Multiple Plots from XXXY Data/XXXYPlots_icon.png",
+        "upstream/Graph Templates/Basic 2D/Multiple Plots from XXXY Data/XXXYPlots_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Basic 2D/Multiple Plots from XXXY Data/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Basic 2D/Multiple Plots from XXXY Data/XXXYPlots.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Basic%202D/Multiple%20Plots%20from%20XXXY%20Data",
+      "sha256": "38cd5724cc9e5f295f6afcf90e6d53dbb65f3db1acfa6c6b3a8b1cd9e4d7758f"
+    },
+    {
+      "id": "774",
+      "name": "Scatter with Smoothed Lines",
+      "name_zh": "带平滑线的散点图",
+      "category": "Basic 2D",
+      "category_zh": "基础二维图",
+      "package_category": "Basic 2D",
+      "description_zh": "绘制散点图并使用平滑曲线连接数据点。\n至少需要一组 Y 列数据。",
+      "description": "Plot a scatter plot connected with smoothed lines.\nAt least one Y column is required.",
+      "package_version": "1.0",
+      "origin_version": "9.8",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Basic 2D/Scatter with Smoothed Lines/ScaSmoLines.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Basic 2D/Scatter with Smoothed Lines/ScaSmoLines.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Basic 2D/Scatter with Smoothed Lines/ScaSmoLines.png",
+        "upstream/Graph Templates/Basic 2D/Scatter with Smoothed Lines/ScaSmoLines_dark.png",
+        "upstream/Graph Templates/Basic 2D/Scatter with Smoothed Lines/ScaSmoLines_icon.png",
+        "upstream/Graph Templates/Basic 2D/Scatter with Smoothed Lines/ScaSmoLines_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Basic 2D/Scatter with Smoothed Lines/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Basic%202D/Scatter%20with%20Smoothed%20Lines",
+      "sha256": "ffe962ec1ebb67fce93e014df5aa969bbb9861fe2192dc2c91f5c1b7aa357a23"
+    },
+    {
+      "id": "965",
+      "name": "Sparkline Chart",
+      "name_zh": "带端点的线图",
+      "category": "Basic 2D",
+      "category_zh": "基础二维图",
+      "package_category": "Basic 2D",
+      "description_zh": "选择至少一个 Y 列以创建两端带点的线图",
+      "description": "Select at least one Y columns to create line plot with dots on both ends",
+      "package_version": "1.0",
+      "origin_version": "10.05",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Basic 2D/Sparkline Chart/sparkline.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Basic 2D/Sparkline Chart/sparkline.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Basic 2D/Sparkline Chart/sparkline.png",
+        "upstream/Graph Templates/Basic 2D/Sparkline Chart/Sparkline_dark.png",
+        "upstream/Graph Templates/Basic 2D/Sparkline Chart/sparkline_icon.png",
+        "upstream/Graph Templates/Basic 2D/Sparkline Chart/Sparkline_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Basic 2D/Sparkline Chart/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Basic 2D/Sparkline Chart/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Basic%202D/Sparkline%20Chart",
+      "sha256": "74bf36162ef9f81be201b4c4f0356b90540b919cc39cf2962e67189ffba51474"
+    },
+    {
+      "id": "1010",
+      "name": "X-Offset Scatter Plot",
+      "name_zh": "X偏移散点图",
+      "category": "Basic 2D",
+      "category_zh": "基础二维图",
+      "package_category": "Basic 2D",
+      "description_zh": "如果具有相同的X值，则将散点图创建为并排数据点。 \nXYYY 或 XYYerrYErr 列是必需的。",
+      "description": "Create scatter plot as side-by-side data points if they have the same X values.  \nXYYY or XYYerrYErr columns are required.",
+      "package_version": "1.0",
+      "origin_version": "10.10",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Basic 2D/X Offset Scatter/XOffsetSym.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Basic 2D/X Offset Scatter/XOffsetSym.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Basic 2D/X Offset Scatter/XOffsetSym.png",
+        "upstream/Graph Templates/Basic 2D/X Offset Scatter/XOffsetSym_dark.png",
+        "upstream/Graph Templates/Basic 2D/X Offset Scatter/XOffsetSym_Icon.png",
+        "upstream/Graph Templates/Basic 2D/X Offset Scatter/XOffsetSym_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Basic 2D/X Offset Scatter/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Basic%202D/X%20Offset%20Scatter",
+      "sha256": "9d8fbfde159927d1ee08cffcbda5699187a596b640c0386bd872d14eb1249a34"
+    },
+    {
+      "id": "876",
+      "name": "Colormap Sunburst",
+      "name_zh": "颜色映射旭日图",
+      "category": "Categorical",
+      "category_zh": "分类与分组图",
+      "package_category": "Categorical",
+      "description_zh": "创建颜色映射旭日图。楔形的颜色映射到它们的值。\n至少需要 3 列：最后一列应该是数据值（设置为 Y），所有其他列应该是类别和子类别列（设置为 X）",
+      "description": "Create colormap sunburst chart. Color of the wedges is mapped to their value.\nAt least 3 columns are required: The last column should be data values(Set as Y) and all other columns are categories and sub-categories(Set as X)",
+      "package_version": "1.0",
+      "origin_version": "9.90",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Categorical/Colormap Sunburst/cSunburst.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Categorical/Colormap Sunburst/csunburst.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Categorical/Colormap Sunburst/csunburst.png",
+        "upstream/Graph Templates/Categorical/Colormap Sunburst/csunburst_icon.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Categorical/Colormap Sunburst/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Categorical/Colormap Sunburst/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Categorical/Colormap%20Sunburst",
+      "sha256": "20cf57cfd8b96ae9b8ca80d5579e1e6b02d1ddc2e7bfff187115f9716354baf3"
+    },
+    {
+      "id": "972",
+      "name": "Gradient Sunburst Chart",
+      "name_zh": "颜色渐变的旭日图",
+      "category": "Categorical",
+      "category_zh": "分类与分组图",
+      "package_category": "Categorical",
+      "description_zh": "按级别渐变颜色的旭日图。类别及其子类别的颜色相似。\n至少需要 3 列：最后一列应为数据值（设置为 Y），其他所有列为类别和子类别（设置为 X）",
+      "description": "Create sunburst chart with color by level. The color of category and their sub-categories are similar.\nAt least 3 columns are required: The last column should be data values(Set as Y) and all other columns are categories and sub-categories(Set as X)",
+      "package_version": "1.0",
+      "origin_version": "10.05",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Categorical/Gradient Sunburst Chart/gradSunburst.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Categorical/Gradient Sunburst Chart/gradSunburst.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Categorical/Gradient Sunburst Chart/gradSunburst.png",
+        "upstream/Graph Templates/Categorical/Gradient Sunburst Chart/gradSunburst_icon.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Categorical/Gradient Sunburst Chart/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Categorical/Gradient Sunburst Chart/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Categorical/Gradient%20Sunburst%20Chart",
+      "sha256": "6405e4b7bc5b49ce3a8fc5a8a4bfafa01927c92052f0d765157fb078c975d4de"
+    },
+    {
+      "id": "800",
+      "name": "Grouped Circular Bars",
+      "name_zh": "分组圆条图",
+      "category": "Categorical",
+      "category_zh": "分类与分组图",
+      "package_category": "Categorical",
+      "description_zh": "沿圆圈显示分组条形图。\n需要三列，x、分组和 y。x 和分组列应设置为类别列",
+      "description": "Display the grouped bars along a circle. \nThree columns are required, x, groups and y. The x and groups column should be set as categorical",
+      "package_version": "1.0",
+      "origin_version": "9.90",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Categorical/Grouped Circular Bars/gcirbar.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Categorical/Grouped Circular Bars/gcirbar.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Categorical/Grouped Circular Bars/gcirbar.png",
+        "upstream/Graph Templates/Categorical/Grouped Circular Bars/gcirbar_dark.png",
+        "upstream/Graph Templates/Categorical/Grouped Circular Bars/gcirbar_icon.png",
+        "upstream/Graph Templates/Categorical/Grouped Circular Bars/gcirbar_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Categorical/Grouped Circular Bars/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Categorical/Grouped Circular Bars/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Categorical/Grouped%20Circular%20Bars",
+      "sha256": "c4651a0f1a6c69142556b2cc3076faef838de9c261d90e30b31feeb2e445255f"
+    },
+    {
+      "id": "801",
+      "name": "Grouped Line Plots",
+      "name_zh": "分组线图",
+      "category": "Categorical",
+      "category_zh": "分类与分组图",
+      "package_category": "Categorical",
+      "description_zh": "创建每个分组都具有不同线型的线图。\nXYY 列是必需的，第二个 Y 是分组列。选择 XY 列以创建绘图。",
+      "description": "Create line plot with different line style for each group.\nXYY columns are required, 2nd Y is group column. Select XY column to create plot.",
+      "package_version": "1.0",
+      "origin_version": "9.90",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Categorical/Grouped Line Plots/gLine.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Categorical/Grouped Line Plots/gLine.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Categorical/Grouped Line Plots/gLine.png",
+        "upstream/Graph Templates/Categorical/Grouped Line Plots/gLine_dark.png",
+        "upstream/Graph Templates/Categorical/Grouped Line Plots/gLine_icon.png",
+        "upstream/Graph Templates/Categorical/Grouped Line Plots/gLine_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Categorical/Grouped Line Plots/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Categorical/Grouped%20Line%20Plots",
+      "sha256": "eeec4a5cacf0b787f57e20e50d443bf2ad7dc1fb91c9a1b953655635f6ad7251"
+    },
+    {
+      "id": "802",
+      "name": "Grouped Line and Symbol",
+      "name_zh": "分组点线图",
+      "category": "Categorical",
+      "category_zh": "分类与分组图",
+      "package_category": "Categorical",
+      "description_zh": "创建每个分组都具有不同线型和符号形状的点线图。\nXYY 列是必需的，第二个 Y 是分组列。选择 XY 列以创建绘图。",
+      "description": "Create line and symbol plot with different line style and symbol shape for each group.\nXYY columns are required, 2nd Y is group column. Select XY column to create plot.",
+      "package_version": "1.0",
+      "origin_version": "9.9",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Categorical/Grouped Line and Symbol/gLineSymbol.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Categorical/Grouped Line and Symbol/gLineSymbol.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Categorical/Grouped Line and Symbol/gLineSymbol.png",
+        "upstream/Graph Templates/Categorical/Grouped Line and Symbol/gLineSymbol_dark.png",
+        "upstream/Graph Templates/Categorical/Grouped Line and Symbol/gLineSymbol_icon.png",
+        "upstream/Graph Templates/Categorical/Grouped Line and Symbol/gLineSymbol_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Categorical/Grouped Line and Symbol/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Categorical/Grouped%20Line%20and%20Symbol",
+      "sha256": "c9874577c0812ba860deaf6e4bad0e1c01369cf21ddbb68799451f5d112460d4"
+    },
+    {
+      "id": "803",
+      "name": "Grouped Pyramid Plot",
+      "name_zh": "分组金字塔图",
+      "category": "Categorical",
+      "category_zh": "分类与分组图",
+      "package_category": "Categorical",
+      "description_zh": "创建分组金字塔图以跨组比较两个数据集。\n数据应按X、分组、Y1、Y2的顺序排列在列中",
+      "description": "Create a grouped pyramid plot to compare two dataset across groups. \nData should be arranged in columns in order as X, Group, Y1, Y2",
+      "package_version": "1.1",
+      "origin_version": "9.90",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Categorical/Grouped Pyramid Plot/gpyramid.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Categorical/Grouped Pyramid Plot/gpyramid.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Categorical/Grouped Pyramid Plot/gpyramid.png",
+        "upstream/Graph Templates/Categorical/Grouped Pyramid Plot/gpyramid_dark.png",
+        "upstream/Graph Templates/Categorical/Grouped Pyramid Plot/gpyramid_Icon.png",
+        "upstream/Graph Templates/Categorical/Grouped Pyramid Plot/gpyramid_Icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Categorical/Grouped Pyramid Plot/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Categorical/Grouped Pyramid Plot/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Categorical/Grouped%20Pyramid%20Plot",
+      "sha256": "270188859a9069d6b0674ee4da594e8de8f4ae0e4017d9b939e210857cdf3980"
+    },
+    {
+      "id": "761",
+      "name": "Grouped Stacked Lines",
+      "name_zh": "分组堆积线图",
+      "category": "Categorical",
+      "category_zh": "分类与分组图",
+      "package_category": "Categorical",
+      "description_zh": "将组数据绘制成折线图，并按 Y 偏移进行堆积。\n需要 XYYYY 列数据进行绘图。分组信息请放入 “注释” 标签行。",
+      "description": "Plot grouped data as lines and stack each group with Y-offset.\nXYYYY columns are required. Group info puts in Comment label row.",
+      "package_version": "1.0",
+      "origin_version": "9.80",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Categorical/Grouped Stacked Lines/gStackedLines.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Categorical/Grouped Stacked Lines/gStackedLines.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Categorical/Grouped Stacked Lines/gStackedLines.png",
+        "upstream/Graph Templates/Categorical/Grouped Stacked Lines/gStackedLines_dark.png",
+        "upstream/Graph Templates/Categorical/Grouped Stacked Lines/gStackedLines_icon.png",
+        "upstream/Graph Templates/Categorical/Grouped Stacked Lines/gStackedLines_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Categorical/Grouped Stacked Lines/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Categorical/Grouped%20Stacked%20Lines",
+      "sha256": "54439508781c07f76c0a0fb67c267404c1e08ddce6da725067558365debd4604"
+    },
+    {
+      "id": "755",
+      "name": "Climate",
+      "name_zh": "气候图",
+      "category": "Contour, Heatmap",
+      "category_zh": "等高线与热图",
+      "package_category": "Contour, Heatmap",
+      "description_zh": "世界经度范围为从 -180 至 180，纬度范围为从 90 至 -90",
+      "description": "World longitue -180 to 180 and latitude 90 to -90, oceans are fill in gray.",
+      "package_version": "1.0",
+      "origin_version": "9.85",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Contour, Heatmap/Climate/Climate.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Contour, Heatmap/Climate/Climate.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Contour, Heatmap/Climate/Climate.png",
+        "upstream/Graph Templates/Contour, Heatmap/Climate/Climate_icon.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Contour, Heatmap/Climate/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Contour%2C%20Heatmap/Climate",
+      "sha256": "a40fb66357267106757e0116c9ed63bc767f60210d1de3ddc07c1b4f9d442471"
+    },
+    {
+      "id": "886",
+      "name": "Contour without Contour Lines",
+      "name_zh": "不带等高线的等高线颜色填充图",
+      "category": "Contour, Heatmap",
+      "category_zh": "等高线与热图",
+      "package_category": "Contour, Heatmap",
+      "description_zh": "绘制不带等高线的等高线颜色填充图.\n需要XYZ列",
+      "description": "Plot a contour plot without contour lines.\nXYZ columns are required",
+      "package_version": "1.0",
+      "origin_version": "9.95",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Contour, Heatmap/Contour without Contour Lines/TriContourNoLine.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Contour, Heatmap/Contour without Contour Lines/TriContourNoLine.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Contour, Heatmap/Contour without Contour Lines/TriContourNoLine.png",
+        "upstream/Graph Templates/Contour, Heatmap/Contour without Contour Lines/TriContourNoLine_icon.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Contour, Heatmap/Contour without Contour Lines/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Contour%2C%20Heatmap/Contour%20without%20Contour%20Lines",
+      "sha256": "df03f71119bb521feb545ac12d4280aca542332025f2034325f86ecadc4fa5d7"
+    },
+    {
+      "id": "1057",
+      "name": "Heatmap with Group",
+      "name_zh": "分组热图",
+      "category": "Contour, Heatmap",
+      "category_zh": "等高线与热图",
+      "package_category": "Contour, Heatmap",
+      "description_zh": "创建手动分组的热图。\n 需要一个工作表（虚拟矩阵）：第一列里是 X 标签，第二列里是 X 分组信息，Y 标签位于“长名称”标签行中，Y 分组信息位于“注释”标签行中。",
+      "description": "Create a heatmap with manual grouping.\n A worksheet (virtual matrix) is required:  The first column contains the X labels, the second column includes the X grouping information, the Y labels are in the \"\"Long Name\"\" label row, and the Y grouping information is in the \"\"Comments\"\" label row.",
+      "package_version": "1.0",
+      "origin_version": "10.25",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Contour, Heatmap/Heatmap with Group/HeatmapGroup.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Contour, Heatmap/Heatmap with Group/HeatmapGroup.opju",
+        "upstream/Graph Templates/Contour, Heatmap/Heatmap with Group/HeatmapGroup_Preview.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Contour, Heatmap/Heatmap with Group/heatmapgroup.png",
+        "upstream/Graph Templates/Contour, Heatmap/Heatmap with Group/heatmapgroup_dark.png",
+        "upstream/Graph Templates/Contour, Heatmap/Heatmap with Group/heatmapgroup_icon.png",
+        "upstream/Graph Templates/Contour, Heatmap/Heatmap with Group/heatmapgroup_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Contour, Heatmap/Heatmap with Group/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Contour, Heatmap/Heatmap with Group/script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Contour%2C%20Heatmap/Heatmap%20with%20Group",
+      "sha256": "fa0608eda17ce5bccbf44de4c2c5380eb7dd073ca8756691884c52500da12501"
+    },
+    {
+      "id": "812",
+      "name": "Heatmap with Significant Mark",
+      "name_zh": "带显著性标记的热图",
+      "category": "Contour, Heatmap",
+      "category_zh": "等高线与热图",
+      "package_category": "Contour, Heatmap",
+      "description_zh": "绘图一个热图并使用显著性标记作为标签。\n需要两个工作表（虚拟矩阵）进行绘图：第一个工作表是绘图数据，第二个工作表是显著性标记。两个表的行列数和结构必须一样。",
+      "description": "Plot a heatmap with significance marks as labels.\nTwo worksheets (virtual matrixed) are required: first one is plot data and the next one is the labels of significant marks. Two sheets must have the same dimension and structure.",
+      "package_version": "1.0",
+      "origin_version": "9.80",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Contour, Heatmap/Heatmap with Significant Mark/HeatmapLabel.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Contour, Heatmap/Heatmap with Significant Mark/HeatmapLabel.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Contour, Heatmap/Heatmap with Significant Mark/HeatmapLabel.png",
+        "upstream/Graph Templates/Contour, Heatmap/Heatmap with Significant Mark/HeatmapLabel_icon.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Contour, Heatmap/Heatmap with Significant Mark/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Contour%2C%20Heatmap/Heatmap%20with%20Significant%20Mark",
+      "sha256": "c78082c500cafdb15e2c9102dedb267f02e3b95678afff29c7a75028027406a4"
+    },
+    {
+      "id": "1008",
+      "name": "Polar Heatmap",
+      "name_zh": "极坐标热图",
+      "category": "Contour, Heatmap",
+      "category_zh": "等高线与热图",
+      "package_category": "Specialized",
+      "description_zh": "根据工作表中的数据创建极坐标热图\n需要虚拟矩阵数据：工作表的第一列中包含X值，长名称中包含Y值，其余数据单元格为Z值",
+      "description": "Create polar heatmap from data in worksheet\n Virtual Matrix is required: a worksheet with X values in the first column, Y values in Long Name, and rest of data cells are Z values",
+      "package_version": "1.0",
+      "origin_version": "10.10",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Contour, Heatmap/Polar Heatmap/PolarHeatmap.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Contour, Heatmap/Polar Heatmap/PolarHeatmap.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Contour, Heatmap/Polar Heatmap/PolarHeatmap.png",
+        "upstream/Graph Templates/Contour, Heatmap/Polar Heatmap/PolarHeatmap_Icon.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Contour, Heatmap/Polar Heatmap/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Contour, Heatmap/Polar Heatmap/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Contour%2C%20Heatmap/Polar%20Heatmap",
+      "sha256": "69fb830c3721ff21233bb12351056bac7a25dace07580476e636de102f2f7919"
+    },
+    {
+      "id": "762",
+      "name": "Triangle Heatmap",
+      "name_zh": "三角形热图",
+      "category": "Contour, Heatmap",
+      "category_zh": "等高线与热图",
+      "package_category": "Contour, Heatmap",
+      "description_zh": "绘图一个下三角形的热图，并用 Z 值作为标签。\n需要使用虚拟矩阵进行绘图。",
+      "description": "Plot a lower triangular heatmap with Z values as labels.\nA virtual matrix or matrix is required.",
+      "package_version": "1.1",
+      "origin_version": "9.80",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Contour, Heatmap/Triangle Heatmap/triHeatmap.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Contour, Heatmap/Triangle Heatmap/triHeatmap.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Contour, Heatmap/Triangle Heatmap/triHeatmap.png",
+        "upstream/Graph Templates/Contour, Heatmap/Triangle Heatmap/triHeatmap_icon.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Contour, Heatmap/Triangle Heatmap/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Contour%2C%20Heatmap/Triangle%20Heatmap",
+      "sha256": "124acbecb6654e9ef4945ba633e779a1100dd52e0283a4f244c951628c784085"
+    },
+    {
+      "id": "1009",
+      "name": "2Ys StackedColumn Line",
+      "name_zh": "双Y轴堆积柱状+线图",
+      "category": "Multi-Panel, Multi-Axis",
+      "category_zh": "多面板与多轴图",
+      "package_category": "Multi-Panel, Multi-Axis",
+      "description_zh": "将组数据绘制为左侧Y轴中的堆积柱状图，并在右侧Y轴中绘制叠加线图\n将堆积柱状数据放在第一个工作表中（组信息放在注释标签行中），将线图数据放在第二个工作表中",
+      "description": "Plot grouped data as stacked columns in left Y and overlay line plots in the right Y\n Put the stacked column data in the 1st sheet (Group info puts in Comment label row) and line plot data in the 2nd sheet",
+      "package_version": "1.0",
+      "origin_version": "10.10",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/2Ys StackedColumn-Line/2Ys_StackColLine.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/2Ys StackedColumn-Line/2Ys_StackColLine.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/2Ys StackedColumn-Line/2Ys_StackColLine.png",
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/2Ys StackedColumn-Line/2Ys_StackColLine_dark.png",
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/2Ys StackedColumn-Line/2Ys_StackColLine_icon.png",
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/2Ys StackedColumn-Line/2Ys_StackColLine_Icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Multi-Panel, Multi-Axis/2Ys StackedColumn-Line/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/2Ys StackedColumn-Line/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Multi-Panel%2C%20Multi-Axis/2Ys%20StackedColumn-Line",
+      "sha256": "20cfd23cfadbb2f42c78430315e5b027a7aa037444478ac1e3141050fc4c2f62"
+    },
+    {
+      "id": "920",
+      "name": "Bridge Charts in Multiple Panels",
+      "name_zh": "多面板桥图",
+      "category": "Multi-Panel, Multi-Axis",
+      "category_zh": "多面板与多轴图",
+      "package_category": "Multi-Panel, Multi-Axis",
+      "description_zh": "创建多组桥图以观察原始数据的数据变化。\n选择X和至少两个Y列以在多个面板中创建桥图",
+      "description": "Create bridge charts to visualize the data change from raw data. \nSelect X and at least two Y columns to create bridge chart in multiple panels",
+      "package_version": "1.0",
+      "origin_version": "10.00",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Bridge Charts in Multiple Panels/multiBridge.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Bridge Charts in Multiple Panels/multiBridge.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Bridge Charts in Multiple Panels/multibridge.png",
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Bridge Charts in Multiple Panels/multibridge_dark.png",
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Bridge Charts in Multiple Panels/multibridge_icon.png",
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Bridge Charts in Multiple Panels/multibridge_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Bridge Charts in Multiple Panels/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Bridge Charts in Multiple Panels/Script_gBridge.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Multi-Panel%2C%20Multi-Axis/Bridge%20Charts%20in%20Multiple%20Panels",
+      "sha256": "e06271d449cafb1e8d6b726387f98da21ecc679975f72a76d65b2bcbeb6bdb7d"
+    },
+    {
+      "id": "927",
+      "name": "Double Y Before-After Plot",
+      "name_zh": "双Y前后图",
+      "category": "Multi-Panel, Multi-Axis",
+      "category_zh": "多面板与多轴图",
+      "package_category": "Multi-Panel, Multi-Axis",
+      "description_zh": "选择两列来创建具有2个不同Y轴的前后对比图",
+      "description": "Select two columns to create a before-after plot with 2 different Y axes",
+      "package_version": "1.0",
+      "origin_version": "10.00",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Double Y Before-After Plot/BeAf2Ys.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Double Y Before-After Plot/BeAf2Ys.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Double Y Before-After Plot/BeAf2Ys.png",
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Double Y Before-After Plot/BeAf2Ys_dark.png",
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Double Y Before-After Plot/BeAf2Ys_icon.png",
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Double Y Before-After Plot/BeAf2Ys_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Double Y Before-After Plot/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Double Y Before-After Plot/Script_BeAf2Ys.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Multi-Panel%2C%20Multi-Axis/Double%20Y%20Before-After%20Plot",
+      "sha256": "0f1d854a503db2064b2643d668a1d80e789ed300e2f9ee3dbf0c73762541ec1f"
+    },
+    {
+      "id": "745",
+      "name": "Double-Y Stacked Columns",
+      "name_zh": "双Y轴的堆积柱状图",
+      "category": "Multi-Panel, Multi-Axis",
+      "category_zh": "多面板与多轴图",
+      "package_category": "Multi-Panel, Multi-Axis",
+      "description_zh": "将两组数据绘制成并排的柱状图，每个分组有自己的 Y 轴。 XYYYY 列是必需的。分组信息放在注释标签行。",
+      "description": "Plot two group of data as side-by-side columns, each group has its own Y axis.XYYYY columns are required. Group info puts in Comment label row.",
+      "package_version": "2.1",
+      "origin_version": "10.05",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Double Y Stackd Columns/2Ys_StackedCol.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Double Y Stackd Columns/2Ys_StackedCol.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Double Y Stackd Columns/2Ys_StackedCol.png",
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Double Y Stackd Columns/2Ys_StackedCol_dark.png",
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Double Y Stackd Columns/2Ys_StackedCol_icon.png",
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Double Y Stackd Columns/2Ys_StackedCol_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Double Y Stackd Columns/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Double Y Stackd Columns/Scripts.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Multi-Panel%2C%20Multi-Axis/Double%20Y%20Stackd%20Columns",
+      "sha256": "b95f210c73a29a8cc36272da2b85c23f78c6273c8fc7ae52eee70f91c522c6a4"
+    },
+    {
+      "id": "973",
+      "name": "Panels with multiple-X-one-Y Data",
+      "name_zh": "多个X单个Y绘制的多面板图",
+      "category": "Multi-Panel, Multi-Axis",
+      "category_zh": "多面板与多轴图",
+      "package_category": "Multi-Panel, Multi-Axis",
+      "description_zh": "选择 XXXXY 或 YXXXX 列以创建多面板图。在单独的面板中绘制各组 XY。",
+      "description": "Select XXXXY or YXXXX columns to create a multi-panel graph. Plot each XY in its own panel.",
+      "package_version": "1.0",
+      "origin_version": "10.05",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Multiple Panels with XXXY Data/XXXYPlanels.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Multiple Panels with XXXY Data/XXXYPlanels.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Multiple Panels with XXXY Data/XXXYPlanels.png",
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Multiple Panels with XXXY Data/XXXYPlanels_dark.png",
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Multiple Panels with XXXY Data/XXXYPlanels_icon.png",
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Multiple Panels with XXXY Data/XXXYPlanels_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Multiple Panels with XXXY Data/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Multiple Panels with XXXY Data/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Multi-Panel%2C%20Multi-Axis/Multiple%20Panels%20with%20XXXY%20Data",
+      "sha256": "3d452cf2cc7a705cacac7e28f3343f7353704035cf7359929b02f96b9a8e0ba3"
+    },
+    {
+      "id": "1015",
+      "name": "Time Series Explorer",
+      "name_zh": "时间序列浏览",
+      "category": "Multi-Panel, Multi-Axis",
+      "category_zh": "多面板与多轴图",
+      "package_category": "Multi-Panel, Multi-Axis",
+      "description_zh": "至少选择一个 Y 列以创建带缩放 ROI 的折线图。 X 可以是日期或时间列。 使用范围按钮切换到适当的范围，移动 ROI 或使用按钮浏览时间序列数据。",
+      "description": "Select at least one Y column to create line plot with Zoom ROI. X could be date or time column. Switch to appropriate range with Range button, move ROI or use button to explore time series data.",
+      "package_version": "1.2",
+      "origin_version": "10.15",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Time Series Explorer/TimeSeriesExplorer.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Time Series Explorer/TimeSeriesExplorer.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Time Series Explorer/TimeSeriesExplorer.png",
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Time Series Explorer/TimeSeriesExplorer_dark.png",
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Time Series Explorer/TimeSeriesExplorer_icon.png",
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Time Series Explorer/TimeSeriesExplorer_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Time Series Explorer/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Time Series Explorer/Script.txt",
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Time Series Explorer/TimeSeriesExplorer.c"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Multi-Panel%2C%20Multi-Axis/Time%20Series%20Explorer",
+      "sha256": "567cfe837b09b71d0f1e75fde76a507dd379f221928c178532493286d5fcda3f"
+    },
+    {
+      "id": "795",
+      "name": "Tripartite Plot",
+      "name_zh": "三方图",
+      "category": "Multi-Panel, Multi-Axis",
+      "category_zh": "多面板与多轴图",
+      "package_category": "Multi-Panel, Multi-Axis",
+      "description_zh": "三方图由 4 个对数刻度轴， X、Y 和从 X Y 派生的两个轴组成。另​​外两个轴与 X 轴成 45 度和 135 度。\n选择至少一对 xy 列来创建三方图。使用右上角的按钮更改单位",
+      "description": "A tripartite plot consists of 4 logarithmic scale axes, X, Y and two axes derived from X Y. The other two axes at 45 and 135 degrees to the X axis.\nSelect at least one pair of xy columns to create tripartite plot. Change unit with button on right-top corner.",
+      "package_version": "1.2",
+      "origin_version": "10.25",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Tripartite Plot/Tripartite.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Tripartite Plot/Tripartite.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Tripartite Plot/Tripartite.png",
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Tripartite Plot/Tripartite_dark.png",
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Tripartite Plot/Tripartite_icon.png",
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Tripartite Plot/Tripartite_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Tripartite Plot/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Tripartite Plot/TripartiteDlg.dll",
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Tripartite Plot/TripartiteDlg.h",
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Tripartite Plot/TripartiteGridUnitsDlg.c"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Multi-Panel%2C%20Multi-Axis/Tripartite%20Plot",
+      "sha256": "20b15ee6123a882d89a79af0196136b28aa2328b83d5afc4dd99e8eb06c81761"
+    },
+    {
+      "id": "905",
+      "name": "Y-Shared Double-X Plot",
+      "name_zh": "共享Y轴的双X图",
+      "category": "Multi-Panel, Multi-Axis",
+      "category_zh": "多面板与多轴图",
+      "package_category": "Multi-Panel, Multi-Axis",
+      "description_zh": "绘制双X点线图，底轴为X1，顶轴为X2\n选择XXY列来创建共享Y轴的双X图。",
+      "description": "Plot one line and symbol plot with X1 in bottom axis and X2 in top axis.\nSelect XXY columns to create Y-shared double-x plot.",
+      "package_version": "1.0",
+      "origin_version": "10.00",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Y-Shared Double-X Plot/YSharedDoubleX.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Y-Shared Double-X Plot/YSharedDoubleX.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Y-Shared Double-X Plot/YSharedDoubleX.png",
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Y-Shared Double-X Plot/YSharedDoubleX_dark.png",
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Y-Shared Double-X Plot/YSharedDoubleX_icon.png",
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Y-Shared Double-X Plot/YSharedDoubleX_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Multi-Panel, Multi-Axis/Y-Shared Double-X Plot/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Multi-Panel, Multi-Axis/Y-Shared Double-X Plot/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Multi-Panel%2C%20Multi-Axis/Y-Shared%20Double-X%20Plot",
+      "sha256": "d99a5c4ec7345ee299b14789c944501c56db422fd79bb7dc9ede397e90be9b9b"
+    },
+    {
+      "id": "1045",
+      "name": "Circular Radar Chart",
+      "name_zh": "圆形雷达图",
+      "category": "Specialized",
+      "category_zh": "专业图",
+      "package_category": "Specialized",
+      "description_zh": "选择至少一列来创建具有圆形角度轴的雷达图",
+      "description": "Select at least one column to create a radar chart with circular angular axis.",
+      "package_version": "1.0",
+      "origin_version": "10.20",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Specialized/Circular Radar Chart/CircularRadar.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Specialized/Circular Radar Chart/CircularRadar.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Specialized/Circular Radar Chart/CircularRadar.png",
+        "upstream/Graph Templates/Specialized/Circular Radar Chart/CircularRadar_dark.png",
+        "upstream/Graph Templates/Specialized/Circular Radar Chart/CircularRadar_icon.png",
+        "upstream/Graph Templates/Specialized/Circular Radar Chart/CircularRadar_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Specialized/Circular Radar Chart/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Specialized/Circular Radar Chart/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Specialized/Circular%20Radar%20Chart",
+      "sha256": "db066b4360f5e683d38521c0c6525a1b72dbd1fb1042ff6e769ad4246d271195"
+    },
+    {
+      "id": "879",
+      "name": "Delaunay Triangulation",
+      "name_zh": "Delaunay三角剖分",
+      "category": "Specialized",
+      "category_zh": "专业图",
+      "package_category": "Specialized",
+      "description_zh": "选择XY列绘制Delaunay三角剖分图。",
+      "description": "Select XY columns to plot Delaunay Triangulation.",
+      "package_version": "1.0",
+      "origin_version": "9.95",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Specialized/Delaunay Triangulation/Delaunay Triangulation.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Specialized/Delaunay Triangulation/Delaunay Triangulation.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Specialized/Delaunay Triangulation/Delaunay Triangulation.png",
+        "upstream/Graph Templates/Specialized/Delaunay Triangulation/Delaunay Triangulation_dark.png",
+        "upstream/Graph Templates/Specialized/Delaunay Triangulation/Delaunay Triangulation_icon.png",
+        "upstream/Graph Templates/Specialized/Delaunay Triangulation/Delaunay Triangulation_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Specialized/Delaunay Triangulation/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Specialized/Delaunay%20Triangulation",
+      "sha256": "84244fd90738beb06b81edf34fdb110605cc5ba8c5702898f2586845635759bb"
+    },
+    {
+      "id": "758",
+      "name": "Ellipse",
+      "name_zh": "椭圆图",
+      "category": "Specialized",
+      "category_zh": "专业图",
+      "package_category": "Specialized",
+      "description_zh": "以 X 中心，Y 中心，半长轴，半短轴和旋转角度（可选）绘制椭圆图。",
+      "description": "Plot ellipse with center X, center Y, semi-major, semi-minor and rotate angle(optional).",
+      "package_version": "1.0",
+      "origin_version": "9.8",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Specialized/Ellipse/ellipse.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Specialized/Ellipse/ellipse.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Specialized/Ellipse/ellipse.png",
+        "upstream/Graph Templates/Specialized/Ellipse/ellipse_dark.png",
+        "upstream/Graph Templates/Specialized/Ellipse/ellipse_icon.png",
+        "upstream/Graph Templates/Specialized/Ellipse/ellipse_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Specialized/Ellipse/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Specialized/Ellipse",
+      "sha256": "fb0ca5747cfc258f3a9765828c1b5eff2fdca3328a444bb8806a4b213362bded"
+    },
+    {
+      "id": "883",
+      "name": "Energy Diagram",
+      "name_zh": "能级图",
+      "category": "Specialized",
+      "category_zh": "专业图",
+      "package_category": "Specialized",
+      "description_zh": "创建简单能级图。\n需要两列数据(XY)。第三列是可选的，将用作标签。",
+      "description": "Create a simple energy diagram.\n2 columns (XY) are required. The 3rd column is optional, which will be used as label",
+      "package_version": "1.1",
+      "origin_version": "9.95",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Specialized/Energy Diagram/EnergyDiagram.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Specialized/Energy Diagram/EnergyDiagram.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Specialized/Energy Diagram/EnergyDiagram.png",
+        "upstream/Graph Templates/Specialized/Energy Diagram/EnergyDiagram_dark.png",
+        "upstream/Graph Templates/Specialized/Energy Diagram/EnergyDiagram_icon.png",
+        "upstream/Graph Templates/Specialized/Energy Diagram/EnergyDiagram_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Specialized/Energy Diagram/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Specialized/Energy Diagram/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Specialized/Energy%20Diagram",
+      "sha256": "96754e2b8ffc9c26c37cdfcc55fc37da731f1cd417ebe8425ac8665e08fcd75c"
+    },
+    {
+      "id": "887",
+      "name": "Gantt Chart",
+      "name_zh": "甘特图",
+      "category": "Specialized",
+      "category_zh": "专业图",
+      "package_category": "Specialized",
+      "description_zh": "创建甘特图。\n需要4列数据。前两列分别是类别和项目。后两列是开始日期和结束日期，因此必须正确设置为日期类型。",
+      "description": "Create a Gantt Chart.\n4 columns are required. The first 2 columns are category and item, respectively. The last 2 columns are beginning and end date, so they must be set in Date type properly",
+      "package_version": "1.0",
+      "origin_version": "9.95",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Specialized/Gantt Chart/Gantt.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Specialized/Gantt Chart/Gantt.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Specialized/Gantt Chart/Gantt.png",
+        "upstream/Graph Templates/Specialized/Gantt Chart/Gantt_dark.png",
+        "upstream/Graph Templates/Specialized/Gantt Chart/Gantt_icon.png",
+        "upstream/Graph Templates/Specialized/Gantt Chart/Gantt_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Specialized/Gantt Chart/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Specialized/Gantt Chart/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Specialized/Gantt%20Chart",
+      "sha256": "369cd0ec5c7715f43ab73bd13bc02974fbe108d690b3671f3cc5d9e862933056"
+    },
+    {
+      "id": "1007",
+      "name": "Periodic Table",
+      "name_zh": "元素周期表",
+      "category": "Specialized",
+      "category_zh": "专业图",
+      "package_category": "Specialized",
+      "description_zh": "生成带元素值的颜色映射的元素周期表。 \n选择工作表中的任意列以生成元素周期表",
+      "description": "Generate periodic table with color map to element values. \nSelect any column(s) in the worksheet to generated periodic table",
+      "package_version": "1.0",
+      "origin_version": "10.10",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Specialized/Periodic Table/PeriodicTable.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Specialized/Periodic Table/PeriodicTable.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Specialized/Periodic Table/PeriodicTable.png",
+        "upstream/Graph Templates/Specialized/Periodic Table/PeriodicTable_dark.png",
+        "upstream/Graph Templates/Specialized/Periodic Table/PeriodicTable_icon.png",
+        "upstream/Graph Templates/Specialized/Periodic Table/PeriodicTable_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Specialized/Periodic Table/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Specialized/Periodic Table/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Specialized/Periodic%20Table",
+      "sha256": "3977de767f5215eff6158b23923148b64d25ac0a16d8cbb2addf8c9be27749b3"
+    },
+    {
+      "id": "804",
+      "name": "Polar Colormapped Line",
+      "name_zh": "极坐标颜色映射线图",
+      "category": "Specialized",
+      "category_zh": "专业图",
+      "package_category": "Specialized",
+      "description_zh": "绘制极坐标中的颜色映射线图。\n选择 (theta, r) 数据进行绘图。",
+      "description": "Plot polar graph with colormapped line. \nSelect (theta, r) data to plot",
+      "package_version": "1.0",
+      "origin_version": "9.90",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Specialized/Polar Colormapped Line/pcolormapline.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Specialized/Polar Colormapped Line/pColormapLine.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Specialized/Polar Colormapped Line/pcolormapline.png",
+        "upstream/Graph Templates/Specialized/Polar Colormapped Line/pcolormapline_dark.png",
+        "upstream/Graph Templates/Specialized/Polar Colormapped Line/pcolormapline_icon.png",
+        "upstream/Graph Templates/Specialized/Polar Colormapped Line/pcolormapline_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Specialized/Polar Colormapped Line/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Specialized/Polar%20Colormapped%20Line",
+      "sha256": "2b45503b8eef234518a8e5a48df21ca4425e043b8923346959b22adcdc6d5358"
+    },
+    {
+      "id": "921",
+      "name": "Radial Bubble",
+      "name_zh": "径向气泡图",
+      "category": "Specialized",
+      "category_zh": "专业图",
+      "package_category": "Specialized",
+      "description_zh": "径向气泡通过散点大小和颜色表示数据。\n需要虚拟矩阵：工作表的第一列中包含X值，长名称中包含Y值，其余数据单元格是决定气泡大小和颜色的Z值。",
+      "description": "Radial bubble represents data by scatter size and color.\nVirtual Matrix is required: a worksheet with X values in the first column, Y values in Long Name, and rest of data cells are Z values deciding the bubble size and color.",
+      "package_version": "1.0",
+      "origin_version": "10.00",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Specialized/Radial Bubble/RadialBub.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Specialized/Radial Bubble/RadialBub.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Specialized/Radial Bubble/RadialBub.png",
+        "upstream/Graph Templates/Specialized/Radial Bubble/RadialBub_dark.png",
+        "upstream/Graph Templates/Specialized/Radial Bubble/RadialBub_icon.png",
+        "upstream/Graph Templates/Specialized/Radial Bubble/RadialBub_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Specialized/Radial Bubble/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Specialized/Radial Bubble/Script_RadialBub.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Specialized/Radial%20Bubble",
+      "sha256": "289ffe5df1fb1d12f0a3332c4c7f7a9ff5805a8075a7df52d28f869c92ae7679"
+    },
+    {
+      "id": "775",
+      "name": "Schoeller Diagram",
+      "name_zh": "Schoeller 图",
+      "category": "Specialized",
+      "category_zh": "专业图",
+      "package_category": "Specialized",
+      "description_zh": "Schoeller 图是一种或多种水化学样本组成的图形。在水化学学科中很流行。 选择离子列以绘制图形，并在选择的列之前放置样品的 ID。",
+      "description": "Schoeller diagram is a graphical representation of the chemistry of a water sample or samples. It is popular in hydrochemistry.\nSelect ions columns to plot graph, and put sample ID before selection.",
+      "package_version": "1.0",
+      "origin_version": "9.8",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Specialized/Schoeller Diagrams/Schoeller.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Specialized/Schoeller Diagrams/Schoeller.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Specialized/Schoeller Diagrams/Schoeller.png",
+        "upstream/Graph Templates/Specialized/Schoeller Diagrams/Schoeller_dark.png",
+        "upstream/Graph Templates/Specialized/Schoeller Diagrams/Schoeller_icon.png",
+        "upstream/Graph Templates/Specialized/Schoeller Diagrams/Schoeller_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Specialized/Schoeller Diagrams/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Specialized/Schoeller Diagrams/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Specialized/Schoeller%20Diagrams",
+      "sha256": "130645beb3598fc00bc5104e8171499a16921da05dcbc0cf29cc4e3537e7f179"
+    },
+    {
+      "id": "884",
+      "name": "Speedometer Chart",
+      "name_zh": "仪表图",
+      "category": "Specialized",
+      "category_zh": "专业图",
+      "package_category": "Specialized",
+      "description_zh": "创建仪表图。\n需要3列数据，第1列和第2列是速度计的级别和百分比，第3列是指针的值",
+      "description": "Create speedometer/gauge chart.\n3 columns are required,  1st and 2nd column are levels and percentage for the speedometer, 3rd column is the value of the pointer",
+      "package_version": "1.0",
+      "origin_version": "9.95",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Specialized/Speedometer Chart/speedometer.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Specialized/Speedometer Chart/Speedometer.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Specialized/Speedometer Chart/speedometer.png",
+        "upstream/Graph Templates/Specialized/Speedometer Chart/speedometer_dark.png",
+        "upstream/Graph Templates/Specialized/Speedometer Chart/speedometer_icon.png",
+        "upstream/Graph Templates/Specialized/Speedometer Chart/speedometer_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Specialized/Speedometer Chart/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Specialized/Speedometer Chart/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Specialized/Speedometer%20Chart",
+      "sha256": "c611e331c25deda3bc9177fb212aeefe4e68cf829ceadc98783aea86c22be669"
+    },
+    {
+      "id": "922",
+      "name": "Ternary Density Dots",
+      "name_zh": "三元密度点图",
+      "category": "Specialized",
+      "category_zh": "专业图",
+      "package_category": "Specialized",
+      "description_zh": "三元坐标中的密度点图。\n选择一组 XYZ 列来创建图表",
+      "description": "Density dots in ternary coordinates. \nSelect one set of XYZ columns to create the graph",
+      "package_version": "1.0",
+      "origin_version": "10.00",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Specialized/Ternary Density Dots/TerDensity.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Specialized/Ternary Density Dots/TerDensity.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Specialized/Ternary Density Dots/TerDensity.png",
+        "upstream/Graph Templates/Specialized/Ternary Density Dots/TerDensity_dark.png",
+        "upstream/Graph Templates/Specialized/Ternary Density Dots/TerDensity_icon.png",
+        "upstream/Graph Templates/Specialized/Ternary Density Dots/TerDensity_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Specialized/Ternary Density Dots/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Specialized/Ternary Density Dots/Script_TerDensity.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Specialized/Ternary%20Density%20Dots",
+      "sha256": "1ddd6ff56987a992a2815891a248d5132c109cccdda6654c3cb019bb36e30623"
+    },
+    {
+      "id": "777",
+      "name": "Ternary Phase Diagram",
+      "name_zh": "三元相图",
+      "category": "Specialized",
+      "category_zh": "专业图",
+      "package_category": "Specialized",
+      "description_zh": "三元相图在材料科学界很流行。此坐标中，Y 和 Z 轴的刻度均于同一角（X）从零开始。 请使用 XYZ 数据列进行绘图。",
+      "description": "Ternary phase diagram is popular in materials science community. In this coordinate, Y and Z axes are both start at zero in same corner(X).\nPlot with XYZ data columns.",
+      "package_version": "1.1",
+      "origin_version": "9.95",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Specialized/Ternary Phase Diagram/Ternary0at1node.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Specialized/Ternary Phase Diagram/Ternary0at1node.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Specialized/Ternary Phase Diagram/Ternary0at1node.png",
+        "upstream/Graph Templates/Specialized/Ternary Phase Diagram/Ternary0at1node_dark.png",
+        "upstream/Graph Templates/Specialized/Ternary Phase Diagram/Ternary0at1node_icon.png",
+        "upstream/Graph Templates/Specialized/Ternary Phase Diagram/Ternary0at1node_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Specialized/Ternary Phase Diagram/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Specialized/Ternary%20Phase%20Diagram",
+      "sha256": "ee73d651658421287e7b63d2353e4fc822ef8b1aaf222532efe0085471810a0b"
+    },
+    {
+      "id": "1043",
+      "name": "Wafer Map",
+      "name_zh": "晶圆图",
+      "category": "Specialized",
+      "category_zh": "专业图",
+      "package_category": "Specialized",
+      "description_zh": "选择矩阵表来创建晶圆图。",
+      "description": "Select a matrix sheet to create wafer map.",
+      "package_version": "1.0",
+      "origin_version": "10.20",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Specialized/Wafer Map/WaferMap.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Specialized/Wafer Map/WaferMap.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Specialized/Wafer Map/wafermap.png",
+        "upstream/Graph Templates/Specialized/Wafer Map/wafermap_dark.png",
+        "upstream/Graph Templates/Specialized/Wafer Map/wafermap_icon.png",
+        "upstream/Graph Templates/Specialized/Wafer Map/wafermap_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Specialized/Wafer Map/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Specialized/Wafer Map/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Specialized/Wafer%20Map",
+      "sha256": "3358fa002bfc97d117a8fc5a05c6fa02be9ca1a1bb5a48abb553ef3448d9dd57"
+    },
+    {
+      "id": "1044",
+      "name": "Wind Vectors Stick Diagram",
+      "name_zh": "风向矢量杆图",
+      "category": "Specialized",
+      "category_zh": "专业图",
+      "package_category": "Specialized",
+      "description_zh": "选择 XYY 列创建风向矢量杆图。X 列是时间序列数据，第一个 Y 代表风向（以度为单位），第二个Y列代表风速。",
+      "description": "Select XYY columns to create the wind vectors stick diagram. The X column is the time series data, 1st Y represents the wind direction in degrees and 2nd Y represents the wind speed.",
+      "package_version": "1.0",
+      "origin_version": "10.20",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Specialized/Wind Vectors Stick Diagram/WindVectorStick.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Specialized/Wind Vectors Stick Diagram/WindVectorStick.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Specialized/Wind Vectors Stick Diagram/WindVectorStick.png",
+        "upstream/Graph Templates/Specialized/Wind Vectors Stick Diagram/WindVectorStick_dark.png",
+        "upstream/Graph Templates/Specialized/Wind Vectors Stick Diagram/WindVectorStick_icon.png",
+        "upstream/Graph Templates/Specialized/Wind Vectors Stick Diagram/WindVectorStick_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Specialized/Wind Vectors Stick Diagram/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Specialized/Wind Vectors Stick Diagram/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Specialized/Wind%20Vectors%20Stick%20Diagram",
+      "sha256": "b5b08571da9cdef7f760c91045f59039b99c08f3ea861589b107ece3fa85c52a"
+    },
+    {
+      "id": "805",
+      "name": "XPS Area",
+      "name_zh": "XPS 面积图",
+      "category": "Specialized",
+      "category_zh": "专业图",
+      "package_category": "Specialized",
+      "description_zh": "创建 XPS 峰的面积图。\n数据应应排列到列中，且列为 BE、Raw、Sum、BG、Peak1、Peak2 等。",
+      "description": "Create a area graph for XPS peaks. \nData should be arranged in columns with order as BE, Raw, Sum, BG, Peak1, Peak2 ect..",
+      "package_version": "1.1",
+      "origin_version": "9.90",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Specialized/XPS Area/XPSArea.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Specialized/XPS Area/XPSArea.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Specialized/XPS Area/xpsarea.png",
+        "upstream/Graph Templates/Specialized/XPS Area/xpsarea_dark.png",
+        "upstream/Graph Templates/Specialized/XPS Area/xpsarea_icon.png",
+        "upstream/Graph Templates/Specialized/XPS Area/xpsarea_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Specialized/XPS Area/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Specialized/XPS Area/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Specialized/XPS%20Area",
+      "sha256": "7446765274a923181336e9bfeaa1323f1cdf48ef221459da940bcb09b2df1789"
+    },
+    {
+      "id": "806",
+      "name": "XPS Line",
+      "name_zh": "XPS 线图",
+      "category": "Specialized",
+      "category_zh": "专业图",
+      "package_category": "Specialized",
+      "description_zh": "为 XPS 峰创建折线图。\n数据应排列到列中，且列顺序为 BE、Raw、Sum、BG、Peak1、Peak2 等。",
+      "description": "Create a line graph for XPS peaks. \nData should be arranged in columns with order as BE, Raw, Sum, BG, Peak1, Peak2 ect..",
+      "package_version": "1.1",
+      "origin_version": "9.80",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Specialized/XPS Line/xpsline.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Specialized/XPS Line/XPSLine.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Specialized/XPS Line/xpsline.png",
+        "upstream/Graph Templates/Specialized/XPS Line/xpsline_dark.png",
+        "upstream/Graph Templates/Specialized/XPS Line/xpsline_icon.png",
+        "upstream/Graph Templates/Specialized/XPS Line/xpsline_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Specialized/XPS Line/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Specialized/XPS Line/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Specialized/XPS%20Line",
+      "sha256": "8c44e65119833c65c30ad75f29622d2963a6c84122b11443b05e0f8695fa2ad6"
+    },
+    {
+      "id": "929",
+      "name": "XRD with PDF",
+      "name_zh": "XRD-PDF堆叠图",
+      "category": "Specialized",
+      "category_zh": "专业图",
+      "package_category": "Specialized",
+      "description_zh": "用于显示X射线衍射 (XRD) 和相应PDF卡片标准模型的图表\n将XRD数据作为XY列放在第一个工作表中，将PDF数据作为XY列放在第二个工作表中",
+      "description": "A graph to display X-ray diffraction (XRD) and corresponding PDF standard pattern\nPut the XRD data as XY columns in the 1st sheet and PDF data as XY columns in the 2nd sheet",
+      "package_version": "1.3",
+      "origin_version": "10.00",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Specialized/XRD with PDF/xrdpdf.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Specialized/XRD with PDF/xrdpdf.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Specialized/XRD with PDF/xrdpdf.png",
+        "upstream/Graph Templates/Specialized/XRD with PDF/xrdpdf_dark.png",
+        "upstream/Graph Templates/Specialized/XRD with PDF/xrdpdf_icon.png",
+        "upstream/Graph Templates/Specialized/XRD with PDF/xrdpdf_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Specialized/XRD with PDF/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Specialized/XRD with PDF/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Specialized/XRD%20with%20PDF",
+      "sha256": "ff1db794cab6fc72e2bc7b298a803861239e468a6d3843df78f51137abfed3ab"
+    },
+    {
+      "id": "796",
+      "name": "3D Histogram",
+      "name_zh": "3D 直方图",
+      "category": "Statistical",
+      "category_zh": "统计图",
+      "package_category": "Statistical",
+      "description_zh": "绘制 3D 直方图。\n(XY) 列是必需的。",
+      "description": "Plot 3D histogram. \n(XY) columns are required.",
+      "package_version": "1.0",
+      "origin_version": "9.80",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Statistical/3D Histogram/3DHistogram.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Statistical/3D Histogram/3DHistogram.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Statistical/3D Histogram/3dhistogram.png",
+        "upstream/Graph Templates/Statistical/3D Histogram/3DHistogram_dark.png",
+        "upstream/Graph Templates/Statistical/3D Histogram/3DHistogram_icon.png",
+        "upstream/Graph Templates/Statistical/3D Histogram/3DHistogram_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Statistical/3D Histogram/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Statistical/3D Histogram/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Statistical/3D%20Histogram",
+      "sha256": "6c5b1e7a7bea325e63f94367920087762c0de64de0fc8d4341d61fcd598331e1"
+    },
+    {
+      "id": "753",
+      "name": "Box Chart with Histogram",
+      "name_zh": "带直方图的箱线图",
+      "category": "Statistical",
+      "category_zh": "统计图",
+      "package_category": "Statistical",
+      "description_zh": "绘制箱线图及其相应的直方图。\n需要一列数据。",
+      "description": "Plot box chart with its corresponding histogram.\nOne column is required.",
+      "package_version": "1.1",
+      "origin_version": "9.80",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Statistical/Box Chart with Histogram/BoxHist.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Statistical/Box Chart with Histogram/BoxHist.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Statistical/Box Chart with Histogram/BoxHist.png",
+        "upstream/Graph Templates/Statistical/Box Chart with Histogram/BoxHist_dark.png",
+        "upstream/Graph Templates/Statistical/Box Chart with Histogram/BoxHist_icon.png",
+        "upstream/Graph Templates/Statistical/Box Chart with Histogram/BoxHist_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Statistical/Box Chart with Histogram/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Statistical/Box Chart with Histogram/ScriptNotes.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Statistical/Box%20Chart%20with%20Histogram",
+      "sha256": "aa116db247d0c45d59e40adc625cfcdf79bcb482015bdd9c3baf96e4f417c785"
+    },
+    {
+      "id": "754",
+      "name": "Box Style with Lighter Fill",
+      "name_zh": "较浅填充色的箱线图",
+      "category": "Statistical",
+      "category_zh": "统计图",
+      "package_category": "Statistical",
+      "description_zh": "选择至少一个 Y 列来创建箱线图。\n此图形将使用相同的颜色方案作为边框颜色和填充颜色。填充颜色比边框颜色浅。",
+      "description": "Select at least one Y column to create box plot.\nThis graph will use same color scheme for border and fill. Fill is lighter than border.",
+      "package_version": "1.0",
+      "origin_version": "9.80",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Statistical/Box Style with Lighter Fill/BoxStyle.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Statistical/Box Style with Lighter Fill/BoxStyle.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Statistical/Box Style with Lighter Fill/BoxStyle.png",
+        "upstream/Graph Templates/Statistical/Box Style with Lighter Fill/BoxStyle_dark.png",
+        "upstream/Graph Templates/Statistical/Box Style with Lighter Fill/BoxStyle_icon.png",
+        "upstream/Graph Templates/Statistical/Box Style with Lighter Fill/BoxStyle_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Statistical/Box Style with Lighter Fill/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Statistical/Box%20Style%20with%20Lighter%20Fill",
+      "sha256": "b02468ba4186fd41b46065dd6cae758bf192d1a20e3ab5fded333c8eeb27d4c8"
+    },
+    {
+      "id": "1046",
+      "name": "Box Width by Sample Size",
+      "name_zh": "宽度与样本量成正比的箱线图",
+      "category": "Statistical",
+      "category_zh": "统计图",
+      "package_category": "Statistical",
+      "description_zh": "绘制宽度与样本大小成比例的分组数据箱线图。\n按分组列|Y 列的顺序选择 1 个分组列和至少 1 个 Y 列来生成图。选择多个 Y 列将同步生成多个图。",
+      "description": "Plot box chart whose width is proportional to sample size with grouped data. \nSelect 1 Group column and at least 1 Y column in Group|Y order to create the plot. Multiple Y columns will create multiple graphs in same time.",
+      "package_version": "2.0",
+      "origin_version": "10.25",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Statistical/Box Width by Sample Size/BoxNWidth.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Statistical/Box Width by Sample Size/BoxNWidth.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Statistical/Box Width by Sample Size/BoxNWidth.png",
+        "upstream/Graph Templates/Statistical/Box Width by Sample Size/BoxNWidth_dark.png",
+        "upstream/Graph Templates/Statistical/Box Width by Sample Size/BoxNWidth_icon.png",
+        "upstream/Graph Templates/Statistical/Box Width by Sample Size/BoxNWidth_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Statistical/Box Width by Sample Size/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Statistical/Box Width by Sample Size/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Statistical/Box%20Width%20by%20Sample%20Size",
+      "sha256": "7971962dd3abe4d7e5cb7c867e1d73574d241737e3ac66f2bef2cad105d46178"
+    },
+    {
+      "id": "768",
+      "name": "Box with Mean Connected",
+      "name_zh": "连接均值点的箱线图",
+      "category": "Statistical",
+      "category_zh": "统计图",
+      "package_category": "Statistical",
+      "description_zh": "绘制一个连接均值点的箱线图。\n至少需要两列数据。",
+      "description": "Plot a box chart with mean points connected.\nAt least two columns are required.",
+      "package_version": "1.1",
+      "origin_version": "9.80",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Statistical/Box with Mean Connected/MeanConnBox.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Statistical/Box with Mean Connected/MeanConnBox.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Statistical/Box with Mean Connected/MeanConnBox.png",
+        "upstream/Graph Templates/Statistical/Box with Mean Connected/MeanConnBox_dark.png",
+        "upstream/Graph Templates/Statistical/Box with Mean Connected/MeanConnBox_icon.png",
+        "upstream/Graph Templates/Statistical/Box with Mean Connected/MeanConnBox_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Statistical/Box with Mean Connected/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Statistical/Box%20with%20Mean%20Connected",
+      "sha256": "e6f384f385661f93791cc5c8a5eda8c440c5808fe8c4255fdd5c47caa243883e"
+    },
+    {
+      "id": "856",
+      "name": "Cluster Plot with Confidence Ellipse",
+      "name_zh": "带置信椭圆的聚类图",
+      "category": "Statistical",
+      "category_zh": "统计图",
+      "package_category": "Statistical",
+      "description_zh": "创建带置信椭圆的聚类图。\n选择 XYY 列以创建图形，第二个 Y 是分组信息",
+      "description": "Create cluster plot with confidence ellipse. \nSelect XYY to create graph, 2nd Y is grouping info",
+      "package_version": "1.2",
+      "origin_version": "9.90",
+      "requires_pro": true,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Statistical/Cluster Plot wth Confidence Ellipse/clusterellipse.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Statistical/Cluster Plot wth Confidence Ellipse/clusterellipse.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Statistical/Cluster Plot wth Confidence Ellipse/clusterellipse.png",
+        "upstream/Graph Templates/Statistical/Cluster Plot wth Confidence Ellipse/clusterellipse_dark.png",
+        "upstream/Graph Templates/Statistical/Cluster Plot wth Confidence Ellipse/clusterellipse_icon.png",
+        "upstream/Graph Templates/Statistical/Cluster Plot wth Confidence Ellipse/clusterellipse_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Statistical/Cluster Plot wth Confidence Ellipse/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Statistical/Cluster Plot wth Confidence Ellipse/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Statistical/Cluster%20Plot%20wth%20Confidence%20Ellipse",
+      "sha256": "81cff727aa98e189370ead6cd086de11da6ab0bd2bc68057f81cee271b86feb4"
+    },
+    {
+      "id": "1023",
+      "name": "Clustered Scatter Plot",
+      "name_zh": "聚类散点图",
+      "category": "Statistical",
+      "category_zh": "统计图",
+      "package_category": "Statistical",
+      "description_zh": "选择XYY创建聚类散点图，第二个Y是分组信息",
+      "description": "Select XYY to create the clustered scatter plot, 2nd Y is grouping info",
+      "package_version": "1.0",
+      "origin_version": "10.15",
+      "requires_pro": true,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Statistical/Clustered Scatter Plot/clusterscatters.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Statistical/Clustered Scatter Plot/clusterscatters.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Statistical/Clustered Scatter Plot/clusterscatters.png",
+        "upstream/Graph Templates/Statistical/Clustered Scatter Plot/clusterscatters_dark.png",
+        "upstream/Graph Templates/Statistical/Clustered Scatter Plot/clusterscatters_icon.png",
+        "upstream/Graph Templates/Statistical/Clustered Scatter Plot/clusterscatters_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Statistical/Clustered Scatter Plot/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Statistical/Clustered Scatter Plot/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Statistical/Clustered%20Scatter%20Plot",
+      "sha256": "401dc6224326fe2dfa9b72df4ed5248ab9d95fd9fdcaf5bd714d94354dfd7bb9"
+    },
+    {
+      "id": "756",
+      "name": "Corner Difference Histogram",
+      "name_zh": "角落差值直方图",
+      "category": "Statistical",
+      "category_zh": "统计图",
+      "package_category": "Statistical",
+      "description_zh": "角差直方图会比较不同组中两个变量的差值。\n请选择进行绘图用的 XY 列，注意第3列是类别列。",
+      "description": "Corner Difference Histogram compares difference of two variables in different groups.\nSelect XY column to plot and 3rd column is categorical column.",
+      "package_version": "1.0",
+      "origin_version": "9.85",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Statistical/Corner Difference Histogram/CornerHist.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Statistical/Corner Difference Histogram/CornerHist.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Statistical/Corner Difference Histogram/CornerHist.png",
+        "upstream/Graph Templates/Statistical/Corner Difference Histogram/CornerHist_dark.png",
+        "upstream/Graph Templates/Statistical/Corner Difference Histogram/CornerHist_icon.png",
+        "upstream/Graph Templates/Statistical/Corner Difference Histogram/CornerHist_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Statistical/Corner Difference Histogram/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Statistical/Corner Difference Histogram/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Statistical/Corner%20Difference%20Histogram",
+      "sha256": "8d06154d697dc06f1e5a16a2800093f023905d7ab62f5ce78e2aaded6bca0272"
+    },
+    {
+      "id": "924",
+      "name": "Correlation Chord Diagram",
+      "name_zh": "相关性和弦图",
+      "category": "Statistical",
+      "category_zh": "统计图",
+      "package_category": "Statistical",
+      "description_zh": "相关性的和弦图\n选择多列并绘制和弦图来观察它们之间的相关性",
+      "description": "Chord diagram for correlationship \nSelect multiple columns and visualize the correlation between them with chord diagram",
+      "package_version": "1.0",
+      "origin_version": "10.00",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Statistical/Correlation Chord Diagram/CorrChord.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Statistical/Correlation Chord Diagram/CorrChord.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Statistical/Correlation Chord Diagram/CorrChord.png",
+        "upstream/Graph Templates/Statistical/Correlation Chord Diagram/CorrChord_dark.png",
+        "upstream/Graph Templates/Statistical/Correlation Chord Diagram/CorrChord_icon.png",
+        "upstream/Graph Templates/Statistical/Correlation Chord Diagram/CorrChord_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Statistical/Correlation Chord Diagram/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Statistical/Correlation Chord Diagram/Script_CorrChord.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Statistical/Correlation%20Chord%20Diagram",
+      "sha256": "5808cfe1afbbcba7beb51c4852dd605561e63299bdf28d95346a60d980397304"
+    },
+    {
+      "id": "888",
+      "name": "Correlation Network Plot",
+      "name_zh": "相关性网络图",
+      "category": "Statistical",
+      "category_zh": "统计图",
+      "package_category": "Statistical",
+      "description_zh": "用相关系数信息绘制网络图。您可以先运行【统计: 描述统计: 相关系数】以获得 Pearson/Spearman/Kendall 表。\n选择长名称作为节点行第一列作为节点列的虚拟矩阵绘制网络图。",
+      "description": "Plot network plot with correlation coefficient info. You can run Statistics: Descriptive Statistics: Correlation Coefficient first to get Pearson/Spearman/Kendall sheet. \nSelect virtual matrix with node row in long name, node column in 1st column to plot network plot.",
+      "package_version": "1.0",
+      "origin_version": "9.95",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Statistical/Correlation Network Plot/CorrelationNetwork.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Statistical/Correlation Network Plot/CorrelationNetwork.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Statistical/Correlation Network Plot/CorrelationNetwork.png",
+        "upstream/Graph Templates/Statistical/Correlation Network Plot/CorrelationNetwork_dark.png",
+        "upstream/Graph Templates/Statistical/Correlation Network Plot/CorrelationNetwork_icon.png",
+        "upstream/Graph Templates/Statistical/Correlation Network Plot/CorrelationNetwork_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Statistical/Correlation Network Plot/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Statistical/Correlation Network Plot/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Statistical/Correlation%20Network%20Plot",
+      "sha256": "56b56704da77be29754d6eb60507efc65e00db0dcdd9cc78c59039bd4f4bfab8"
+    },
+    {
+      "id": "1021",
+      "name": "Distribution + Box + Data",
+      "name_zh": "分布+箱线+数据",
+      "category": "Statistical",
+      "category_zh": "统计图",
+      "package_category": "Statistical",
+      "description_zh": "至少选择一个Y列来创建分布+箱线+数据图",
+      "description": "Select at least one column to create the distribution+box+data graph",
+      "package_version": "1.0",
+      "origin_version": "10.15",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Statistical/Distribution + Box + Data/DistBoxData.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Statistical/Distribution + Box + Data/DistBoxData.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Statistical/Distribution + Box + Data/DistBoxData.png",
+        "upstream/Graph Templates/Statistical/Distribution + Box + Data/DistBoxData_dark.png",
+        "upstream/Graph Templates/Statistical/Distribution + Box + Data/DistBoxData_Icon.png",
+        "upstream/Graph Templates/Statistical/Distribution + Box + Data/DistBoxData_Icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Statistical/Distribution + Box + Data/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Statistical/Distribution + Box + Data/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Statistical/Distribution%20%2B%20Box%20%2B%20Data",
+      "sha256": "7bfe6d4d58995c274f342b80104b46dcc843ebf44a75a6ebbc4abdd7d5e43e33"
+    },
+    {
+      "id": "757",
+      "name": "Distribution Area",
+      "name_zh": "分布面积图",
+      "category": "Statistical",
+      "category_zh": "统计图",
+      "package_category": "Statistical",
+      "description_zh": "绘制正态分布曲线并在填充曲线下方的区域，也称为密度图。\n至少需要一列数据。",
+      "description": "Plot Normal distribution curve and fill area below curve, also called density graph.\nAt least one column is required.",
+      "package_version": "1.0",
+      "origin_version": "9.8",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Statistical/Distribution Area/DistributionArea.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Statistical/Distribution Area/DistributionArea.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Statistical/Distribution Area/DistributionArea.png",
+        "upstream/Graph Templates/Statistical/Distribution Area/DistributionArea_dark.png",
+        "upstream/Graph Templates/Statistical/Distribution Area/DistributionArea_icon.png",
+        "upstream/Graph Templates/Statistical/Distribution Area/DistributionArea_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Statistical/Distribution Area/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Statistical/Distribution%20Area",
+      "sha256": "e6e8586df4899961cfdcdf492b935b6dc2bed92ec3761eb638e82be401288181"
+    },
+    {
+      "id": "978",
+      "name": "Histogram with Range X Tick Labels",
+      "name_zh": "带部分X刻度标签的直方图",
+      "category": "Statistical",
+      "category_zh": "统计图",
+      "package_category": "Statistical",
+      "description_zh": "选择一列数据创建带部分X刻度标签的直方图。\n画图后请点击绿锁并选择更改参数以指定区间设置。",
+      "description": "Select one column to create histogram with range x tick labels. \nClick green lock and select Change Parameter to specify bin settings once the graph is created.",
+      "package_version": "1.0",
+      "origin_version": "10.05",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Statistical/Histogram with Range X Tick Labels/RngLabelsHisto.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Statistical/Histogram with Range X Tick Labels/RngLabelsHisto.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Statistical/Histogram with Range X Tick Labels/RngLabelsHisto.png",
+        "upstream/Graph Templates/Statistical/Histogram with Range X Tick Labels/RngLabelsHisto_dark.png",
+        "upstream/Graph Templates/Statistical/Histogram with Range X Tick Labels/RngLabelsHisto_icon.png",
+        "upstream/Graph Templates/Statistical/Histogram with Range X Tick Labels/RngLabelsHisto_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Statistical/Histogram with Range X Tick Labels/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Statistical/Histogram with Range X Tick Labels/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Statistical/Histogram%20with%20Range%20X%20Tick%20Labels",
+      "sha256": "2423a6665559b45fd92158d38bca3b9d619e5e8a243226b355753d8e116f4289"
+    },
+    {
+      "id": "763",
+      "name": "Horizontal Box",
+      "name_zh": "水平箱线图",
+      "category": "Statistical",
+      "category_zh": "统计图",
+      "package_category": "Statistical",
+      "description_zh": "绘制水平箱线图，并显示其异常值。\n至少需要一列数据。",
+      "description": "Plot horizontal box chart with outliers shown.\nAt least one column is required.",
+      "package_version": "1.1",
+      "origin_version": "9.80",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Statistical/Horizontal Box/HorBox.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Statistical/Horizontal Box/HorBox.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Statistical/Horizontal Box/HorBox.png",
+        "upstream/Graph Templates/Statistical/Horizontal Box/HorBox_dark.png",
+        "upstream/Graph Templates/Statistical/Horizontal Box/HorBox_icon.png",
+        "upstream/Graph Templates/Statistical/Horizontal Box/HorBox_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Statistical/Horizontal Box/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Statistical/Horizontal%20Box",
+      "sha256": "f6ac088032f129d39b4d905949dd9781953fe6ac3bcea37d9035b8a725922358"
+    },
+    {
+      "id": "764",
+      "name": "I-Shape Box",
+      "name_zh": "I 型箱线图",
+      "category": "Statistical",
+      "category_zh": "统计图",
+      "package_category": "Statistical",
+      "description_zh": "绘制箱体样式为 I 型的箱线图。\n至少需要一列数据。",
+      "description": "Plot a box chart with I-shaped box style.\nAt least one column is required.",
+      "package_version": "1.0",
+      "origin_version": "9.8",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Statistical/I-Shape Box/IShape.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Statistical/I-Shape Box/IShape.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Statistical/I-Shape Box/IShape.png",
+        "upstream/Graph Templates/Statistical/I-Shape Box/IShape_dark.png",
+        "upstream/Graph Templates/Statistical/I-Shape Box/IShape_icon.png",
+        "upstream/Graph Templates/Statistical/I-Shape Box/IShape_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Statistical/I-Shape Box/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Statistical/I-Shape%20Box",
+      "sha256": "b6956ce648d789091b48ed6ec18fbb6da57ab9ed2fa1ff8c0c7050162c5153fe"
+    },
+    {
+      "id": "770",
+      "name": "Notched Box Plot",
+      "name_zh": "Notch 箱线图",
+      "category": "Statistical",
+      "category_zh": "统计图",
+      "package_category": "Statistical",
+      "description_zh": "绘制箱体样式为凹口( Notch) 型的箱线图。\n至少需要一列数据。",
+      "description": "Plot box chart with Notched box style.\nAt least one column is required.",
+      "package_version": "1.0",
+      "origin_version": "9.85",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Statistical/Notched Box Plot/Notch.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Statistical/Notched Box Plot/Notch.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Statistical/Notched Box Plot/Notch.png",
+        "upstream/Graph Templates/Statistical/Notched Box Plot/Notch_dark.png",
+        "upstream/Graph Templates/Statistical/Notched Box Plot/Notch_icon.png",
+        "upstream/Graph Templates/Statistical/Notched Box Plot/Notch_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Statistical/Notched Box Plot/package.ini",
+      "companion_paths": [],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Statistical/Notched%20Box%20Plot",
+      "sha256": "48d3053f425d8358e3c0c71bb338e47ced2dd1d4acb170444586b675a80b63ea"
+    },
+    {
+      "id": "773",
+      "name": "Raincloud Plots",
+      "name_zh": "雨云图",
+      "category": "Statistical",
+      "category_zh": "统计图",
+      "package_category": "Statistical",
+      "description_zh": "绘制一个水平的小提琴图，其一半图形为小提琴样式，另一半图形为按区间划分的点图。它可以可视化数据分布和概率密度。\n至少需要一列数据。",
+      "description": "Plot a horizontal violin plot that is half violin and half align-in-bin dot. It visualizes data distribution and probability density.\nAt least one column is required.",
+      "package_version": "1.2",
+      "origin_version": "9.80",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Statistical/Raincloud Plot/raincloud.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Statistical/Raincloud Plot/raincloud.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Statistical/Raincloud Plot/raincloud.png",
+        "upstream/Graph Templates/Statistical/Raincloud Plot/raincloud_dark.png",
+        "upstream/Graph Templates/Statistical/Raincloud Plot/raincloud_icon.png",
+        "upstream/Graph Templates/Statistical/Raincloud Plot/raincloud_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Statistical/Raincloud Plot/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Statistical/Raincloud Plot/Script.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Statistical/Raincloud%20Plot",
+      "sha256": "660b7c23d8801f375cf51c45cf4dfb8284bf68e06c83d4a2f4d5ea65d203aa4d"
+    },
+    {
+      "id": "923",
+      "name": "Split Violin with Separate Interval",
+      "name_zh": "分边小提琴图(带单独置信区间)",
+      "category": "Statistical",
+      "category_zh": "统计图",
+      "package_category": "Statistical",
+      "description_zh": "具有单独置信区间的分边小提琴图\\选择至少两列。最后一列只需包含 2 个类别。",
+      "description": "Split violin plot with separate confidence interval\nSelect at least two columns. Last column needs to contan 2 categorices only.",
+      "package_version": "1.0",
+      "origin_version": "10.00",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Statistical/Split Violin with Separate Interval/ViolinSplitConf.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Statistical/Split Violin with Separate Interval/ViolinSplitConf.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Statistical/Split Violin with Separate Interval/ViolinSplitConf.png",
+        "upstream/Graph Templates/Statistical/Split Violin with Separate Interval/ViolinSplitConf_dark.png",
+        "upstream/Graph Templates/Statistical/Split Violin with Separate Interval/ViolinSplitConf_icon.png",
+        "upstream/Graph Templates/Statistical/Split Violin with Separate Interval/ViolinSplitConf_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Statistical/Split Violin with Separate Interval/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Statistical/Split Violin with Separate Interval/Script_ViolinSplitConf.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Statistical/Split%20Violin%20with%20Separate%20Interval",
+      "sha256": "1bc9d8fc233c188e68482044c612ea8fed1ef076c9f3fa834781e60c230650b8"
+    },
+    {
+      "id": "885",
+      "name": "Variable Bin Width Histogram",
+      "name_zh": "可变宽度直方图",
+      "category": "Statistical",
+      "category_zh": "统计图",
+      "package_category": "Specialized",
+      "description_zh": "创建具有不同分格宽度的直方图\n需要2列数据，第1列是直方图的原始数据，第2列是分格的边界",
+      "description": "Create histogram with varying bin width\n2columns are required, 1st column is raw data of the histogram, 2nd column is the bin boundaries",
+      "package_version": "1.0",
+      "origin_version": "9.95",
+      "requires_pro": false,
+      "author": "OriginLab Corp.",
+      "template_path": "upstream/Graph Templates/Statistical/Variable Bin Width Histogram/varhist.otpu",
+      "project_paths": [
+        "upstream/Graph Templates/Statistical/Variable Bin Width Histogram/VarHist.opju"
+      ],
+      "preview_paths": [
+        "upstream/Graph Templates/Statistical/Variable Bin Width Histogram/varhist.png",
+        "upstream/Graph Templates/Statistical/Variable Bin Width Histogram/varhist_dark.png",
+        "upstream/Graph Templates/Statistical/Variable Bin Width Histogram/varhist_icon.png",
+        "upstream/Graph Templates/Statistical/Variable Bin Width Histogram/varhist_icon_dark.png"
+      ],
+      "package_ini": "upstream/Graph Templates/Statistical/Variable Bin Width Histogram/package.ini",
+      "companion_paths": [
+        "upstream/Graph Templates/Statistical/Variable Bin Width Histogram/Scripts.txt"
+      ],
+      "source_url": "https://github.com/originlab/Templates/tree/a3287931e1a58366f2eca63551ab0d3fd34c60f9/Graph%20Templates/Statistical/Variable%20Bin%20Width%20Histogram",
+      "sha256": "5842d99a0fa3894eeb919333942204b6ff5e02cd004c23b1f2e65ac4491df201"
+    }
+  ]
+}

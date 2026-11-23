@@ -1,0 +1,67 @@
+{
+  "id": "dual-y",
+  "name": "双 Y 轴",
+  "domain": "通用",
+  "fields": [
+    {
+      "role": "x",
+      "type": "number",
+      "label": "X"
+    },
+    {
+      "role": "left",
+      "type": "number",
+      "label": "左轴值"
+    },
+    {
+      "role": "right",
+      "type": "number",
+      "label": "右轴值"
+    }
+  ],
+  "axes": [
+    "X",
+    "左轴值",
+    "右轴值"
+  ],
+  "method": "用 DoubleY 原生双图层；共用 X，Y 值分别绑定左右轴。",
+  "notes": "左右列保留各自量纲，不按比例换算。",
+  "examples": [
+    {
+      "id": "a",
+      "file": "example-a.csv",
+      "title": "温度与相对湿度",
+      "expected": {
+        "layer_count": 2,
+        "min_plots": [
+          1,
+          1
+        ],
+        "source_row_count": 5,
+        "science": {}
+      },
+      "expected_status": "离线科学预期；实际图层、数据绑定及导出待 Origin 实测"
+    },
+    {
+      "id": "b",
+      "file": "example-b.csv",
+      "title": "流量和阀门压降",
+      "expected": {
+        "layer_count": 2,
+        "min_plots": [
+          1,
+          1
+        ],
+        "source_row_count": 4,
+        "science": {}
+      },
+      "expected_status": "离线科学预期；实际图层、数据绑定及导出待 Origin 实测"
+    }
+  ],
+  "source": "原创配方；两例均为合成教学数据。",
+  "template_reuse": {
+    "mode": "native-otpu",
+    "host_verification": "pending",
+    "requires": "已授权的 Windows Origin 和可运行的 originpro"
+  }
+}

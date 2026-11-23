@@ -1,0 +1,133 @@
+{
+  "release_id": "1c38338683c6ba58",
+  "archive": {
+    "origin-plot-0.1.0-windows-x64.zip": {
+      "bytes": 38188458,
+      "sha256": "48468f53327eb7b01a7ce10361dae393bdc0b77bc2bc03931a44af7f99e000b4"
+    },
+    "originlab-templates-a328793-offline.zip": {
+      "bytes": 13680575,
+      "sha256": "1cf8765aba4957cbc027b5b47066ab55eea70ce7f835ba593827fe64f3c52ff3"
+    }
+  },
+  "manifest_files": 863,
+  "offline": {
+    "status": "offline_verified",
+    "recipes": 20,
+    "datasets": 40,
+    "official": 95,
+    "journals": 4
+  },
+  "independent_datasets": 40,
+  "work_orders": 20,
+  "runtime_wheels": 36,
+  "official": {
+    "otpu": 95,
+    "opju": 96,
+    "png": 360,
+    "upstream_files": 707
+  },
+  "check_journal_prompt_characters": {
+    "nature": 1042,
+    "science": 813,
+    "cell": 853,
+    "plos-one": 756
+  },
+  "stdio": [
+    {
+      "transport": "stdio",
+      "tools": 8,
+      "mode": "isolated",
+      "doctor": "blocked"
+    },
+    {
+      "transport": "stdio",
+      "tools": 8,
+      "mode": "attach",
+      "doctor": "blocked"
+    }
+  ],
+  "native_checks": {
+    "status": "blocked_origin_unavailable",
+    "live_verified": false,
+    "origin_available": false,
+    "native_originals_generated": 0,
+    "native_originals_visually_checked": 0,
+    "queued_pilots": [
+      "histogram",
+      "likert",
+      "xrd-stack"
+    ],
+    "origin_com_registered": false,
+    "diagnostics": [
+      "Origin.Application COM class is not registered in this Windows environment."
+    ],
+    "upstream_commit": "1e9741af96c45bcac9e619c3ba32264bac6950e7",
+    "tested_with_python": "3.13.9"
+  },
+  "host_checks": {
+    "checked_at": "2026-11-23T17:10:45+08:00",
+    "model_turns": 0,
+    "clients": {
+      "codex": {
+        "version": "codex-cli 0.171.0-alpha.13",
+        "skill_method": "app-server skills/list; config/read project layer",
+        "server_method": "ephemeral thread + mcpServerStatus/list; only trust this project with a per-process inline projects table",
+        "server_status": {
+          "origin-plot-current": {
+            "tools": 8,
+            "doctor": true,
+            "runtime": "connected",
+            "tools_error": null
+          },
+          "origin-plot": {
+            "tools": 8,
+            "doctor": true,
+            "runtime": "connected",
+            "tools_error": null
+          }
+        },
+        "skill_discovered": true
+      },
+      "claude": {
+        "version": "2.1.214 (Claude Code)",
+        "skill_method": "SDK initialize control response commands; no user message",
+        "server_method": "mcp get each name; process-only --settings enabledMcpjsonServers",
+        "server_status": {
+          "origin-plot": {
+            "connected": true,
+            "scope": "Project config"
+          },
+          "origin-plot-current": {
+            "connected": true,
+            "scope": "Project config"
+          }
+        },
+        "skill_discovered": true
+      },
+      "opencode": {
+        "version": "1.19.6",
+        "skill_method": "debug skill --pure",
+        "server_method": "mcp list --pure",
+        "server_status": {
+          "origin-plot": {
+            "connected": true
+          },
+          "origin-plot-current": {
+            "connected": true
+          }
+        },
+        "skill_discovered": true
+      }
+    }
+  },
+  "project_install": "installed_and_reinstalled",
+  "skill_metadata_validation": "passed",
+  "unit_tests": {
+    "recipes": 8,
+    "journals_and_prompts": 17,
+    "installer": 4,
+    "backend": 9
+  },
+  "unit_tests_total": 38
+}

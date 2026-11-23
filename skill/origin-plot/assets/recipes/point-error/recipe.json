@@ -1,0 +1,71 @@
+{
+  "id": "point-error",
+  "name": "点估计与误差线",
+  "domain": "通用",
+  "fields": [
+    {
+      "role": "series",
+      "type": "text",
+      "label": "系列",
+      "default": "Series 1"
+    },
+    {
+      "role": "x",
+      "type": "number",
+      "label": "X"
+    },
+    {
+      "role": "estimate",
+      "type": "number",
+      "label": "点估计"
+    },
+    {
+      "role": "error",
+      "type": "number",
+      "label": "对称误差半宽",
+      "minimum": 0
+    }
+  ],
+  "axes": [
+    "X",
+    "点估计及误差"
+  ],
+  "method": "绘制用户提供的估计量与对称误差半宽，误差列绑定原生误差棒。",
+  "notes": "使用者应说明误差为 SD、SE 或某置信水平的半宽。",
+  "examples": [
+    {
+      "id": "a",
+      "file": "example-a.csv",
+      "title": "三次测量的均值与标准误",
+      "expected": {
+        "layer_count": 1,
+        "min_plots": [
+          1
+        ],
+        "source_row_count": 4,
+        "science": {}
+      },
+      "expected_status": "离线科学预期；实际图层、数据绑定及导出待 Origin 实测"
+    },
+    {
+      "id": "b",
+      "file": "example-b.csv",
+      "title": "两处理的校准值及标准差",
+      "expected": {
+        "layer_count": 1,
+        "min_plots": [
+          2
+        ],
+        "source_row_count": 6,
+        "science": {}
+      },
+      "expected_status": "离线科学预期；实际图层、数据绑定及导出待 Origin 实测"
+    }
+  ],
+  "source": "原创配方；两例均为合成教学数据。",
+  "template_reuse": {
+    "mode": "native-otpu",
+    "host_verification": "pending",
+    "requires": "已授权的 Windows Origin 和可运行的 originpro"
+  }
+}

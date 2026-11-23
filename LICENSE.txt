@@ -1,0 +1,5 @@
+Origin Plot 自有部分保留全部权利。
+
+原创代码、提示词、自制图模板、示例数据和示例图由各自权利人保留权利。本包提供给收件人本地安装和使用。其他复制、修改或再分发原创部分的权利须另行取得授权。
+
+第三方作品适用各自随附的许可证。OriginLab Templates 和 Origin-Pro-MCP 依各自的 MIT 许可证分发。Python 依赖的许可证随 wheel 保留。Origin 和 OriginPro 桌面软件由 OriginLab 另行授权。

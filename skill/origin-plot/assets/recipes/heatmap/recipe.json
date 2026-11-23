@@ -1,0 +1,117 @@
+{
+  "id": "heatmap",
+  "name": "热图",
+  "domain": "通用",
+  "fields": [
+    {
+      "role": "row",
+      "type": "text",
+      "label": "矩阵行"
+    },
+    {
+      "role": "column",
+      "type": "text",
+      "label": "矩阵列"
+    },
+    {
+      "role": "value",
+      "type": "number",
+      "label": "观测值"
+    }
+  ],
+  "axes": [
+    "列",
+    "行"
+  ],
+  "method": "保存带源标签的矩阵，绘制原生 Matrix heatmap。",
+  "notes": "须为完整网格。重复、中间缺失的单元格将报错。",
+  "examples": [
+    {
+      "id": "a",
+      "file": "example-a.csv",
+      "title": "代谢物分组响应",
+      "expected": {
+        "layer_count": 1,
+        "min_plots": [
+          1
+        ],
+        "source_row_count": 9,
+        "science": {
+          "rows": [
+            "Met A",
+            "Met B",
+            "Met C"
+          ],
+          "columns": [
+            "T0",
+            "T1",
+            "T2"
+          ],
+          "matrix": [
+            [
+              0.4,
+              0.8,
+              1.3
+            ],
+            [
+              1.8,
+              1.1,
+              0.5
+            ],
+            [
+              0.2,
+              0.5,
+              0.9
+            ]
+          ]
+        }
+      },
+      "expected_status": "离线科学预期；实际图层、数据绑定及导出待 Origin 实测"
+    },
+    {
+      "id": "b",
+      "file": "example-b.csv",
+      "title": "窗口内的温度异常",
+      "expected": {
+        "layer_count": 1,
+        "min_plots": [
+          1
+        ],
+        "source_row_count": 8,
+        "science": {
+          "rows": [
+            "West",
+            "East"
+          ],
+          "columns": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr"
+          ],
+          "matrix": [
+            [
+              -2.5,
+              -0.5,
+              0.4,
+              1.7
+            ],
+            [
+              1.2,
+              0.1,
+              -1.0,
+              -1.9
+            ]
+          ]
+        }
+      },
+      "expected_status": "离线科学预期；实际图层、数据绑定及导出待 Origin 实测"
+    }
+  ],
+  "source": "原创配方；两例均为合成教学数据。",
+  "template_reuse": {
+    "mode": "native-otpu",
+    "host_verification": "pending",
+    "requires": "已授权的 Windows Origin 和可运行的 originpro"
+  }
+}

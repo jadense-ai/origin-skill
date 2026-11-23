@@ -1,0 +1,100 @@
+{
+  "id": "science",
+  "title": "Science",
+  "stage": "研究论文终稿生产图（AAAS 主刊）",
+  "checked": "2026-11-23",
+  "sources": [
+    {
+      "id": "guide",
+      "title": "Science ‧ Guide to preparing figures (2025)",
+      "url": "https://www.science.org/cms/asset/67f37ac8-4d02-4625-8a05-230568cb8323/author_prep_guide_2025.pdf",
+      "sha256": "4a3f51f09ff99957fad4b235298b8dc89415342534db9932e0473ab89040899d",
+      "section": "第 1 页字体、线条、文件格式与图像；第 2 页页面栏宽",
+      "fields": [
+        "width_mm",
+        "font_family",
+        "font_pt",
+        "stroke_pt",
+        "panel_label",
+        "panel_font_pt",
+        "panel_bold",
+        "dpi",
+        "output_format",
+        "color_mode",
+        "editable_text"
+      ]
+    }
+  ],
+  "defaults": {
+    "width_mm": 90,
+    "font_family": "Arial",
+    "font_pt": 8,
+    "stroke_pt": 0.6,
+    "panel_font_pt": 10,
+    "panel_bold": true,
+    "output_format": "PDF",
+    "dpi": 300
+  },
+  "rules": {
+    "width_targets_mm": [
+      90,
+      183
+    ],
+    "width_policy": "typesetting_targets",
+    "fonts": [
+      "Arial",
+      "Helvetica"
+    ],
+    "font_policy": "preferred",
+    "font_range_pt": [
+      6,
+      9
+    ],
+    "stroke_range_pt": [
+      0.28,
+      null
+    ],
+    "panel_case": "upper",
+    "panel_font_pt": 10,
+    "panel_bold": true,
+    "formats": [
+      "AI",
+      "EPS",
+      "PDF",
+      "SVG",
+      "TIFF",
+      "PSD",
+      "PNG",
+      "JPEG",
+      "GIF",
+      "PS"
+    ],
+    "format_policy": "by_artwork",
+    "vector_formats": [
+      "AI",
+      "EPS",
+      "PDF",
+      "SVG"
+    ],
+    "editable_vector_text": true,
+    "raster_dpi": {
+      "default": [
+        300,
+        null
+      ],
+      "photo": [
+        300,
+        500
+      ]
+    },
+    "color_modes": [
+      "RGB"
+    ],
+    "color_policy": "full_color"
+  },
+  "notes": [
+    "按实际印刷尺寸检查字体。照片用 300–500 dpi；嵌入图像至少 300 ppi。以混合素材的实际嵌入像素为准。",
+    "绘图优先提交可编辑 AI、EPS 或 PDF。R 作图可提交 SVG。照片和成像设备图像的制作说明列出 PSD、PNG 或 TIFF。原生图中保留文字和图层。",
+    "Science 主刊与 Science Advances 的作者指南分开维护。"
+  ]
+}

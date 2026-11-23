@@ -1,0 +1,137 @@
+{
+  "id": "likert",
+  "name": "李克特发散堆叠",
+  "domain": "文科",
+  "fields": [
+    {
+      "role": "item",
+      "type": "text",
+      "label": "题项"
+    },
+    {
+      "role": "rating",
+      "type": "integer",
+      "label": "有序等级 1 至 5",
+      "minimum": 0
+    },
+    {
+      "role": "count",
+      "type": "integer",
+      "label": "人数",
+      "minimum": 0
+    }
+  ],
+  "axes": [
+    "题项",
+    "占该题有效作答 (%)"
+  ],
+  "method": "固定五点量表。1、2 向左，4、5 向右，中立 3 对半分于零线两侧。",
+  "notes": "每个题项显式给出 1–5 全部计数，零计数允许；题项总数须为正。",
+  "examples": [
+    {
+      "id": "a",
+      "file": "example-a.csv",
+      "title": "公共服务评价",
+      "expected": {
+        "layer_count": 1,
+        "min_plots": [
+          6
+        ],
+        "source_row_count": 15,
+        "science": {
+          "totals": {
+            "Ease": 60.0,
+            "Trust": 60.0,
+            "Speed": 60.0
+          },
+          "neutral_split": "half",
+          "signed_percentages": {
+            "Neutral (−½)": [
+              -13.333333333333334,
+              -8.333333333333334,
+              -8.333333333333334
+            ],
+            "Disagree": [
+              -13.333333333333334,
+              -16.666666666666668,
+              -20.0
+            ],
+            "Strongly disagree": [
+              -6.666666666666667,
+              -5.0,
+              -13.333333333333334
+            ],
+            "Neutral (+½)": [
+              13.333333333333334,
+              8.333333333333334,
+              8.333333333333334
+            ],
+            "Agree": [
+              30.0,
+              36.666666666666664,
+              25.0
+            ],
+            "Strongly agree": [
+              23.333333333333332,
+              25.0,
+              25.0
+            ]
+          }
+        }
+      },
+      "expected_status": "离线科学预期；实际图层、数据绑定及导出待 Origin 实测"
+    },
+    {
+      "id": "b",
+      "file": "example-b.csv",
+      "title": "课堂调查",
+      "expected": {
+        "layer_count": 1,
+        "min_plots": [
+          6
+        ],
+        "source_row_count": 10,
+        "science": {
+          "totals": {
+            "Clarity": 40.0,
+            "Pace": 40.0
+          },
+          "neutral_split": "half",
+          "signed_percentages": {
+            "Neutral (−½)": [
+              -12.5,
+              -15.0
+            ],
+            "Disagree": [
+              -10.0,
+              -15.0
+            ],
+            "Strongly disagree": [
+              -5.0,
+              -10.0
+            ],
+            "Neutral (+½)": [
+              12.5,
+              15.0
+            ],
+            "Agree": [
+              40.0,
+              35.0
+            ],
+            "Strongly agree": [
+              20.0,
+              10.0
+            ]
+          }
+        }
+      },
+      "expected_status": "离线科学预期；实际图层、数据绑定及导出待 Origin 实测"
+    }
+  ],
+  "source": "原创配方；两例均为合成教学数据。",
+  "template_reuse": {
+    "mode": "native-otpu",
+    "host_verification": "pending",
+    "requires": "已授权的 Windows Origin 和可运行的 originpro"
+  }
+}

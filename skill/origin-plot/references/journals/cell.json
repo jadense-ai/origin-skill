@@ -1,0 +1,110 @@
+{
+  "id": "cell",
+  "title": "Cell",
+  "stage": "研究论文终稿主图（Cell 主刊）",
+  "checked": "2026-11-23",
+  "sources": [
+    {
+      "id": "ffc",
+      "title": "Cell ‧ Final File Checklist",
+      "url": "https://www.cell.com/pb-assets/journals/EM/MasterFFCs/CELLFFC-1790092533770.pdf",
+      "mirror": "https://els-jbs-prod-cdn.jbs.elsevierhealth.com/pb-assets/journals/EM/MasterFFCs/CELLFFC-1790092533770.pdf",
+      "sha256": "c02204679c79434b71d764438d6fd7d2e78bbee2be2fa881628e73f3ae839508",
+      "section": "第 3 页 Figures；第 4 页单列 Graphical Abstract",
+      "fields": [
+        "output_format",
+        "single_page",
+        "legend_statistics"
+      ],
+      "verification": "直接读取官方 PDF。该文件的 Figures 链接指向下列制图指南。"
+    },
+    {
+      "id": "artwork",
+      "title": "Cell Press ‧ Figure guidelines",
+      "url": "https://www.cell.com/information-for-authors/figure-guidelines",
+      "snapshot": "https://web.archive.org/web/20250911134049/https://www.cell.com/information-for-authors/figure-guidelines",
+      "section": "Two-column journal layout / Preparing figure files",
+      "fields": [
+        "width_mm",
+        "font_family",
+        "font_pt",
+        "stroke_pt",
+        "panel_label",
+        "fonts_embedded",
+        "dpi",
+        "color_mode"
+      ],
+      "verification": "核对了 2025-09-11 出版社网页存档；当前官网 HTML 在检索环境返回 403。终稿提交时请与作者门户复核数值。"
+    }
+  ],
+  "defaults": {
+    "width_mm": 85,
+    "font_family": "Arial",
+    "font_pt": 7,
+    "stroke_pt": 0.75,
+    "panel_font_pt": 8,
+    "panel_bold": true,
+    "output_format": "PDF",
+    "dpi": 300
+  },
+  "rules": {
+    "width_by_column_max_mm": {
+      "single": 85,
+      "intermediate": 114,
+      "double": 174
+    },
+    "width_policy": "column_maxima",
+    "fonts": [
+      "Arial"
+    ],
+    "font_policy": "required",
+    "font_range_pt": [
+      6,
+      8
+    ],
+    "font_size_policy": "approximate",
+    "stroke_range_pt": [
+      0.5,
+      1.5
+    ],
+    "panel_case": "upper",
+    "formats": [
+      "PDF",
+      "TIFF"
+    ],
+    "format_policy": "only",
+    "embedded_vector_fonts": true,
+    "raster_dpi": {
+      "color": [
+        300,
+        null
+      ],
+      "grayscale": [
+        300,
+        null
+      ],
+      "photo": [
+        300,
+        null
+      ],
+      "black_white": [
+        500,
+        null
+      ],
+      "line_art": [
+        1000,
+        null
+      ]
+    },
+    "color_modes": [
+      "RGB"
+    ],
+    "color_policy": "full_color",
+    "single_page": true
+  },
+  "notes": [
+    "栏宽数值是各栏位的上限。提交前凭当前 Cell 作者门户复核存档中的字体、栏宽与栅格参数。",
+    "出版社对普通标注建议约 6–8 pt。面板号使用大写，配置中的 8 pt 加粗是本项目的排版默认值。",
+    "一个主图文件合并全部面板为一页。定量图在图注中写明中心趋势、误差定义和样本数。图形摘要有独立的像素规格。"
+  ]
+}

@@ -1,0 +1,17 @@
+panel,series,x,y
+Matrix A,Ref,1,2.4
+Matrix A,Ref,2,4.5
+Matrix A,Ref,3,6.6
+Matrix A,Ref,4,8.7
+Matrix A,Test,1,1.98
+Matrix A,Test,2,3.66
+Matrix A,Test,3,5.34
+Matrix A,Test,4,7.02
+Matrix B,Ref,1,1.5
+Matrix B,Ref,2,2.7
+Matrix B,Ref,3,3.9
+Matrix B,Ref,4,5.1
+Matrix B,Test,1,1.26
+Matrix B,Test,2,2.22
+Matrix B,Test,3,3.18
+Matrix B,Test,4,4.14

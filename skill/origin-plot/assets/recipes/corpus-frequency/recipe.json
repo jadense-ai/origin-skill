@@ -1,0 +1,86 @@
+{
+  "id": "corpus-frequency",
+  "name": "语料词频历时",
+  "domain": "文科",
+  "fields": [
+    {
+      "role": "term",
+      "type": "text",
+      "label": "词项"
+    },
+    {
+      "role": "period",
+      "type": "number",
+      "label": "数值型时期"
+    },
+    {
+      "role": "count",
+      "type": "integer",
+      "label": "命中数",
+      "minimum": 0
+    },
+    {
+      "role": "tokens",
+      "type": "integer",
+      "label": "同期词元总数",
+      "minimum": 0
+    }
+  ],
+  "axes": [
+    "时期",
+    "每百万词出现次数"
+  ],
+  "method": "每个词项、时期的词频 = count/tokens × 1,000,000。",
+  "notes": "分母随期变化，必须大于零。无词项不等于观测为零。",
+  "examples": [
+    {
+      "id": "a",
+      "file": "example-a.csv",
+      "title": "合成报纸语料",
+      "expected": {
+        "layer_count": 1,
+        "min_plots": [
+          2
+        ],
+        "source_row_count": 6,
+        "science": {
+          "per_million": [
+            210.0,
+            250.0,
+            300.0,
+            350.0,
+            266.6666666666667,
+            171.42857142857142
+          ]
+        }
+      },
+      "expected_status": "离线科学预期；实际图层、数据绑定及导出待 Origin 实测"
+    },
+    {
+      "id": "b",
+      "file": "example-b.csv",
+      "title": "单词在三期访谈语料中的次数",
+      "expected": {
+        "layer_count": 1,
+        "min_plots": [
+          1
+        ],
+        "source_row_count": 3,
+        "science": {
+          "per_million": [
+            311.11111111111114,
+            433.3333333333333,
+            520.0
+          ]
+        }
+      },
+      "expected_status": "离线科学预期；实际图层、数据绑定及导出待 Origin 实测"
+    }
+  ],
+  "source": "原创配方；两例均为合成教学数据。",
+  "template_reuse": {
+    "mode": "native-otpu",
+    "host_verification": "pending",
+    "requires": "已授权的 Windows Origin 和可运行的 originpro"
+  }
+}

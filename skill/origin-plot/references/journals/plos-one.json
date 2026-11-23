@@ -1,0 +1,93 @@
+{
+  "id": "plos-one",
+  "title": "PLOS One",
+  "stage": "正式接收前的 provisional Editorial Accept 之后，主文图文件",
+  "checked": "2026-11-23",
+  "sources": [
+    {
+      "id": "figures",
+      "title": "PLOS One ‧ Figures",
+      "url": "https://journals.plos.org/plosone/s/figures",
+      "section": "Figure File Requirements, File Format, Dimensions, Resolution, Text within Figures, Color Mode, Additional Requirements for TIFF",
+      "fields": [
+        "width_mm",
+        "height_mm",
+        "dpi",
+        "font_family",
+        "font_pt",
+        "output_format",
+        "color_mode",
+        "bits_per_channel",
+        "compression",
+        "has_alpha",
+        "single_page",
+        "flattened",
+        "eps_fonts_safe",
+        "file_bytes"
+      ]
+    }
+  ],
+  "defaults": {
+    "width_mm": 132,
+    "font_family": "Arial",
+    "font_pt": 9,
+    "stroke_pt": 0.7,
+    "panel_font_pt": 9,
+    "panel_bold": true,
+    "output_format": "TIFF",
+    "dpi": 600
+  },
+  "rules": {
+    "width_range_mm": [
+      66.8,
+      190.5
+    ],
+    "width_targets_mm": [
+      132
+    ],
+    "width_policy": "range",
+    "height_max_mm": 222.3,
+    "fonts": [
+      "Arial",
+      "Times",
+      "Symbol"
+    ],
+    "font_policy": "required",
+    "font_range_pt": [
+      8,
+      12
+    ],
+    "panel_case": "either",
+    "formats": [
+      "TIFF",
+      "EPS"
+    ],
+    "format_policy": "only",
+    "raster_dpi": {
+      "default": [
+        300,
+        600
+      ]
+    },
+    "color_modes": [
+      "RGB",
+      "GRAYSCALE"
+    ],
+    "color_policy": "required",
+    "rgb_bits_per_channel": 8,
+    "tiff": {
+      "compression": "LZW",
+      "has_alpha": false,
+      "flattened": true,
+      "single_page": true
+    },
+    "eps_fonts_safe": true,
+    "file_bytes_max": 10000000,
+    "single_page": true
+  },
+  "notes": [
+    "规定自 provisional Editorial Accept 后适用。宽 132 mm 可与 PDF 正文栏对齐；许可宽度为 66.8–190.5 mm。",
+    "EPS 字体可嵌入或转曲，TIFF 要求 LZW 压缩、扁平、无透明通道、单页。纯矢量 EPS 不用给路径虚构 DPI。",
+    "期刊示例允许大写或小写面板。线宽和加粗属于本项目默认值。文件名如 Fig1.tif，图注放在稿件正文。"
+  ]
+}

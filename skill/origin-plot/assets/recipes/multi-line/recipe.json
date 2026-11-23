@@ -1,0 +1,65 @@
+{
+  "id": "multi-line",
+  "name": "多系列折线",
+  "domain": "通用",
+  "fields": [
+    {
+      "role": "series",
+      "type": "text",
+      "label": "系列",
+      "default": "Series 1"
+    },
+    {
+      "role": "x",
+      "type": "number",
+      "label": "X"
+    },
+    {
+      "role": "y",
+      "type": "number",
+      "label": "Y"
+    }
+  ],
+  "axes": [
+    "X",
+    "Y"
+  ],
+  "method": "同一系列依 X 排序后连线；一个系列也可使用。",
+  "notes": "相同系列内重复 X 必须先明确如何处理。",
+  "examples": [
+    {
+      "id": "a",
+      "file": "example-a.csv",
+      "title": "两组材料的温升",
+      "expected": {
+        "layer_count": 1,
+        "min_plots": [
+          2
+        ],
+        "source_row_count": 10,
+        "science": {}
+      },
+      "expected_status": "离线科学预期；实际图层、数据绑定及导出待 Origin 实测"
+    },
+    {
+      "id": "b",
+      "file": "example-b.csv",
+      "title": "单只探针的浓度变化",
+      "expected": {
+        "layer_count": 1,
+        "min_plots": [
+          1
+        ],
+        "source_row_count": 5,
+        "science": {}
+      },
+      "expected_status": "离线科学预期；实际图层、数据绑定及导出待 Origin 实测"
+    }
+  ],
+  "source": "原创配方；两例均为合成教学数据。",
+  "template_reuse": {
+    "mode": "native-otpu",
+    "host_verification": "pending",
+    "requires": "已授权的 Windows Origin 和可运行的 originpro"
+  }
+}

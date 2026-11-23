@@ -1,0 +1,82 @@
+{
+  "id": "multi-panel",
+  "name": "双面板图",
+  "domain": "通用",
+  "fields": [
+    {
+      "role": "panel",
+      "type": "text",
+      "label": "面板"
+    },
+    {
+      "role": "series",
+      "type": "text",
+      "label": "系列",
+      "default": "Series 1"
+    },
+    {
+      "role": "x",
+      "type": "number",
+      "label": "X"
+    },
+    {
+      "role": "y",
+      "type": "number",
+      "label": "Y"
+    }
+  ],
+  "axes": [
+    "X",
+    "Y"
+  ],
+  "method": "两块对齐的原生图层，各层按系列排序连线。",
+  "notes": "本配方要求两个不同面板，不把两个尺度的同一张图冒充两个面板。",
+  "examples": [
+    {
+      "id": "a",
+      "file": "example-a.csv",
+      "title": "两台探头的时间序列",
+      "expected": {
+        "layer_count": 2,
+        "min_plots": [
+          1,
+          1
+        ],
+        "source_row_count": 8,
+        "science": {
+          "panels": [
+            "North",
+            "South"
+          ]
+        }
+      },
+      "expected_status": "离线科学预期；实际图层、数据绑定及导出待 Origin 实测"
+    },
+    {
+      "id": "b",
+      "file": "example-b.csv",
+      "title": "两种基质中的响应曲线",
+      "expected": {
+        "layer_count": 2,
+        "min_plots": [
+          2,
+          2
+        ],
+        "source_row_count": 16,
+        "science": {
+          "panels": [
+            "Matrix A",
+            "Matrix B"
+          ]
+        }
+      },
+      "expected_status": "离线科学预期；实际图层、数据绑定及导出待 Origin 实测"
+    }
+  ],
+  "source": "原创配方；两例均为合成教学数据。",
+  "template_reuse": {
+    "mode": "native-otpu",
+    "host_verification": "pending",
+    "requires": "已授权的 Windows Origin 和可运行的 originpro"
+  }
+}

@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling>=1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "origin-plot-backend"
+version = "0.1.0"
+description = "Origin scientific plotting, inspection and export over a pinned Windows MCP runtime"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "origin-pro-mcp==0.3.1",
+    "mcp==1.29.1",
+    "openpyxl>=3.1,<4",
+    "pypdf>=6,<8",
+]
+
+[project.scripts]
+origin-plot-backend = "origin_plot_backend.__main__:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/origin_plot_backend"]

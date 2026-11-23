@@ -1,0 +1,79 @@
+{
+  "id": "box-raw",
+  "name": "箱线叠原始点",
+  "domain": "通用",
+  "fields": [
+    {
+      "role": "group",
+      "type": "text",
+      "label": "组别"
+    },
+    {
+      "role": "value",
+      "type": "number",
+      "label": "观测值"
+    }
+  ],
+  "axes": [
+    "组别",
+    "观测值"
+  ],
+  "method": "从每组原始测量生成原生箱统计图，另以可编辑散点叠加所有观测。",
+  "notes": "每条记录是一次观测，保持分组首次出现的顺序。",
+  "examples": [
+    {
+      "id": "a",
+      "file": "example-a.csv",
+      "title": "三批样本强度",
+      "expected": {
+        "layer_count": 1,
+        "min_plots": [
+          4
+        ],
+        "source_row_count": 24,
+        "science": {
+          "group_sizes": {
+            "Batch A": 8,
+            "Batch B": 8,
+            "Batch C": 8
+          },
+          "median": {
+            "Batch A": 9.5,
+            "Batch B": 11.5,
+            "Batch C": 9.0
+          }
+        }
+      },
+      "expected_status": "离线科学预期；实际图层、数据绑定及导出待 Origin 实测"
+    },
+    {
+      "id": "b",
+      "file": "example-b.csv",
+      "title": "两地等候时间",
+      "expected": {
+        "layer_count": 1,
+        "min_plots": [
+          3
+        ],
+        "source_row_count": 14,
+        "science": {
+          "group_sizes": {
+            "Rural": 7,
+            "Urban": 7
+          },
+          "median": {
+            "Rural": 5.1,
+            "Urban": 2.8
+          }
+        }
+      },
+      "expected_status": "离线科学预期；实际图层、数据绑定及导出待 Origin 实测"
+    }
+  ],
+  "source": "原创配方；两例均为合成教学数据。",
+  "template_reuse": {
+    "mode": "native-otpu",
+    "host_verification": "pending",
+    "requires": "Origin 2021b+（分组统计模板参数）"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "scatter",
+  "name": "散点",
+  "domain": "通用",
+  "fields": [
+    {
+      "role": "series",
+      "type": "text",
+      "label": "系列",
+      "default": "Series 1"
+    },
+    {
+      "role": "x",
+      "type": "number",
+      "label": "X"
+    },
+    {
+      "role": "y",
+      "type": "number",
+      "label": "Y"
+    }
+  ],
+  "axes": [
+    "X",
+    "Y"
+  ],
+  "method": "保留原始观测，每系列一个原生散点对象。",
+  "notes": "不自动回归；可含重复 X。",
+  "examples": [
+    {
+      "id": "a",
+      "file": "example-a.csv",
+      "title": "叶长与叶宽",
+      "expected": {
+        "layer_count": 1,
+        "min_plots": [
+          2
+        ],
+        "source_row_count": 10,
+        "science": {}
+      },
+      "expected_status": "离线科学预期；实际图层、数据绑定及导出待 Origin 实测"
+    },
+    {
+      "id": "b",
+      "file": "example-b.csv",
+      "title": "压力与传感器读数",
+      "expected": {
+        "layer_count": 1,
+        "min_plots": [
+          1
+        ],
+        "source_row_count": 6,
+        "science": {}
+      },
+      "expected_status": "离线科学预期；实际图层、数据绑定及导出待 Origin 实测"
+    }
+  ],
+  "source": "原创配方；两例均为合成教学数据。",
+  "template_reuse": {
+    "mode": "native-otpu",
+    "host_verification": "pending",
+    "requires": "已授权的 Windows Origin 和可运行的 originpro"
+  }
+}

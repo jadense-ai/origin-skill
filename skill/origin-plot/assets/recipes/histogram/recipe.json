@@ -1,0 +1,75 @@
+{
+  "id": "histogram",
+  "name": "直方图",
+  "domain": "通用",
+  "fields": [
+    {
+      "role": "value",
+      "type": "number",
+      "label": "观测值"
+    }
+  ],
+  "axes": [
+    "观测值",
+    "频数"
+  ],
+  "method": "从原始值建原生频数直方对象。默认 Freedman–Diaconis 箱宽推算等宽箱数，IQR 为零时用 Sturges。",
+  "notes": "可传 bins（正整数）或 bin_width；所有样本都计入最后的频数校验。",
+  "examples": [
+    {
+      "id": "a",
+      "file": "example-a.csv",
+      "title": "合成样品粒径",
+      "expected": {
+        "layer_count": 1,
+        "min_plots": [
+          1
+        ],
+        "source_row_count": 15,
+        "science": {
+          "bin_begin": 1.99999996,
+          "bin_end": 6.00000004,
+          "bin_size": 1.33333336,
+          "bin_counts": [
+            6,
+            5,
+            4
+          ],
+          "boundary": "left-closed, right-open; upper limit above maximum"
+        }
+      },
+      "expected_status": "离线科学预期；实际图层、数据绑定及导出待 Origin 实测"
+    },
+    {
+      "id": "b",
+      "file": "example-b.csv",
+      "title": "钟摆周期",
+      "expected": {
+        "layer_count": 1,
+        "min_plots": [
+          1
+        ],
+        "source_row_count": 12,
+        "science": {
+          "bin_begin": 1.7299999981,
+          "bin_end": 1.9200000018999999,
+          "bin_size": 0.047500000949999954,
+          "bin_counts": [
+            2,
+            3,
+            4,
+            3
+          ],
+          "boundary": "left-closed, right-open; upper limit above maximum"
+        }
+      },
+      "expected_status": "离线科学预期；实际图层、数据绑定及导出待 Origin 实测"
+    }
+  ],
+  "source": "原创配方；两例均为合成教学数据。",
+  "template_reuse": {
+    "mode": "native-otpu",
+    "host_verification": "pending",
+    "requires": "已授权的 Windows Origin 和可运行的 originpro"
+  }
+}

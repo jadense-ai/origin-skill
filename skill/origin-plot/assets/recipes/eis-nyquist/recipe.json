@@ -1,0 +1,97 @@
+{
+  "id": "eis-nyquist",
+  "name": "EIS Nyquist",
+  "domain": "材料化学",
+  "fields": [
+    {
+      "role": "sample",
+      "type": "text",
+      "label": "样品"
+    },
+    {
+      "role": "frequency",
+      "type": "number",
+      "label": "频率 (Hz)",
+      "minimum": 0
+    },
+    {
+      "role": "z_real",
+      "type": "number",
+      "label": "实部 Z′"
+    },
+    {
+      "role": "z_imag",
+      "type": "number",
+      "label": "带符号虚部 Z″"
+    }
+  ],
+  "axes": [
+    "Z′ (Ω)",
+    "−Z″ (Ω)"
+  ],
+  "method": "按频率由高到低连接 Z′ 和 −Z″；只取一次负号。",
+  "notes": "需输入带符号虚部，不接受已经取负的虚部冒作原始数。频率须为正。",
+  "examples": [
+    {
+      "id": "a",
+      "file": "example-a.csv",
+      "title": "两种电极阻抗",
+      "expected": {
+        "layer_count": 1,
+        "min_plots": [
+          2
+        ],
+        "source_row_count": 10,
+        "science": {
+          "ordered_frequencies": {
+            "Electrode 1": [
+              10000.0,
+              3000.0,
+              1000.0,
+              300.0,
+              100.0
+            ],
+            "Electrode 2": [
+              10000.0,
+              3000.0,
+              1000.0,
+              300.0,
+              100.0
+            ]
+          }
+        }
+      },
+      "expected_status": "离线科学预期；实际图层、数据绑定及导出待 Origin 实测"
+    },
+    {
+      "id": "b",
+      "file": "example-b.csv",
+      "title": "电解液的合成阻抗",
+      "expected": {
+        "layer_count": 1,
+        "min_plots": [
+          1
+        ],
+        "source_row_count": 5,
+        "science": {
+          "ordered_frequencies": {
+            "Solution": [
+              5000.0,
+              1000.0,
+              300.0,
+              100.0,
+              10.0
+            ]
+          }
+        }
+      },
+      "expected_status": "离线科学预期；实际图层、数据绑定及导出待 Origin 实测"
+    }
+  ],
+  "source": "原创配方；两例均为合成教学数据。",
+  "template_reuse": {
+    "mode": "native-otpu",
+    "host_verification": "pending",
+    "requires": "已授权的 Windows Origin 和可运行的 originpro"
+  }
+}
