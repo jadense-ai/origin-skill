@@ -34,9 +34,9 @@
 
 每次做完，助手应交回可打开的工程文件，以及一张 PNG 预览。需要投稿文件时，再导出 PDF 或 TIFF。
 
-[![Origin 绘图示例。左为 SHAP 变量重要性、样本分布及分组贡献，右为 XPS 能谱的分量、拟合包络及残差。](docs/showcase/featured.png)](docs/showcase/featured.png)
+[![20 张 Origin 绘图示例排成 5 行 4 列。中间是 SHAP 变量重要性与 XPS 能谱，周围是直方图、热图、箱线、散点等图型。](docs/showcase/preview.png)](docs/showcase/preview.png)
 
-左图是 SHAP 变量重要性、样本分布和分组贡献，右图是 XPS 能谱的分量、拟合包络和残差。完整海报把 20 张 Origin 图排成 4 行 5 列。图集提供其中 18 个示例的可编辑工程和配套表格。[SHAP 原图](docs/showcase/plots/shap-summary.png) · [XPS 原图](docs/showcase/plots/xps-components.png) · [20 图海报](docs/showcase/preview.png) · [图集与复现说明](docs/showcase/README.md)
+这张海报把 20 张 Origin 图排成 5 行 4 列，SHAP 与 XPS 放在中间一行。图集提供其中 18 个示例的可编辑工程和配套表格。[SHAP 原图](docs/showcase/plots/shap-summary.png) · [XPS 原图](docs/showcase/plots/xps-components.png) · [图集与复现说明](docs/showcase/README.md)
 
 ## 开始之前
 

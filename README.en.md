@@ -34,9 +34,9 @@ You can ask the assistant to:
 
 When it finishes, the assistant should give you an Origin project you can open, and a PNG preview. Ask for a PDF or TIFF when you need a file for submission.
 
-[![Origin figure examples. SHAP feature importance, sample spread, and group shares on the left. XPS spectrum components, a fitted envelope, and residuals on the right.](docs/showcase/featured.png)](docs/showcase/featured.png)
+[![Twenty Origin figure examples in 5 rows and 4 columns. SHAP feature importance and an XPS spectrum sit in the middle, with histograms, heatmaps, box plots, scatter plots, and other types around them.](docs/showcase/preview.png)](docs/showcase/preview.png)
 
-The left figure shows SHAP feature importance, the sample spread, and group shares. The right figure shows the XPS spectrum components, the fitted envelope, and the residuals. The full poster arranges 20 Origin figures in 4 rows and 5 columns. The gallery includes editable projects and matching tables for 18 of the examples. [SHAP figure](docs/showcase/plots/shap-summary.png) · [XPS figure](docs/showcase/plots/xps-components.png) · [20-figure poster](docs/showcase/preview.png) · [Gallery and reproduction steps](docs/showcase/README.md)
+This poster arranges 20 Origin figures in 5 rows and 4 columns, with SHAP and XPS in the middle row. The gallery includes editable projects and matching tables for 18 of the examples. [SHAP figure](docs/showcase/plots/shap-summary.png) · [XPS figure](docs/showcase/plots/xps-components.png) · [Gallery and reproduction steps](docs/showcase/README.md)
 
 ## Before you start
 
