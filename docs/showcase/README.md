@@ -1,8 +1,8 @@
 # Origin 绘图图集 · Origin Plot Gallery
 
-[简体中文主页](../../README.md) · [English home](../../README.en.md) · [20 图海报 / 20-figure poster](preview.png) · [下载可编辑工程、CSV 与重开记录 / Download editable projects, CSVs, and reopen records](projects.zip)
+[简体中文主页](../../README.md) · [English home](../../README.en.md) · [20 图海报 / 20-figure poster](preview.webp) · [下载可编辑工程、CSV 与重开记录 / Download editable projects, CSVs, and reopen records](projects.zip)
 
-[![Origin 原生专题图，左为 SHAP 变量归因，右为 XPS C 1s 分峰与残差。 Native Origin examples of SHAP feature attribution and XPS C 1s components and residuals.](featured.png)](featured.png)
+[![Origin 原生专题图，左为 SHAP 变量归因，右为 XPS C 1s 分峰与残差。 Native Origin examples of SHAP feature attribution and XPS C 1s components and residuals.](featured.webp)](featured.webp)
 
 完整海报以 4 × 5 的等尺寸卡片构成倾斜图阵，SHAP 与 XPS 居中，外围带有柔焦。配对样本图与点估计误差线图沿用原生验收预览。[v0.1.2 验收包](../../dist/origin-plot-0.1.2-native-verification.zip)
 

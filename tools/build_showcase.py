@@ -209,7 +209,7 @@ def publish(output, work, reports):
             }
         archive.writestr("verification.json", json.dumps(verification, ensure_ascii=False, indent=2) + "\n")
     compose([(TITLES[key], plots / f"{key}.png") for key in TITLES],
-            output / "preview.png", featured_output=output / "featured.png")
+            output / "preview.webp", featured_output=output / "featured.webp")
 
 
 def main():

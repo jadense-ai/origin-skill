@@ -92,9 +92,12 @@ def _card(sheet, draw, bounds, recipe, tile, fonts, *, standalone=False):
     sheet.paste(plot, position)
 
 
-def _save_png(image, output):
+def _save_image(image, output):
     output = Path(output)
     output.parent.mkdir(parents=True, exist_ok=True)
+    if output.suffix.lower() == ".webp":
+        image.save(output, format="WEBP", quality=95, method=6)
+        return
     image.save(output, format="PNG", optimize=True)
 
 
@@ -179,6 +182,6 @@ def compose(tiles, output, *, featured_output=None):
 
     focus_top = (len(ROWS) // 2) * (card_height + GAP)
     scene = _soften_perimeter(sheet, focus_top, focus_top + card_height)
-    _save_png(_tilted_view(scene, cosine, sine, grid_width, grid_height), output)
+    _save_image(_tilted_view(scene, cosine, sine, grid_width, grid_height), output)
     if featured_output is not None:
-        _save_png(_featured_preview(plots, chinese, english), featured_output)
+        _save_image(_featured_preview(plots, chinese, english), featured_output)

@@ -34,7 +34,7 @@ You can ask the assistant to:
 
 When it finishes, the assistant should give you an Origin project you can open, and a PNG preview. Ask for a PDF or TIFF when you need a file for submission.
 
-[![Twenty Origin figure examples in 5 rows and 4 columns. SHAP feature importance and an XPS spectrum sit in the middle, with histograms, heatmaps, box plots, scatter plots, and other types around them.](docs/showcase/preview.png)](docs/showcase/preview.png)
+[![Twenty Origin figure examples in 5 rows and 4 columns. SHAP feature importance and an XPS spectrum sit in the middle, with histograms, heatmaps, box plots, scatter plots, and other types around them.](docs/showcase/preview.webp)](docs/showcase/preview.webp)
 
 This poster arranges 20 Origin figures in 5 rows and 4 columns, with SHAP and XPS in the middle row. The gallery includes editable projects and matching tables for 18 of the examples. [SHAP figure](docs/showcase/plots/shap-summary.png) · [XPS figure](docs/showcase/plots/xps-components.png) · [Gallery and reproduction steps](docs/showcase/README.md)
 
@@ -184,18 +184,18 @@ To check a source checkout, run `py -3.13 tools/sync_official.py verify` and `py
 
 ## Sponsorship
 
-[![ToodooAI is an AI model proxy for GPT, Claude, and DeepSeek. It charges by usage, and that usage can be reviewed.](docs/sponsor/banner.en.png)](https://toodooai.com)
+[![ToodooAI is an AI model proxy for GPT, Claude, and DeepSeek. It charges by usage, and that usage can be reviewed.](docs/sponsor/banner.en.webp)](https://toodooai.com)
 
 This project is sponsored by [ToodooAI](https://toodooai.com). ToodooAI is an AI model proxy that provides high-quality, undiluted GPT, Claude, DeepSeek, and other models. It charges by usage, lets you review that usage, and can be connected to an AI assistant. Available models and prices are those shown on the website at the time. For help connecting, join the QQ group published on the website: 1126234071.
 
 <table>
   <tr>
-    <td><img src="docs/sponsor/card-models.en.png" alt="ToodooAI provides GPT, Claude, and DeepSeek, and others listed on the site at the time." width="100%"></td>
-    <td><img src="docs/sponsor/card-billing.en.png" alt="ToodooAI charges by usage: pay for what you use. Prices are those shown on the site at the time." width="100%"></td>
+    <td><img src="docs/sponsor/card-models.en.webp" alt="ToodooAI provides GPT, Claude, and DeepSeek, and others listed on the site at the time." width="100%"></td>
+    <td><img src="docs/sponsor/card-billing.en.webp" alt="ToodooAI charges by usage: pay for what you use. Prices are those shown on the site at the time." width="100%"></td>
   </tr>
   <tr>
-    <td><img src="docs/sponsor/card-usage.en.png" alt="Usage on ToodooAI can be reviewed, including which model and how much." width="100%"></td>
-    <td><img src="docs/sponsor/card-connect.en.png" alt="ToodooAI can be connected to an AI assistant. For help, join QQ group 1126234071." width="100%"></td>
+    <td><img src="docs/sponsor/card-usage.en.webp" alt="Usage on ToodooAI can be reviewed, including which model and how much." width="100%"></td>
+    <td><img src="docs/sponsor/card-connect.en.webp" alt="ToodooAI can be connected to an AI assistant. For help, join QQ group 1126234071." width="100%"></td>
   </tr>
 </table>
 
