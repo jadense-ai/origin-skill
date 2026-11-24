@@ -51,7 +51,7 @@
 
 任何能在这台电脑上读写文件的 AI 助手都可以代你完成安装，Cursor 也可以。安装程序会把画图说明登记给 Codex、Claude Code 和 OpenCode。装好之后，请用这三款中的一款打开同一个论文文件夹来画图。
 
-画图使用的是你电脑上的 Origin。文末介绍的赞助方 ToodooAI 与安装、画图相互独立。
+画图使用的是你电脑上的 Origin。
 
 ## 快速开始
 
@@ -182,9 +182,20 @@ py -3.13 .\.origin-plot\launch.py qualify workflows
 
 ## 赞助
 
-使用本绘图助手不需要注册或购买 ToodooAI。画图用的是你电脑上的 Origin。
+[![ToodooAI 是 AI 模型中转，提供 GPT、Claude、DeepSeek，按量计费，用量可查。](docs/sponsor/banner.zh.png)](https://toodooai.com)
 
 本项目由 [ToodooAI](https://toodooai.com) 赞助。ToodooAI 是 AI 模型中转服务，提供优质、不掺水的 GPT、Claude、DeepSeek 等模型。服务按使用量计费，可以查看用量，适合接入 AI 助手。可用模型和价格以官网当时页面为准。接入时如果需要帮助，可加入官网公布的 QQ 群：1126234071。
+
+<table>
+  <tr>
+    <td><img src="docs/sponsor/card-models.zh.png" alt="ToodooAI 提供 GPT、Claude、DeepSeek，以及其他官网当时列出的模型。" width="100%"></td>
+    <td><img src="docs/sponsor/card-billing.zh.png" alt="ToodooAI 按使用量计费，用多少，计多少。价格以官网当时页面为准。" width="100%"></td>
+  </tr>
+  <tr>
+    <td><img src="docs/sponsor/card-usage.zh.png" alt="ToodooAI 可以查看用量，包括用了哪个模型、用了多少。" width="100%"></td>
+    <td><img src="docs/sponsor/card-connect.zh.png" alt="ToodooAI 适合接入 AI 助手。需要帮助时加入 QQ 群 1126234071。" width="100%"></td>
+  </tr>
+</table>
 
 ## 许可
 

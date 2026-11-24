@@ -51,7 +51,7 @@ Check the following first:
 
 Any AI assistant that can read and write files on this computer can run the installation for you, including Cursor. The installer registers the plotting instructions with Codex, Claude Code, and OpenCode. After installation, open the same paper folder in one of those three to draw.
 
-Drawing uses Origin on your computer. ToodooAI, the sponsor introduced at the end of this page, is separate from installation and drawing.
+Drawing uses Origin on your computer.
 
 ## Quick start
 
@@ -184,9 +184,20 @@ To check a source checkout, run `py -3.13 tools/sync_official.py verify` and `py
 
 ## Sponsorship
 
-You do not need to register for or buy ToodooAI to use this plotting assistant. Drawing uses Origin on your computer.
+[![ToodooAI is an AI model proxy for GPT, Claude, and DeepSeek. It charges by usage, and that usage can be reviewed.](docs/sponsor/banner.en.png)](https://toodooai.com)
 
 This project is sponsored by [ToodooAI](https://toodooai.com). ToodooAI is an AI model proxy that provides high-quality, undiluted GPT, Claude, DeepSeek, and other models. It charges by usage, lets you review that usage, and can be connected to an AI assistant. Available models and prices are those shown on the website at the time. For help connecting, join the QQ group published on the website: 1126234071.
+
+<table>
+  <tr>
+    <td><img src="docs/sponsor/card-models.en.png" alt="ToodooAI provides GPT, Claude, and DeepSeek, and others listed on the site at the time." width="100%"></td>
+    <td><img src="docs/sponsor/card-billing.en.png" alt="ToodooAI charges by usage: pay for what you use. Prices are those shown on the site at the time." width="100%"></td>
+  </tr>
+  <tr>
+    <td><img src="docs/sponsor/card-usage.en.png" alt="Usage on ToodooAI can be reviewed, including which model and how much." width="100%"></td>
+    <td><img src="docs/sponsor/card-connect.en.png" alt="ToodooAI can be connected to an AI assistant. For help, join QQ group 1126234071." width="100%"></td>
+  </tr>
+</table>
 
 ## License
 
