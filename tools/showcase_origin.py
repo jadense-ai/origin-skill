@@ -406,29 +406,3 @@ def run(job_path):
     temporary = reply.with_suffix(".tmp")
     temporary.write_text(json.dumps(report, ensure_ascii=False), encoding="utf-8")
     temporary.replace(reply)
-
-
-def export(job_path):
-    import originpro as op
-
-    path = Path(job_path)
-    try:
-        if op.oext or op.lt_int("@RUN") != 0:
-            raise RuntimeError("Expected a standalone Origin process for preview export")
-        jobs = json.loads(path.read_text(encoding="utf-8"))
-        for recipe, job in jobs.items():
-            if not op.open(job["project"], readonly=True, asksave=False):
-                raise RuntimeError(f"Origin could not reopen the {recipe} OPJU")
-            graph = op.find_graph(job["graph"])
-            if graph is None:
-                raise RuntimeError(f"Origin could not find the reopened {recipe} graph")
-            titles = [[layer.axis(axis).title for axis in ("x", "y")] for layer in graph]
-            if titles != job["axis_titles"]:
-                raise RuntimeError(f"Axis titles changed when {recipe} was opened in standalone Origin")
-            if not graph.save_fig(job["png"], width=job["width"]):
-                raise RuntimeError(f"Origin could not export the {recipe} preview")
-        report = {"ok": True}
-    except Exception:
-        report = {"ok": False, "error": traceback.format_exc(limit=5)}
-    path.with_name("export-reply.json").write_text(json.dumps(report, ensure_ascii=False), encoding="utf-8")
-    op.lt_exec("doc -s; exit;")

@@ -7,6 +7,7 @@ import json
 import os
 from pathlib import Path
 import secrets
+import subprocess
 import sys
 import tempfile
 
@@ -70,6 +71,8 @@ class Bridge:
         self.mode = mode
         self.requested_pid = target_pid
         self.pid = None
+        self.origin_executable = None
+        self.automation_mode = False
         self.token = secrets.token_hex(12)
         self.notes = []
         self.task = None
@@ -200,4 +203,36 @@ class Bridge:
             if self.pid is not None and live_pid != self.pid:
                 raise RuntimeError("Origin restarted during the session. Reconnect and inspect again.")
             self.pid = live_pid
+            self.origin_executable = info["origin"].get("executable")
+            self.automation_mode = bool(info["origin"].get("automation_mode"))
             return info
+
+    async def standalone_export(self, project_path, graph_name, exports, timeout=180):
+        if not self.origin_executable or not Path(self.origin_executable).is_file():
+            raise RuntimeError("Origin executable path is unavailable for standalone export.")
+        executable = Path(self.origin_executable)
+        script = Path(__file__).with_name("embedded.py")
+        with tempfile.TemporaryDirectory(prefix="origin-plot-export-", ignore_cleanup_errors=True) as temp:
+            directory = Path(temp)
+            job = directory / "export-job.json"
+            reply = directory / "export-reply.json"
+            job.write_text(json.dumps({"project_path": str(project_path), "graph_name": graph_name,
+                                       "exports": exports}, allow_nan=False, ensure_ascii=False),
+                           encoding="utf-8")
+            launcher = directory / "launch.py"
+            launcher.write_text("import runpy\nrunpy.run_path(%r)['export_standalone'](%r)\n" % (str(script), str(job)),
+                                encoding="utf-8")
+            command = f'"{executable}" -hs -rs run -pyf "{launcher.as_posix()}";'
+            kwargs = {"executable": str(executable), "cwd": str(executable.parent), "timeout": timeout, "check": True}
+            if sys.platform == "win32":
+                kwargs["startupinfo"] = subprocess.STARTUPINFO(
+                    dwFlags=subprocess.STARTF_USESHOWWINDOW, wShowWindow=subprocess.SW_HIDE
+                )
+                kwargs["creationflags"] = subprocess.CREATE_NO_WINDOW
+            await asyncio.to_thread(subprocess.run, command, **kwargs)
+            if not reply.is_file():
+                raise RuntimeError("Standalone Origin did not return an export report.")
+            envelope = json.loads(reply.read_text(encoding="utf-8"))
+            if not envelope["ok"]:
+                raise RuntimeError(f"standalone_export: {envelope['error']}")
+            return envelope["result"]

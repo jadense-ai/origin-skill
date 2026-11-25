@@ -4,7 +4,7 @@
 
 这是一份写给 AI 助手的操作说明，也叫 Skill。装好之后，你用平时的话描述想要的图，助手会在你的 Windows 电脑上调用已经安装的 Origin 或 OriginPro 来完成。你可以从表格画出新图，也可以修改已有工程。结果会保存成还能在 Origin 里继续改的工程文件（OPJU），并按需要导出 PNG、PDF 或 TIFF。
 
-[下载 Windows 安装包 v0.1.2](dist/origin-plot-0.1.2-windows-x64.zip)
+[下载 Windows 安装包 v0.1.3](dist/origin-plot-0.1.3-windows-x64.zip)
 
 ## 目录
 
@@ -57,7 +57,7 @@
 
 按这五步，让 AI 助手帮你安装。
 
-1. 下载 [Windows 安装包 v0.1.2](dist/origin-plot-0.1.2-windows-x64.zip)，并解压到一个文件夹。
+1. 下载 [Windows 安装包 v0.1.3](dist/origin-plot-0.1.3-windows-x64.zip)，并解压到一个文件夹。
 2. 打开一个能操作这台电脑上文件的 AI 助手，进入存放论文数据和图的文件夹。
 3. 把下面整段话发给它。只改两处：解压后的文件夹路径，以及你画图时要使用的助手。三个都安装时，第二处写「三个都安装」。
 4. 安装完成后，用你选中的 Codex、Claude Code 或 OpenCode 重新打开这个论文文件夹。如果它询问是否信任本项目，或是否允许访问本项目的配置，请同意。同意之后，助手才能调用你电脑上的 Origin。

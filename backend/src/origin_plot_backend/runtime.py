@@ -268,7 +268,7 @@ class Runtime:
             self.inspected = {token: data}
         return {**data, "session_token": token, "mode": self.bridge.mode}
 
-    async def _exports(self, run, graph_name, formats, width, journal=None, graph=None):
+    async def _exports(self, run, graph_name, formats, width, journal=None, graph=None, project_path=None):
         profile = _journal_function("load_profile", journal) if journal else {}
         use_plos = profile.get("id") == "plos-one"
         is_default = formats is None
@@ -279,11 +279,30 @@ class Runtime:
             raise ValueError("width must be a positive pixel count.")
         if is_default and journal:
             formats = ["png", profile["defaults"]["output_format"].lower()]
-        out = {}
-        for fmt in formats_list(formats):
+        requested = formats_list(formats)
+        items = []
+        for fmt in requested:
             target = run / (f"Fig1.{fmt}" if use_plos and fmt == "tif" else f"figure.{fmt}")
-            await self.bridge.call("export_graph", graph_name=graph_name, file_path=str(target),
-                                   format=fmt, width=width if fmt in RASTER else 0)
+            items.append((fmt, target, width if fmt in RASTER else 0))
+        use_standalone = (getattr(self.bridge, "automation_mode", False) is True
+                          and isinstance(getattr(self.bridge, "origin_executable", None), str)
+                          and bool(self.bridge.origin_executable))
+        if use_standalone:
+            export_project = Path(project_path) if project_path is not None else None
+            if export_project is None:
+                export_project = Path(self.private.name) / f"export-{uuid.uuid4().hex}.opju"
+                await self.bridge.embedded("snapshot", output_path=str(export_project))
+                artifact(export_project)
+            await self.bridge.standalone_export(
+                str(export_project), graph_name,
+                [{"format": fmt, "path": str(target), "width": px} for fmt, target, px in items],
+            )
+        else:
+            for fmt, target, px in items:
+                await self.bridge.call("export_graph", graph_name=graph_name, file_path=str(target),
+                                       format=fmt, width=px)
+        out = {}
+        for fmt, target, _ in items:
             if use_plos and fmt == "tif":
                 _submission_tiff(target, graph["page"]["width_mm"])
             out[fmt] = artifact(target)
@@ -315,7 +334,8 @@ class Runtime:
                 _compare_readback(graph["expected"]["science"]["bin_counts"],
                                   read["layers"][0]["plots"][0]["histogram_counts"], "histogram_counts")
             check = {"status": "verified", "readback":read}
-        outputs = await self._exports(run, graph_name, formats, width, journal, check.get("readback", graph))
+        outputs = await self._exports(run, graph_name, formats, width, journal, check.get("readback", graph),
+                                      project_path=project)
         evidence = {"status":"rendered", "run_dir":str(run), "project":project_evidence, "exports":outputs,
                     "inspection":graph, "reopen":check, "journal_check":_journal_validate(journal, graph, outputs)}
         (run / "evidence.json").write_text(json.dumps(evidence, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -419,8 +439,9 @@ class Runtime:
         if not graph_name:
             raise ValueError("An explicit graph name is required.")
         info = await self.inspect(graph_name, project_path)
+        resolved_project = Path(project_path).expanduser().resolve(strict=True) if project_path else None
         with output_run(output_dir) as run:
-            out = await self._exports(run, graph_name, formats, width)
+            out = await self._exports(run, graph_name, formats, width, project_path=resolved_project)
             return {"status":"exported", "run_dir":str(run), "inspection":info, "exports":out}
 
     async def save_template(self, graph_name, output_dir, project_path=None, old_format=False):

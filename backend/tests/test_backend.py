@@ -12,8 +12,10 @@ from openpyxl import Workbook
 from PIL import Image
 
 from origin_plot_backend.data import read_bindings, read_table
-from origin_plot_backend.bridge import skill_root
-from origin_plot_backend.embedded import _apply_changes, _bin_info, _bound_data, _template, data_fingerprint, inspect_graph
+from origin_plot_backend.bridge import Bridge, skill_root
+from origin_plot_backend.embedded import (
+    _apply_changes, _bin_info, _bound_data, _export_standalone_items, _template, data_fingerprint, inspect_graph,
+)
 from origin_plot_backend.runtime import Runtime, _compare_graph, _compare_readback, _submission_tiff, artifact, formats_list
 from origin_plot_backend.server import application
 
@@ -198,6 +200,44 @@ class BackendChecks(unittest.TestCase):
             self.assertAlmostEqual(im.info["dpi"][0],600)
         self.assertEqual(formats_list(["TIFF","tif","pdf"]),["tif","pdf"])
 
+    def test_standalone_export_items_reject_automation_and_export_via_expgraph(self):
+        project = self.root / "figure.opju"
+        project.write_bytes(b"opju")
+        png = self.root / "out" / "figure.png"
+        eps = self.root / "out" / "figure.eps"
+        strings = {"page.name$": "Graph1"}
+        commands = []
+        graph = SimpleNamespace(name="Graph1", activate=Mock())
+
+        def lt_exec(cmd):
+            commands.append(cmd)
+            target = Path(strings["opbExpPath"]) / (
+                f"{strings['opbExpName']}.png" if "type:=png" in cmd else f"{strings['opbExpName']}.eps"
+            )
+            target.write_bytes(b"%!PS-Adobe-3.0 EPSF-3.0" + b"0" * 30 if target.suffix == ".eps" else b"png")
+            return True
+
+        op = SimpleNamespace(
+            oext=False,
+            lt_int=lambda name: 1 if name == "@RUN" else 0,
+            open=Mock(return_value=True),
+            find_graph=lambda name: graph if name == "Graph1" else None,
+            set_lt_str=lambda k, v: strings.__setitem__(k, v),
+            get_lt_str=lambda k: strings.get(k, ""),
+            lt_exec=lt_exec,
+        )
+        job = {"project_path": str(project), "graph_name": "Graph1",
+               "exports": [{"format": "png", "path": str(png), "width": 1800},
+                           {"format": "eps", "path": str(eps), "width": 0}]}
+        with self.assertRaisesRegex(RuntimeError, "@RUN == 0"):
+            _export_standalone_items(op, job)
+        op.lt_int = lambda name: 0
+        result = _export_standalone_items(op, job)
+        op.open.assert_called_once_with(str(project), readonly=True, asksave=False)
+        self.assertEqual(result["exported"], [str(png), str(eps)])
+        self.assertIn("tr1.unit:=2 tr1.width:=1800", commands[0])
+        self.assertNotIn("tr1.width", commands[1])
+
 
 class RuntimeChecks(unittest.IsolatedAsyncioTestCase):
     async def test_isolated_copy_clears_save_flag_and_releases_before_disconnect(self):
@@ -295,3 +335,81 @@ class RuntimeChecks(unittest.IsolatedAsyncioTestCase):
             self.assertIn("origin_com_registered", str(result))
         finally:
             await rt.close()
+
+    async def test_automation_session_exports_via_standalone_origin_and_snapshots_memory_export(self):
+        b = AsyncMock()
+        b.mode = "isolated"
+        b.automation_mode = True
+        b.origin_executable = "C:/Origin/Origin64.exe"
+        state = {"origin": {"pid": 11, "automation_mode": True, "executable": b.origin_executable},
+                 "graph": "Graph1", "long_name": "G", "layer_count": 1, "plot_counts": [1], "page": {}, "layers": [{}]}
+
+        async def embedded(action, **args):
+            if action == "snapshot":
+                Path(args["output_path"]).write_bytes(b"snapshot-opju")
+            return state
+
+        async def call_tool(action, **args):
+            if action == "save_project":
+                Path(args["file_path"]).write_bytes(b"saved-opju")
+            return "ok"
+
+        async def standalone(project_path, graph_name, exports):
+            self.assertTrue(Path(project_path).is_file())
+            self.assertEqual(graph_name, "Graph1")
+            for item in exports:
+                target = Path(item["path"])
+                if item["format"] == "png":
+                    Image.new("RGB", (24, 12)).save(target)
+                elif item["format"] == "eps":
+                    target.write_bytes(b"%!PS-Adobe-3.0 EPSF-3.0" + b"0" * 30)
+            return {"exported": [item["path"] for item in exports]}
+
+        b.embedded.side_effect = embedded
+        b.call.side_effect = call_tool
+        b.standalone_export.side_effect = standalone
+        rt = Runtime(bridge=b)
+        try:
+            with tempfile.TemporaryDirectory() as out:
+                finish_dir = Path(out) / "finish"
+                finish_dir.mkdir()
+                rendered = await rt._finish(finish_dir, state, ["png", "eps"], 1200, None, reopen=False)
+                self.assertEqual(sorted(rendered["exports"]), ["eps", "png"])
+                b.standalone_export.assert_awaited_once()
+                self.assertNotIn("export_graph", [c.args[0] for c in b.call.await_args_list])
+                b.standalone_export.reset_mock()
+                exported = await rt.export("Graph1", out, formats=["png"], width=900)
+                self.assertEqual(exported["exports"]["png"]["pixels"], [24, 12])
+                b.standalone_export.assert_awaited_once()
+                self.assertIn("snapshot", [c.args[0] for c in b.embedded.await_args_list])
+        finally:
+            await rt.close()
+
+    async def test_bridge_standalone_export_invokes_hidden_origin_and_surfaces_errors(self):
+        bridge = Bridge("isolated")
+        with self.assertRaisesRegex(RuntimeError, "unavailable"):
+            await bridge.standalone_export("a.opju", "Graph1", [])
+        with tempfile.TemporaryDirectory() as directory:
+            exe = Path(directory) / "Origin64.exe"
+            exe.write_bytes(b"exe")
+            bridge.origin_executable = str(exe)
+
+            def fake_run(command, **kwargs):
+                self.assertIn(f'"{exe}" -hs -rs run -pyf "', command)
+                launcher = Path(command.split('run -pyf "', 1)[1].split('";', 1)[0])
+                reply = launcher.with_name("export-reply.json")
+                reply.write_text(json.dumps({"ok": True, "result": {"exported": ["x.png"]}}), encoding="utf-8")
+
+            with patch("origin_plot_backend.bridge.subprocess.run", side_effect=fake_run):
+                result = await bridge.standalone_export("a.opju", "Graph1", [{"format": "png", "path": "x.png", "width": 800}])
+                self.assertEqual(result["exported"], ["x.png"])
+
+            def fail_run(command, **kwargs):
+                launcher = Path(command.split('run -pyf "', 1)[1].split('";', 1)[0])
+                launcher.with_name("export-reply.json").write_text(
+                    json.dumps({"ok": False, "error": "RuntimeError: boom"}), encoding="utf-8"
+                )
+
+            with patch("origin_plot_backend.bridge.subprocess.run", side_effect=fail_run):
+                with self.assertRaisesRegex(RuntimeError, "boom"):
+                    await bridge.standalone_export("a.opju", "Graph1", [])

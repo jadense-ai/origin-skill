@@ -4,7 +4,7 @@
 
 This is a set of instructions for an AI assistant, also called a Skill. After it is installed, you describe the figure in everyday language, and the assistant uses the Origin or OriginPro already installed on your Windows computer. You can draw a new figure from a table, or change an existing Origin project. The result is an Origin project file (OPJU) that you can open and edit again, plus a PNG, PDF, or TIFF when you need one.
 
-[Download the Windows installer v0.1.2](dist/origin-plot-0.1.2-windows-x64.zip)
+[Download the Windows installer v0.1.3](dist/origin-plot-0.1.3-windows-x64.zip)
 
 ## Contents
 
@@ -57,7 +57,7 @@ Drawing uses Origin on your computer.
 
 Follow these five steps and let an AI assistant install it.
 
-1. Download the [Windows installer v0.1.2](dist/origin-plot-0.1.2-windows-x64.zip) and extract it to a folder.
+1. Download the [Windows installer v0.1.3](dist/origin-plot-0.1.3-windows-x64.zip) and extract it to a folder.
 2. Open an AI assistant that can work with files on this computer, in the folder where you keep the paper’s data and figures.
 3. Send the whole message below. Change only two parts: the path of the extracted folder, and the assistant you will use for drawing. If you want all three, leave the second part as “三个都安装”.
 4. When installation finishes, reopen this paper folder in the Codex, Claude Code, or OpenCode app you chose. If it asks whether to trust this project, or whether to allow access to this project’s settings, accept. After you accept, the assistant can use Origin on your computer.

@@ -10,7 +10,18 @@ import sys
 XY_TEMPLATE_TYPES = {"line": 200, "scatter": 201, "line+symbol": 202, "column": 203}
 BAR_PLOTS = {203, 213, 215, 216, 219}
 LINE_PLOTS = {200, 201, 202, 231}
+EXPORT_TYPES = {"png", "jpg", "tif", "bmp", "pdf", "eps", "emf"}
 DATASET_NAME = re.compile(r"[A-Za-z_][A-Za-z0-9_]*(?:@\d+)?")
+
+
+def _origin_executable():
+    if sys.platform != "win32":
+        return None
+    import ctypes
+
+    buf = ctypes.create_unicode_buffer(32768)
+    length = ctypes.windll.kernel32.GetModuleFileNameW(None, buf, len(buf))
+    return buf.value if length else None
 
 
 def _probe(fn):
@@ -726,7 +737,9 @@ def perform(op, job):
     action = job["action"]
     origin = {"pid": os.getpid(), "origin_version": _probe(op.org_ver),
               "project_folder":_probe(lambda: op.path("p")), "project_name":_probe(lambda: op.get_lt_str("%G")),
-              "embedded_python": sys.version.split()[0]}
+              "embedded_python": sys.version.split()[0],
+              "executable": _probe(_origin_executable),
+              "automation_mode": bool(_probe(lambda: op.lt_int("@RUN")))}
     if action == "doctor":
         return {"origin": origin, "graphs": [g.name for g in op.graph_list('p')]}
     if action == "snapshot":
@@ -863,3 +876,58 @@ def run_job(job_path):
         body = json.dumps({"ok": False, "error": "Non-serializable Origin evidence: " + str(exc)})
     temp.write_text(body, encoding="utf-8")
     os.replace(str(temp), str(out))
+
+
+def _export_standalone_items(op, job):
+    if op.oext or op.lt_int("@RUN") != 0:
+        raise RuntimeError("Standalone export requires a non-automation Origin process (@RUN == 0).")
+    project_path = str(job["project_path"])
+    if not op.open(project_path, readonly=True, asksave=False):
+        raise RuntimeError(f"Origin could not open project for export: {project_path}")
+    graph = _graph(op, job["graph_name"])
+    graph.activate()
+    if op.get_lt_str("page.name$") != graph.name:
+        raise RuntimeError(f"Origin could not activate graph {graph.name!r} for export.")
+    exported = []
+    for item in job["exports"]:
+        fmt = str(item["format"]).lower()
+        if fmt not in EXPORT_TYPES:
+            raise ValueError(f"Unsupported standalone export format: {fmt!r}")
+        target = Path(item["path"])
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.unlink(missing_ok=True)
+        directory = str(target.parent)
+        stem = target.stem
+        op.set_lt_str("opbExpPath", directory)
+        op.set_lt_str("opbExpName", stem)
+        if op.get_lt_str("opbExpPath") != directory or op.get_lt_str("opbExpName") != stem:
+            raise RuntimeError("Origin could not confirm the standalone export path.")
+        width = int(item.get("width") or 0)
+        size_opts = f" tr1.unit:=2 tr1.width:={width}" if width > 0 else ""
+        cmd = f"expGraph type:={fmt} path:=opbExpPath$ filename:=opbExpName$ overwrite:=replace{size_opts};"
+        if not op.lt_exec(cmd) or not target.is_file() or target.stat().st_size == 0:
+            raise RuntimeError(f"Standalone Origin could not export {graph.name} to {target}")
+        exported.append(str(target))
+    return {"exported": exported, "pid": os.getpid()}
+
+
+def export_standalone(job_path):
+    import traceback
+
+    p = Path(job_path)
+    op = None
+    try:
+        import originpro as _op
+
+        op = _op
+        job = json.loads(p.read_text(encoding="utf-8"))
+        data = {"ok": True, "result": _export_standalone_items(op, job)}
+    except Exception as exc:
+        data = {"ok": False, "error": type(exc).__name__ + ": " + str(exc),
+                "trace": traceback.format_exc(limit=4)}
+    out = p.with_name("export-reply.json")
+    temp = p.with_name("export-reply.tmp")
+    temp.write_text(json.dumps(data, allow_nan=False, ensure_ascii=False), encoding="utf-8")
+    os.replace(str(temp), str(out))
+    if op is not None:
+        op.lt_exec("doc -s; exit;")

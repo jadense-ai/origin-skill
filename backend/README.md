@@ -9,7 +9,7 @@
 ```powershell
 py -3.13 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install --require-hashes --find-links backend\dist -r backend\requirements-win-py313.lock
-.\.venv\Scripts\python.exe -m pip install --no-deps backend\dist\origin_plot_backend-0.1.2-py3-none-any.whl
+.\.venv\Scripts\python.exe -m pip install --no-deps backend\dist\origin_plot_backend-0.1.3-py3-none-any.whl
 $env:ORIGIN_PLOT_SKILL_ROOT = (Resolve-Path skill\origin-plot).Path
 .\.venv\Scripts\python.exe -m origin_plot_backend doctor
 .\.venv\Scripts\python.exe -m origin_plot_backend doctor --json '{"live":true}'

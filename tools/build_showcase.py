@@ -7,12 +7,11 @@ import os
 from pathlib import Path
 import shutil
 import struct
-import subprocess
 from tempfile import TemporaryDirectory
 from zipfile import ZIP_DEFLATED, ZipFile
 
 import origin_plot_backend.bridge as backend_bridge
-from origin_plot_backend.runtime import Runtime, artifact, output_run
+from origin_plot_backend.runtime import Runtime, output_run
 
 from showcase_advanced import ADVANCED, VALUE_RGB, interpolate_color, write_advanced_inputs
 from showcase_data import AXIS_TITLES, write_inputs
@@ -114,15 +113,6 @@ async def render(work, ids=TITLES):
         live = await runtime.doctor(live=True)
         if not live.get("live_verified"):
             raise RuntimeError(f"Origin failed its live probe: {live.get('reasons')}")
-        from win32api import OpenProcess
-        from win32con import PROCESS_QUERY_INFORMATION, PROCESS_VM_READ
-        from win32process import GetModuleFileNameEx
-
-        handle = OpenProcess(PROCESS_QUERY_INFORMATION | PROCESS_VM_READ, False, live["origin"]["pid"])
-        try:
-            executable = Path(GetModuleFileNameEx(handle, 0))
-        finally:
-            handle.Close()
         print(f"Origin {live['origin']['origin_version']} live probe passed", flush=True)
         for recipe in ids:
             target = work / "runs" / recipe
@@ -141,43 +131,7 @@ async def render(work, ids=TITLES):
             print(f"{recipe}: {result['reopen']['status']} ({result['inspection']['layer_count']} layers)", flush=True)
     finally:
         await runtime.close()
-    export_previews(executable, work, reports)
     return reports
-
-
-def export_previews(executable, work, reports):
-    # Origin 2024 SR1 can draw an extra line over text in automation mode.
-    # Launch Origin normally and re-export the same verified projects read-only.
-    output = work / "standalone"
-    output.mkdir(exist_ok=True)
-    jobs = {
-        recipe: {"project": report["project"]["path"], "graph": report["inspection"]["graph"],
-                 "axis_titles": [[layer["axes"][axis]["title"] for axis in ("x", "y")]
-                                 for layer in report["inspection"]["layers"]],
-                 "png": str(output / f"{recipe}.png"), "width": PREVIEW_WIDTH}
-        for recipe, report in reports.items()
-    }
-    job_path = output / "export-jobs.json"
-    job_path.write_text(json.dumps(jobs, ensure_ascii=False), encoding="utf-8")
-    reply = output / "export-reply.json"
-    reply.unlink(missing_ok=True)
-    launcher = output / "export.py"
-    script = Path(__file__).with_name("showcase_origin.py")
-    launcher.write_text(f"import runpy, sys\nsys.path.insert(0, {str(script.parent)!r})\n"
-                        f"runpy.run_path({str(script)!r})['export']({str(job_path)!r})\n", encoding="utf-8")
-
-    options = subprocess.STARTUPINFO(dwFlags=subprocess.STARTF_USESHOWWINDOW, wShowWindow=subprocess.SW_HIDE)
-    command = f'"{executable}" -hs -rs run -pyf "{launcher.as_posix()}";'
-    subprocess.run(command, executable=executable, cwd=executable.parent, startupinfo=options,
-                   timeout=180, check=True)
-    if not reply.is_file():
-        raise RuntimeError("Standalone Origin did not return a preview export report")
-    report = json.loads(reply.read_text(encoding="utf-8"))
-    if not report["ok"]:
-        raise RuntimeError(report["error"])
-    for recipe, job in jobs.items():
-        reports[recipe]["exports"]["png"] = artifact(job["png"])
-    print(f"Standalone Origin exported {len(jobs)} PNGs", flush=True)
 
 
 def publish(output, work, reports):
