@@ -184,20 +184,9 @@ To check a source checkout, run `py -3.13 tools/sync_official.py verify` and `py
 
 ## Sponsorship
 
-[![ToodooAI is an AI model proxy for GPT, Claude, and DeepSeek. It charges by usage, and that usage can be reviewed.](docs/sponsor/banner.en.webp)](https://toodooai.com)
+[![Toodoo AI offers one API for GPT, Claude, Grok, DeepSeek, and Gemini.](docs/sponsor/banner.en.png)](https://toodooai.com)
 
 This project is sponsored by [ToodooAI](https://toodooai.com). ToodooAI is an AI model proxy that provides high-quality, undiluted GPT, Claude, DeepSeek, and other models. It charges by usage, lets you review that usage, and can be connected to an AI assistant. Available models and prices are those shown on the website at the time. For help connecting, join the QQ group published on the website: 1126234071.
-
-<table>
-  <tr>
-    <td><img src="docs/sponsor/card-models.en.webp" alt="ToodooAI provides GPT, Claude, and DeepSeek, and others listed on the site at the time." width="100%"></td>
-    <td><img src="docs/sponsor/card-billing.en.webp" alt="ToodooAI charges by usage: pay for what you use. Prices are those shown on the site at the time." width="100%"></td>
-  </tr>
-  <tr>
-    <td><img src="docs/sponsor/card-usage.en.webp" alt="Usage on ToodooAI can be reviewed, including which model and how much." width="100%"></td>
-    <td><img src="docs/sponsor/card-connect.en.webp" alt="ToodooAI can be connected to an AI assistant. For help, join QQ group 1126234071." width="100%"></td>
-  </tr>
-</table>
 
 ## License
 

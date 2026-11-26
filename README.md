@@ -182,20 +182,9 @@ py -3.13 .\.origin-plot\launch.py qualify workflows
 
 ## 赞助
 
-[![ToodooAI 是 AI 模型中转，提供 GPT、Claude、DeepSeek，按量计费，用量可查。](docs/sponsor/banner.zh.webp)](https://toodooai.com)
+[![Toodoo AI，一个 API 接入 GPT、Claude、Grok、DeepSeek 和 Gemini。](docs/sponsor/banner.zh.png)](https://toodooai.com)
 
 本项目由 [ToodooAI](https://toodooai.com) 赞助。ToodooAI 是 AI 模型中转服务，提供优质、不掺水的 GPT、Claude、DeepSeek 等模型。服务按使用量计费，可以查看用量，适合接入 AI 助手。可用模型和价格以官网当时页面为准。接入时如果需要帮助，可加入官网公布的 QQ 群：1126234071。
-
-<table>
-  <tr>
-    <td><img src="docs/sponsor/card-models.zh.webp" alt="ToodooAI 提供 GPT、Claude、DeepSeek，以及其他官网当时列出的模型。" width="100%"></td>
-    <td><img src="docs/sponsor/card-billing.zh.webp" alt="ToodooAI 按使用量计费，用多少，计多少。价格以官网当时页面为准。" width="100%"></td>
-  </tr>
-  <tr>
-    <td><img src="docs/sponsor/card-usage.zh.webp" alt="ToodooAI 可以查看用量，包括用了哪个模型、用了多少。" width="100%"></td>
-    <td><img src="docs/sponsor/card-connect.zh.webp" alt="ToodooAI 适合接入 AI 助手。需要帮助时加入 QQ 群 1126234071。" width="100%"></td>
-  </tr>
-</table>
 
 ## 许可
 
